@@ -94,15 +94,21 @@ jobs:
         run: |
           set -uo pipefail
           mkdir -p "$RUNNER_TEMP/out"
-          # --format json puts compiler output in the JSON; the exit code still
-          # reflects success. Capture both and let the report step decide.
+          # --format json puts compiler output in the JSON and exits non-zero on
+          # failure. The default shell runs with -e, so capture the exit code
+          # with || instead of letting the step abort; the report step then
+          # fails the job with the compiler error in the job summary.
+          rc=0
           arduino-cli compile --fqbn "$FQBN" --warnings default \
             --output-dir "$RUNNER_TEMP/out" --format json "$SKETCH_DIR" \
-            > "$RUNNER_TEMP/head.json"
-          echo "exit=$?" >> "$GITHUB_OUTPUT"
+            > "$RUNNER_TEMP/head.json" || rc=$?
+          echo "exit=$rc" >> "$GITHUB_OUTPUT"
+          if [ "$rc" -ne 0 ]; then
+            echo "::warning::arduino-cli compile exited with $rc; see the report step and job summary"
+          fi
 
       - name: Compile firmware (base commit, for size deltas)
-        if: matrix.deps == 'pinned'
+        if: matrix.deps == 'pinned' && steps.head.outputs.exit == '0'
         shell: bash
         run: |
           set -uo pipefail
