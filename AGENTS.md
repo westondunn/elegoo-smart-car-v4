@@ -16,11 +16,29 @@ arduino-cli upload -p COM3 --fqbn arduino:avr:uno .    # replace COM3
 arduino-cli monitor -p COM3 -c baudrate=9600
 ```
 
-Required libraries (install via `arduino-cli lib install` or IDE Library Manager): `FastLED`, `Servo`, `IRremote` (v3+/v4 API: `IRremote.hpp`, `IrReceiver`, `decodedIRData`), `MPU6050` (jrowberg i2cdevlib, which also needs `I2Cdev`). `Wire` ships with the core. ArduinoJson is vendored as `ArduinoJson-v6.11.1.h` and must not be installed separately or you get duplicate-symbol errors.
+Required libraries, with the versions CI pins and the firmware is verified against:
+
+```bash
+arduino-cli lib install FastLED@3.9.20 IRremote@4.7.1 Servo@1.3.0 MPU6050@1.4.5
+```
+
+`MPU6050` is the Electronic Cats package of the jrowberg i2cdevlib driver and bundles `I2Cdev`. `Wire` ships with the core. ArduinoJson is vendored as `ArduinoJson-v6.11.1.h` and must not be installed separately or you get duplicate-symbol errors.
+
+**FastLED must stay on 3.9.x.** FastLED 3.10.0 and later define `ISR(TIMER1_COMPA_vect)` unconditionally for ATmega inside the library's own sources, which collides with `Servo` at link time (`multiple definition of __vector_11`). A sketch-level define cannot disable it. Last verified build: 29658 B flash (91%), 1334 B RAM (65%).
 
 The `.ino` must keep the same name as the repo folder (`ELEGOO-Smart-Robot-Car-Kit-V4.0-New.ino`) or the Arduino toolchain refuses to build. The README refers to it as `SmartRobotCarV4.0.ino` and lists an `addLibrary/` folder and `README.txt` that do not exist in this repo; the README is stale on those points.
 
 Resource budget: Uno has 2 KB RAM and 32 KB flash. `DECODE_NEC` is defined before including IRremote specifically to shrink the binary; the JSON document is `StaticJsonDocument<100>` and the serial message cap is 128 bytes. Check `arduino-cli compile` output for RAM/flash usage after any change that adds globals or strings; use `F()` for literal strings.
+
+## CI
+
+`.github/workflows/firmware-ci.yml` compiles the sketch with arduino-cli on every push and pull request. Because the sketch folder must be named `ELEGOO-Smart-Robot-Car-Kit-V4.0-New` but the GitHub repo is `elegoo-smart-car-v4`, the workflow checks out into an explicitly named path and builds the base commit from a `git worktree` created under the same folder name. Keep both if you edit the checkout or delta steps.
+
+Two matrix legs:
+- **pinned** (required): `arduino:avr@1.8.8` and the library versions listed above. Fails on compile error or when flash exceeds 95% or global RAM exceeds 80% of the Uno's limits. Uploads the `.hex` as an artifact.
+- **latest** (informational, `continue-on-error`): newest core and libraries, to warn early that an upstream update will break the build. Expected to fail while FastLED 3.10+ is current.
+
+`.github/scripts/firmware_report.py` turns `arduino-cli compile --format json` output into the step summary: flash/RAM table, deltas against the base commit, and warnings that originate in sketch files. It can be run locally against a saved JSON file. To bump a library, change `LIBS_PINNED` in the workflow and the install command above, then confirm the pinned leg still passes.
 
 ## Architecture
 
