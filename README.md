@@ -33,9 +33,14 @@ This repository contains the core firmware for motion control, line tracking, ob
 
 The chassis in the kit is the stock acrylic plate set. Custom 3D-printed
 chassis designs built around the kit's own hardware (motors, wheels, UNO and
-shield, servo head, sensors, battery pack) are maintained in the community
-fork at https://github.com/westondunn/elegoo-smart-car-v4 (pull requests [#1](https://github.com/westondunn/elegoo-smart-car-v4/pull/1) and [#2](https://github.com/westondunn/elegoo-smart-car-v4/pull/2)).
-They do not change the firmware.
+shield, servo head, sensors, battery pack) live in this repository under
+[hardware/3d-models/](hardware/3d-models/). They do not change the firmware.
+
+- Model index and recommended revision: [hardware/3d-models/README.md](hardware/3d-models/README.md)
+- Editable source and Fusion builder (Rover V3): [hardware/3d-models/rover-v3/](hardware/3d-models/rover-v3/)
+- Print files (Bambu Lab X1 Carbon): [hardware/3d-models/rover-v3/print/](hardware/3d-models/rover-v3/print/), guidance in [docs/hardware/printing.md](docs/hardware/printing.md)
+- Assembly, validation, known issues and decisions: [docs/hardware/](docs/hardware/)
+- Provenance of every file: [hardware/3d-models/manifest.json](hardware/3d-models/manifest.json); check it with `python hardware/3d-models/validate_manifest.py`
 
 This repository ships without a license file, so the firmware remains under
 ELEGOO's terms. Material from the official ELEGOO repositories (schematics,

@@ -1,1097 +1,26 @@
 {
-  "manifest_assets": 139,
-  "links_checked": 1,
+  "manifest_assets": 140,
+  "links_checked": 35,
   "problems": [],
   "geometry": {
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/block_front_left.step": {
+    "hardware/3d-models/rover-v3/cad/complete_assembly.step": {
       "format": "STEP AP214",
       "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 39,
+      "product_entities": 65,
+      "manifold_solids": 78,
+      "cartesian_point_count": 14580,
       "approx_bbox_from_points_mm": [
-        -85.239,
-        0.0,
-        0.0,
-        0.0,
-        65.622,
-        8.5
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/block_front_right.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 39,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        0.0,
-        0.0,
-        85.239,
-        65.622,
-        8.5
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/block_rear_left.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 39,
-      "approx_bbox_from_points_mm": [
-        -85.239,
-        -69.526,
-        0.0,
-        0.0,
-        0.0,
-        8.5
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/block_rear_right.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 39,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        -69.526,
-        0.0,
-        85.239,
-        0.0,
-        8.5
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/camera_board.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 27,
-      "approx_bbox_from_points_mm": [
-        -11.084,
-        0.0,
-        0.0,
-        12.916,
-        91.484,
+        -125.339,
+        -115.39,
+        -7.6,
+        125.239,
+        115.39,
         98.0
       ],
       "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
       "ok": true
     },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/camera_lens.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 9,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        0.0,
-        0.0,
-        0.916,
-        97.484,
-        93.5
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/line_tracker.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 75,
-      "approx_bbox_from_points_mm": [
-        -22.5,
-        0.0,
-        -4.7,
-        22.5,
-        107.908,
-        0.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/motor_battery.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 65,
-      "approx_bbox_from_points_mm": [
-        -43.0,
-        -99.0,
-        0.0,
-        43.0,
-        0.0,
-        70.6
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/motor_battery_switch.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 27,
-      "approx_bbox_from_points_mm": [
-        -5.0,
-        -101.5,
-        0.0,
-        5.0,
-        0.0,
-        60.6
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/motor_can_front_left.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 51,
-      "approx_bbox_from_points_mm": [
-        -83.239,
-        0.0,
-        0.0,
-        0.0,
-        99.622,
-        28.5
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/motor_can_front_right.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 51,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        0.0,
-        0.0,
-        83.239,
-        99.622,
-        28.5
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/motor_can_rear_left.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 51,
-      "approx_bbox_from_points_mm": [
-        -83.239,
-        -103.526,
-        0.0,
-        0.0,
-        0.0,
-        28.5
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/motor_can_rear_right.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 51,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        -103.526,
-        0.0,
-        83.239,
-        0.0,
-        28.5
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/motor_front_left.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 51,
-      "approx_bbox_from_points_mm": [
-        -83.239,
-        0.0,
-        0.0,
-        0.0,
-        70.622,
-        30.5
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/motor_front_right.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 51,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        0.0,
-        0.0,
-        83.239,
-        70.622,
-        30.5
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/motor_rear_left.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 51,
-      "approx_bbox_from_points_mm": [
-        -83.239,
-        -74.526,
-        0.0,
-        0.0,
-        0.0,
-        30.5
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/motor_rear_right.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 51,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        -74.526,
-        0.0,
-        83.239,
-        0.0,
-        30.5
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/motor_shield.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 51,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        0.0,
-        0.0,
-        64.7,
-        54.0,
-        66.8
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/pan_servo.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 51,
-      "approx_bbox_from_points_mm": [
-        -5.084,
-        0.0,
-        0.0,
-        6.916,
-        98.184,
-        51.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/pi_board.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 75,
-      "approx_bbox_from_points_mm": [
-        -66.0,
-        -23.5,
-        0.0,
-        0.0,
-        61.5,
-        56.2
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/pi_board_connectors.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 5,
-      "manifold_solids": 4,
-      "cartesian_point_count": 109,
-      "approx_bbox_from_points_mm": [
-        -68.5,
-        -26.0,
-        0.0,
-        0.0,
-        52.5,
-        71.2
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/pi_processor.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 27,
-      "approx_bbox_from_points_mm": [
-        -45.5,
-        0.0,
-        0.0,
-        0.0,
-        31.5,
-        58.2
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/power_bank.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 51,
-      "approx_bbox_from_points_mm": [
-        -34.925,
-        -73.025,
-        0.0,
-        34.925,
-        73.025,
-        17.2
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/sensor_head.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 51,
-      "approx_bbox_from_points_mm": [
-        -23.084,
-        0.0,
-        0.0,
-        24.916,
-        89.684,
-        93.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/servo_horn.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 9,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        0.0,
-        0.0,
-        7.916,
-        86.684,
-        53.5
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/shaft_front_left.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 9,
-      "approx_bbox_from_points_mm": [
-        -91.239,
-        0.0,
-        0.0,
-        0.0,
-        39.622,
-        22.2
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/shaft_front_right.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 9,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        0.0,
-        0.0,
-        91.239,
-        39.622,
-        22.2
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/shaft_rear_left.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 9,
-      "approx_bbox_from_points_mm": [
-        -91.239,
-        -43.526,
-        0.0,
-        0.0,
-        0.0,
-        22.2
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/shaft_rear_right.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 9,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        -43.526,
-        0.0,
-        91.239,
-        0.0,
-        22.2
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/shield_connectors.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 7,
-      "manifold_solids": 6,
-      "cartesian_point_count": 163,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        0.0,
-        0.0,
-        61.0,
-        41.5,
-        75.8
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/sonar_transducers.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 3,
-      "manifold_solids": 2,
-      "cartesian_point_count": 19,
-      "approx_bbox_from_points_mm": [
-        -12.084,
-        0.0,
-        0.0,
-        13.916,
-        103.484,
-        76.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/tire_front_left.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 15,
-      "approx_bbox_from_points_mm": [
-        -125.339,
-        0.0,
-        0.0,
-        0.0,
-        39.622,
-        52.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/tire_front_right.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 15,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        0.0,
-        0.0,
-        125.239,
-        39.622,
-        52.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/tire_rear_left.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 15,
-      "approx_bbox_from_points_mm": [
-        -125.339,
-        -43.526,
-        0.0,
-        0.0,
-        0.0,
-        52.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/tire_rear_right.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 15,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        -43.526,
-        0.0,
-        125.239,
-        0.0,
-        52.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/tracker_sensors.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 4,
-      "manifold_solids": 3,
-      "cartesian_point_count": 82,
-      "approx_bbox_from_points_mm": [
-        -17.0,
-        0.0,
-        -7.6,
-        17.0,
-        95.908,
-        0.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/ultrasonic_board.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 27,
-      "approx_bbox_from_points_mm": [
-        -21.584,
-        0.0,
-        0.0,
-        23.416,
-        91.484,
-        78.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/uno_board.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 69,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        -15.3,
-        0.0,
-        64.7,
-        53.3,
-        56.2
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/uno_board_connectors.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 5,
-      "manifold_solids": 4,
-      "cartesian_point_count": 109,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        -19.5,
-        0.0,
-        62.0,
-        46.0,
-        67.2
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/wheel_hub_front_left.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 15,
-      "approx_bbox_from_points_mm": [
-        -125.339,
-        0.0,
-        0.0,
-        0.0,
-        39.622,
-        37.5
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/wheel_hub_front_right.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 15,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        0.0,
-        0.0,
-        125.239,
-        39.622,
-        37.5
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/wheel_hub_rear_left.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 15,
-      "approx_bbox_from_points_mm": [
-        -125.339,
-        -43.526,
-        0.0,
-        0.0,
-        0.0,
-        37.5
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/hardware/wheel_hub_rear_right.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 15,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        -43.526,
-        0.0,
-        125.239,
-        0.0,
-        37.5
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/printed/bank_rail_left.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 234,
-      "approx_bbox_from_points_mm": [
-        -48.913,
-        -77.013,
-        0.0,
-        0.0,
-        77.013,
-        11.7
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/printed/bank_rail_right.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 234,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        -77.013,
-        0.0,
-        48.913,
-        77.013,
-        11.7
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/printed/base.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 5782,
-      "approx_bbox_from_points_mm": [
-        -115.424,
-        -115.39,
-        -1.0,
-        114.576,
-        115.39,
-        4.5
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/printed/pi_standoff_01.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 15,
-      "approx_bbox_from_points_mm": [
-        -62.5,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        54.6
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/printed/pi_standoff_02.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 15,
-      "approx_bbox_from_points_mm": [
-        -13.5,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        54.6
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/printed/pi_standoff_03.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 15,
-      "approx_bbox_from_points_mm": [
-        -62.5,
-        0.0,
-        0.0,
-        0.0,
-        58.0,
-        54.6
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/printed/pi_standoff_04.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 15,
-      "approx_bbox_from_points_mm": [
-        -13.5,
-        0.0,
-        0.0,
-        0.0,
-        58.0,
-        54.6
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/printed/support_post_01.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 15,
-      "approx_bbox_from_points_mm": [
-        -48.0,
-        -88.0,
-        0.0,
-        0.0,
-        0.0,
-        45.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/printed/support_post_02.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 15,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        -88.0,
-        0.0,
-        54.0,
-        0.0,
-        45.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/printed/support_post_03.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 15,
-      "approx_bbox_from_points_mm": [
-        -48.0,
-        -0.0,
-        0.0,
-        0.0,
-        0.0,
-        45.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/printed/support_post_04.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 15,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        -0.0,
-        0.0,
-        54.0,
-        0.0,
-        45.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/printed/support_post_05.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 15,
-      "approx_bbox_from_points_mm": [
-        -48.0,
-        0.0,
-        0.0,
-        0.0,
-        88.0,
-        45.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/printed/support_post_06.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 15,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        0.0,
-        0.0,
-        54.0,
-        88.0,
-        45.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/printed/tracker_spacer_01.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 15,
-      "approx_bbox_from_points_mm": [
-        -20.3,
-        0.0,
-        -3.0,
-        0.0,
-        80.108,
-        0.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/printed/tracker_spacer_02.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 15,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        0.0,
-        -3.0,
-        23.8,
-        80.108,
-        0.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/printed/tracker_spacer_03.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 15,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        0.0,
-        -3.0,
-        23.8,
-        105.708,
-        0.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/printed/tracker_spacer_04.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 15,
-      "approx_bbox_from_points_mm": [
-        -20.3,
-        0.0,
-        -3.0,
-        0.0,
-        105.708,
-        0.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/printed/uno_standoff_01.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 15,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        0.0,
-        0.0,
-        24.297,
-        49.8,
-        54.6
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/printed/uno_standoff_02.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 15,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        0.0,
-        0.0,
-        52.164,
-        49.8,
-        54.6
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/printed/uno_standoff_03.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 15,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        -1.86,
-        0.0,
-        19.8,
-        0.0,
-        54.6
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/RoverFusion/assets/printed/upper_deck.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 6277,
-      "approx_bbox_from_points_mm": [
-        -84.0,
-        -103.0,
-        0.0,
-        84.0,
-        107.0,
-        48.6
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/rover-v3/mechanical_source/baseline/Rover_V3_C1_Motor_Fit.step": {
+    "hardware/3d-models/rover-v3/cad/coupons/c1_motor_fit.step": {
       "format": "STEP AP214",
       "length_unit": "mm",
       "product_entities": 1,
@@ -1108,7 +37,1044 @@
       "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
       "ok": true
     },
-    "hardware/3d-models/source/rover-v3/mechanical_source/baseline/Rover_V3_C1_X1C_PLA.3mf": {
+    "hardware/3d-models/rover-v3/cad/coupons/c3_motor_fit_integrated.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 1800,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        -1.673,
+        -0.0,
+        66.308,
+        115.39,
+        5.1
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/block_front_left.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 39,
+      "approx_bbox_from_points_mm": [
+        -85.239,
+        0.0,
+        0.0,
+        0.0,
+        65.622,
+        8.5
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/block_front_right.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 39,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        0.0,
+        0.0,
+        85.239,
+        65.622,
+        8.5
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/block_rear_left.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 39,
+      "approx_bbox_from_points_mm": [
+        -85.239,
+        -69.526,
+        0.0,
+        0.0,
+        0.0,
+        8.5
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/block_rear_right.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 39,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        -69.526,
+        0.0,
+        85.239,
+        0.0,
+        8.5
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/camera_board.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 27,
+      "approx_bbox_from_points_mm": [
+        -11.084,
+        0.0,
+        0.0,
+        12.916,
+        91.484,
+        98.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/camera_lens.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 9,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        0.0,
+        0.0,
+        0.916,
+        97.484,
+        93.5
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/line_tracker.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 75,
+      "approx_bbox_from_points_mm": [
+        -22.5,
+        0.0,
+        -4.7,
+        22.5,
+        107.908,
+        0.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/motor_battery.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 65,
+      "approx_bbox_from_points_mm": [
+        -43.0,
+        -99.0,
+        0.0,
+        43.0,
+        0.0,
+        70.6
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/motor_battery_switch.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 27,
+      "approx_bbox_from_points_mm": [
+        -5.0,
+        -101.5,
+        0.0,
+        5.0,
+        0.0,
+        60.6
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/motor_can_front_left.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 51,
+      "approx_bbox_from_points_mm": [
+        -83.239,
+        0.0,
+        0.0,
+        0.0,
+        99.622,
+        28.5
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/motor_can_front_right.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 51,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        0.0,
+        0.0,
+        83.239,
+        99.622,
+        28.5
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/motor_can_rear_left.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 51,
+      "approx_bbox_from_points_mm": [
+        -83.239,
+        -103.526,
+        0.0,
+        0.0,
+        0.0,
+        28.5
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/motor_can_rear_right.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 51,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        -103.526,
+        0.0,
+        83.239,
+        0.0,
+        28.5
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/motor_front_left.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 51,
+      "approx_bbox_from_points_mm": [
+        -83.239,
+        0.0,
+        0.0,
+        0.0,
+        70.622,
+        30.5
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/motor_front_right.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 51,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        0.0,
+        0.0,
+        83.239,
+        70.622,
+        30.5
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/motor_rear_left.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 51,
+      "approx_bbox_from_points_mm": [
+        -83.239,
+        -74.526,
+        0.0,
+        0.0,
+        0.0,
+        30.5
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/motor_rear_right.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 51,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        -74.526,
+        0.0,
+        83.239,
+        0.0,
+        30.5
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/motor_shield.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 51,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        0.0,
+        0.0,
+        64.7,
+        54.0,
+        66.8
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/pan_servo.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 51,
+      "approx_bbox_from_points_mm": [
+        -5.084,
+        0.0,
+        0.0,
+        6.916,
+        98.184,
+        51.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/sensor_head.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 51,
+      "approx_bbox_from_points_mm": [
+        -23.084,
+        0.0,
+        0.0,
+        24.916,
+        89.684,
+        93.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/servo_horn.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 9,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        0.0,
+        0.0,
+        7.916,
+        86.684,
+        53.5
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/shaft_front_left.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 9,
+      "approx_bbox_from_points_mm": [
+        -91.239,
+        0.0,
+        0.0,
+        0.0,
+        39.622,
+        22.2
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/shaft_front_right.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 9,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        0.0,
+        0.0,
+        91.239,
+        39.622,
+        22.2
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/shaft_rear_left.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 9,
+      "approx_bbox_from_points_mm": [
+        -91.239,
+        -43.526,
+        0.0,
+        0.0,
+        0.0,
+        22.2
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/shaft_rear_right.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 9,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        -43.526,
+        0.0,
+        91.239,
+        0.0,
+        22.2
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/shield_connectors.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 7,
+      "manifold_solids": 6,
+      "cartesian_point_count": 163,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        0.0,
+        0.0,
+        61.0,
+        41.5,
+        75.8
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/sonar_transducers.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 3,
+      "manifold_solids": 2,
+      "cartesian_point_count": 19,
+      "approx_bbox_from_points_mm": [
+        -12.084,
+        0.0,
+        0.0,
+        13.916,
+        103.484,
+        76.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/tire_front_left.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 15,
+      "approx_bbox_from_points_mm": [
+        -125.339,
+        0.0,
+        0.0,
+        0.0,
+        39.622,
+        52.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/tire_front_right.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 15,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        0.0,
+        0.0,
+        125.239,
+        39.622,
+        52.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/tire_rear_left.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 15,
+      "approx_bbox_from_points_mm": [
+        -125.339,
+        -43.526,
+        0.0,
+        0.0,
+        0.0,
+        52.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/tire_rear_right.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 15,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        -43.526,
+        0.0,
+        125.239,
+        0.0,
+        52.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/tracker_sensors.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 4,
+      "manifold_solids": 3,
+      "cartesian_point_count": 82,
+      "approx_bbox_from_points_mm": [
+        -17.0,
+        0.0,
+        -7.6,
+        17.0,
+        95.908,
+        0.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/ultrasonic_board.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 27,
+      "approx_bbox_from_points_mm": [
+        -21.584,
+        0.0,
+        0.0,
+        23.416,
+        91.484,
+        78.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/uno_board.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 69,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        -15.3,
+        0.0,
+        64.7,
+        53.3,
+        56.2
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/uno_board_connectors.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 5,
+      "manifold_solids": 4,
+      "cartesian_point_count": 109,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        -19.5,
+        0.0,
+        62.0,
+        46.0,
+        67.2
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/wheel_hub_front_left.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 15,
+      "approx_bbox_from_points_mm": [
+        -125.339,
+        0.0,
+        0.0,
+        0.0,
+        39.622,
+        37.5
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/wheel_hub_front_right.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 15,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        0.0,
+        0.0,
+        125.239,
+        39.622,
+        37.5
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/wheel_hub_rear_left.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 15,
+      "approx_bbox_from_points_mm": [
+        -125.339,
+        -43.526,
+        0.0,
+        0.0,
+        0.0,
+        37.5
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/hardware/wheel_hub_rear_right.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 15,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        -43.526,
+        0.0,
+        125.239,
+        0.0,
+        37.5
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/printed/bank_rail_left.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 234,
+      "approx_bbox_from_points_mm": [
+        -48.913,
+        -77.013,
+        0.0,
+        0.0,
+        77.013,
+        11.7
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/printed/bank_rail_right.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 234,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        -77.013,
+        0.0,
+        48.913,
+        77.013,
+        11.7
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/printed/base.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 5782,
+      "approx_bbox_from_points_mm": [
+        -115.424,
+        -115.39,
+        -1.0,
+        114.576,
+        115.39,
+        4.5
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/printed/pi_standoff_01.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 15,
+      "approx_bbox_from_points_mm": [
+        -62.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        54.6
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/printed/pi_standoff_02.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 15,
+      "approx_bbox_from_points_mm": [
+        -13.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        54.6
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/printed/pi_standoff_03.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 15,
+      "approx_bbox_from_points_mm": [
+        -62.5,
+        0.0,
+        0.0,
+        0.0,
+        58.0,
+        54.6
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/printed/pi_standoff_04.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 15,
+      "approx_bbox_from_points_mm": [
+        -13.5,
+        0.0,
+        0.0,
+        0.0,
+        58.0,
+        54.6
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/printed/support_post_01.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 15,
+      "approx_bbox_from_points_mm": [
+        -48.0,
+        -88.0,
+        0.0,
+        0.0,
+        0.0,
+        45.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/printed/support_post_02.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 15,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        -88.0,
+        0.0,
+        54.0,
+        0.0,
+        45.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/printed/support_post_03.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 15,
+      "approx_bbox_from_points_mm": [
+        -48.0,
+        -0.0,
+        0.0,
+        0.0,
+        0.0,
+        45.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/printed/support_post_04.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 15,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        -0.0,
+        0.0,
+        54.0,
+        0.0,
+        45.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/printed/support_post_05.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 15,
+      "approx_bbox_from_points_mm": [
+        -48.0,
+        0.0,
+        0.0,
+        0.0,
+        88.0,
+        45.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/printed/support_post_06.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 15,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        0.0,
+        0.0,
+        54.0,
+        88.0,
+        45.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/printed/tracker_spacer_01.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 15,
+      "approx_bbox_from_points_mm": [
+        -20.3,
+        0.0,
+        -3.0,
+        0.0,
+        80.108,
+        0.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/printed/tracker_spacer_02.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 15,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        0.0,
+        -3.0,
+        23.8,
+        80.108,
+        0.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/printed/tracker_spacer_03.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 15,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        0.0,
+        -3.0,
+        23.8,
+        105.708,
+        0.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/printed/tracker_spacer_04.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 15,
+      "approx_bbox_from_points_mm": [
+        -20.3,
+        0.0,
+        -3.0,
+        0.0,
+        105.708,
+        0.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/printed/uno_standoff_01.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 15,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        0.0,
+        0.0,
+        24.297,
+        49.8,
+        54.6
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/printed/uno_standoff_02.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 15,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        0.0,
+        0.0,
+        52.164,
+        49.8,
+        54.6
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/printed/uno_standoff_03.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 15,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        -1.86,
+        0.0,
+        19.8,
+        0.0,
+        54.6
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/fusion/RoverFusion/assets/printed/upper_deck.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 6277,
+      "approx_bbox_from_points_mm": [
+        -84.0,
+        -103.0,
+        0.0,
+        84.0,
+        107.0,
+        48.6
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/print/fit_checks/c1_motor_fit_x1c_pla.3mf": {
       "entries": 17,
       "gcode_files": 1,
       "bambu_project_settings": true,
@@ -1151,41 +1117,305 @@
       "units": "millimeter",
       "ok": true
     },
-    "hardware/3d-models/source/rover-v3/mechanical_source/baseline/Rover_V3_C3_Motor_Fit_Integrated.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 1800,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        -1.673,
-        -0.0,
-        66.308,
-        115.39,
-        5.1
+    "hardware/3d-models/rover-v3/print/fit_checks/c2_washer_gauge_x1c_pla.3mf": {
+      "entries": 36,
+      "gcode_files": 1,
+      "bambu_project_settings": true,
+      "models": [
+        {
+          "model_file": "3D/Objects/object_1.model",
+          "object_id": "1",
+          "name": null,
+          "vertices": 1872,
+          "bbox": [
+            -11.0,
+            -13.0,
+            -2.25,
+            11.0,
+            13.0,
+            2.25
+          ],
+          "signed_volume": 2260.836,
+          "triangles": 3748,
+          "edges": 5622,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
       ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "printer_model": "Bambu Lab X1 Carbon",
+      "print_settings_id": "V3 C2 washer gauge - PLA 0.15 mm",
+      "filament_type": [
+        "PLA"
+      ],
+      "curr_bed_type": "Textured PEI Plate",
+      "sliced_plates": 1,
+      "predicted_seconds": [
+        875
+      ],
+      "filament_grams": [
+        3.11
+      ],
+      "units": "millimeter",
       "ok": true
     },
-    "hardware/3d-models/step/rover-v3/Rover_V3_Complete_Assembly.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 65,
-      "manifold_solids": 78,
-      "cartesian_point_count": 14580,
-      "approx_bbox_from_points_mm": [
-        -125.339,
-        -115.39,
-        -7.6,
-        125.239,
-        115.39,
-        98.0
+    "hardware/3d-models/rover-v3/print/fit_checks/c3_motor_corner_and_battery_rail_x1c_pla.3mf": {
+      "entries": 41,
+      "gcode_files": 1,
+      "bambu_project_settings": true,
+      "models": [
+        {
+          "model_file": "3D/Objects/object_1.model",
+          "object_id": "1",
+          "name": null,
+          "vertices": 4967,
+          "bbox": [
+            -33.154,
+            -57.695,
+            -2.55,
+            33.154,
+            57.695,
+            2.55
+          ],
+          "signed_volume": 23776.276,
+          "triangles": 9954,
+          "edges": 14931,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/Objects/object_2.model",
+          "object_id": "3",
+          "name": null,
+          "vertices": 31455,
+          "bbox": [
+            -55.0,
+            -9.0,
+            -2.85,
+            55.0,
+            9.0,
+            2.85
+          ],
+          "signed_volume": 5529.621,
+          "triangles": 62914,
+          "edges": 94371,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
       ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "printer_model": "Bambu Lab X1 Carbon",
+      "print_settings_id": "Rover C3 0.15mm solid PLA",
+      "filament_type": [
+        "PLA"
+      ],
+      "curr_bed_type": "Textured PEI Plate",
+      "sliced_plates": 1,
+      "predicted_seconds": [
+        4077
+      ],
+      "filament_grams": [
+        36.23
+      ],
+      "units": "millimeter",
       "ok": true
     },
-    "hardware/3d-models/3mf/rover-v3/Rover_V3_Full_X1C_PLA.3mf": {
+    "hardware/3d-models/rover-v3/print/fit_checks/c3_motor_seat_and_battery_rail_x1c_pla.3mf": {
+      "entries": 40,
+      "gcode_files": 1,
+      "bambu_project_settings": true,
+      "models": [
+        {
+          "model_file": "3D/Objects/object_1.model",
+          "object_id": "1",
+          "name": null,
+          "vertices": 4179,
+          "bbox": [
+            -11.0,
+            -13.0,
+            -2.55,
+            11.0,
+            13.0,
+            2.55
+          ],
+          "signed_volume": 2307.789,
+          "triangles": 8362,
+          "edges": 12543,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/Objects/object_2.model",
+          "object_id": "3",
+          "name": null,
+          "vertices": 31455,
+          "bbox": [
+            -55.0,
+            -9.0,
+            -2.85,
+            55.0,
+            9.0,
+            2.85
+          ],
+          "signed_volume": 5529.621,
+          "triangles": 62914,
+          "edges": 94371,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "printer_model": "Bambu Lab X1 Carbon",
+      "print_settings_id": "Rover C3 0.15mm solid PLA",
+      "filament_type": [
+        "PLA"
+      ],
+      "curr_bed_type": "Textured PEI Plate",
+      "sliced_plates": 1,
+      "predicted_seconds": [
+        1802
+      ],
+      "filament_grams": [
+        9.99
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/print/fit_checks/fit_batch_x1c_pla.3mf": {
+      "entries": 54,
+      "gcode_files": 1,
+      "bambu_project_settings": true,
+      "models": [
+        {
+          "model_file": "3D/Objects/object_1.model",
+          "object_id": "1",
+          "name": null,
+          "vertices": 1872,
+          "bbox": [
+            -11.0,
+            -13.0,
+            -2.25,
+            11.0,
+            13.0,
+            2.25
+          ],
+          "signed_volume": 2260.836,
+          "triangles": 3748,
+          "edges": 5622,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/Objects/object_2.model",
+          "object_id": "3",
+          "name": null,
+          "vertices": 4902,
+          "bbox": [
+            -38.912,
+            -82.012,
+            -2.25,
+            38.912,
+            82.012,
+            2.25
+          ],
+          "signed_volume": 7551.675,
+          "triangles": 9804,
+          "edges": 14706,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/Objects/object_3.model",
+          "object_id": "5",
+          "name": null,
+          "vertices": 6867,
+          "bbox": [
+            -33.0,
+            -28.5,
+            -3.15,
+            33.0,
+            28.5,
+            3.15
+          ],
+          "signed_volume": 3483.88,
+          "triangles": 13750,
+          "edges": 20625,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/Objects/object_5.model",
+          "object_id": "9",
+          "name": null,
+          "vertices": 20039,
+          "bbox": [
+            -42.0,
+            -21.5,
+            -2.55,
+            42.0,
+            21.5,
+            2.55
+          ],
+          "signed_volume": 10487.554,
+          "triangles": 40106,
+          "edges": 60159,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/Objects/object_4.model",
+          "object_id": "7",
+          "name": null,
+          "vertices": 20980,
+          "bbox": [
+            -55.0,
+            -9.0,
+            -1.2,
+            55.0,
+            9.0,
+            1.2
+          ],
+          "signed_volume": 4481.248,
+          "triangles": 41964,
+          "edges": 62946,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "printer_model": "Bambu Lab X1 Carbon",
+      "print_settings_id": "Rover fit batch - PLA 0.15 mm",
+      "filament_type": [
+        "PLA"
+      ],
+      "curr_bed_type": "Textured PEI Plate",
+      "sliced_plates": 1,
+      "predicted_seconds": [
+        5280
+      ],
+      "filament_grams": [
+        35.22
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v3/print/full_rover_x1c_pla.3mf": {
       "entries": 93,
       "gcode_files": 2,
       "bambu_project_settings": true,
@@ -1646,304 +1876,6 @@
       "filament_grams": [
         164.56,
         160.3
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/3mf/rover-v3/fit-checks/Rover_V3_C2_Washer_Gauge_X1C_PLA.3mf": {
-      "entries": 36,
-      "gcode_files": 1,
-      "bambu_project_settings": true,
-      "models": [
-        {
-          "model_file": "3D/Objects/object_1.model",
-          "object_id": "1",
-          "name": null,
-          "vertices": 1872,
-          "bbox": [
-            -11.0,
-            -13.0,
-            -2.25,
-            11.0,
-            13.0,
-            2.25
-          ],
-          "signed_volume": 2260.836,
-          "triangles": 3748,
-          "edges": 5622,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "printer_model": "Bambu Lab X1 Carbon",
-      "print_settings_id": "V3 C2 washer gauge - PLA 0.15 mm",
-      "filament_type": [
-        "PLA"
-      ],
-      "curr_bed_type": "Textured PEI Plate",
-      "sliced_plates": 1,
-      "predicted_seconds": [
-        875
-      ],
-      "filament_grams": [
-        3.11
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/3mf/rover-v3/fit-checks/Rover_C3_Recessed_Mount_Features_X1C_PLA.3mf": {
-      "entries": 40,
-      "gcode_files": 1,
-      "bambu_project_settings": true,
-      "models": [
-        {
-          "model_file": "3D/Objects/object_1.model",
-          "object_id": "1",
-          "name": null,
-          "vertices": 4179,
-          "bbox": [
-            -11.0,
-            -13.0,
-            -2.55,
-            11.0,
-            13.0,
-            2.55
-          ],
-          "signed_volume": 2307.789,
-          "triangles": 8362,
-          "edges": 12543,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/Objects/object_2.model",
-          "object_id": "3",
-          "name": null,
-          "vertices": 31455,
-          "bbox": [
-            -55.0,
-            -9.0,
-            -2.85,
-            55.0,
-            9.0,
-            2.85
-          ],
-          "signed_volume": 5529.621,
-          "triangles": 62914,
-          "edges": 94371,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "printer_model": "Bambu Lab X1 Carbon",
-      "print_settings_id": "Rover C3 0.15mm solid PLA",
-      "filament_type": [
-        "PLA"
-      ],
-      "curr_bed_type": "Textured PEI Plate",
-      "sliced_plates": 1,
-      "predicted_seconds": [
-        1802
-      ],
-      "filament_grams": [
-        9.99
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/3mf/rover-v3/fit-checks/Rover_C3_Recessed_Mount_Features_X1C_PLA_alt1.3mf": {
-      "entries": 41,
-      "gcode_files": 1,
-      "bambu_project_settings": true,
-      "models": [
-        {
-          "model_file": "3D/Objects/object_1.model",
-          "object_id": "1",
-          "name": null,
-          "vertices": 4967,
-          "bbox": [
-            -33.154,
-            -57.695,
-            -2.55,
-            33.154,
-            57.695,
-            2.55
-          ],
-          "signed_volume": 23776.276,
-          "triangles": 9954,
-          "edges": 14931,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/Objects/object_2.model",
-          "object_id": "3",
-          "name": null,
-          "vertices": 31455,
-          "bbox": [
-            -55.0,
-            -9.0,
-            -2.85,
-            55.0,
-            9.0,
-            2.85
-          ],
-          "signed_volume": 5529.621,
-          "triangles": 62914,
-          "edges": 94371,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "printer_model": "Bambu Lab X1 Carbon",
-      "print_settings_id": "Rover C3 0.15mm solid PLA",
-      "filament_type": [
-        "PLA"
-      ],
-      "curr_bed_type": "Textured PEI Plate",
-      "sliced_plates": 1,
-      "predicted_seconds": [
-        4077
-      ],
-      "filament_grams": [
-        36.23
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/3mf/rover-v3/fit-checks/Rover_Fit_Batch_X1C_PLA.3mf": {
-      "entries": 54,
-      "gcode_files": 1,
-      "bambu_project_settings": true,
-      "models": [
-        {
-          "model_file": "3D/Objects/object_1.model",
-          "object_id": "1",
-          "name": null,
-          "vertices": 1872,
-          "bbox": [
-            -11.0,
-            -13.0,
-            -2.25,
-            11.0,
-            13.0,
-            2.25
-          ],
-          "signed_volume": 2260.836,
-          "triangles": 3748,
-          "edges": 5622,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/Objects/object_2.model",
-          "object_id": "3",
-          "name": null,
-          "vertices": 4902,
-          "bbox": [
-            -38.912,
-            -82.012,
-            -2.25,
-            38.912,
-            82.012,
-            2.25
-          ],
-          "signed_volume": 7551.675,
-          "triangles": 9804,
-          "edges": 14706,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/Objects/object_3.model",
-          "object_id": "5",
-          "name": null,
-          "vertices": 6867,
-          "bbox": [
-            -33.0,
-            -28.5,
-            -3.15,
-            33.0,
-            28.5,
-            3.15
-          ],
-          "signed_volume": 3483.88,
-          "triangles": 13750,
-          "edges": 20625,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/Objects/object_5.model",
-          "object_id": "9",
-          "name": null,
-          "vertices": 20039,
-          "bbox": [
-            -42.0,
-            -21.5,
-            -2.55,
-            42.0,
-            21.5,
-            2.55
-          ],
-          "signed_volume": 10487.554,
-          "triangles": 40106,
-          "edges": 60159,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/Objects/object_4.model",
-          "object_id": "7",
-          "name": null,
-          "vertices": 20980,
-          "bbox": [
-            -55.0,
-            -9.0,
-            -1.2,
-            55.0,
-            9.0,
-            1.2
-          ],
-          "signed_volume": 4481.248,
-          "triangles": 41964,
-          "edges": 62946,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "printer_model": "Bambu Lab X1 Carbon",
-      "print_settings_id": "Rover fit batch - PLA 0.15 mm",
-      "filament_type": [
-        "PLA"
-      ],
-      "curr_bed_type": "Textured PEI Plate",
-      "sliced_plates": 1,
-      "predicted_seconds": [
-        5280
-      ],
-      "filament_grams": [
-        35.22
       ],
       "units": "millimeter",
       "ok": true

@@ -1,0 +1,1546 @@
+{
+  "source": "Rover V3 Complete Assembly / Fusion builder 3.0.1",
+  "parts": [
+    {
+      "id": "base",
+      "name": "Full lower chassis",
+      "color_rgba": [
+        46,
+        88,
+        126,
+        255
+      ],
+      "bounds_mm": {
+        "min_mm": [
+          -115.42444534608248,
+          -115.38979696157227,
+          -0.6000000000000058
+        ],
+        "max_mm": [
+          114.57555485391752,
+          115.38979323842773,
+          4.5
+        ],
+        "size_mm": [
+          230.0000002,
+          230.7795902,
+          5.100000000000006
+        ]
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested."
+    },
+    {
+      "id": "upper_deck",
+      "name": "Upper service deck with battery slider",
+      "color_rgba": [
+        46,
+        88,
+        126,
+        255
+      ],
+      "bounds_mm": {
+        "min_mm": [
+          -84.0000001,
+          -103.0000001,
+          42.9
+        ],
+        "max_mm": [
+          84.0000001,
+          107.0000001,
+          48.6000001
+        ],
+        "size_mm": [
+          168.0000002,
+          210.0000002,
+          5.700000100000004
+        ]
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested."
+    },
+    {
+      "id": "bank_rail_right",
+      "name": "Powerbank retaining rail right",
+      "color_rgba": [
+        46,
+        88,
+        126,
+        255
+      ],
+      "bounds_mm": {
+        "min_mm": [
+          30.512500000000003,
+          -77.0125,
+          4.5
+        ],
+        "max_mm": [
+          48.9125,
+          77.0125,
+          11.7
+        ],
+        "size_mm": [
+          18.4,
+          154.025,
+          7.199999999999999
+        ]
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested."
+    },
+    {
+      "id": "bank_rail_left",
+      "name": "Powerbank retaining rail left",
+      "color_rgba": [
+        46,
+        88,
+        126,
+        255
+      ],
+      "bounds_mm": {
+        "min_mm": [
+          -48.91250000000001,
+          -77.0125,
+          4.5
+        ],
+        "max_mm": [
+          -30.512499999999992,
+          77.0125,
+          11.7
+        ],
+        "size_mm": [
+          18.400000000000016,
+          154.025,
+          7.199999999999999
+        ]
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested."
+    },
+    {
+      "id": "support_post_01",
+      "name": "Deck support post 1",
+      "color_rgba": [
+        46,
+        88,
+        126,
+        255
+      ],
+      "bounds_mm": {
+        "min_mm": [
+          -54.0,
+          -94.0,
+          4.5
+        ],
+        "max_mm": [
+          -42.0,
+          -82.0,
+          45.0
+        ],
+        "size_mm": [
+          12.0,
+          12.0,
+          40.5
+        ]
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested."
+    },
+    {
+      "id": "support_post_02",
+      "name": "Deck support post 2",
+      "color_rgba": [
+        46,
+        88,
+        126,
+        255
+      ],
+      "bounds_mm": {
+        "min_mm": [
+          42.0,
+          -94.0,
+          4.5
+        ],
+        "max_mm": [
+          54.0,
+          -82.0,
+          45.0
+        ],
+        "size_mm": [
+          12.0,
+          12.0,
+          40.5
+        ]
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested."
+    },
+    {
+      "id": "support_post_03",
+      "name": "Deck support post 3",
+      "color_rgba": [
+        46,
+        88,
+        126,
+        255
+      ],
+      "bounds_mm": {
+        "min_mm": [
+          -54.0,
+          -6.0,
+          4.5
+        ],
+        "max_mm": [
+          -42.0,
+          6.0,
+          45.0
+        ],
+        "size_mm": [
+          12.0,
+          12.0,
+          40.5
+        ]
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested."
+    },
+    {
+      "id": "support_post_04",
+      "name": "Deck support post 4",
+      "color_rgba": [
+        46,
+        88,
+        126,
+        255
+      ],
+      "bounds_mm": {
+        "min_mm": [
+          42.0,
+          -6.0,
+          4.5
+        ],
+        "max_mm": [
+          54.0,
+          6.0,
+          45.0
+        ],
+        "size_mm": [
+          12.0,
+          12.0,
+          40.5
+        ]
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested."
+    },
+    {
+      "id": "support_post_05",
+      "name": "Deck support post 5",
+      "color_rgba": [
+        46,
+        88,
+        126,
+        255
+      ],
+      "bounds_mm": {
+        "min_mm": [
+          -54.0,
+          82.0,
+          4.5
+        ],
+        "max_mm": [
+          -42.0,
+          94.0,
+          45.0
+        ],
+        "size_mm": [
+          12.0,
+          12.0,
+          40.5
+        ]
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested."
+    },
+    {
+      "id": "support_post_06",
+      "name": "Deck support post 6",
+      "color_rgba": [
+        46,
+        88,
+        126,
+        255
+      ],
+      "bounds_mm": {
+        "min_mm": [
+          42.0,
+          82.0,
+          4.5
+        ],
+        "max_mm": [
+          54.0,
+          94.0,
+          45.0
+        ],
+        "size_mm": [
+          12.0,
+          12.0,
+          40.5
+        ]
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested."
+    },
+    {
+      "id": "pi_standoff_01",
+      "name": "Pi board standoff 1",
+      "color_rgba": [
+        46,
+        88,
+        126,
+        255
+      ],
+      "bounds_mm": {
+        "min_mm": [
+          -66.5,
+          -4.0,
+          48.6
+        ],
+        "max_mm": [
+          -58.5,
+          4.0,
+          54.6
+        ],
+        "size_mm": [
+          8.0,
+          8.0,
+          6.0
+        ]
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested."
+    },
+    {
+      "id": "pi_standoff_02",
+      "name": "Pi board standoff 2",
+      "color_rgba": [
+        46,
+        88,
+        126,
+        255
+      ],
+      "bounds_mm": {
+        "min_mm": [
+          -17.5,
+          -4.0,
+          48.6
+        ],
+        "max_mm": [
+          -9.5,
+          4.0,
+          54.6
+        ],
+        "size_mm": [
+          8.0,
+          8.0,
+          6.0
+        ]
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested."
+    },
+    {
+      "id": "pi_standoff_03",
+      "name": "Pi board standoff 3",
+      "color_rgba": [
+        46,
+        88,
+        126,
+        255
+      ],
+      "bounds_mm": {
+        "min_mm": [
+          -66.5,
+          54.0,
+          48.6
+        ],
+        "max_mm": [
+          -58.5,
+          62.0,
+          54.6
+        ],
+        "size_mm": [
+          8.0,
+          8.0,
+          6.0
+        ]
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested."
+    },
+    {
+      "id": "pi_standoff_04",
+      "name": "Pi board standoff 4",
+      "color_rgba": [
+        46,
+        88,
+        126,
+        255
+      ],
+      "bounds_mm": {
+        "min_mm": [
+          -17.5,
+          54.0,
+          48.6
+        ],
+        "max_mm": [
+          -9.5,
+          62.0,
+          54.6
+        ],
+        "size_mm": [
+          8.0,
+          8.0,
+          6.0
+        ]
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested."
+    },
+    {
+      "id": "uno_standoff_01",
+      "name": "UNO board standoff 1",
+      "color_rgba": [
+        46,
+        88,
+        126,
+        255
+      ],
+      "bounds_mm": {
+        "min_mm": [
+          16.29700537497455,
+          45.8,
+          48.6
+        ],
+        "max_mm": [
+          24.29700537497455,
+          53.8,
+          54.6
+        ],
+        "size_mm": [
+          8.0,
+          8.0,
+          6.0
+        ]
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested."
+    },
+    {
+      "id": "uno_standoff_02",
+      "name": "UNO board standoff 2",
+      "color_rgba": [
+        46,
+        88,
+        126,
+        255
+      ],
+      "bounds_mm": {
+        "min_mm": [
+          44.16400979738201,
+          45.79999592934187,
+          48.6
+        ],
+        "max_mm": [
+          52.16400979738201,
+          53.79999592934187,
+          54.6
+        ],
+        "size_mm": [
+          8.0,
+          8.0,
+          6.0
+        ]
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested."
+    },
+    {
+      "id": "uno_standoff_03",
+      "name": "UNO board standoff 3",
+      "color_rgba": [
+        46,
+        88,
+        126,
+        255
+      ],
+      "bounds_mm": {
+        "min_mm": [
+          11.8,
+          -5.85979257687282,
+          48.6
+        ],
+        "max_mm": [
+          19.8,
+          2.1402074231271797,
+          54.6
+        ],
+        "size_mm": [
+          8.0,
+          8.0,
+          6.0
+        ]
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested."
+    },
+    {
+      "id": "tracker_spacer_01",
+      "name": "Line tracker spacer 1",
+      "color_rgba": [
+        46,
+        88,
+        126,
+        255
+      ],
+      "bounds_mm": {
+        "min_mm": [
+          -23.79998485968536,
+          76.60817348867084,
+          -3.0
+        ],
+        "max_mm": [
+          -16.79998485968536,
+          83.60817348867084,
+          0.0
+        ],
+        "size_mm": [
+          7.0,
+          7.0,
+          3.0
+        ]
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested."
+    },
+    {
+      "id": "tracker_spacer_02",
+      "name": "Line tracker spacer 2",
+      "color_rgba": [
+        46,
+        88,
+        126,
+        255
+      ],
+      "bounds_mm": {
+        "min_mm": [
+          16.800015140314077,
+          76.60817348867116,
+          -3.0
+        ],
+        "max_mm": [
+          23.800015140314077,
+          83.60817348867116,
+          0.0
+        ],
+        "size_mm": [
+          7.0,
+          7.0,
+          3.0
+        ]
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested."
+    },
+    {
+      "id": "tracker_spacer_03",
+      "name": "Line tracker spacer 3",
+      "color_rgba": [
+        46,
+        88,
+        126,
+        255
+      ],
+      "bounds_mm": {
+        "min_mm": [
+          16.800105378957692,
+          102.20820188842282,
+          -3.0
+        ],
+        "max_mm": [
+          23.800105378957692,
+          109.20820188842282,
+          0.0
+        ],
+        "size_mm": [
+          7.0,
+          7.0,
+          3.0
+        ]
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested."
+    },
+    {
+      "id": "tracker_spacer_04",
+      "name": "Line tracker spacer 4",
+      "color_rgba": [
+        46,
+        88,
+        126,
+        255
+      ],
+      "bounds_mm": {
+        "min_mm": [
+          -23.799894621081506,
+          102.20820188842262,
+          -3.0
+        ],
+        "max_mm": [
+          -16.799894621081506,
+          109.20820188842262,
+          0.0
+        ],
+        "size_mm": [
+          7.0,
+          7.0,
+          3.0
+        ]
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested."
+    },
+    {
+      "id": "motor_battery",
+      "name": "Motor battery - nominal case",
+      "color_rgba": [
+        40,
+        45,
+        53,
+        255
+      ],
+      "bounds_mm": [
+        [
+          -43.001398690423215,
+          -99.00139869042322,
+          48.598601309576786
+        ],
+        [
+          43.001398690423215,
+          -46.99860130957679,
+          70.60139869042321
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Nominal 86 x 52 x 22; not a measured case model"
+    },
+    {
+      "id": "motor_battery_switch",
+      "name": "Motor battery - rear switch reference",
+      "color_rgba": [
+        66,
+        73,
+        81,
+        255
+      ],
+      "bounds_mm": [
+        [
+          -5.000000100000007,
+          -101.50000010000001,
+          56.59999989999999
+        ],
+        [
+          5.000000100000007,
+          -98.49999989999999,
+          60.60000010000001
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Approximate location and shape"
+    },
+    {
+      "id": "uno_board",
+      "name": "ELEGOO Uno format board - PCB reference",
+      "color_rgba": [
+        38,
+        97,
+        160,
+        255
+      ],
+      "bounds_mm": [
+        [
+          11.299160745746073,
+          -15.300839254253928,
+          54.59898592194317
+        ],
+        [
+          64.70083925425394,
+          53.30083925425393,
+          56.201014078056836
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Mounting pattern sourced; PCB outline nominal"
+    },
+    {
+      "id": "uno_board_connectors",
+      "name": "ELEGOO Uno format board - connector envelopes",
+      "color_rgba": [
+        165,
+        174,
+        183,
+        255
+      ],
+      "bounds_mm": [
+        [
+          13.999999899999992,
+          -19.50000010000001,
+          56.199999899999995
+        ],
+        [
+          62.00000010000001,
+          46.00000010000001,
+          67.20000010000001
+        ]
+      ],
+      "solid_count": 4,
+      "fidelity": "Approximate connector envelopes"
+    },
+    {
+      "id": "motor_shield",
+      "name": "ELEGOO motor shield - reference envelope",
+      "color_rgba": [
+        42,
+        106,
+        169,
+        255
+      ],
+      "bounds_mm": [
+        [
+          11.299300604788394,
+          -0.0006993952116113588,
+          65.19930060478839
+        ],
+        [
+          64.70069939521161,
+          54.00069939521161,
+          66.80069939521161
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Nominal stacked board envelope"
+    },
+    {
+      "id": "shield_connectors",
+      "name": "Motor shield - plug envelopes",
+      "color_rgba": [
+        233,
+        233,
+        221,
+        255
+      ],
+      "bounds_mm": [
+        [
+          14.9999999,
+          6.4999999,
+          66.7999999
+        ],
+        [
+          61.0000001,
+          41.5000001,
+          75.80000009999999
+        ]
+      ],
+      "solid_count": 6,
+      "fidelity": "Approximate"
+    },
+    {
+      "id": "block_front_left",
+      "name": "Silver motor block - front_left",
+      "color_rgba": [
+        186,
+        192,
+        200,
+        255
+      ],
+      "bounds_mm": [
+        [
+          -85.23855510000003,
+          53.62219465187898,
+          4.4988810276614215
+        ],
+        [
+          -63.23855489999998,
+          65.62219485187902,
+          8.501118972338578
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "User outer22 x12 x4; OEM/C1 hole pattern"
+    },
+    {
+      "id": "motor_front_left",
+      "name": "TT motor gearbox reference - front_left",
+      "color_rgba": [
+        235,
+        179,
+        36,
+        255
+      ],
+      "bounds_mm": [
+        [
+          -83.24065298563482,
+          33.62009676624419,
+          8.497902014365183
+        ],
+        [
+          -65.23645701436519,
+          70.62429273751381,
+          30.502097985634816
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Nominal TT envelope; shaft axis approximate"
+    },
+    {
+      "id": "motor_can_front_left",
+      "name": "Motor can reference - front_left",
+      "color_rgba": [
+        165,
+        170,
+        178,
+        255
+      ],
+      "bounds_mm": [
+        [
+          -83.24065298563482,
+          70.62009676624417,
+          10.497902014365183
+        ],
+        [
+          -65.23645701436519,
+          99.62429273751381,
+          28.502097985634816
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Nominal 70 mm total TT body length"
+    },
+    {
+      "id": "wheel_hub_front_left",
+      "name": "Wheel hub reference - front_left",
+      "color_rgba": [
+        226,
+        180,
+        45,
+        255
+      ],
+      "bounds_mm": [
+        [
+          -125.25114241380884,
+          21.609607338070166,
+          1.4874125861911671
+        ],
+        [
+          -99.22596758619117,
+          57.63478216568783,
+          37.51258741380883
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Nominal wheel envelope"
+    },
+    {
+      "id": "tire_front_left",
+      "name": "Tire reference - front_left",
+      "color_rgba": [
+        36,
+        40,
+        45,
+        255
+      ],
+      "bounds_mm": [
+        [
+          -125.26128219437707,
+          7.099467557501935,
+          -13.022727194377065
+        ],
+        [
+          -99.21582780562294,
+          72.14492194625606,
+          52.02272719437706
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Nominal 65 mm diameter x26 mm width"
+    },
+    {
+      "id": "shaft_front_left",
+      "name": "Output shaft reference - front_left",
+      "color_rgba": [
+        214,
+        218,
+        222,
+        255
+      ],
+      "bounds_mm": [
+        [
+          -91.24044319707133,
+          36.92030655480767,
+          16.79811180292867
+        ],
+        [
+          -65.23666680292868,
+          42.324082948950334,
+          22.20188819707133
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Approximate shaft envelope"
+    },
+    {
+      "id": "block_front_right",
+      "name": "Silver motor block - front_right",
+      "color_rgba": [
+        186,
+        192,
+        200,
+        255
+      ],
+      "bounds_mm": [
+        [
+          63.23855489999998,
+          53.62219465187898,
+          4.4988810276614215
+        ],
+        [
+          85.23855510000003,
+          65.62219485187902,
+          8.501118972338578
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "User outer22 x12 x4; OEM/C1 hole pattern"
+    },
+    {
+      "id": "motor_front_right",
+      "name": "TT motor gearbox reference - front_right",
+      "color_rgba": [
+        235,
+        179,
+        36,
+        255
+      ],
+      "bounds_mm": [
+        [
+          65.23645701436519,
+          33.62009676624419,
+          8.497902014365183
+        ],
+        [
+          83.24065298563482,
+          70.62429273751381,
+          30.502097985634816
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Nominal TT envelope; shaft axis approximate"
+    },
+    {
+      "id": "motor_can_front_right",
+      "name": "Motor can reference - front_right",
+      "color_rgba": [
+        165,
+        170,
+        178,
+        255
+      ],
+      "bounds_mm": [
+        [
+          65.23645701436519,
+          70.62009676624417,
+          10.497902014365183
+        ],
+        [
+          83.24065298563482,
+          99.62429273751381,
+          28.502097985634816
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Nominal 70 mm total TT body length"
+    },
+    {
+      "id": "wheel_hub_front_right",
+      "name": "Wheel hub reference - front_right",
+      "color_rgba": [
+        226,
+        180,
+        45,
+        255
+      ],
+      "bounds_mm": [
+        [
+          99.22596758619117,
+          21.609607338070166,
+          1.4874125861911671
+        ],
+        [
+          125.25114241380884,
+          57.63478216568783,
+          37.51258741380883
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Nominal wheel envelope"
+    },
+    {
+      "id": "tire_front_right",
+      "name": "Tire reference - front_right",
+      "color_rgba": [
+        36,
+        40,
+        45,
+        255
+      ],
+      "bounds_mm": [
+        [
+          99.21582780562294,
+          7.099467557501935,
+          -13.022727194377065
+        ],
+        [
+          125.26128219437707,
+          72.14492194625606,
+          52.02272719437706
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Nominal 65 mm diameter x26 mm width"
+    },
+    {
+      "id": "shaft_front_right",
+      "name": "Output shaft reference - front_right",
+      "color_rgba": [
+        214,
+        218,
+        222,
+        255
+      ],
+      "bounds_mm": [
+        [
+          65.23666680292868,
+          36.92030655480767,
+          16.79811180292867
+        ],
+        [
+          91.24044319707133,
+          42.324082948950334,
+          22.20188819707133
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Approximate shaft envelope"
+    },
+    {
+      "id": "block_rear_left",
+      "name": "Silver motor block - rear_left",
+      "color_rgba": [
+        186,
+        192,
+        200,
+        255
+      ],
+      "bounds_mm": [
+        [
+          -85.23855510000003,
+          -69.52580422373731,
+          4.4988810276614215
+        ],
+        [
+          -63.23855489999998,
+          -57.525804023737265,
+          8.501118972338578
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "User outer22 x12 x4; OEM/C1 hole pattern"
+    },
+    {
+      "id": "motor_rear_left",
+      "name": "TT motor gearbox reference - rear_left",
+      "color_rgba": [
+        235,
+        179,
+        36,
+        255
+      ],
+      "bounds_mm": [
+        [
+          -83.24065298563482,
+          -74.5279021093721,
+          8.497902014365184
+        ],
+        [
+          -65.23645701436519,
+          -37.523706138102476,
+          30.502097985634816
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Nominal TT envelope; shaft axis approximate"
+    },
+    {
+      "id": "motor_can_rear_left",
+      "name": "Motor can reference - rear_left",
+      "color_rgba": [
+        165,
+        170,
+        178,
+        255
+      ],
+      "bounds_mm": [
+        [
+          -83.24065298563482,
+          -103.5279021093721,
+          10.497902014365183
+        ],
+        [
+          -65.23645701436519,
+          -74.52370613810247,
+          28.502097985634816
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Nominal 70 mm total TT body length"
+    },
+    {
+      "id": "wheel_hub_rear_left",
+      "name": "Wheel hub reference - rear_left",
+      "color_rgba": [
+        226,
+        180,
+        45,
+        255
+      ],
+      "bounds_mm": [
+        [
+          -125.25114241380884,
+          -61.53839153754612,
+          1.4874125861911665
+        ],
+        [
+          -99.22596758619117,
+          -25.513216709928454,
+          37.51258741380883
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Nominal wheel envelope"
+    },
+    {
+      "id": "tire_rear_left",
+      "name": "Tire reference - rear_left",
+      "color_rgba": [
+        36,
+        40,
+        45,
+        255
+      ],
+      "bounds_mm": [
+        [
+          -125.26128219437706,
+          -76.04853131811434,
+          -13.022727194377058
+        ],
+        [
+          -99.21582780562295,
+          -11.00307692936023,
+          52.02272719437706
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Nominal 65 mm diameter x26 mm width"
+    },
+    {
+      "id": "shaft_rear_left",
+      "name": "Output shaft reference - rear_left",
+      "color_rgba": [
+        214,
+        218,
+        222,
+        255
+      ],
+      "bounds_mm": [
+        [
+          -91.24044319707134,
+          -46.22769232080862,
+          16.79811180292867
+        ],
+        [
+          -65.23666680292867,
+          -40.823915926665954,
+          22.20188819707133
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Approximate shaft envelope"
+    },
+    {
+      "id": "block_rear_right",
+      "name": "Silver motor block - rear_right",
+      "color_rgba": [
+        186,
+        192,
+        200,
+        255
+      ],
+      "bounds_mm": [
+        [
+          63.23855489999998,
+          -69.52580422373731,
+          4.4988810276614215
+        ],
+        [
+          85.23855510000003,
+          -57.525804023737265,
+          8.501118972338578
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "User outer22 x12 x4; OEM/C1 hole pattern"
+    },
+    {
+      "id": "motor_rear_right",
+      "name": "TT motor gearbox reference - rear_right",
+      "color_rgba": [
+        235,
+        179,
+        36,
+        255
+      ],
+      "bounds_mm": [
+        [
+          65.23645701436519,
+          -74.5279021093721,
+          8.497902014365184
+        ],
+        [
+          83.24065298563482,
+          -37.523706138102476,
+          30.502097985634816
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Nominal TT envelope; shaft axis approximate"
+    },
+    {
+      "id": "motor_can_rear_right",
+      "name": "Motor can reference - rear_right",
+      "color_rgba": [
+        165,
+        170,
+        178,
+        255
+      ],
+      "bounds_mm": [
+        [
+          65.23645701436519,
+          -103.5279021093721,
+          10.497902014365183
+        ],
+        [
+          83.24065298563482,
+          -74.52370613810247,
+          28.502097985634816
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Nominal 70 mm total TT body length"
+    },
+    {
+      "id": "wheel_hub_rear_right",
+      "name": "Wheel hub reference - rear_right",
+      "color_rgba": [
+        226,
+        180,
+        45,
+        255
+      ],
+      "bounds_mm": [
+        [
+          99.22596758619117,
+          -61.53839153754612,
+          1.4874125861911665
+        ],
+        [
+          125.25114241380884,
+          -25.513216709928454,
+          37.51258741380883
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Nominal wheel envelope"
+    },
+    {
+      "id": "tire_rear_right",
+      "name": "Tire reference - rear_right",
+      "color_rgba": [
+        36,
+        40,
+        45,
+        255
+      ],
+      "bounds_mm": [
+        [
+          99.21582780562295,
+          -76.04853131811434,
+          -13.022727194377058
+        ],
+        [
+          125.26128219437706,
+          -11.00307692936023,
+          52.02272719437706
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Nominal 65 mm diameter x26 mm width"
+    },
+    {
+      "id": "shaft_rear_right",
+      "name": "Output shaft reference - rear_right",
+      "color_rgba": [
+        214,
+        218,
+        222,
+        255
+      ],
+      "bounds_mm": [
+        [
+          65.23666680292867,
+          -46.22769232080862,
+          16.79811180292867
+        ],
+        [
+          91.24044319707134,
+          -40.823915926665954,
+          22.20188819707133
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Approximate shaft envelope"
+    },
+    {
+      "id": "pan_servo",
+      "name": "Stock pan servo - reference",
+      "color_rgba": [
+        38,
+        94,
+        158,
+        255
+      ],
+      "bounds_mm": [
+        [
+          -5.084839254253933,
+          75.18316074574606,
+          28.999160745746067
+        ],
+        [
+          6.916839254253934,
+          98.18483925425393,
+          51.00083925425393
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Approximate SG90-type envelope"
+    },
+    {
+      "id": "servo_horn",
+      "name": "Stock servo horn - reference",
+      "color_rgba": [
+        231,
+        230,
+        213,
+        255
+      ],
+      "bounds_mm": [
+        [
+          -6.088895166481223,
+          79.67910483351878,
+          50.99510483351877
+        ],
+        [
+          7.920895166481224,
+          93.68889516648122,
+          53.50489516648123
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Approximate"
+    },
+    {
+      "id": "sensor_head",
+      "name": "Original head bracket - reference",
+      "color_rgba": [
+        70,
+        74,
+        82,
+        255
+      ],
+      "bounds_mm": [
+        [
+          -23.084699395211608,
+          83.68330060478839,
+          53.99930060478839
+        ],
+        [
+          24.91669939521161,
+          89.68469939521161,
+          93.00069939521161
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Approximate"
+    },
+    {
+      "id": "ultrasonic_board",
+      "name": "Ultrasonic sensor - reference",
+      "color_rgba": [
+        42,
+        106,
+        170,
+        255
+      ],
+      "bounds_mm": [
+        [
+          -21.5840001,
+          89.8839999,
+          57.9999999
+        ],
+        [
+          23.4160001,
+          91.48400009999999,
+          78.0000001
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Approximate 45 x20 board"
+    },
+    {
+      "id": "sonar_transducers",
+      "name": "Ultrasonic transducers - reference",
+      "color_rgba": [
+        186,
+        191,
+        197,
+        255
+      ],
+      "bounds_mm": [
+        [
+          -20.089594461692823,
+          91.47840553830717,
+          59.99440553830718
+        ],
+        [
+          21.921594461692823,
+          103.48959446169282,
+          76.00559446169282
+        ]
+      ],
+      "solid_count": 2,
+      "fidelity": "Approximate"
+    },
+    {
+      "id": "camera_board",
+      "name": "ESP32/camera head - reference",
+      "color_rgba": [
+        48,
+        113,
+        74,
+        255
+      ],
+      "bounds_mm": [
+        [
+          -11.0840001,
+          89.88399989999999,
+          79.99999989999999
+        ],
+        [
+          12.916000100000002,
+          91.4840001,
+          98.00000010000001
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Approximate envelope"
+    },
+    {
+      "id": "camera_lens",
+      "name": "Camera lens - reference",
+      "color_rgba": [
+        40,
+        44,
+        49,
+        255
+      ],
+      "bounds_mm": [
+        [
+          -3.5871469284522197,
+          91.48085307154777,
+          84.49685307154778
+        ],
+        [
+          5.41914692845222,
+          97.48714692845222,
+          93.50314692845222
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Approximate"
+    },
+    {
+      "id": "line_tracker",
+      "name": "Original line tracker - reference",
+      "color_rgba": [
+        39,
+        95,
+        155,
+        255
+      ],
+      "bounds_mm": [
+        [
+          -22.50069939521161,
+          77.90748829333525,
+          -4.601118972338572
+        ],
+        [
+          22.50069939521161,
+          107.90888708375847,
+          -2.9988810276614273
+        ]
+      ],
+      "solid_count": 1,
+      "fidelity": "Original OEM lower-plate mounting pattern"
+    },
+    {
+      "id": "tracker_sensors",
+      "name": "Line sensors - reference",
+      "color_rgba": [
+        35,
+        39,
+        45,
+        255
+      ],
+      "bounds_mm": [
+        [
+          -17.000000100000015,
+          89.90818758854685,
+          -7.600000100000014
+        ],
+        [
+          17.000000100000015,
+          95.90818778854687,
+          -4.599999899999985
+        ]
+      ],
+      "solid_count": 3,
+      "fidelity": "Approximate"
+    }
+  ],
+  "_kit_hardware_only": {
+    "removed_part_ids": [
+      "pi_board",
+      "pi_board_connectors",
+      "pi_processor",
+      "power_bank"
+    ],
+    "parts_before_after": [
+      64,
+      60
+    ],
+    "joints_before_after": [
+      0,
+      0
+    ],
+    "reason": "Raspberry Pi and flat power bank are not ELEGOO kit hardware; envelopes removed from the repository copy."
+  }
+}

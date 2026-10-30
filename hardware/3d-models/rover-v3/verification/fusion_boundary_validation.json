@@ -1,0 +1,22 @@
+{
+  "test_scope": "Focused API doubles for units, source hierarchy, independent copy, and restoration.",
+  "fusion_runtime_executed": false,
+  "geometry_kernel_executed": false,
+  "tests_run": 10,
+  "failures": 0,
+  "errors": 0,
+  "status": "passed",
+  "checks": [
+    "test_ambiguous_or_incomplete_source_is_rejected_before_copy",
+    "test_control_cleanup_releases_partial_startup_resources_once",
+    "test_copy_startup_names_new_document_without_renaming_locked_root",
+    "test_mm_to_cm_once_and_roundtrip_keeps_rotation",
+    "test_nested_body_geometry_is_baked_only_into_wrapper_local_space",
+    "test_nested_source_placement_and_wrapper_ownership",
+    "test_no_model_placement_changes_outside_design_workspace",
+    "test_restore_continues_after_one_component_failure",
+    "test_restore_defers_while_another_fusion_command_is_active",
+    "test_restore_never_changes_an_inactive_document"
+  ],
+  "failed_checks": []
+}

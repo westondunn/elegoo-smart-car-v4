@@ -94,8 +94,10 @@ def check_manifest(problems: list[str]) -> dict:
 
 def check_links(problems: list[str]) -> int:
     count = 0
-    # Imported package documentation under source/ is kept verbatim and is not link-checked.
-    files = [p for d in DOC_DIRS for p in d.rglob("*.md") if "source" not in p.relative_to(REPO).parts] + [REPO / "README.md"]
+    # Only maintained documentation is link-checked; imported package docs keep their original text.
+    files = [HERE / "README.md", *sorted((HERE / "reference").glob("*.md")),
+             *sorted((REPO / "docs" / "hardware").glob("*.md")), REPO / "README.md"]
+    files = [p for p in files if p.is_file()]
     for md in files:
         text = md.read_text(encoding="utf-8", errors="replace")
         for raw in LINK_RE.findall(text):

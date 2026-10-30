@@ -1,0 +1,11 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "Rover V3 project",
+  "description": {
+    "": "Build the Rover V3 assembly from supplied STEP solids, with native components, materials, appearances, joints and a local F3D export. See docs/readme_fusion.txt."
+  },
+  "supportedOS": "windows|mac",
+  "version": "1.0.0",
+  "runOnStartup": false
+}

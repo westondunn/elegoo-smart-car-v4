@@ -1,0 +1,3317 @@
+{
+  "format_version": 1,
+  "status": "completed_with_warnings",
+  "fusion_runtime_executed": true,
+  "builder_revision": "3.0.1",
+  "stage": "complete",
+  "created_utc": "2026-10-20T21:30:50.414952+00:00",
+  "parts": [
+    {
+      "id": "base",
+      "name": "Full lower chassis",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 197511.23241281198,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "unresolved_material_intent",
+        "intended": "PLA",
+        "basis": "Manifest material intent; actual hardware composition not independently verified",
+        "tried_names": [
+          "PLA",
+          "PLA",
+          "Polylactic Acid",
+          "Polylactic acid (PLA)",
+          "Polylactide"
+        ],
+        "action": "Assign a matching physical material in Fusion. Display colour does not set density."
+      },
+      "appearance": {
+        "rgba": [
+          46,
+          88,
+          126,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested.",
+      "notes": "Exact C3 local motor interfaces; actual OEM front/rear spacing; widened230mm body; four strap slots for vertical powerbank retention. Print motor-contact face down."
+    },
+    {
+      "id": "upper_deck",
+      "name": "Upper service deck with battery slider",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 124926.60527210865,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "unresolved_material_intent",
+        "intended": "PLA",
+        "basis": "Manifest material intent; actual hardware composition not independently verified",
+        "tried_names": [
+          "PLA",
+          "PLA",
+          "Polylactic Acid",
+          "Polylactic acid (PLA)",
+          "Polylactide"
+        ],
+        "action": "Assign a matching physical material in Fusion. Display colour does not set density."
+      },
+      "appearance": {
+        "rgba": [
+          46,
+          88,
+          126,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested.",
+      "notes": "168x210mm deck; battery pocket integrated on underside; source front-head interface. Print top surface down."
+    },
+    {
+      "id": "bank_rail_right",
+      "name": "Powerbank retaining rail right",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 4933.952075080498,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "unresolved_material_intent",
+        "intended": "PLA",
+        "basis": "Manifest material intent; actual hardware composition not independently verified",
+        "tried_names": [
+          "PLA",
+          "PLA",
+          "Polylactic Acid",
+          "Polylactic acid (PLA)",
+          "Polylactide"
+        ],
+        "action": "Assign a matching physical material in Fusion. Display colour does not set density."
+      },
+      "appearance": {
+        "rgba": [
+          46,
+          88,
+          126,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested.",
+      "notes": ""
+    },
+    {
+      "id": "bank_rail_left",
+      "name": "Powerbank retaining rail left",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 4933.952075080495,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "unresolved_material_intent",
+        "intended": "PLA",
+        "basis": "Manifest material intent; actual hardware composition not independently verified",
+        "tried_names": [
+          "PLA",
+          "PLA",
+          "Polylactic Acid",
+          "Polylactic acid (PLA)",
+          "Polylactide"
+        ],
+        "action": "Assign a matching physical material in Fusion. Display colour does not set density."
+      },
+      "appearance": {
+        "rgba": [
+          46,
+          88,
+          126,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested.",
+      "notes": ""
+    },
+    {
+      "id": "support_post_01",
+      "name": "Deck support post 1",
+      "status": "created_native_parametric_solid",
+      "native_recipe_type": "round_post",
+      "driving_parameters": [
+        "support_post_01_base_z",
+        "support_post_bore_diameter",
+        "support_post_height",
+        "support_post_outer_diameter"
+      ],
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 4212.734376794312,
+      "reference_equivalence": {
+        "bbox_max_error_mm": 1.4210854715202004e-14,
+        "volume_error_mm3": 1.8826540326699615e-10,
+        "volume_tolerance_mm3": 0.042127343767945004,
+        "status": "passed_bounding_box_and_volume"
+      },
+      "geometry_history": "Native sketches, dimensions, extrusion, cuts and optional corner fillets",
+      "datum_behavior": "XY locations fixed; named size/depth parameters drive features; assembly placement remains as-built",
+      "physical_material": {
+        "status": "unresolved_material_intent",
+        "intended": "PLA",
+        "basis": "Manifest material intent; actual hardware composition not independently verified",
+        "tried_names": [
+          "PLA",
+          "PLA",
+          "Polylactic Acid",
+          "Polylactic acid (PLA)",
+          "Polylactide"
+        ],
+        "action": "Assign a matching physical material in Fusion. Display colour does not set density."
+      },
+      "appearance": {
+        "rgba": [
+          46,
+          88,
+          126,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested.",
+      "notes": ""
+    },
+    {
+      "id": "support_post_02",
+      "name": "Deck support post 2",
+      "status": "created_native_parametric_solid",
+      "native_recipe_type": "round_post",
+      "driving_parameters": [
+        "support_post_02_base_z",
+        "support_post_bore_diameter",
+        "support_post_height",
+        "support_post_outer_diameter"
+      ],
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 4212.734376794312,
+      "reference_equivalence": {
+        "bbox_max_error_mm": 1.4210854715202004e-14,
+        "volume_error_mm3": 1.8826540326699615e-10,
+        "volume_tolerance_mm3": 0.042127343767945004,
+        "status": "passed_bounding_box_and_volume"
+      },
+      "geometry_history": "Native sketches, dimensions, extrusion, cuts and optional corner fillets",
+      "datum_behavior": "XY locations fixed; named size/depth parameters drive features; assembly placement remains as-built",
+      "physical_material": {
+        "status": "unresolved_material_intent",
+        "intended": "PLA",
+        "basis": "Manifest material intent; actual hardware composition not independently verified",
+        "tried_names": [
+          "PLA",
+          "PLA",
+          "Polylactic Acid",
+          "Polylactic acid (PLA)",
+          "Polylactide"
+        ],
+        "action": "Assign a matching physical material in Fusion. Display colour does not set density."
+      },
+      "appearance": {
+        "rgba": [
+          46,
+          88,
+          126,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested.",
+      "notes": ""
+    },
+    {
+      "id": "support_post_03",
+      "name": "Deck support post 3",
+      "status": "created_native_parametric_solid",
+      "native_recipe_type": "round_post",
+      "driving_parameters": [
+        "support_post_03_base_z",
+        "support_post_bore_diameter",
+        "support_post_height",
+        "support_post_outer_diameter"
+      ],
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 4212.734376794315,
+      "reference_equivalence": {
+        "bbox_max_error_mm": 7.105427357601002e-15,
+        "volume_error_mm3": 1.864464138634503e-10,
+        "volume_tolerance_mm3": 0.04212734376794502,
+        "status": "passed_bounding_box_and_volume"
+      },
+      "geometry_history": "Native sketches, dimensions, extrusion, cuts and optional corner fillets",
+      "datum_behavior": "XY locations fixed; named size/depth parameters drive features; assembly placement remains as-built",
+      "physical_material": {
+        "status": "unresolved_material_intent",
+        "intended": "PLA",
+        "basis": "Manifest material intent; actual hardware composition not independently verified",
+        "tried_names": [
+          "PLA",
+          "PLA",
+          "Polylactic Acid",
+          "Polylactic acid (PLA)",
+          "Polylactide"
+        ],
+        "action": "Assign a matching physical material in Fusion. Display colour does not set density."
+      },
+      "appearance": {
+        "rgba": [
+          46,
+          88,
+          126,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested.",
+      "notes": ""
+    },
+    {
+      "id": "support_post_04",
+      "name": "Deck support post 4",
+      "status": "created_native_parametric_solid",
+      "native_recipe_type": "round_post",
+      "driving_parameters": [
+        "support_post_04_base_z",
+        "support_post_bore_diameter",
+        "support_post_height",
+        "support_post_outer_diameter"
+      ],
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 4212.734376794315,
+      "reference_equivalence": {
+        "bbox_max_error_mm": 7.105427357601002e-15,
+        "volume_error_mm3": 1.864464138634503e-10,
+        "volume_tolerance_mm3": 0.04212734376794502,
+        "status": "passed_bounding_box_and_volume"
+      },
+      "geometry_history": "Native sketches, dimensions, extrusion, cuts and optional corner fillets",
+      "datum_behavior": "XY locations fixed; named size/depth parameters drive features; assembly placement remains as-built",
+      "physical_material": {
+        "status": "unresolved_material_intent",
+        "intended": "PLA",
+        "basis": "Manifest material intent; actual hardware composition not independently verified",
+        "tried_names": [
+          "PLA",
+          "PLA",
+          "Polylactic Acid",
+          "Polylactic acid (PLA)",
+          "Polylactide"
+        ],
+        "action": "Assign a matching physical material in Fusion. Display colour does not set density."
+      },
+      "appearance": {
+        "rgba": [
+          46,
+          88,
+          126,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested.",
+      "notes": ""
+    },
+    {
+      "id": "support_post_05",
+      "name": "Deck support post 5",
+      "status": "created_native_parametric_solid",
+      "native_recipe_type": "round_post",
+      "driving_parameters": [
+        "support_post_05_base_z",
+        "support_post_bore_diameter",
+        "support_post_height",
+        "support_post_outer_diameter"
+      ],
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 4212.734376794312,
+      "reference_equivalence": {
+        "bbox_max_error_mm": 1.4210854715202004e-14,
+        "volume_error_mm3": 1.8826540326699615e-10,
+        "volume_tolerance_mm3": 0.042127343767945004,
+        "status": "passed_bounding_box_and_volume"
+      },
+      "geometry_history": "Native sketches, dimensions, extrusion, cuts and optional corner fillets",
+      "datum_behavior": "XY locations fixed; named size/depth parameters drive features; assembly placement remains as-built",
+      "physical_material": {
+        "status": "unresolved_material_intent",
+        "intended": "PLA",
+        "basis": "Manifest material intent; actual hardware composition not independently verified",
+        "tried_names": [
+          "PLA",
+          "PLA",
+          "Polylactic Acid",
+          "Polylactic acid (PLA)",
+          "Polylactide"
+        ],
+        "action": "Assign a matching physical material in Fusion. Display colour does not set density."
+      },
+      "appearance": {
+        "rgba": [
+          46,
+          88,
+          126,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested.",
+      "notes": ""
+    },
+    {
+      "id": "support_post_06",
+      "name": "Deck support post 6",
+      "status": "created_native_parametric_solid",
+      "native_recipe_type": "round_post",
+      "driving_parameters": [
+        "support_post_06_base_z",
+        "support_post_bore_diameter",
+        "support_post_height",
+        "support_post_outer_diameter"
+      ],
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 4212.734376794312,
+      "reference_equivalence": {
+        "bbox_max_error_mm": 1.4210854715202004e-14,
+        "volume_error_mm3": 1.8826540326699615e-10,
+        "volume_tolerance_mm3": 0.042127343767945004,
+        "status": "passed_bounding_box_and_volume"
+      },
+      "geometry_history": "Native sketches, dimensions, extrusion, cuts and optional corner fillets",
+      "datum_behavior": "XY locations fixed; named size/depth parameters drive features; assembly placement remains as-built",
+      "physical_material": {
+        "status": "unresolved_material_intent",
+        "intended": "PLA",
+        "basis": "Manifest material intent; actual hardware composition not independently verified",
+        "tried_names": [
+          "PLA",
+          "PLA",
+          "Polylactic Acid",
+          "Polylactic acid (PLA)",
+          "Polylactide"
+        ],
+        "action": "Assign a matching physical material in Fusion. Display colour does not set density."
+      },
+      "appearance": {
+        "rgba": [
+          46,
+          88,
+          126,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested.",
+      "notes": ""
+    },
+    {
+      "id": "pi_standoff_01",
+      "name": "Pi board standoff 1",
+      "status": "created_native_parametric_solid",
+      "native_recipe_type": "round_post",
+      "driving_parameters": [
+        "pi_standoff_01_base_z",
+        "pi_standoff_bore_diameter",
+        "pi_standoff_height",
+        "pi_standoff_outer_diameter"
+      ],
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 264.64776513841645,
+      "reference_equivalence": {
+        "bbox_max_error_mm": 7.105427357601002e-15,
+        "volume_error_mm3": 1.2278178473934531e-11,
+        "volume_tolerance_mm3": 0.02,
+        "status": "passed_bounding_box_and_volume"
+      },
+      "geometry_history": "Native sketches, dimensions, extrusion, cuts and optional corner fillets",
+      "datum_behavior": "XY locations fixed; named size/depth parameters drive features; assembly placement remains as-built",
+      "physical_material": {
+        "status": "unresolved_material_intent",
+        "intended": "PLA",
+        "basis": "Manifest material intent; actual hardware composition not independently verified",
+        "tried_names": [
+          "PLA",
+          "PLA",
+          "Polylactic Acid",
+          "Polylactic acid (PLA)",
+          "Polylactide"
+        ],
+        "action": "Assign a matching physical material in Fusion. Display colour does not set density."
+      },
+      "appearance": {
+        "rgba": [
+          46,
+          88,
+          126,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested.",
+      "notes": ""
+    },
+    {
+      "id": "pi_standoff_02",
+      "name": "Pi board standoff 2",
+      "status": "created_native_parametric_solid",
+      "native_recipe_type": "round_post",
+      "driving_parameters": [
+        "pi_standoff_02_base_z",
+        "pi_standoff_bore_diameter",
+        "pi_standoff_height",
+        "pi_standoff_outer_diameter"
+      ],
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 264.6477651384159,
+      "reference_equivalence": {
+        "bbox_max_error_mm": 7.105427357601002e-15,
+        "volume_error_mm3": 1.1766587704187259e-11,
+        "volume_tolerance_mm3": 0.02,
+        "status": "passed_bounding_box_and_volume"
+      },
+      "geometry_history": "Native sketches, dimensions, extrusion, cuts and optional corner fillets",
+      "datum_behavior": "XY locations fixed; named size/depth parameters drive features; assembly placement remains as-built",
+      "physical_material": {
+        "status": "unresolved_material_intent",
+        "intended": "PLA",
+        "basis": "Manifest material intent; actual hardware composition not independently verified",
+        "tried_names": [
+          "PLA",
+          "PLA",
+          "Polylactic Acid",
+          "Polylactic acid (PLA)",
+          "Polylactide"
+        ],
+        "action": "Assign a matching physical material in Fusion. Display colour does not set density."
+      },
+      "appearance": {
+        "rgba": [
+          46,
+          88,
+          126,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested.",
+      "notes": ""
+    },
+    {
+      "id": "pi_standoff_03",
+      "name": "Pi board standoff 3",
+      "status": "created_native_parametric_solid",
+      "native_recipe_type": "round_post",
+      "driving_parameters": [
+        "pi_standoff_03_base_z",
+        "pi_standoff_bore_diameter",
+        "pi_standoff_height",
+        "pi_standoff_outer_diameter"
+      ],
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 264.64776513841645,
+      "reference_equivalence": {
+        "bbox_max_error_mm": 7.105427357601002e-15,
+        "volume_error_mm3": 1.2221335055073723e-11,
+        "volume_tolerance_mm3": 0.02,
+        "status": "passed_bounding_box_and_volume"
+      },
+      "geometry_history": "Native sketches, dimensions, extrusion, cuts and optional corner fillets",
+      "datum_behavior": "XY locations fixed; named size/depth parameters drive features; assembly placement remains as-built",
+      "physical_material": {
+        "status": "unresolved_material_intent",
+        "intended": "PLA",
+        "basis": "Manifest material intent; actual hardware composition not independently verified",
+        "tried_names": [
+          "PLA",
+          "PLA",
+          "Polylactic Acid",
+          "Polylactic acid (PLA)",
+          "Polylactide"
+        ],
+        "action": "Assign a matching physical material in Fusion. Display colour does not set density."
+      },
+      "appearance": {
+        "rgba": [
+          46,
+          88,
+          126,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested.",
+      "notes": ""
+    },
+    {
+      "id": "pi_standoff_04",
+      "name": "Pi board standoff 4",
+      "status": "created_native_parametric_solid",
+      "native_recipe_type": "round_post",
+      "driving_parameters": [
+        "pi_standoff_04_base_z",
+        "pi_standoff_bore_diameter",
+        "pi_standoff_height",
+        "pi_standoff_outer_diameter"
+      ],
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 264.6477651384159,
+      "reference_equivalence": {
+        "bbox_max_error_mm": 7.105427357601002e-15,
+        "volume_error_mm3": 1.1709744285326451e-11,
+        "volume_tolerance_mm3": 0.02,
+        "status": "passed_bounding_box_and_volume"
+      },
+      "geometry_history": "Native sketches, dimensions, extrusion, cuts and optional corner fillets",
+      "datum_behavior": "XY locations fixed; named size/depth parameters drive features; assembly placement remains as-built",
+      "physical_material": {
+        "status": "unresolved_material_intent",
+        "intended": "PLA",
+        "basis": "Manifest material intent; actual hardware composition not independently verified",
+        "tried_names": [
+          "PLA",
+          "PLA",
+          "Polylactic Acid",
+          "Polylactic acid (PLA)",
+          "Polylactide"
+        ],
+        "action": "Assign a matching physical material in Fusion. Display colour does not set density."
+      },
+      "appearance": {
+        "rgba": [
+          46,
+          88,
+          126,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested.",
+      "notes": ""
+    },
+    {
+      "id": "uno_standoff_01",
+      "name": "UNO board standoff 1",
+      "status": "created_native_parametric_solid",
+      "native_recipe_type": "round_post",
+      "driving_parameters": [
+        "uno_standoff_01_base_z",
+        "uno_standoff_bore_diameter",
+        "uno_standoff_height",
+        "uno_standoff_outer_diameter"
+      ],
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 247.11767813138388,
+      "reference_equivalence": {
+        "bbox_max_error_mm": 7.105427357601002e-15,
+        "volume_error_mm3": 1.071498445526231e-11,
+        "volume_tolerance_mm3": 0.02,
+        "status": "passed_bounding_box_and_volume"
+      },
+      "geometry_history": "Native sketches, dimensions, extrusion, cuts and optional corner fillets",
+      "datum_behavior": "XY locations fixed; named size/depth parameters drive features; assembly placement remains as-built",
+      "physical_material": {
+        "status": "unresolved_material_intent",
+        "intended": "PLA",
+        "basis": "Manifest material intent; actual hardware composition not independently verified",
+        "tried_names": [
+          "PLA",
+          "PLA",
+          "Polylactic Acid",
+          "Polylactic acid (PLA)",
+          "Polylactide"
+        ],
+        "action": "Assign a matching physical material in Fusion. Display colour does not set density."
+      },
+      "appearance": {
+        "rgba": [
+          46,
+          88,
+          126,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested.",
+      "notes": ""
+    },
+    {
+      "id": "uno_standoff_02",
+      "name": "UNO board standoff 2",
+      "status": "created_native_parametric_solid",
+      "native_recipe_type": "round_post",
+      "driving_parameters": [
+        "uno_standoff_02_base_z",
+        "uno_standoff_bore_diameter",
+        "uno_standoff_height",
+        "uno_standoff_outer_diameter"
+      ],
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 247.11767813138448,
+      "reference_equivalence": {
+        "bbox_max_error_mm": 7.105427357601002e-15,
+        "volume_error_mm3": 1.1425527191022411e-11,
+        "volume_tolerance_mm3": 0.02,
+        "status": "passed_bounding_box_and_volume"
+      },
+      "geometry_history": "Native sketches, dimensions, extrusion, cuts and optional corner fillets",
+      "datum_behavior": "XY locations fixed; named size/depth parameters drive features; assembly placement remains as-built",
+      "physical_material": {
+        "status": "unresolved_material_intent",
+        "intended": "PLA",
+        "basis": "Manifest material intent; actual hardware composition not independently verified",
+        "tried_names": [
+          "PLA",
+          "PLA",
+          "Polylactic Acid",
+          "Polylactic acid (PLA)",
+          "Polylactide"
+        ],
+        "action": "Assign a matching physical material in Fusion. Display colour does not set density."
+      },
+      "appearance": {
+        "rgba": [
+          46,
+          88,
+          126,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested.",
+      "notes": ""
+    },
+    {
+      "id": "uno_standoff_03",
+      "name": "UNO board standoff 3",
+      "status": "created_native_parametric_solid",
+      "native_recipe_type": "round_post",
+      "driving_parameters": [
+        "uno_standoff_03_base_z",
+        "uno_standoff_bore_diameter",
+        "uno_standoff_height",
+        "uno_standoff_outer_diameter"
+      ],
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 247.11767813138388,
+      "reference_equivalence": {
+        "bbox_max_error_mm": 7.105427357601002e-15,
+        "volume_error_mm3": 1.0800249583553523e-11,
+        "volume_tolerance_mm3": 0.02,
+        "status": "passed_bounding_box_and_volume"
+      },
+      "geometry_history": "Native sketches, dimensions, extrusion, cuts and optional corner fillets",
+      "datum_behavior": "XY locations fixed; named size/depth parameters drive features; assembly placement remains as-built",
+      "physical_material": {
+        "status": "unresolved_material_intent",
+        "intended": "PLA",
+        "basis": "Manifest material intent; actual hardware composition not independently verified",
+        "tried_names": [
+          "PLA",
+          "PLA",
+          "Polylactic Acid",
+          "Polylactic acid (PLA)",
+          "Polylactide"
+        ],
+        "action": "Assign a matching physical material in Fusion. Display colour does not set density."
+      },
+      "appearance": {
+        "rgba": [
+          46,
+          88,
+          126,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested.",
+      "notes": ""
+    },
+    {
+      "id": "tracker_spacer_01",
+      "name": "Line tracker spacer 1",
+      "status": "created_native_parametric_solid",
+      "native_recipe_type": "round_post",
+      "driving_parameters": [
+        "tracker_spacer_01_base_z",
+        "tracker_spacer_bore_diameter",
+        "tracker_spacer_height",
+        "tracker_spacer_outer_diameter"
+      ],
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 91.32609843985931,
+      "reference_equivalence": {
+        "bbox_max_error_mm": 4.440892098500626e-16,
+        "volume_error_mm3": 4.064304448547773e-12,
+        "volume_tolerance_mm3": 0.02,
+        "status": "passed_bounding_box_and_volume"
+      },
+      "geometry_history": "Native sketches, dimensions, extrusion, cuts and optional corner fillets",
+      "datum_behavior": "XY locations fixed; named size/depth parameters drive features; assembly placement remains as-built",
+      "physical_material": {
+        "status": "unresolved_material_intent",
+        "intended": "PLA",
+        "basis": "Manifest material intent; actual hardware composition not independently verified",
+        "tried_names": [
+          "PLA",
+          "PLA",
+          "Polylactic Acid",
+          "Polylactic acid (PLA)",
+          "Polylactide"
+        ],
+        "action": "Assign a matching physical material in Fusion. Display colour does not set density."
+      },
+      "appearance": {
+        "rgba": [
+          46,
+          88,
+          126,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested.",
+      "notes": ""
+    },
+    {
+      "id": "tracker_spacer_02",
+      "name": "Line tracker spacer 2",
+      "status": "created_native_parametric_solid",
+      "native_recipe_type": "round_post",
+      "driving_parameters": [
+        "tracker_spacer_02_base_z",
+        "tracker_spacer_bore_diameter",
+        "tracker_spacer_height",
+        "tracker_spacer_outer_diameter"
+      ],
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 91.32609843985925,
+      "reference_equivalence": {
+        "bbox_max_error_mm": 3.552713678800501e-15,
+        "volume_error_mm3": 4.007461029686965e-12,
+        "volume_tolerance_mm3": 0.02,
+        "status": "passed_bounding_box_and_volume"
+      },
+      "geometry_history": "Native sketches, dimensions, extrusion, cuts and optional corner fillets",
+      "datum_behavior": "XY locations fixed; named size/depth parameters drive features; assembly placement remains as-built",
+      "physical_material": {
+        "status": "unresolved_material_intent",
+        "intended": "PLA",
+        "basis": "Manifest material intent; actual hardware composition not independently verified",
+        "tried_names": [
+          "PLA",
+          "PLA",
+          "Polylactic Acid",
+          "Polylactic acid (PLA)",
+          "Polylactide"
+        ],
+        "action": "Assign a matching physical material in Fusion. Display colour does not set density."
+      },
+      "appearance": {
+        "rgba": [
+          46,
+          88,
+          126,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested.",
+      "notes": ""
+    },
+    {
+      "id": "tracker_spacer_03",
+      "name": "Line tracker spacer 3",
+      "status": "created_native_parametric_solid",
+      "native_recipe_type": "round_post",
+      "driving_parameters": [
+        "tracker_spacer_03_base_z",
+        "tracker_spacer_bore_diameter",
+        "tracker_spacer_height",
+        "tracker_spacer_outer_diameter"
+      ],
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 91.32609843985925,
+      "reference_equivalence": {
+        "bbox_max_error_mm": 3.552713678800501e-15,
+        "volume_error_mm3": 4.021671884402167e-12,
+        "volume_tolerance_mm3": 0.02,
+        "status": "passed_bounding_box_and_volume"
+      },
+      "geometry_history": "Native sketches, dimensions, extrusion, cuts and optional corner fillets",
+      "datum_behavior": "XY locations fixed; named size/depth parameters drive features; assembly placement remains as-built",
+      "physical_material": {
+        "status": "unresolved_material_intent",
+        "intended": "PLA",
+        "basis": "Manifest material intent; actual hardware composition not independently verified",
+        "tried_names": [
+          "PLA",
+          "PLA",
+          "Polylactic Acid",
+          "Polylactic acid (PLA)",
+          "Polylactide"
+        ],
+        "action": "Assign a matching physical material in Fusion. Display colour does not set density."
+      },
+      "appearance": {
+        "rgba": [
+          46,
+          88,
+          126,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested.",
+      "notes": ""
+    },
+    {
+      "id": "tracker_spacer_04",
+      "name": "Line tracker spacer 4",
+      "status": "created_native_parametric_solid",
+      "native_recipe_type": "round_post",
+      "driving_parameters": [
+        "tracker_spacer_04_base_z",
+        "tracker_spacer_bore_diameter",
+        "tracker_spacer_height",
+        "tracker_spacer_outer_diameter"
+      ],
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 91.32609843985931,
+      "reference_equivalence": {
+        "bbox_max_error_mm": 3.552713678800501e-15,
+        "volume_error_mm3": 4.078515303262975e-12,
+        "volume_tolerance_mm3": 0.02,
+        "status": "passed_bounding_box_and_volume"
+      },
+      "geometry_history": "Native sketches, dimensions, extrusion, cuts and optional corner fillets",
+      "datum_behavior": "XY locations fixed; named size/depth parameters drive features; assembly placement remains as-built",
+      "physical_material": {
+        "status": "unresolved_material_intent",
+        "intended": "PLA",
+        "basis": "Manifest material intent; actual hardware composition not independently verified",
+        "tried_names": [
+          "PLA",
+          "PLA",
+          "Polylactic Acid",
+          "Polylactic acid (PLA)",
+          "Polylactide"
+        ],
+        "action": "Assign a matching physical material in Fusion. Display colour does not set density."
+      },
+      "appearance": {
+        "rgba": [
+          46,
+          88,
+          126,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Exact generated printable CAD. Full assembly has not been physically tested.",
+      "notes": ""
+    },
+    {
+      "id": "power_bank",
+      "name": "Flat power bank - 69.85 x 146.05 x 12.7",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 129516.61765680234,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          53,
+          62,
+          74,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "User measured outer envelope",
+      "notes": "Ports intentionally not guessed. Open rail ends and straps retain the pack."
+    },
+    {
+      "id": "motor_battery",
+      "name": "Motor battery - nominal case",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 98244.12033597038,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          40,
+          45,
+          53,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Nominal 86 x 52 x 22; not a measured case model",
+      "notes": "76 mm nominal mount pitch, adjustable printed range65–90 mm. Rear orientation is preferred; check actual plug engagement before tightening."
+    },
+    {
+      "id": "motor_battery_switch",
+      "name": "Motor battery - rear switch reference",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 119.99999999999967,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          66,
+          73,
+          81,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Approximate location and shape",
+      "notes": "Switch location conveys rear orientation only."
+    },
+    {
+      "id": "pi_board",
+      "name": "Raspberry Pi format board - PCB reference",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 7571.748958727177,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          38,
+          132,
+          87,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Mounting pattern sourced; PCB outline nominal",
+      "notes": "58 x 49 mm mounting pattern. Exact Pi generation is unconfirmed; generic 85 x56 board outline and connector blocks are for packaging only."
+    },
+    {
+      "id": "pi_board_connectors",
+      "name": "Raspberry Pi format board - connector envelopes",
+      "solid_body_count": 4,
+      "geometry_volume_mm3": 10985.999999999998,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          165,
+          174,
+          183,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Approximate connector envelopes",
+      "notes": "Connector locations are representative. Actual board revision is unconfirmed; existing cables remain authoritative."
+    },
+    {
+      "id": "pi_processor",
+      "name": "Pi - processor reference",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 449.9999999999983,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          61,
+          66,
+          73,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Approximate",
+      "notes": "No heatsink/fan assumption and no thermal simulation."
+    },
+    {
+      "id": "uno_board",
+      "name": "ELEGOO Uno format board - PCB reference",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 5827.501276413848,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          38,
+          97,
+          160,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Mounting pattern sourced; PCB outline nominal",
+      "notes": "Three-hole mount comes from the original OEM top plate; 68.6 x53.4 outer rectangle is a simplified reference."
+    },
+    {
+      "id": "uno_board_connectors",
+      "name": "ELEGOO Uno format board - connector envelopes",
+      "solid_body_count": 4,
+      "geometry_volume_mm3": 6098.999999999997,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          165,
+          174,
+          183,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Approximate connector envelopes",
+      "notes": "Connector locations are representative. Actual board revision is unconfirmed; existing cables remain authoritative."
+    },
+    {
+      "id": "motor_shield",
+      "name": "ELEGOO motor shield - reference envelope",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 4612.386548245723,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          42,
+          106,
+          169,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Nominal stacked board envelope",
+      "notes": "Actual shield revision not identified. OEM2020 DRV8835 schematic and New repository firmware are separate references."
+    },
+    {
+      "id": "shield_connectors",
+      "name": "Motor shield - plug envelopes",
+      "solid_body_count": 6,
+      "geometry_volume_mm3": 2160.000000000002,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          233,
+          233,
+          221,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Approximate",
+      "notes": "Existing plugs and routing remain authoritative."
+    },
+    {
+      "id": "block_front_left",
+      "name": "Silver motor block - front_left",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 991.6601824544783,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "assigned_from_loaded_library",
+        "intended": "Aluminum",
+        "library": "Fusion Material Library",
+        "library_material": "Aluminum",
+        "design_material": "Rover - Aluminum",
+        "basis": "Manifest material intent; actual hardware composition not independently verified"
+      },
+      "appearance": {
+        "rgba": [
+          186,
+          192,
+          200,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "User outer22 x12 x4; OEM/C1 hole pattern",
+      "notes": "Block orientation/height in assembly is nominal; the base interface comes from the physically successful C1/C3 geometry."
+    },
+    {
+      "id": "motor_front_left",
+      "name": "TT motor gearbox reference - front_left",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 14482.035345410779,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          235,
+          179,
+          36,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Nominal TT envelope; shaft axis approximate",
+      "notes": "Axis is a motion demonstration only. OEM archive does not include motor geometry. Keep the stock motor and silver block assembly intact."
+    },
+    {
+      "id": "motor_can_front_left",
+      "name": "Motor can reference - front_left",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 9256.938009881549,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "assigned_from_loaded_library",
+        "intended": "Steel",
+        "library": "Fusion Material Library",
+        "library_material": "Steel",
+        "design_material": "Rover - Steel",
+        "basis": "Manifest material intent; actual hardware composition not independently verified"
+      },
+      "appearance": {
+        "rgba": [
+          165,
+          170,
+          178,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Nominal 70 mm total TT body length",
+      "notes": "Representative motor can envelope."
+    },
+    {
+      "id": "wheel_hub_front_left",
+      "name": "Wheel hub reference - front_left",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 25869.319042280116,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          226,
+          180,
+          45,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Nominal wheel envelope",
+      "notes": "Wheel model is illustrative; local motor-to-wheel clearance remains based on the successful physical fit, not this nominal solid."
+    },
+    {
+      "id": "tire_front_left",
+      "name": "Tire reference - front_left",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 59811.21173537182,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "assigned_from_loaded_library",
+        "intended": "Rubber",
+        "library": "Fusion Material Library",
+        "library_material": "Rubber",
+        "design_material": "Rover - Rubber",
+        "basis": "Manifest material intent; actual hardware composition not independently verified"
+      },
+      "appearance": {
+        "rgba": [
+          36,
+          40,
+          45,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Nominal 65 mm diameter x26 mm width",
+      "notes": "No claim of measured diameter, traction or clearance sweep."
+    },
+    {
+      "id": "shaft_front_left",
+      "name": "Output shaft reference - front_left",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 595.4574715613843,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          214,
+          218,
+          222,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Approximate shaft envelope",
+      "notes": "Shaft projection not reverse engineered; rotation is kinematic only."
+    },
+    {
+      "id": "block_front_right",
+      "name": "Silver motor block - front_right",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 991.6601824544783,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "assigned_from_loaded_library",
+        "intended": "Aluminum",
+        "library": "Fusion Material Library",
+        "library_material": "Aluminum",
+        "design_material": "Rover - Aluminum",
+        "basis": "Manifest material intent; actual hardware composition not independently verified"
+      },
+      "appearance": {
+        "rgba": [
+          186,
+          192,
+          200,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "User outer22 x12 x4; OEM/C1 hole pattern",
+      "notes": "Block orientation/height in assembly is nominal; the base interface comes from the physically successful C1/C3 geometry."
+    },
+    {
+      "id": "motor_front_right",
+      "name": "TT motor gearbox reference - front_right",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 14482.035345410779,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          235,
+          179,
+          36,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Nominal TT envelope; shaft axis approximate",
+      "notes": "Axis is a motion demonstration only. OEM archive does not include motor geometry. Keep the stock motor and silver block assembly intact."
+    },
+    {
+      "id": "motor_can_front_right",
+      "name": "Motor can reference - front_right",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 9256.938009881549,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "assigned_from_loaded_library",
+        "intended": "Steel",
+        "library": "Fusion Material Library",
+        "library_material": "Steel",
+        "design_material": "Rover - Steel",
+        "basis": "Manifest material intent; actual hardware composition not independently verified"
+      },
+      "appearance": {
+        "rgba": [
+          165,
+          170,
+          178,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Nominal 70 mm total TT body length",
+      "notes": "Representative motor can envelope."
+    },
+    {
+      "id": "wheel_hub_front_right",
+      "name": "Wheel hub reference - front_right",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 25869.319042280116,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          226,
+          180,
+          45,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Nominal wheel envelope",
+      "notes": "Wheel model is illustrative; local motor-to-wheel clearance remains based on the successful physical fit, not this nominal solid."
+    },
+    {
+      "id": "tire_front_right",
+      "name": "Tire reference - front_right",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 59811.21173537182,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "assigned_from_loaded_library",
+        "intended": "Rubber",
+        "library": "Fusion Material Library",
+        "library_material": "Rubber",
+        "design_material": "Rover - Rubber",
+        "basis": "Manifest material intent; actual hardware composition not independently verified"
+      },
+      "appearance": {
+        "rgba": [
+          36,
+          40,
+          45,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Nominal 65 mm diameter x26 mm width",
+      "notes": "No claim of measured diameter, traction or clearance sweep."
+    },
+    {
+      "id": "shaft_front_right",
+      "name": "Output shaft reference - front_right",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 595.4574715613843,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          214,
+          218,
+          222,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Approximate shaft envelope",
+      "notes": "Shaft projection not reverse engineered; rotation is kinematic only."
+    },
+    {
+      "id": "block_rear_left",
+      "name": "Silver motor block - rear_left",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 991.6601824544791,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "assigned_from_loaded_library",
+        "intended": "Aluminum",
+        "library": "Fusion Material Library",
+        "library_material": "Aluminum",
+        "design_material": "Rover - Aluminum",
+        "basis": "Manifest material intent; actual hardware composition not independently verified"
+      },
+      "appearance": {
+        "rgba": [
+          186,
+          192,
+          200,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "User outer22 x12 x4; OEM/C1 hole pattern",
+      "notes": "Block orientation/height in assembly is nominal; the base interface comes from the physically successful C1/C3 geometry."
+    },
+    {
+      "id": "motor_rear_left",
+      "name": "TT motor gearbox reference - rear_left",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 14482.035345410783,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          235,
+          179,
+          36,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Nominal TT envelope; shaft axis approximate",
+      "notes": "Axis is a motion demonstration only. OEM archive does not include motor geometry. Keep the stock motor and silver block assembly intact."
+    },
+    {
+      "id": "motor_can_rear_left",
+      "name": "Motor can reference - rear_left",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 9256.93800987183,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "assigned_from_loaded_library",
+        "intended": "Steel",
+        "library": "Fusion Material Library",
+        "library_material": "Steel",
+        "design_material": "Rover - Steel",
+        "basis": "Manifest material intent; actual hardware composition not independently verified"
+      },
+      "appearance": {
+        "rgba": [
+          165,
+          170,
+          178,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Nominal 70 mm total TT body length",
+      "notes": "Representative motor can envelope."
+    },
+    {
+      "id": "wheel_hub_rear_left",
+      "name": "Wheel hub reference - rear_left",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 25869.319042280116,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          226,
+          180,
+          45,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Nominal wheel envelope",
+      "notes": "Wheel model is illustrative; local motor-to-wheel clearance remains based on the successful physical fit, not this nominal solid."
+    },
+    {
+      "id": "tire_rear_left",
+      "name": "Tire reference - rear_left",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 59811.21173537182,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "assigned_from_loaded_library",
+        "intended": "Rubber",
+        "library": "Fusion Material Library",
+        "library_material": "Rubber",
+        "design_material": "Rover - Rubber",
+        "basis": "Manifest material intent; actual hardware composition not independently verified"
+      },
+      "appearance": {
+        "rgba": [
+          36,
+          40,
+          45,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Nominal 65 mm diameter x26 mm width",
+      "notes": "No claim of measured diameter, traction or clearance sweep."
+    },
+    {
+      "id": "shaft_rear_left",
+      "name": "Output shaft reference - rear_left",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 595.4574715613838,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          214,
+          218,
+          222,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Approximate shaft envelope",
+      "notes": "Shaft projection not reverse engineered; rotation is kinematic only."
+    },
+    {
+      "id": "block_rear_right",
+      "name": "Silver motor block - rear_right",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 991.6601824544791,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "assigned_from_loaded_library",
+        "intended": "Aluminum",
+        "library": "Fusion Material Library",
+        "library_material": "Aluminum",
+        "design_material": "Rover - Aluminum",
+        "basis": "Manifest material intent; actual hardware composition not independently verified"
+      },
+      "appearance": {
+        "rgba": [
+          186,
+          192,
+          200,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "User outer22 x12 x4; OEM/C1 hole pattern",
+      "notes": "Block orientation/height in assembly is nominal; the base interface comes from the physically successful C1/C3 geometry."
+    },
+    {
+      "id": "motor_rear_right",
+      "name": "TT motor gearbox reference - rear_right",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 14482.035345410783,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          235,
+          179,
+          36,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Nominal TT envelope; shaft axis approximate",
+      "notes": "Axis is a motion demonstration only. OEM archive does not include motor geometry. Keep the stock motor and silver block assembly intact."
+    },
+    {
+      "id": "motor_can_rear_right",
+      "name": "Motor can reference - rear_right",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 9256.93800987183,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "assigned_from_loaded_library",
+        "intended": "Steel",
+        "library": "Fusion Material Library",
+        "library_material": "Steel",
+        "design_material": "Rover - Steel",
+        "basis": "Manifest material intent; actual hardware composition not independently verified"
+      },
+      "appearance": {
+        "rgba": [
+          165,
+          170,
+          178,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Nominal 70 mm total TT body length",
+      "notes": "Representative motor can envelope."
+    },
+    {
+      "id": "wheel_hub_rear_right",
+      "name": "Wheel hub reference - rear_right",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 25869.319042280116,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          226,
+          180,
+          45,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Nominal wheel envelope",
+      "notes": "Wheel model is illustrative; local motor-to-wheel clearance remains based on the successful physical fit, not this nominal solid."
+    },
+    {
+      "id": "tire_rear_right",
+      "name": "Tire reference - rear_right",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 59811.21173537182,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "assigned_from_loaded_library",
+        "intended": "Rubber",
+        "library": "Fusion Material Library",
+        "library_material": "Rubber",
+        "design_material": "Rover - Rubber",
+        "basis": "Manifest material intent; actual hardware composition not independently verified"
+      },
+      "appearance": {
+        "rgba": [
+          36,
+          40,
+          45,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Nominal 65 mm diameter x26 mm width",
+      "notes": "No claim of measured diameter, traction or clearance sweep."
+    },
+    {
+      "id": "shaft_rear_right",
+      "name": "Output shaft reference - rear_right",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 595.4574715613838,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          214,
+          218,
+          222,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Approximate shaft envelope",
+      "notes": "Shaft projection not reverse engineered; rotation is kinematic only."
+    },
+    {
+      "id": "pan_servo",
+      "name": "Stock pan servo - reference",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 6044.805655265723,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          38,
+          94,
+          158,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Approximate SG90-type envelope",
+      "notes": "Head support uses source OEM front interface; original bracket/horn are reused."
+    },
+    {
+      "id": "servo_horn",
+      "name": "Stock servo horn - reference",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 384.84510006476626,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          231,
+          230,
+          213,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Approximate",
+      "notes": "Do not use this reference model to print a replacement horn."
+    },
+    {
+      "id": "sensor_head",
+      "name": "Original head bracket - reference",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 11198.522113490026,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          70,
+          74,
+          82,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Approximate",
+      "notes": "Retain the original complete camera/sonar bracket assembly."
+    },
+    {
+      "id": "ultrasonic_board",
+      "name": "Ultrasonic sensor - reference",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 1440.0000000000014,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          42,
+          106,
+          170,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Approximate 45 x20 board",
+      "notes": "Original sensor and bracket retained; no inferred mounting-hole or electrical pinout."
+    },
+    {
+      "id": "sonar_transducers",
+      "name": "Ultrasonic transducers - reference",
+      "solid_body_count": 2,
+      "geometry_volume_mm3": 4825.486315914128,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          186,
+          191,
+          197,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Approximate",
+      "notes": "Representative sensing head, not acoustic or electrical simulation."
+    },
+    {
+      "id": "camera_board",
+      "name": "ESP32/camera head - reference",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 691.2000000000011,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          48,
+          113,
+          74,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Approximate envelope",
+      "notes": "Exact camera board and orientation unconfirmed. Original assembly is reused."
+    },
+    {
+      "id": "camera_lens",
+      "name": "Camera lens - reference",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 381.70350741117596,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          40,
+          44,
+          49,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Approximate",
+      "notes": "Display reference only."
+    },
+    {
+      "id": "line_tracker",
+      "name": "Original line tracker - reference",
+      "solid_body_count": 1,
+      "geometry_volume_mm3": 2107.1546942088216,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          39,
+          95,
+          155,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Original OEM lower-plate mounting pattern",
+      "notes": "Sensor height is a provisional assembly position; adjust using the removable spacers and actual wheel/ground geometry."
+    },
+    {
+      "id": "tracker_sensors",
+      "name": "Line sensors - reference",
+      "solid_body_count": 3,
+      "geometry_volume_mm3": 216.00000000000057,
+      "status": "imported_solid_BRep",
+      "physical_material": {
+        "status": "not_assigned_composite_or_unspecified"
+      },
+      "appearance": {
+        "rgba": [
+          35,
+          39,
+          45,
+          255
+        ],
+        "status": "unassigned",
+        "error": "3 : invalid name"
+      },
+      "fidelity": "Approximate",
+      "notes": "Actual road gap must be checked at assembly."
+    }
+  ],
+  "joints": [
+    {
+      "id": "upper_deck_rigid",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "base",
+      "part_b": "upper_deck",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "bank_rail_right_rigid",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "base",
+      "part_b": "bank_rail_right",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "bank_rail_left_rigid",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "base",
+      "part_b": "bank_rail_left",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "support_post_01_rigid",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "base",
+      "part_b": "support_post_01",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "support_post_02_rigid",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "base",
+      "part_b": "support_post_02",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "support_post_03_rigid",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "base",
+      "part_b": "support_post_03",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "support_post_04_rigid",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "base",
+      "part_b": "support_post_04",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "support_post_05_rigid",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "base",
+      "part_b": "support_post_05",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "support_post_06_rigid",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "base",
+      "part_b": "support_post_06",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "pi_standoff_01_rigid",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "upper_deck",
+      "part_b": "pi_standoff_01",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "pi_standoff_02_rigid",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "upper_deck",
+      "part_b": "pi_standoff_02",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "pi_standoff_03_rigid",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "upper_deck",
+      "part_b": "pi_standoff_03",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "pi_standoff_04_rigid",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "upper_deck",
+      "part_b": "pi_standoff_04",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "uno_standoff_01_rigid",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "upper_deck",
+      "part_b": "uno_standoff_01",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "uno_standoff_02_rigid",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "upper_deck",
+      "part_b": "uno_standoff_02",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "uno_standoff_03_rigid",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "upper_deck",
+      "part_b": "uno_standoff_03",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "tracker_spacer_01_rigid",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "base",
+      "part_b": "tracker_spacer_01",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "tracker_spacer_02_rigid",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "base",
+      "part_b": "tracker_spacer_02",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "tracker_spacer_03_rigid",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "base",
+      "part_b": "tracker_spacer_03",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "tracker_spacer_04_rigid",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "base",
+      "part_b": "tracker_spacer_04",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_power_bank",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "base",
+      "part_b": "power_bank",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_motor_battery",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "upper_deck",
+      "part_b": "motor_battery",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_motor_battery_switch",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "motor_battery",
+      "part_b": "motor_battery_switch",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_pi_board",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "upper_deck",
+      "part_b": "pi_board",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_pi_board_connectors",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "pi_board",
+      "part_b": "pi_board_connectors",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_pi_processor",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "pi_board",
+      "part_b": "pi_processor",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_uno_board",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "upper_deck",
+      "part_b": "uno_board",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_uno_board_connectors",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "uno_board",
+      "part_b": "uno_board_connectors",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_motor_shield",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "uno_board",
+      "part_b": "motor_shield",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_shield_connectors",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "motor_shield",
+      "part_b": "shield_connectors",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_block_front_left",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "base",
+      "part_b": "block_front_left",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_motor_front_left",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "block_front_left",
+      "part_b": "motor_front_left",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_motor_can_front_left",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "motor_front_left",
+      "part_b": "motor_can_front_left",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "rotate_wheel_hub_front_left",
+      "type": "revolute",
+      "suppressed": false,
+      "part_a": "motor_front_left",
+      "part_b": "wheel_hub_front_left",
+      "origin_mm": [
+        -99.238555,
+        39.622194751879,
+        19.5
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "fidelity": "Nominal demonstration axis; physical axis position and travel are unverified",
+      "notes": "Nominal demonstration axis; confirm on the physical component before motion-envelope conclusions.",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_tire_front_left",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "wheel_hub_front_left",
+      "part_b": "tire_front_left",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_shaft_front_left",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "wheel_hub_front_left",
+      "part_b": "shaft_front_left",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_block_front_right",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "base",
+      "part_b": "block_front_right",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_motor_front_right",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "block_front_right",
+      "part_b": "motor_front_right",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_motor_can_front_right",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "motor_front_right",
+      "part_b": "motor_can_front_right",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "rotate_wheel_hub_front_right",
+      "type": "revolute",
+      "suppressed": false,
+      "part_a": "motor_front_right",
+      "part_b": "wheel_hub_front_right",
+      "origin_mm": [
+        99.238555,
+        39.622194751879,
+        19.5
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "fidelity": "Nominal demonstration axis; physical axis position and travel are unverified",
+      "notes": "Nominal demonstration axis; confirm on the physical component before motion-envelope conclusions.",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_tire_front_right",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "wheel_hub_front_right",
+      "part_b": "tire_front_right",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_shaft_front_right",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "wheel_hub_front_right",
+      "part_b": "shaft_front_right",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_block_rear_left",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "base",
+      "part_b": "block_rear_left",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_motor_rear_left",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "block_rear_left",
+      "part_b": "motor_rear_left",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_motor_can_rear_left",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "motor_rear_left",
+      "part_b": "motor_can_rear_left",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "rotate_wheel_hub_rear_left",
+      "type": "revolute",
+      "suppressed": false,
+      "part_a": "motor_rear_left",
+      "part_b": "wheel_hub_rear_left",
+      "origin_mm": [
+        -99.238555,
+        -43.52580412373729,
+        19.5
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "fidelity": "Nominal demonstration axis; physical axis position and travel are unverified",
+      "notes": "Nominal demonstration axis; confirm on the physical component before motion-envelope conclusions.",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_tire_rear_left",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "wheel_hub_rear_left",
+      "part_b": "tire_rear_left",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_shaft_rear_left",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "wheel_hub_rear_left",
+      "part_b": "shaft_rear_left",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_block_rear_right",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "base",
+      "part_b": "block_rear_right",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_motor_rear_right",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "block_rear_right",
+      "part_b": "motor_rear_right",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_motor_can_rear_right",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "motor_rear_right",
+      "part_b": "motor_can_rear_right",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "rotate_wheel_hub_rear_right",
+      "type": "revolute",
+      "suppressed": false,
+      "part_a": "motor_rear_right",
+      "part_b": "wheel_hub_rear_right",
+      "origin_mm": [
+        99.238555,
+        -43.52580412373729,
+        19.5
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "fidelity": "Nominal demonstration axis; physical axis position and travel are unverified",
+      "notes": "Nominal demonstration axis; confirm on the physical component before motion-envelope conclusions.",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_tire_rear_right",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "wheel_hub_rear_right",
+      "part_b": "tire_rear_right",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_shaft_rear_right",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "wheel_hub_rear_right",
+      "part_b": "shaft_rear_right",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_pan_servo",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "upper_deck",
+      "part_b": "pan_servo",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "rotate_servo_horn",
+      "type": "revolute",
+      "suppressed": false,
+      "part_a": "pan_servo",
+      "part_b": "servo_horn",
+      "origin_mm": [
+        0.916,
+        86.684,
+        52
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "fidelity": "Nominal demonstration axis; physical axis position and travel are unverified",
+      "notes": "Nominal demonstration axis; confirm on the physical component before motion-envelope conclusions.",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_sensor_head",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "servo_horn",
+      "part_b": "sensor_head",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_ultrasonic_board",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "sensor_head",
+      "part_b": "ultrasonic_board",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_sonar_transducers",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "ultrasonic_board",
+      "part_b": "sonar_transducers",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_camera_board",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "sensor_head",
+      "part_b": "camera_board",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_camera_lens",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "camera_board",
+      "part_b": "camera_lens",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_line_tracker",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "base",
+      "part_b": "line_tracker",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    },
+    {
+      "id": "fix_tracker_sensors",
+      "type": "rigid",
+      "suppressed": false,
+      "part_a": "line_tracker",
+      "part_b": "tracker_sensors",
+      "origin_mm": null,
+      "axis": null,
+      "fidelity": "Assembly constraint; moving axes need hardware confirmation",
+      "notes": "",
+      "status": "created_native_as_built_joint"
+    }
+  ],
+  "warnings": [
+    "base: PLA physical material unavailable; intent retained as metadata",
+    "base: colour appearance assignment failed: 3 : invalid name",
+    "upper_deck: PLA physical material unavailable; intent retained as metadata",
+    "upper_deck: colour appearance assignment failed: 3 : invalid name",
+    "bank_rail_right: PLA physical material unavailable; intent retained as metadata",
+    "bank_rail_right: colour appearance assignment failed: 3 : invalid name",
+    "bank_rail_left: PLA physical material unavailable; intent retained as metadata",
+    "bank_rail_left: colour appearance assignment failed: 3 : invalid name",
+    "support_post_01: PLA physical material unavailable; intent retained as metadata",
+    "support_post_01: colour appearance assignment failed: 3 : invalid name",
+    "support_post_02: PLA physical material unavailable; intent retained as metadata",
+    "support_post_02: colour appearance assignment failed: 3 : invalid name",
+    "support_post_03: PLA physical material unavailable; intent retained as metadata",
+    "support_post_03: colour appearance assignment failed: 3 : invalid name",
+    "support_post_04: PLA physical material unavailable; intent retained as metadata",
+    "support_post_04: colour appearance assignment failed: 3 : invalid name",
+    "support_post_05: PLA physical material unavailable; intent retained as metadata",
+    "support_post_05: colour appearance assignment failed: 3 : invalid name",
+    "support_post_06: PLA physical material unavailable; intent retained as metadata",
+    "support_post_06: colour appearance assignment failed: 3 : invalid name",
+    "pi_standoff_01: PLA physical material unavailable; intent retained as metadata",
+    "pi_standoff_01: colour appearance assignment failed: 3 : invalid name",
+    "pi_standoff_02: PLA physical material unavailable; intent retained as metadata",
+    "pi_standoff_02: colour appearance assignment failed: 3 : invalid name",
+    "pi_standoff_03: PLA physical material unavailable; intent retained as metadata",
+    "pi_standoff_03: colour appearance assignment failed: 3 : invalid name",
+    "pi_standoff_04: PLA physical material unavailable; intent retained as metadata",
+    "pi_standoff_04: colour appearance assignment failed: 3 : invalid name",
+    "uno_standoff_01: PLA physical material unavailable; intent retained as metadata",
+    "uno_standoff_01: colour appearance assignment failed: 3 : invalid name",
+    "uno_standoff_02: PLA physical material unavailable; intent retained as metadata",
+    "uno_standoff_02: colour appearance assignment failed: 3 : invalid name",
+    "uno_standoff_03: PLA physical material unavailable; intent retained as metadata",
+    "uno_standoff_03: colour appearance assignment failed: 3 : invalid name",
+    "tracker_spacer_01: PLA physical material unavailable; intent retained as metadata",
+    "tracker_spacer_01: colour appearance assignment failed: 3 : invalid name",
+    "tracker_spacer_02: PLA physical material unavailable; intent retained as metadata",
+    "tracker_spacer_02: colour appearance assignment failed: 3 : invalid name",
+    "tracker_spacer_03: PLA physical material unavailable; intent retained as metadata",
+    "tracker_spacer_03: colour appearance assignment failed: 3 : invalid name",
+    "tracker_spacer_04: PLA physical material unavailable; intent retained as metadata",
+    "tracker_spacer_04: colour appearance assignment failed: 3 : invalid name",
+    "power_bank: colour appearance assignment failed: 3 : invalid name",
+    "motor_battery: colour appearance assignment failed: 3 : invalid name",
+    "motor_battery_switch: colour appearance assignment failed: 3 : invalid name",
+    "pi_board: colour appearance assignment failed: 3 : invalid name",
+    "pi_board_connectors: colour appearance assignment failed: 3 : invalid name",
+    "pi_processor: colour appearance assignment failed: 3 : invalid name",
+    "uno_board: colour appearance assignment failed: 3 : invalid name",
+    "uno_board_connectors: colour appearance assignment failed: 3 : invalid name",
+    "motor_shield: colour appearance assignment failed: 3 : invalid name",
+    "shield_connectors: colour appearance assignment failed: 3 : invalid name",
+    "block_front_left: colour appearance assignment failed: 3 : invalid name",
+    "motor_front_left: colour appearance assignment failed: 3 : invalid name",
+    "motor_can_front_left: colour appearance assignment failed: 3 : invalid name",
+    "wheel_hub_front_left: colour appearance assignment failed: 3 : invalid name",
+    "tire_front_left: colour appearance assignment failed: 3 : invalid name",
+    "shaft_front_left: colour appearance assignment failed: 3 : invalid name",
+    "block_front_right: colour appearance assignment failed: 3 : invalid name",
+    "motor_front_right: colour appearance assignment failed: 3 : invalid name",
+    "motor_can_front_right: colour appearance assignment failed: 3 : invalid name",
+    "wheel_hub_front_right: colour appearance assignment failed: 3 : invalid name",
+    "tire_front_right: colour appearance assignment failed: 3 : invalid name",
+    "shaft_front_right: colour appearance assignment failed: 3 : invalid name",
+    "block_rear_left: colour appearance assignment failed: 3 : invalid name",
+    "motor_rear_left: colour appearance assignment failed: 3 : invalid name",
+    "motor_can_rear_left: colour appearance assignment failed: 3 : invalid name",
+    "wheel_hub_rear_left: colour appearance assignment failed: 3 : invalid name",
+    "tire_rear_left: colour appearance assignment failed: 3 : invalid name",
+    "shaft_rear_left: colour appearance assignment failed: 3 : invalid name",
+    "block_rear_right: colour appearance assignment failed: 3 : invalid name",
+    "motor_rear_right: colour appearance assignment failed: 3 : invalid name",
+    "motor_can_rear_right: colour appearance assignment failed: 3 : invalid name",
+    "wheel_hub_rear_right: colour appearance assignment failed: 3 : invalid name",
+    "tire_rear_right: colour appearance assignment failed: 3 : invalid name",
+    "shaft_rear_right: colour appearance assignment failed: 3 : invalid name",
+    "pan_servo: colour appearance assignment failed: 3 : invalid name",
+    "servo_horn: colour appearance assignment failed: 3 : invalid name",
+    "sensor_head: colour appearance assignment failed: 3 : invalid name",
+    "ultrasonic_board: colour appearance assignment failed: 3 : invalid name",
+    "sonar_transducers: colour appearance assignment failed: 3 : invalid name",
+    "camera_board: colour appearance assignment failed: 3 : invalid name",
+    "camera_lens: colour appearance assignment failed: 3 : invalid name",
+    "line_tracker: colour appearance assignment failed: 3 : invalid name",
+    "tracker_sensors: colour appearance assignment failed: 3 : invalid name"
+  ],
+  "geometry_history": "Exact STEP solids plus selected native parametric recipes; per-part status is recorded",
+  "mass_and_strength_status": "No calibrated assembled mass, printed density or structural simulation claimed",
+  "fusion_version": "2705.1.30",
+  "preflight": {
+    "status": "passed",
+    "validation_scope": "Portable input and asset preflight; Fusion runtime has not run",
+    "part_count": 64,
+    "grounded_part_id": "base",
+    "joint_counts": {
+      "rigid": 58,
+      "revolute": 5,
+      "slider": 0,
+      "suppressed": 0
+    },
+    "active_joint_graph_connected": true,
+    "active_joint_graph_is_tree": true,
+    "native_recipe_part_count": 17,
+    "parameter_count": 11,
+    "warnings": [],
+    "assets": [
+      {
+        "part_id": "base",
+        "step_file": "assets/printed/base.step",
+        "bytes": 3415197,
+        "sha256": "297c44fd5783a5378924c08dfd5d3e51f0b87091ea437dbb9d40f6945446079c"
+      },
+      {
+        "part_id": "upper_deck",
+        "step_file": "assets/printed/upper_deck.step",
+        "bytes": 3002260,
+        "sha256": "3a9e966a035e47216c0bbbdf9449921125f0485ceaee4b431e5cd24244628286"
+      },
+      {
+        "part_id": "bank_rail_right",
+        "step_file": "assets/printed/bank_rail_right.step",
+        "bytes": 148397,
+        "sha256": "7c1debb5856b3656571f9f4105d2221bcf0d8ed299fe2993d0067dcabe0b97d9"
+      },
+      {
+        "part_id": "bank_rail_left",
+        "step_file": "assets/printed/bank_rail_left.step",
+        "bytes": 151060,
+        "sha256": "6337b6f0f9a0d174415e7586e2aa241e61bf838fbae6fbc17ab885201ecba0f7"
+      },
+      {
+        "part_id": "support_post_01",
+        "step_file": "assets/printed/support_post_01.step",
+        "bytes": 9323,
+        "sha256": "ca61c271f833efd8f6f94b2598a59b51e1707c9c2da5f29c72c22f09b76d82d8"
+      },
+      {
+        "part_id": "support_post_02",
+        "step_file": "assets/printed/support_post_02.step",
+        "bytes": 9309,
+        "sha256": "fe5e3be8f96a896ab78702f430f7f4056e5d1c3d403d473fddca6b723ffc703a"
+      },
+      {
+        "part_id": "support_post_03",
+        "step_file": "assets/printed/support_post_03.step",
+        "bytes": 9485,
+        "sha256": "8e81a44d0a98b148a4f7e40ec7b924b242ed73c0898b4ec5616885b02045ce20"
+      },
+      {
+        "part_id": "support_post_04",
+        "step_file": "assets/printed/support_post_04.step",
+        "bytes": 9471,
+        "sha256": "abf9fcca03d8b1d36e5d0952897eec1dd2582c38fb8061dc31572a389b4a530c"
+      },
+      {
+        "part_id": "support_post_05",
+        "step_file": "assets/printed/support_post_05.step",
+        "bytes": 9309,
+        "sha256": "b62a59d48d376041ba88255ea265d459f40f2c19bc0eecd59a8975fde5eb41b5"
+      },
+      {
+        "part_id": "support_post_06",
+        "step_file": "assets/printed/support_post_06.step",
+        "bytes": 9297,
+        "sha256": "e07f3eb74434c8d9eb0cd180165c397fdc98e40db816ec8895585b49cdc538e6"
+      },
+      {
+        "part_id": "pi_standoff_01",
+        "step_file": "assets/printed/pi_standoff_01.step",
+        "bytes": 9510,
+        "sha256": "e1ecd2b949c0b386228eec5b2598916150e2163643f7ef8616fe3072e7595200"
+      },
+      {
+        "part_id": "pi_standoff_02",
+        "step_file": "assets/printed/pi_standoff_02.step",
+        "bytes": 9507,
+        "sha256": "1834e6788b46fd9d9ccc231ce2f5717e02ae4ab6a6935daed7ae8dfd0905662c"
+      },
+      {
+        "part_id": "pi_standoff_03",
+        "step_file": "assets/printed/pi_standoff_03.step",
+        "bytes": 9332,
+        "sha256": "0ae4ec28e5c5cef879b0829dcef6a0e818590b3356f5bae85880b1400f50d152"
+      },
+      {
+        "part_id": "pi_standoff_04",
+        "step_file": "assets/printed/pi_standoff_04.step",
+        "bytes": 9329,
+        "sha256": "fc2dd1573a2d85dab361909967df5effc52207827985f19184d9deddc7dde046"
+      },
+      {
+        "part_id": "uno_standoff_01",
+        "step_file": "assets/printed/uno_standoff_01.step",
+        "bytes": 9484,
+        "sha256": "b4c3e3ca8fc96bf81fbc5dd2c995de1ce23807aa72cc8fe4a8ad01439e8a6f6f"
+      },
+      {
+        "part_id": "uno_standoff_02",
+        "step_file": "assets/printed/uno_standoff_02.step",
+        "bytes": 9640,
+        "sha256": "f4de86deff0856d7d5e7c21f87308f696f6a0cc7c1602d93d88de595e31436c1"
+      },
+      {
+        "part_id": "uno_standoff_03",
+        "step_file": "assets/printed/uno_standoff_03.step",
+        "bytes": 9552,
+        "sha256": "61c8e68842815b72d5076e8d2975cf7bd8d0f53d51ef00148f1f1f2ace82b3ba"
+      },
+      {
+        "part_id": "tracker_spacer_01",
+        "step_file": "assets/printed/tracker_spacer_01.step",
+        "bytes": 9624,
+        "sha256": "c58ad4de29b7be354cd11b2225bf1a99f8fdefdaa41e223f442200fdb1e4d75d"
+      },
+      {
+        "part_id": "tracker_spacer_02",
+        "step_file": "assets/printed/tracker_spacer_02.step",
+        "bytes": 9624,
+        "sha256": "d7b8122c4729273aada04d5896421ec32ab8b4b836feeb774fe7110b4e87690e"
+      },
+      {
+        "part_id": "tracker_spacer_03",
+        "step_file": "assets/printed/tracker_spacer_03.step",
+        "bytes": 9624,
+        "sha256": "b9eabb3e10d48967aeed2b3baaf4da6e941992c6997c4134b128bd442dac7524"
+      },
+      {
+        "part_id": "tracker_spacer_04",
+        "step_file": "assets/printed/tracker_spacer_04.step",
+        "bytes": 9624,
+        "sha256": "9619a49c75e80b5dbc8719419c48cbcc3d58e8dd721ec25d583c55088b21ca77"
+      },
+      {
+        "part_id": "power_bank",
+        "step_file": "assets/hardware/power_bank.step",
+        "bytes": 32217,
+        "sha256": "c27b552e294ffc3fc157b4147b4629e07ab33b0bbcaf557778f81bf98fa66bfc"
+      },
+      {
+        "part_id": "motor_battery",
+        "step_file": "assets/hardware/motor_battery.step",
+        "bytes": 39603,
+        "sha256": "33f39e575ae192631ab90310012a8609d860fb11161c4ba9e770a743640f9153"
+      },
+      {
+        "part_id": "motor_battery_switch",
+        "step_file": "assets/hardware/motor_battery_switch.step",
+        "bytes": 15531,
+        "sha256": "536a57c327c1e9c95bcef16d1708400c9bc37d2849e240d18554be2524a02681"
+      },
+      {
+        "part_id": "pi_board",
+        "step_file": "assets/hardware/pi_board.step",
+        "bytes": 46855,
+        "sha256": "12414708d9ead117ccdf90f733ae0d8ca0176dd2c82df75d3b66e8f203475dbc"
+      },
+      {
+        "part_id": "pi_board_connectors",
+        "step_file": "assets/hardware/pi_board_connectors.step",
+        "bytes": 64954,
+        "sha256": "9d49111a48e30856c282cabe73116cb76573cbe201e65dae193a80ab24f6005a"
+      },
+      {
+        "part_id": "pi_processor",
+        "step_file": "assets/hardware/pi_processor.step",
+        "bytes": 15553,
+        "sha256": "47dad6138424f70da3595960746b81157ac1ea1a756e3afd81c58da0ede2e879"
+      },
+      {
+        "part_id": "uno_board",
+        "step_file": "assets/hardware/uno_board.step",
+        "bytes": 43159,
+        "sha256": "02936e92a3ae039bd3b8b190c684017e3723dad290b70d870847e2de56d74b65"
+      },
+      {
+        "part_id": "uno_board_connectors",
+        "step_file": "assets/hardware/uno_board_connectors.step",
+        "bytes": 64863,
+        "sha256": "77e66af65464f36e475294466b262d79233aad9aaf4bf8abe5030ed49249f582"
+      },
+      {
+        "part_id": "motor_shield",
+        "step_file": "assets/hardware/motor_shield.step",
+        "bytes": 31843,
+        "sha256": "020b1e32e2c6d4b6be28ffebd0fdf82d4328d862bbe81704ccd97bc8abddc6d1"
+      },
+      {
+        "part_id": "shield_connectors",
+        "step_file": "assets/hardware/shield_connectors.step",
+        "bytes": 97578,
+        "sha256": "b954eff28b9d278084390cba12d1884a9d47367d1d2d072936c0f811a8afb473"
+      },
+      {
+        "part_id": "block_front_left",
+        "step_file": "assets/hardware/block_front_left.step",
+        "bytes": 23423,
+        "sha256": "1cf2b9351bff08246fb85daaf8d76e3091ae5908f9c56ae0c1b31331d32ced99"
+      },
+      {
+        "part_id": "motor_front_left",
+        "step_file": "assets/hardware/motor_front_left.step",
+        "bytes": 32727,
+        "sha256": "874dba1ce724013b44152f2c7a9d9156c274476154b2688565d4edd2367b39c8"
+      },
+      {
+        "part_id": "motor_can_front_left",
+        "step_file": "assets/hardware/motor_can_front_left.step",
+        "bytes": 32760,
+        "sha256": "2f5096b4fd9a19f47af7f3c6dd0a77719d40d63c21bac29b16c868df92333c72"
+      },
+      {
+        "part_id": "wheel_hub_front_left",
+        "step_file": "assets/hardware/wheel_hub_front_left.step",
+        "bytes": 9555,
+        "sha256": "f0b26efdbbbc423bb177d53e844af424891b8bce6b095e04b12812408af1a4cd"
+      },
+      {
+        "part_id": "tire_front_left",
+        "step_file": "assets/hardware/tire_front_left.step",
+        "bytes": 9557,
+        "sha256": "096f9cc6e7baa385d6d03d3149d1de8ed776527044066fb8a2194ef351e9f946"
+      },
+      {
+        "part_id": "shaft_front_left",
+        "step_file": "assets/hardware/shaft_front_left.step",
+        "bytes": 5793,
+        "sha256": "65d52045ff1574cd642faa64ea25f45dbdf7ad545609f915672fdec0b652b42f"
+      },
+      {
+        "part_id": "block_front_right",
+        "step_file": "assets/hardware/block_front_right.step",
+        "bytes": 23385,
+        "sha256": "508d9a9d53fe74be45ce5d580b6ff20fd5f189873c2de798334f280d6691de86"
+      },
+      {
+        "part_id": "motor_front_right",
+        "step_file": "assets/hardware/motor_front_right.step",
+        "bytes": 32677,
+        "sha256": "671dea284335bd0506e92f0fcadef4893a220922a51d752230f8aefbc02155e4"
+      },
+      {
+        "part_id": "motor_can_front_right",
+        "step_file": "assets/hardware/motor_can_front_right.step",
+        "bytes": 32710,
+        "sha256": "b371793263500720374e2a973290a161a3e45734d5aaa59fa247aa6c05bda1ef"
+      },
+      {
+        "part_id": "wheel_hub_front_right",
+        "step_file": "assets/hardware/wheel_hub_front_right.step",
+        "bytes": 9537,
+        "sha256": "089192d096f8b2b1e53f4d3b39666aea527083166d819227cc7b96d088ee774f"
+      },
+      {
+        "part_id": "tire_front_right",
+        "step_file": "assets/hardware/tire_front_right.step",
+        "bytes": 9539,
+        "sha256": "9082b694e282ba24e1b848793e7f87c747c42b8f360bee72117c290f4c9ae6d1"
+      },
+      {
+        "part_id": "shaft_front_right",
+        "step_file": "assets/hardware/shaft_front_right.step",
+        "bytes": 5785,
+        "sha256": "15ca06881d1bac18104e77f9e22685370c2d4c96fcbd93c56bdb0efde6a9318a"
+      },
+      {
+        "part_id": "block_rear_left",
+        "step_file": "assets/hardware/block_rear_left.step",
+        "bytes": 23423,
+        "sha256": "5943293de236ee0056c387ef3d6ab43bde02511a57aeca870355e4ce2f8b68d2"
+      },
+      {
+        "part_id": "motor_rear_left",
+        "step_file": "assets/hardware/motor_rear_left.step",
+        "bytes": 32727,
+        "sha256": "6a12dddb07706526d941367b0e467ed1f1eb2d12560484ff7400d3036d02af16"
+      },
+      {
+        "part_id": "motor_can_rear_left",
+        "step_file": "assets/hardware/motor_can_rear_left.step",
+        "bytes": 32760,
+        "sha256": "e743db1a475bbce9adc7da79776c5063acf4b0ffc1a836a05bcddba209eb7827"
+      },
+      {
+        "part_id": "wheel_hub_rear_left",
+        "step_file": "assets/hardware/wheel_hub_rear_left.step",
+        "bytes": 9555,
+        "sha256": "8ed931d95abb3998af11fd1db601c0e4a2020d7760b4dc680bae9a0a768ec3e9"
+      },
+      {
+        "part_id": "tire_rear_left",
+        "step_file": "assets/hardware/tire_rear_left.step",
+        "bytes": 9557,
+        "sha256": "348c94d629321ee628b6080b9db0f677c2b7c7f671d850af6a6bc78e9c03274f"
+      },
+      {
+        "part_id": "shaft_rear_left",
+        "step_file": "assets/hardware/shaft_rear_left.step",
+        "bytes": 5793,
+        "sha256": "a636f9801d4b19b2170aaa321deb74343fd5553574320658e54674966f91545f"
+      },
+      {
+        "part_id": "block_rear_right",
+        "step_file": "assets/hardware/block_rear_right.step",
+        "bytes": 23385,
+        "sha256": "4a9d7d97db3ff90117b025e0dfe7867338c7757c65d519c7cca8cbb8e57c2026"
+      },
+      {
+        "part_id": "motor_rear_right",
+        "step_file": "assets/hardware/motor_rear_right.step",
+        "bytes": 32677,
+        "sha256": "19700b4182b22ede955c41bd5653b6d7db7d2baa74c5d9ab5b1b5b6f73223bd5"
+      },
+      {
+        "part_id": "motor_can_rear_right",
+        "step_file": "assets/hardware/motor_can_rear_right.step",
+        "bytes": 32710,
+        "sha256": "bb24ecb097a094b307becb84f92a3a5afcc60979f89d48e964fdd3690285cd26"
+      },
+      {
+        "part_id": "wheel_hub_rear_right",
+        "step_file": "assets/hardware/wheel_hub_rear_right.step",
+        "bytes": 9537,
+        "sha256": "758aeef843adde44944b14a37f34f3f1c6b138dfd1caf6bca9990e432ef0180c"
+      },
+      {
+        "part_id": "tire_rear_right",
+        "step_file": "assets/hardware/tire_rear_right.step",
+        "bytes": 9539,
+        "sha256": "4b16e7249f529afa814e5db2215e038e9caf0d31c96d3976bf751e7aa8d6783c"
+      },
+      {
+        "part_id": "shaft_rear_right",
+        "step_file": "assets/hardware/shaft_rear_right.step",
+        "bytes": 5785,
+        "sha256": "b4a587158e272822e405babf54bda1cbfd11250b99d521d47a910bc0baf8ddb7"
+      },
+      {
+        "part_id": "pan_servo",
+        "step_file": "assets/hardware/pan_servo.step",
+        "bytes": 32089,
+        "sha256": "b8455c5b71755cdd3b4fecfaa122b3a39983cf6a258d6afcf64f43fb7bc662be"
+      },
+      {
+        "part_id": "servo_horn",
+        "step_file": "assets/hardware/servo_horn.step",
+        "bytes": 5671,
+        "sha256": "3575d74a3efc9d27969b5e32aca484cc0749f1f9f7af003a81c4bf2bc0978a86"
+      },
+      {
+        "part_id": "sensor_head",
+        "step_file": "assets/hardware/sensor_head.step",
+        "bytes": 32071,
+        "sha256": "3a269b72d79c4b27e197a29be650181f1744142fccb510275e4a9bb94221e48f"
+      },
+      {
+        "part_id": "ultrasonic_board",
+        "step_file": "assets/hardware/ultrasonic_board.step",
+        "bytes": 15628,
+        "sha256": "2383ef46b6ca75145a9229e98c13888ca3f099ea57bda40fd88c1f7141c29785"
+      },
+      {
+        "part_id": "sonar_transducers",
+        "step_file": "assets/hardware/sonar_transducers.step",
+        "bytes": 13082,
+        "sha256": "dc57c11a09f2a1c8efbcc7acd32c4d61bc61fc83c106a50fb56fafc22b5710eb"
+      },
+      {
+        "part_id": "camera_board",
+        "step_file": "assets/hardware/camera_board.step",
+        "bytes": 15628,
+        "sha256": "c93167415c2e974f2526a3d5b5d0a6988ddea68bbd01e4ab54d2d76e1e2fb5ff"
+      },
+      {
+        "part_id": "camera_lens",
+        "step_file": "assets/hardware/camera_lens.step",
+        "bytes": 5675,
+        "sha256": "0bd411012523f293595af160b5cc0ecd6be1c32052898974d504b0f5302b2955"
+      },
+      {
+        "part_id": "line_tracker",
+        "step_file": "assets/hardware/line_tracker.step",
+        "bytes": 47784,
+        "sha256": "589db3147b068afaabc3dd3b043270809b7a201078426ebe3522483560dc52ef"
+      },
+      {
+        "part_id": "tracker_sensors",
+        "step_file": "assets/hardware/tracker_sensors.step",
+        "bytes": 49365,
+        "sha256": "544ce29be8c52d95da4d54fc5b688e318d2f800cc371807e609cd97431764a1b"
+      }
+    ]
+  },
+  "manifest_sha256": "f59bc0edfe32d0d53dac755f756609be1c6abc8d3cb1fef9b4187b4eb5df040e",
+  "document_title": {
+    "requested": "Rover V3 Complete Assembly - PLA",
+    "status": "assigned"
+  },
+  "joint_runtime_health_errors": [],
+  "top_level_component_count": 64,
+  "all_component_occurrence_count": 130,
+  "native_parametric_parts": [
+    "support_post_01",
+    "support_post_02",
+    "support_post_03",
+    "support_post_04",
+    "support_post_05",
+    "support_post_06",
+    "pi_standoff_01",
+    "pi_standoff_02",
+    "pi_standoff_03",
+    "pi_standoff_04",
+    "uno_standoff_01",
+    "uno_standoff_02",
+    "uno_standoff_03",
+    "tracker_spacer_01",
+    "tracker_spacer_02",
+    "tracker_spacer_03",
+    "tracker_spacer_04"
+  ],
+  "imported_STEP_parts": [
+    "base",
+    "upper_deck",
+    "bank_rail_right",
+    "bank_rail_left",
+    "power_bank",
+    "motor_battery",
+    "motor_battery_switch",
+    "pi_board",
+    "pi_board_connectors",
+    "pi_processor",
+    "uno_board",
+    "uno_board_connectors",
+    "motor_shield",
+    "shield_connectors",
+    "block_front_left",
+    "motor_front_left",
+    "motor_can_front_left",
+    "wheel_hub_front_left",
+    "tire_front_left",
+    "shaft_front_left",
+    "block_front_right",
+    "motor_front_right",
+    "motor_can_front_right",
+    "wheel_hub_front_right",
+    "tire_front_right",
+    "shaft_front_right",
+    "block_rear_left",
+    "motor_rear_left",
+    "motor_can_rear_left",
+    "wheel_hub_rear_left",
+    "tire_rear_left",
+    "shaft_rear_left",
+    "block_rear_right",
+    "motor_rear_right",
+    "motor_can_rear_right",
+    "wheel_hub_rear_right",
+    "tire_rear_right",
+    "shaft_rear_right",
+    "pan_servo",
+    "servo_horn",
+    "sensor_head",
+    "ultrasonic_board",
+    "sonar_transducers",
+    "camera_board",
+    "camera_lens",
+    "line_tracker",
+    "tracker_sensors"
+  ],
+  "native_archive": {
+    "path": "<package>\\RoverFusion\\output\\20261020T213050_475130Z\\Rover_V3_Full_Assembly.f3d",
+    "bytes": 2643983,
+    "sha256": "3d97ae7d2903d2d1fb0d10b1ea9b4c2ddc30333ad871cc0d13bf46b5f3123a60",
+    "exported_by_fusion": true
+  },
+  "completed_utc": "2026-10-20T21:32:05.600049+00:00"
+}
