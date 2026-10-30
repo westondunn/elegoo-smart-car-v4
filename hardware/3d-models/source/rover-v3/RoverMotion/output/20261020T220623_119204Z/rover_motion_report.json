@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "native_runtime": "Autodesk Fusion",
+  "source_modified_by_script": false,
+  "warnings": [],
+  "stage": "closed",
+  "source_document": "Rover V3 Complete Assembly - PLA",
+  "source_body_count": 78,
+  "copied_body_count": 78,
+  "component_count": 64,
+  "printed_components": 21,
+  "purchased_units": 10,
+  "visual_marker_count": 4
+}

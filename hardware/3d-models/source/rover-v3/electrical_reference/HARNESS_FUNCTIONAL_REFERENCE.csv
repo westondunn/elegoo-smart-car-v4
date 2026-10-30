@@ -1,0 +1,9 @@
+﻿harness_id,from,to,electrical_scope,mechanical_route_check,fidelity
+H01,Original motor battery,Existing controller/shield power connector,Reuse existing power cable,"Keep switch, output plug and charging/service port accessible",Physical battery and connector revision unverified
+H02,Existing controller/shield,Four original DC motors,Reuse existing motor harness; preserve left/right mapping,Route beside chassis structure clear of wheel/axle movement,"Original PDF labels M1/M4 left, M2/M3 right; match actual board first"
+H03,Existing controller/shield,Original servo(s)/head,Reuse existing servo cable(s),Provide a cable loop for actual allowed head travel,No new servo voltage/current or travel limit specified
+H04,Existing controller/shield,Original ultrasonic sensor,Reuse existing sensor harness,Keep cable out of moving head/horn path,Physical sensor connector revision unverified
+H05,Existing controller/shield,Original line tracker,Reuse existing line-tracker harness,Route through existing opening; preserve floor-facing sensor placement,Nominal sensor mount geometry; verify real board
+H06,Existing controller/shield,Original camera/ESP32 module,Reuse existing camera harness,Keep connector access and head travel clear,Original diagram has UART P8; not a verified Pi GPIO interface
+H07,Flat power bank,Raspberry Pi format board,Reuse existing appropriate Pi power cable,Keep connector pull-out space at the open end of the tray,Exact Pi generation and power connector not identified
+H08,Raspberry Pi format board,ELEGOO controller/shield,No new data or power interconnect defined,Reserve an expansion route after interface is specified,"No guessed GPIO, UART voltage conversion or common-ground topology"

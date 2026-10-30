@@ -1,0 +1,96 @@
+{
+  "checked_date": "2026-10-20",
+  "source_policy": "Official Autodesk and ELEGOO primary sources",
+  "sources": [
+    {
+      "id": "personal_faq",
+      "title": "Personal use feature FAQ",
+      "url": "https://help.autodesk.com/view/fusion360/ENU/?caas=caas/sfdcarticles/sfdcarticles/Fusion-360-Free-License-Changes.html",
+      "used_for": "Standard design, scripts/API, local rendering, STEP/F3D export and active-document guidance. Its historical 2020 ECAD table conflicts with the live comparison; old layer/area limits are not treated as current."
+    },
+    {
+      "id": "personal_compare",
+      "title": "Live Personal comparison",
+      "url": "https://www.autodesk.com/products/fusion-360/personal/compare",
+      "used_for": "Live Electronics table lists two schematic sheets, four signal layers and unlimited board area; stress/modal/thermal simulation unavailable in Personal."
+    },
+    {
+      "id": "bom",
+      "title": "Fusion Bill of Materials availability",
+      "url": "https://help.autodesk.com/view/fusion360/ENU/?contextId=FUSION-BOM",
+      "used_for": "Native BOM feature is unavailable in Personal; separate supplied CSV is used."
+    },
+    {
+      "id": "ecad_api",
+      "title": "Electronics API introduction",
+      "url": "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ElectronicsIntro.htm",
+      "used_for": "Preview API is read-only for design modifications; no claimed programmable ECAD creation."
+    },
+    {
+      "id": "import",
+      "title": "Import STEP to target component",
+      "url": "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/core_ImportManager_importToTarget2.htm",
+      "used_for": "STEP options imported into a target component; invoked from script, not a command event."
+    },
+    {
+      "id": "asbuilt",
+      "title": "Native AsBuiltJoint API",
+      "url": "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/fusion_AsBuiltJointInput.htm",
+      "used_for": "As-built rigid, revolute and slider joint methods."
+    },
+    {
+      "id": "jointlimits",
+      "title": "JointLimits API",
+      "url": "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/fusion_JointLimits.htm",
+      "used_for": "Joint limits use centimetres or radians internally."
+    },
+    {
+      "id": "nativeexport",
+      "title": "Native Fusion archive export",
+      "url": "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/fusion_ExportManager_createFusionArchiveExportOptions.htm",
+      "used_for": "Local F3D export options are executed by Fusion desktop."
+    },
+    {
+      "id": "units",
+      "title": "Fusion user parameters",
+      "url": "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/fusion_UserParameters_add.htm",
+      "used_for": "ValueInput numeric lengths use centimetres; string expressions can specify millimetres."
+    },
+    {
+      "id": "physicalmaterial",
+      "title": "Physical material assignment",
+      "url": "https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/fusion_BRepBody_material.htm",
+      "used_for": "Physical material can be assigned to nontransient BRep bodies."
+    },
+    {
+      "id": "materialmanage",
+      "title": "Manage design materials",
+      "url": "https://help.autodesk.com/cloudhelp/ENU/Fusion-Model/files/SLD-MANAGE-MATERIALS.htm",
+      "used_for": "Design material browser supports new/duplicated materials and editable properties in Favorites/custom libraries."
+    },
+    {
+      "id": "materialdensity",
+      "title": "Edit material density",
+      "url": "https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/Ability-to-apply-a-specific-mass-to-a-body-component-in-Fusion-360.html",
+      "used_for": "Physical Material > In This Design > Edit can change density."
+    },
+    {
+      "id": "appearances",
+      "title": "Physical material and appearance distinction",
+      "url": "https://help.autodesk.com/cloudhelp/ENU/Fusion-Model/files/GUID-55EC2C42-60E1-48C7-B802-D2AA7AB6F0CB.htm",
+      "used_for": "Imported objects receive default materials; appearance overrides do not set engineering properties."
+    },
+    {
+      "id": "original_elegoo",
+      "title": "Original ELEGOO repository",
+      "url": "https://github.com/elegooofficial/ELEGOO-Smart-Robot-Car-Kit-V4.0",
+      "used_for": "Contains manufacturer schematic archive and separate 3D plate archive."
+    },
+    {
+      "id": "new_elegoo",
+      "title": "New ELEGOO repository",
+      "url": "https://github.com/elegooofficial/ELEGOO-Smart-Robot-Car-Kit-V4.0-New",
+      "used_for": "Firmware and README pin map; retrieved tree has no schematic or PCB files. Pin map differs from original DRV8835 PDF."
+    }
+  ]
+}

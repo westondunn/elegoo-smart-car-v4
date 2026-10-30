@@ -1,0 +1,10 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "Rover project",
+  "description": {
+    "": "Rover V3: wheel motion and printed-parts / complete-module exploded views in a separate presentation copy."
+  },
+  "version": "1.0.0",
+  "supportedOS": "windows|mac"
+}

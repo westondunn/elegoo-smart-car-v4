@@ -1,0 +1,15 @@
+﻿function,original_2020_DRV8835_shield_PDF,new_repository_README,interpretation
+Right motor direction,"D8, DRV8835 channel A",D7,Different; do not merge revisions
+Left motor direction,"D7, DRV8835 channel B",D8,Different; do not merge revisions
+Right motor PWM,D5,D5,Same label; physical revision still unconfirmed
+Left motor PWM,D6,D6,Same label; physical revision still unconfirmed
+Motor standby,No D3 motor STBY shown,D3,Different; old diagram has no such motor signal
+Servo channels,P10 signal D10; P1 signal D11,Z axis D10; Y axis D11,Axis/function naming is revision specific
+Ultrasonic,"P9: +5V, D13, D12, GND",TRIG D13; ECHO D12,Use actual connector keying/orientation
+Line tracker,"P7: GND, +5V, A2, A1, A0",Left A2; middle A1; right A0,Connector order from original diagram only
+Voltage sense,A3 divider,A3,Do not infer pack chemistry from this signal
+RGB,D4,D4,Same functional label
+IR receiver,P2 signal D9,D9,Same functional label
+User button,D2,D2,Same functional label
+IMU,U2: SDA A4; SCL A5,I2C SDA/SCL,Use installed sensor harness
+UART/camera connection,P8: TX D1; switched RX D0; GND; +5V,No connector pin order established by the pin table,Not a Pi GPIO wiring definition

@@ -1,0 +1,832 @@
+{
+  "source": "Rover V3 assembly_manifest.json from Fusion builder 3.0.1",
+  "source_sha256": "f59bc0edfe32d0d53dac755f756609be1c6abc8d3cb1fef9b4187b4eb5df040e",
+  "parts": [
+    {
+      "id": "base",
+      "category": "printed_part"
+    },
+    {
+      "id": "upper_deck",
+      "category": "printed_part"
+    },
+    {
+      "id": "bank_rail_right",
+      "category": "printed_part"
+    },
+    {
+      "id": "bank_rail_left",
+      "category": "printed_part"
+    },
+    {
+      "id": "support_post_01",
+      "category": "printed_part"
+    },
+    {
+      "id": "support_post_02",
+      "category": "printed_part"
+    },
+    {
+      "id": "support_post_03",
+      "category": "printed_part"
+    },
+    {
+      "id": "support_post_04",
+      "category": "printed_part"
+    },
+    {
+      "id": "support_post_05",
+      "category": "printed_part"
+    },
+    {
+      "id": "support_post_06",
+      "category": "printed_part"
+    },
+    {
+      "id": "pi_standoff_01",
+      "category": "printed_part"
+    },
+    {
+      "id": "pi_standoff_02",
+      "category": "printed_part"
+    },
+    {
+      "id": "pi_standoff_03",
+      "category": "printed_part"
+    },
+    {
+      "id": "pi_standoff_04",
+      "category": "printed_part"
+    },
+    {
+      "id": "uno_standoff_01",
+      "category": "printed_part"
+    },
+    {
+      "id": "uno_standoff_02",
+      "category": "printed_part"
+    },
+    {
+      "id": "uno_standoff_03",
+      "category": "printed_part"
+    },
+    {
+      "id": "tracker_spacer_01",
+      "category": "printed_part"
+    },
+    {
+      "id": "tracker_spacer_02",
+      "category": "printed_part"
+    },
+    {
+      "id": "tracker_spacer_03",
+      "category": "printed_part"
+    },
+    {
+      "id": "tracker_spacer_04",
+      "category": "printed_part"
+    },
+    {
+      "id": "power_bank",
+      "category": "battery"
+    },
+    {
+      "id": "motor_battery",
+      "category": "battery"
+    },
+    {
+      "id": "motor_battery_switch",
+      "category": "electronics"
+    },
+    {
+      "id": "pi_board",
+      "category": "electronics"
+    },
+    {
+      "id": "pi_board_connectors",
+      "category": "electronics"
+    },
+    {
+      "id": "pi_processor",
+      "category": "electronics"
+    },
+    {
+      "id": "uno_board",
+      "category": "electronics"
+    },
+    {
+      "id": "uno_board_connectors",
+      "category": "electronics"
+    },
+    {
+      "id": "motor_shield",
+      "category": "electronics"
+    },
+    {
+      "id": "shield_connectors",
+      "category": "electronics"
+    },
+    {
+      "id": "block_front_left",
+      "category": "hardware"
+    },
+    {
+      "id": "motor_front_left",
+      "category": "motor"
+    },
+    {
+      "id": "motor_can_front_left",
+      "category": "hardware"
+    },
+    {
+      "id": "wheel_hub_front_left",
+      "category": "wheel"
+    },
+    {
+      "id": "tire_front_left",
+      "category": "wheel"
+    },
+    {
+      "id": "shaft_front_left",
+      "category": "hardware"
+    },
+    {
+      "id": "block_front_right",
+      "category": "hardware"
+    },
+    {
+      "id": "motor_front_right",
+      "category": "motor"
+    },
+    {
+      "id": "motor_can_front_right",
+      "category": "hardware"
+    },
+    {
+      "id": "wheel_hub_front_right",
+      "category": "wheel"
+    },
+    {
+      "id": "tire_front_right",
+      "category": "wheel"
+    },
+    {
+      "id": "shaft_front_right",
+      "category": "hardware"
+    },
+    {
+      "id": "block_rear_left",
+      "category": "hardware"
+    },
+    {
+      "id": "motor_rear_left",
+      "category": "motor"
+    },
+    {
+      "id": "motor_can_rear_left",
+      "category": "hardware"
+    },
+    {
+      "id": "wheel_hub_rear_left",
+      "category": "wheel"
+    },
+    {
+      "id": "tire_rear_left",
+      "category": "wheel"
+    },
+    {
+      "id": "shaft_rear_left",
+      "category": "hardware"
+    },
+    {
+      "id": "block_rear_right",
+      "category": "hardware"
+    },
+    {
+      "id": "motor_rear_right",
+      "category": "motor"
+    },
+    {
+      "id": "motor_can_rear_right",
+      "category": "hardware"
+    },
+    {
+      "id": "wheel_hub_rear_right",
+      "category": "wheel"
+    },
+    {
+      "id": "tire_rear_right",
+      "category": "wheel"
+    },
+    {
+      "id": "shaft_rear_right",
+      "category": "hardware"
+    },
+    {
+      "id": "pan_servo",
+      "category": "electronics"
+    },
+    {
+      "id": "servo_horn",
+      "category": "hardware"
+    },
+    {
+      "id": "sensor_head",
+      "category": "hardware"
+    },
+    {
+      "id": "ultrasonic_board",
+      "category": "electronics"
+    },
+    {
+      "id": "sonar_transducers",
+      "category": "electronics"
+    },
+    {
+      "id": "camera_board",
+      "category": "electronics"
+    },
+    {
+      "id": "camera_lens",
+      "category": "electronics"
+    },
+    {
+      "id": "line_tracker",
+      "category": "electronics"
+    },
+    {
+      "id": "tracker_sensors",
+      "category": "electronics"
+    }
+  ],
+  "joints": [
+    {
+      "id": "upper_deck_rigid",
+      "name": "Upper service deck with battery slider attachment",
+      "type": "rigid",
+      "part_a": "base",
+      "part_b": "upper_deck",
+      "enabled": true
+    },
+    {
+      "id": "bank_rail_right_rigid",
+      "name": "Powerbank retaining rail right attachment",
+      "type": "rigid",
+      "part_a": "base",
+      "part_b": "bank_rail_right",
+      "enabled": true
+    },
+    {
+      "id": "bank_rail_left_rigid",
+      "name": "Powerbank retaining rail left attachment",
+      "type": "rigid",
+      "part_a": "base",
+      "part_b": "bank_rail_left",
+      "enabled": true
+    },
+    {
+      "id": "support_post_01_rigid",
+      "name": "Deck support post 1 attachment",
+      "type": "rigid",
+      "part_a": "base",
+      "part_b": "support_post_01",
+      "enabled": true
+    },
+    {
+      "id": "support_post_02_rigid",
+      "name": "Deck support post 2 attachment",
+      "type": "rigid",
+      "part_a": "base",
+      "part_b": "support_post_02",
+      "enabled": true
+    },
+    {
+      "id": "support_post_03_rigid",
+      "name": "Deck support post 3 attachment",
+      "type": "rigid",
+      "part_a": "base",
+      "part_b": "support_post_03",
+      "enabled": true
+    },
+    {
+      "id": "support_post_04_rigid",
+      "name": "Deck support post 4 attachment",
+      "type": "rigid",
+      "part_a": "base",
+      "part_b": "support_post_04",
+      "enabled": true
+    },
+    {
+      "id": "support_post_05_rigid",
+      "name": "Deck support post 5 attachment",
+      "type": "rigid",
+      "part_a": "base",
+      "part_b": "support_post_05",
+      "enabled": true
+    },
+    {
+      "id": "support_post_06_rigid",
+      "name": "Deck support post 6 attachment",
+      "type": "rigid",
+      "part_a": "base",
+      "part_b": "support_post_06",
+      "enabled": true
+    },
+    {
+      "id": "pi_standoff_01_rigid",
+      "name": "Pi board standoff 1 attachment",
+      "type": "rigid",
+      "part_a": "upper_deck",
+      "part_b": "pi_standoff_01",
+      "enabled": true
+    },
+    {
+      "id": "pi_standoff_02_rigid",
+      "name": "Pi board standoff 2 attachment",
+      "type": "rigid",
+      "part_a": "upper_deck",
+      "part_b": "pi_standoff_02",
+      "enabled": true
+    },
+    {
+      "id": "pi_standoff_03_rigid",
+      "name": "Pi board standoff 3 attachment",
+      "type": "rigid",
+      "part_a": "upper_deck",
+      "part_b": "pi_standoff_03",
+      "enabled": true
+    },
+    {
+      "id": "pi_standoff_04_rigid",
+      "name": "Pi board standoff 4 attachment",
+      "type": "rigid",
+      "part_a": "upper_deck",
+      "part_b": "pi_standoff_04",
+      "enabled": true
+    },
+    {
+      "id": "uno_standoff_01_rigid",
+      "name": "UNO board standoff 1 attachment",
+      "type": "rigid",
+      "part_a": "upper_deck",
+      "part_b": "uno_standoff_01",
+      "enabled": true
+    },
+    {
+      "id": "uno_standoff_02_rigid",
+      "name": "UNO board standoff 2 attachment",
+      "type": "rigid",
+      "part_a": "upper_deck",
+      "part_b": "uno_standoff_02",
+      "enabled": true
+    },
+    {
+      "id": "uno_standoff_03_rigid",
+      "name": "UNO board standoff 3 attachment",
+      "type": "rigid",
+      "part_a": "upper_deck",
+      "part_b": "uno_standoff_03",
+      "enabled": true
+    },
+    {
+      "id": "tracker_spacer_01_rigid",
+      "name": "Line tracker spacer 1 attachment",
+      "type": "rigid",
+      "part_a": "base",
+      "part_b": "tracker_spacer_01",
+      "enabled": true
+    },
+    {
+      "id": "tracker_spacer_02_rigid",
+      "name": "Line tracker spacer 2 attachment",
+      "type": "rigid",
+      "part_a": "base",
+      "part_b": "tracker_spacer_02",
+      "enabled": true
+    },
+    {
+      "id": "tracker_spacer_03_rigid",
+      "name": "Line tracker spacer 3 attachment",
+      "type": "rigid",
+      "part_a": "base",
+      "part_b": "tracker_spacer_03",
+      "enabled": true
+    },
+    {
+      "id": "tracker_spacer_04_rigid",
+      "name": "Line tracker spacer 4 attachment",
+      "type": "rigid",
+      "part_a": "base",
+      "part_b": "tracker_spacer_04",
+      "enabled": true
+    },
+    {
+      "id": "fix_power_bank",
+      "name": "Installed - power_bank",
+      "type": "rigid",
+      "part_a": "base",
+      "part_b": "power_bank",
+      "enabled": true
+    },
+    {
+      "id": "fix_motor_battery",
+      "name": "Installed - motor_battery",
+      "type": "rigid",
+      "part_a": "upper_deck",
+      "part_b": "motor_battery",
+      "enabled": true
+    },
+    {
+      "id": "fix_motor_battery_switch",
+      "name": "Installed - motor_battery_switch",
+      "type": "rigid",
+      "part_a": "motor_battery",
+      "part_b": "motor_battery_switch",
+      "enabled": true
+    },
+    {
+      "id": "fix_pi_board",
+      "name": "Installed - pi_board",
+      "type": "rigid",
+      "part_a": "upper_deck",
+      "part_b": "pi_board",
+      "enabled": true
+    },
+    {
+      "id": "fix_pi_board_connectors",
+      "name": "Installed - pi_board_connectors",
+      "type": "rigid",
+      "part_a": "pi_board",
+      "part_b": "pi_board_connectors",
+      "enabled": true
+    },
+    {
+      "id": "fix_pi_processor",
+      "name": "Installed - pi_processor",
+      "type": "rigid",
+      "part_a": "pi_board",
+      "part_b": "pi_processor",
+      "enabled": true
+    },
+    {
+      "id": "fix_uno_board",
+      "name": "Installed - uno_board",
+      "type": "rigid",
+      "part_a": "upper_deck",
+      "part_b": "uno_board",
+      "enabled": true
+    },
+    {
+      "id": "fix_uno_board_connectors",
+      "name": "Installed - uno_board_connectors",
+      "type": "rigid",
+      "part_a": "uno_board",
+      "part_b": "uno_board_connectors",
+      "enabled": true
+    },
+    {
+      "id": "fix_motor_shield",
+      "name": "Installed - motor_shield",
+      "type": "rigid",
+      "part_a": "uno_board",
+      "part_b": "motor_shield",
+      "enabled": true
+    },
+    {
+      "id": "fix_shield_connectors",
+      "name": "Installed - shield_connectors",
+      "type": "rigid",
+      "part_a": "motor_shield",
+      "part_b": "shield_connectors",
+      "enabled": true
+    },
+    {
+      "id": "fix_block_front_left",
+      "name": "Installed - block_front_left",
+      "type": "rigid",
+      "part_a": "base",
+      "part_b": "block_front_left",
+      "enabled": true
+    },
+    {
+      "id": "fix_motor_front_left",
+      "name": "Installed - motor_front_left",
+      "type": "rigid",
+      "part_a": "block_front_left",
+      "part_b": "motor_front_left",
+      "enabled": true
+    },
+    {
+      "id": "fix_motor_can_front_left",
+      "name": "Installed - motor_can_front_left",
+      "type": "rigid",
+      "part_a": "motor_front_left",
+      "part_b": "motor_can_front_left",
+      "enabled": true
+    },
+    {
+      "id": "rotate_wheel_hub_front_left",
+      "name": "Reference motion - wheel_hub_front_left",
+      "type": "revolute",
+      "part_a": "motor_front_left",
+      "part_b": "wheel_hub_front_left",
+      "origin_mm": [
+        -99.238555,
+        39.622194751879,
+        19.5
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "enabled": true,
+      "notes": "Nominal demonstration axis; confirm on the physical component before motion-envelope conclusions.",
+      "fidelity": "Nominal demonstration axis; physical axis position and travel are unverified"
+    },
+    {
+      "id": "fix_tire_front_left",
+      "name": "Installed - tire_front_left",
+      "type": "rigid",
+      "part_a": "wheel_hub_front_left",
+      "part_b": "tire_front_left",
+      "enabled": true
+    },
+    {
+      "id": "fix_shaft_front_left",
+      "name": "Installed - shaft_front_left",
+      "type": "rigid",
+      "part_a": "wheel_hub_front_left",
+      "part_b": "shaft_front_left",
+      "enabled": true
+    },
+    {
+      "id": "fix_block_front_right",
+      "name": "Installed - block_front_right",
+      "type": "rigid",
+      "part_a": "base",
+      "part_b": "block_front_right",
+      "enabled": true
+    },
+    {
+      "id": "fix_motor_front_right",
+      "name": "Installed - motor_front_right",
+      "type": "rigid",
+      "part_a": "block_front_right",
+      "part_b": "motor_front_right",
+      "enabled": true
+    },
+    {
+      "id": "fix_motor_can_front_right",
+      "name": "Installed - motor_can_front_right",
+      "type": "rigid",
+      "part_a": "motor_front_right",
+      "part_b": "motor_can_front_right",
+      "enabled": true
+    },
+    {
+      "id": "rotate_wheel_hub_front_right",
+      "name": "Reference motion - wheel_hub_front_right",
+      "type": "revolute",
+      "part_a": "motor_front_right",
+      "part_b": "wheel_hub_front_right",
+      "origin_mm": [
+        99.238555,
+        39.622194751879,
+        19.5
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "enabled": true,
+      "notes": "Nominal demonstration axis; confirm on the physical component before motion-envelope conclusions.",
+      "fidelity": "Nominal demonstration axis; physical axis position and travel are unverified"
+    },
+    {
+      "id": "fix_tire_front_right",
+      "name": "Installed - tire_front_right",
+      "type": "rigid",
+      "part_a": "wheel_hub_front_right",
+      "part_b": "tire_front_right",
+      "enabled": true
+    },
+    {
+      "id": "fix_shaft_front_right",
+      "name": "Installed - shaft_front_right",
+      "type": "rigid",
+      "part_a": "wheel_hub_front_right",
+      "part_b": "shaft_front_right",
+      "enabled": true
+    },
+    {
+      "id": "fix_block_rear_left",
+      "name": "Installed - block_rear_left",
+      "type": "rigid",
+      "part_a": "base",
+      "part_b": "block_rear_left",
+      "enabled": true
+    },
+    {
+      "id": "fix_motor_rear_left",
+      "name": "Installed - motor_rear_left",
+      "type": "rigid",
+      "part_a": "block_rear_left",
+      "part_b": "motor_rear_left",
+      "enabled": true
+    },
+    {
+      "id": "fix_motor_can_rear_left",
+      "name": "Installed - motor_can_rear_left",
+      "type": "rigid",
+      "part_a": "motor_rear_left",
+      "part_b": "motor_can_rear_left",
+      "enabled": true
+    },
+    {
+      "id": "rotate_wheel_hub_rear_left",
+      "name": "Reference motion - wheel_hub_rear_left",
+      "type": "revolute",
+      "part_a": "motor_rear_left",
+      "part_b": "wheel_hub_rear_left",
+      "origin_mm": [
+        -99.238555,
+        -43.52580412373729,
+        19.5
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "enabled": true,
+      "notes": "Nominal demonstration axis; confirm on the physical component before motion-envelope conclusions.",
+      "fidelity": "Nominal demonstration axis; physical axis position and travel are unverified"
+    },
+    {
+      "id": "fix_tire_rear_left",
+      "name": "Installed - tire_rear_left",
+      "type": "rigid",
+      "part_a": "wheel_hub_rear_left",
+      "part_b": "tire_rear_left",
+      "enabled": true
+    },
+    {
+      "id": "fix_shaft_rear_left",
+      "name": "Installed - shaft_rear_left",
+      "type": "rigid",
+      "part_a": "wheel_hub_rear_left",
+      "part_b": "shaft_rear_left",
+      "enabled": true
+    },
+    {
+      "id": "fix_block_rear_right",
+      "name": "Installed - block_rear_right",
+      "type": "rigid",
+      "part_a": "base",
+      "part_b": "block_rear_right",
+      "enabled": true
+    },
+    {
+      "id": "fix_motor_rear_right",
+      "name": "Installed - motor_rear_right",
+      "type": "rigid",
+      "part_a": "block_rear_right",
+      "part_b": "motor_rear_right",
+      "enabled": true
+    },
+    {
+      "id": "fix_motor_can_rear_right",
+      "name": "Installed - motor_can_rear_right",
+      "type": "rigid",
+      "part_a": "motor_rear_right",
+      "part_b": "motor_can_rear_right",
+      "enabled": true
+    },
+    {
+      "id": "rotate_wheel_hub_rear_right",
+      "name": "Reference motion - wheel_hub_rear_right",
+      "type": "revolute",
+      "part_a": "motor_rear_right",
+      "part_b": "wheel_hub_rear_right",
+      "origin_mm": [
+        99.238555,
+        -43.52580412373729,
+        19.5
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "enabled": true,
+      "notes": "Nominal demonstration axis; confirm on the physical component before motion-envelope conclusions.",
+      "fidelity": "Nominal demonstration axis; physical axis position and travel are unverified"
+    },
+    {
+      "id": "fix_tire_rear_right",
+      "name": "Installed - tire_rear_right",
+      "type": "rigid",
+      "part_a": "wheel_hub_rear_right",
+      "part_b": "tire_rear_right",
+      "enabled": true
+    },
+    {
+      "id": "fix_shaft_rear_right",
+      "name": "Installed - shaft_rear_right",
+      "type": "rigid",
+      "part_a": "wheel_hub_rear_right",
+      "part_b": "shaft_rear_right",
+      "enabled": true
+    },
+    {
+      "id": "fix_pan_servo",
+      "name": "Installed - pan_servo",
+      "type": "rigid",
+      "part_a": "upper_deck",
+      "part_b": "pan_servo",
+      "enabled": true
+    },
+    {
+      "id": "rotate_servo_horn",
+      "name": "Reference motion - servo_horn",
+      "type": "revolute",
+      "part_a": "pan_servo",
+      "part_b": "servo_horn",
+      "origin_mm": [
+        0.916,
+        86.684,
+        52
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "enabled": true,
+      "notes": "Nominal demonstration axis; confirm on the physical component before motion-envelope conclusions.",
+      "limits_deg": [
+        -80,
+        80
+      ],
+      "fidelity": "Nominal demonstration axis; physical axis position and travel are unverified"
+    },
+    {
+      "id": "fix_sensor_head",
+      "name": "Installed - sensor_head",
+      "type": "rigid",
+      "part_a": "servo_horn",
+      "part_b": "sensor_head",
+      "enabled": true
+    },
+    {
+      "id": "fix_ultrasonic_board",
+      "name": "Installed - ultrasonic_board",
+      "type": "rigid",
+      "part_a": "sensor_head",
+      "part_b": "ultrasonic_board",
+      "enabled": true
+    },
+    {
+      "id": "fix_sonar_transducers",
+      "name": "Installed - sonar_transducers",
+      "type": "rigid",
+      "part_a": "ultrasonic_board",
+      "part_b": "sonar_transducers",
+      "enabled": true
+    },
+    {
+      "id": "fix_camera_board",
+      "name": "Installed - camera_board",
+      "type": "rigid",
+      "part_a": "sensor_head",
+      "part_b": "camera_board",
+      "enabled": true
+    },
+    {
+      "id": "fix_camera_lens",
+      "name": "Installed - camera_lens",
+      "type": "rigid",
+      "part_a": "camera_board",
+      "part_b": "camera_lens",
+      "enabled": true
+    },
+    {
+      "id": "fix_line_tracker",
+      "name": "Installed - line_tracker",
+      "type": "rigid",
+      "part_a": "base",
+      "part_b": "line_tracker",
+      "enabled": true
+    },
+    {
+      "id": "fix_tracker_sensors",
+      "name": "Installed - tracker_sensors",
+      "type": "rigid",
+      "part_a": "line_tracker",
+      "part_b": "tracker_sensors",
+      "enabled": true
+    }
+  ]
+}

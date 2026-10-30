@@ -1,0 +1,32 @@
+{
+  "prepared_utc": "2026-10-20T21:00:15.817028+00:00",
+  "component_count": 64,
+  "native_recipe_part_count": 17,
+  "joint_count": 63,
+  "joint_types": {
+    "rigid": 58,
+    "revolute": 5,
+    "slider": 0,
+    "suppressed": 0
+  },
+  "fusion_runtime_executed": false,
+  "native_F3D_created": false,
+  "desktop_action": "Run RoverFusion from Scripts and Add-Ins to build and export native F3D",
+  "source_manifests": {
+    "printed_sha256": "8869f6cf1416ed987e079ba86b1749dbb44ab19c04991c1b678d09e53c334b35",
+    "hardware_sha256": "82ac9c1ca10bdf929156f4971f959d112d39ef06b99292b5fb473eb0c8228358"
+  },
+  "geometry_STEP_roundtrip": {
+    "status": "passed",
+    "format": "STEP, geometry only; no Fusion joints or feature history",
+    "component_count": 64,
+    "solid_count": 78,
+    "source_volume_mm3": 1096650.975833127,
+    "reimported_volume_mm3": 1096650.974859019,
+    "volume_error_mm3": 0.0009741079993546009,
+    "sha256": "77a0df2e301037a802b41ba0553c198f1f65fac30b19ba24d84770793b128641",
+    "bytes": 8191363,
+    "cadquery_version": "2.7.0",
+    "fusion_runtime_executed": false
+  }
+}

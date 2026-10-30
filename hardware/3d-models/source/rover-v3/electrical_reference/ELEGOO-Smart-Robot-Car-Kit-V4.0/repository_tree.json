@@ -1,0 +1,47 @@
+{
+  "sha": "096094e07dc7e5eea8c986986158e2d9111dab64",
+  "url": "https://api.github.com/repos/elegooofficial/ELEGOO-Smart-Robot-Car-Kit-V4.0/git/trees/096094e07dc7e5eea8c986986158e2d9111dab64",
+  "tree": [
+    {
+      "path": "ESP32-WROVER-Camera.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f67926090fb5dc2d6180441fbacc0416b5386cb4",
+      "size": 93039,
+      "url": "https://api.github.com/repos/elegooofficial/ELEGOO-Smart-Robot-Car-Kit-V4.0/git/blobs/f67926090fb5dc2d6180441fbacc0416b5386cb4"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a933a51bd9f4d5e1d5f1319124deffa7e1f56083",
+      "size": 66,
+      "url": "https://api.github.com/repos/elegooofficial/ELEGOO-Smart-Robot-Car-Kit-V4.0/git/blobs/a933a51bd9f4d5e1d5f1319124deffa7e1f56083"
+    },
+    {
+      "path": "Schematic diagram.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "009062603977c70bb009713d3c8153cd21806c85",
+      "size": 1763430,
+      "url": "https://api.github.com/repos/elegooofficial/ELEGOO-Smart-Robot-Car-Kit-V4.0/git/blobs/009062603977c70bb009713d3c8153cd21806c85"
+    },
+    {
+      "path": "Smart Robot Car 3D model.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c2ce22a79a19c207cc57a9fb7e6e1355c447634",
+      "size": 540287,
+      "url": "https://api.github.com/repos/elegooofficial/ELEGOO-Smart-Robot-Car-Kit-V4.0/git/blobs/8c2ce22a79a19c207cc57a9fb7e6e1355c447634"
+    },
+    {
+      "path": "SmartRobotCarV4.0_V0_20210104.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "086ce4eb37adc9a9a135319df981cc7e2e8cc473",
+      "size": 482491,
+      "url": "https://api.github.com/repos/elegooofficial/ELEGOO-Smart-Robot-Car-Kit-V4.0/git/blobs/086ce4eb37adc9a9a135319df981cc7e2e8cc473"
+    }
+  ],
+  "truncated": false
+}

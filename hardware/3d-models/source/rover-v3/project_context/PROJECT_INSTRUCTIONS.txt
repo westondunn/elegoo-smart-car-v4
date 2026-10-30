@@ -1,0 +1,77 @@
+ROVER V3 — PROJECT INSTRUCTIONS
+
+Goal
+Build and maintain an expandable learning rover around the user's existing
+ELEGOO Smart Robot Car V4 electronics and drivetrain. Prefer stronger, stable,
+serviceable construction, lower unnecessary vibration, accessible connectors,
+and a low centered battery. Future electronics upgrades must not require a
+complete chassis redesign.
+
+Printing and assembly
+Printer: Bambu Lab X1 Carbon. Material: PLA. Current nozzle assumption: 0.4 mm.
+Minimize the number of plates and separate fastener sizes. Prefer flat parts,
+support-free orientations, removable through-fastened posts, and reusable stock
+modules. Keep the real X1C cutter exclusion and startup/calibration areas.
+Do not scale a complete chassis in a slicer to make it fit the plate: doing so
+also changes every motor and board interface.
+
+Geometry authority
+1. Latest explicit user measurements and reported successful physical tests.
+2. The actual uploaded C1 motor STEP and its C3 washer-pocket modification.
+3. Original ELEGOO plate meshes for original interfaces and relative geometry.
+4. Manufacturer drawings for positively identified components.
+5. Clearly labelled nominal envelopes for unidentified hardware.
+
+Do not promote an old design assumption into a measured hardware dimension.
+Do not claim to have inspected missing photos. A reference model is not proof
+of fit. Preserve the successful motor/block interface and wheel relief when
+widening the center section; never uniformly scale the original motor pattern.
+
+Confirmed and accepted constraints
+- Flat power bank: 69.85 x 146.05 x 12.7 mm (2 3/4 x 5 3/4 x 1/2 inches).
+- Requested lateral/end allowance: 1.5875 mm per side, making the clear tray
+  envelope 73.025 x 149.225 mm. Keep this bank low and centered.
+- Silver motor block outer dimensions: 22 x 12 x 4 mm.
+- Existing round screw heads: diameter 4 mm, height 2 mm. Thread diameter is not
+  established by those head dimensions. Existing washers have diameter 6 mm.
+- Successful washer-pocket selection: 7.4 mm width and 3.3 mm depth; retain the
+  tested C1 motor-seat floor of 1.8 mm and the original hole locations.
+- Adjustable motor-battery mount: retain 65–90 mm pitch adjustment and a recessed
+  washer/head track with 2.4 mm bearing floor. 76 mm is OEM nominal, not a measured
+  assertion about the user's pack. Keep switch, output plug, and charge port open.
+- Pi uses a 58 x 49 mm mounting pattern. Exact Pi model is unconfirmed.
+- Pi and board posts must be removable and kept clear of inner axles.
+- Labels must be large enough to read and kept out of bearing/contact surfaces.
+
+Working method
+Make concrete CAD changes and validate them before presenting a project. Batch
+related fit coupons when a physical tolerance really remains uncertain. Reuse
+successful tests; do not require more coupons for already proven interfaces.
+Record the exact source file, dimensions, part count, orientation, and change
+reason for each revision. Keep old proven fit artifacts as baselines.
+
+Bambu deliverables
+Deliver a native multi-plate Bambu 3MF with actual retained triangle geometry,
+every required printed instance, correct machine/material settings, readable
+previews, and toolpaths for each plate when available. Reopen the exact final
+file in Bambu Studio's native parser. Verify meshes, plate membership, bed and
+cutter clearance, and that every object has sliced extrusion. Do not describe
+successful Studio parsing as a tested local-file import in Bambu Handy. Explain
+the Studio-to-printer/Handy transfer workflow clearly.
+
+Fusion deliverables
+Use one assembly document with named internal components, realistic material
+intent, separate electronics references, sensible fixed and moving joints, and
+useful editable sketches/features where practical in Personal use. Keep STEP
+imports distinct from native parametric features. Reference parameters must
+never be described as dimensions that automatically resize imported solids.
+Retain a portable STEP fallback and full source files. Only call a file an F3D
+after Autodesk Fusion itself has successfully exported that native archive.
+Record whether native Fusion execution and joint health were actually tested.
+
+Electronics and validation
+Preserve the working stock wiring. Keep old and New ELEGOO revision references
+separate: their motor-driver details differ. Do not invent connector pinouts,
+reverse polarity, a PCB layout, or a calibrated material/strength simulation.
+Use clearances and source-backed geometry checks for mechanical validation;
+report physical assembly and strength tests separately from digital checks.

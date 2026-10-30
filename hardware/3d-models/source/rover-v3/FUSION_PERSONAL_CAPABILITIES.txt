@@ -1,0 +1,54 @@
+FUSION PERSONAL - SCOPE USED FOR THIS ROVER
+Official Autodesk sources checked 2026-10-20.
+
+SUPPORTED WORKFLOW
+Standard 3D design, internal assembly components, native modelling features,
+scripts/API and local rendering are available. Personal supports STEP and F3D
+files. The rover uses one assembly document containing internal components to
+avoid creating a separate editable document for every part.
+
+PERSONAL LIMITS RELEVANT HERE
+There are 10 active editable documents; inactive stored documents can be made
+editable later. Drawings have one sheet and print-only output. Simulation,
+generative design, extensions and cloud rendering are excluded.
+
+Autodesk's live comparison currently lists two schematic sheets, four signal
+layers and unlimited board area for Personal electronics. A historical 2020
+limit table still present in its support FAQ lists different layer/area limits.
+This package does not rely on either PCB limit and creates no editable PCB.
+Check the current installed account entitlement before starting a future PCB.
+
+The built-in Fusion Bill of Materials feature is unavailable in Personal.
+This package supplies an independent component CSV. Local appearances and
+physical material assignments do not require an engineering simulation claim.
+
+ECAD AUTOMATION
+Autodesk's current Electronics API is a preview with design modification
+read-only: it can inspect and export designs but does not expose public write
+operations for creating/editing board content. This package therefore supplies
+the mechanical electronics reference assembly and recovered original diagram
+documents. It does not claim to generate an editable ECAD project or netlist.
+
+DELIVERABLE DISTINCTION
+The assembly STEP can be opened directly as geometry. The Python builder must
+run in Fusion desktop to create native components, features and joints and
+export the actual F3D. Imported STEP solids retain their geometry; their source
+feature history is not reconstructed automatically. Only explicitly supported
+native_recipe parts receive recreated native modelling features.
+
+OFFICIAL REFERENCES
+Personal-use FAQ and feature limits:
+https://help.autodesk.com/view/fusion360/ENU/?caas=caas/sfdcarticles/sfdcarticles/Fusion-360-Free-License-Changes.html
+
+Personal product comparison, including the live Electronics table:
+https://www.autodesk.com/products/fusion-360/personal/compare
+
+Bill of Materials availability:
+https://help.autodesk.com/view/fusion360/ENU/?contextId=FUSION-BOM
+
+Supported file formats:
+https://help.autodesk.com/view/fusion360/ENU/?guid=TPD-SUPPORTED-FILE-FORMATS
+
+Electronics API scope:
+https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ElectronicsIntro.htm
+
