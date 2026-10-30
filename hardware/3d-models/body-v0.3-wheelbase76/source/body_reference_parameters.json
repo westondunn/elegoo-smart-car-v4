@@ -1,0 +1,51 @@
+{
+  "units": "mm",
+  "version": "0.3.0",
+  "front_axis": "+Y",
+  "source_center_xy": [
+    10.1923,
+    -50.9949
+  ],
+  "bottom_plate_underside_z": 18.0,
+  "deck_height_above_top": 36.0,
+  "deck_thickness": 3.2,
+  "deck_width": 126.0,
+  "deck_length": 104.0,
+  "deck_center_y": -42.0,
+  "m3_clearance": 3.5,
+  "reference_wheel_diameter": 64.77,
+  "reference_wheel_width": 27.94,
+  "reference_wheel_center_x": 72.0,
+  "reference_front_axle_y": 36.14822630233862,
+  "reference_rear_axle_y": -40.05177369766138,
+  "reference_uno_size": [
+    68.6,
+    53.4,
+    1.6
+  ],
+  "reference_uno_center_xy": [
+    10.5,
+    4.0
+  ],
+  "reference_battery_size": [
+    70.0,
+    52.0,
+    22.0
+  ],
+  "reference_battery_center_xy": [
+    0.0,
+    -81.14
+  ],
+  "reference_camera_pcb_size": [
+    28.0,
+    60.0,
+    1.6
+  ],
+  "print_area_xy": [
+    180.0,
+    180.0
+  ],
+  "notice": "Tire size and 76.2 mm wheelbase are user approximate measurements. Axle-pair midpoint inferred from source mirrored motor-bracket holes, assuming identical reversed gearmotors; not physically verified. X wheel centers and ground offset remain reference estimates. Validated mounts unchanged.",
+  "reference_motor_front_mount_y": 59.62227285545835,
+  "reference_motor_rear_mount_y": -63.52582025078111
+}

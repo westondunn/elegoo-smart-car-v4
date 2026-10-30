@@ -1,0 +1,485 @@
+{
+  "reviewed_build_sha256": "223aeefd45ca34be9412896c616b2d183d3d5317a05727cea8c1209df7cc0709",
+  "active_explorer_components": 167,
+  "positive_volume_intersections": [],
+  "added_fastener_to_pla_or_source_intersections": [],
+  "print_checks": [
+    {
+      "part": "01_slotted_deck",
+      "quantity": 1,
+      "is_valid": true,
+      "solid_count": 1,
+      "print_size_xyz": [
+        126.0,
+        104.0,
+        3.2
+      ],
+      "print_z_min": 0.0,
+      "fits_180mm_xy": true,
+      "xy_with_4mm_brim": [
+        134.0,
+        112.0
+      ]
+    },
+    {
+      "part": "02_deck_spacer_36mm",
+      "quantity": 4,
+      "is_valid": true,
+      "solid_count": 1,
+      "print_size_xyz": [
+        10.0,
+        10.0,
+        36.0
+      ],
+      "print_z_min": 0.0,
+      "fits_180mm_xy": true,
+      "xy_with_4mm_brim": [
+        18.0,
+        18.0
+      ]
+    },
+    {
+      "part": "03_side_guard_left",
+      "quantity": 1,
+      "is_valid": true,
+      "solid_count": 1,
+      "print_size_xyz": [
+        28.0,
+        66.0,
+        9.5
+      ],
+      "print_z_min": 0.0,
+      "fits_180mm_xy": true,
+      "xy_with_4mm_brim": [
+        36.0,
+        74.0
+      ]
+    },
+    {
+      "part": "04_side_guard_right",
+      "quantity": 1,
+      "is_valid": true,
+      "solid_count": 1,
+      "print_size_xyz": [
+        28.0,
+        66.0,
+        9.500000000000004
+      ],
+      "print_z_min": -2.6645352591003757e-15,
+      "fits_180mm_xy": true,
+      "xy_with_4mm_brim": [
+        36.0,
+        74.0
+      ]
+    },
+    {
+      "part": "05_front_guard",
+      "quantity": 1,
+      "is_valid": true,
+      "solid_count": 1,
+      "print_size_xyz": [
+        170.0,
+        56.062823618207204,
+        14.0
+      ],
+      "print_z_min": 0.0,
+      "fits_180mm_xy": true,
+      "xy_with_4mm_brim": [
+        178.0,
+        64.0628236182072
+      ]
+    },
+    {
+      "part": "06_front_guard_spacer_4mm",
+      "quantity": 2,
+      "is_valid": true,
+      "solid_count": 1,
+      "print_size_xyz": [
+        9.4,
+        9.4,
+        4.0
+      ],
+      "print_z_min": 0.0,
+      "fits_180mm_xy": true,
+      "xy_with_4mm_brim": [
+        17.4,
+        17.4
+      ]
+    },
+    {
+      "part": "12_downward_sensor_carrier",
+      "quantity": 2,
+      "is_valid": true,
+      "solid_count": 1,
+      "print_size_xyz": [
+        33.0,
+        37.0,
+        3.0
+      ],
+      "print_z_min": 0.0,
+      "fits_180mm_xy": true,
+      "xy_with_4mm_brim": [
+        41.0,
+        45.0
+      ]
+    },
+    {
+      "part": "07_rear_sensor_carrier",
+      "quantity": 1,
+      "is_valid": true,
+      "solid_count": 1,
+      "print_size_xyz": [
+        34.0,
+        14.0,
+        30.0
+      ],
+      "print_z_min": 0.0,
+      "fits_180mm_xy": true,
+      "xy_with_4mm_brim": [
+        42.0,
+        22.0
+      ]
+    },
+    {
+      "part": "08_cable_tie_saddle",
+      "quantity": 4,
+      "is_valid": true,
+      "solid_count": 1,
+      "print_size_xyz": [
+        23.0,
+        12.0,
+        3.0
+      ],
+      "print_z_min": 0.0,
+      "fits_180mm_xy": true,
+      "xy_with_4mm_brim": [
+        31.0,
+        20.0
+      ]
+    },
+    {
+      "part": "09_optional_servo_adapter",
+      "quantity": 1,
+      "is_valid": true,
+      "solid_count": 1,
+      "print_size_xyz": [
+        37.0,
+        43.0,
+        3.2
+      ],
+      "print_z_min": 0.0,
+      "fits_180mm_xy": true,
+      "xy_with_4mm_brim": [
+        45.0,
+        51.0
+      ]
+    },
+    {
+      "part": "10_optional_pi4_tray",
+      "quantity": 1,
+      "is_valid": true,
+      "solid_count": 1,
+      "print_size_xyz": [
+        96.0,
+        65.0,
+        8.8
+      ],
+      "print_z_min": 0.0,
+      "fits_180mm_xy": true,
+      "xy_with_4mm_brim": [
+        104.0,
+        73.0
+      ]
+    },
+    {
+      "part": "11_pi_tray_spacer_4mm",
+      "quantity": 4,
+      "is_valid": true,
+      "solid_count": 1,
+      "print_size_xyz": [
+        7.6,
+        7.6,
+        4.0
+      ],
+      "print_z_min": 0.0,
+      "fits_180mm_xy": true,
+      "xy_with_4mm_brim": [
+        15.6,
+        15.6
+      ]
+    },
+    {
+      "part": "00_mount_fit_gauge",
+      "quantity": 1,
+      "is_valid": true,
+      "solid_count": 1,
+      "print_size_xyz": [
+        122.0444152263231,
+        100.33317755453798,
+        2.0
+      ],
+      "print_z_min": 0.0,
+      "fits_180mm_xy": true,
+      "xy_with_4mm_brim": [
+        130.0444152263231,
+        108.33317755453798
+      ]
+    }
+  ],
+  "source_top_deck_mount_checks": [
+    {
+      "source_target_xy": [
+        56.544415226323096,
+        -1.6668224454620173
+      ],
+      "M3_shaft_intersection_with_deck_mm3": 0.0
+    },
+    {
+      "source_target_xy": [
+        -55.45596512702609,
+        -2.656526326535676
+      ],
+      "M3_shaft_intersection_with_deck_mm3": 0.0
+    },
+    {
+      "source_target_xy": [
+        56.54401468311008,
+        -82.66682255836479
+      ],
+      "M3_shaft_intersection_with_deck_mm3": 0.0
+    },
+    {
+      "source_target_xy": [
+        -55.455985131350815,
+        -82.6668225583648
+      ],
+      "M3_shaft_intersection_with_deck_mm3": 0.0
+    }
+  ],
+  "mount_gauge_at_final_deck_height": {
+    "z": 102.70522212982178,
+    "intersections": [],
+    "scope": "Approximate hardware envelopes; requires four printed deck spacers and loosely installed long screws."
+  },
+  "head_sweep_conservative_bound": {
+    "axis_xy": [
+      -0.9001850000000002,
+      81.189175
+    ],
+    "radius_mm": 23.606196220484147,
+    "z_min": 76.90522212982178,
+    "z_max": 172.90522212982177,
+    "components_included": [
+      "Servo_horn_explorer",
+      "OEM_sonar_head_bracket_explorer",
+      "HC_SR04_PCB_explorer",
+      "Ultrasonic_transducer_-1_explorer",
+      "Ultrasonic_mesh_-1_explorer",
+      "Ultrasonic_transducer_1_explorer",
+      "Ultrasonic_mesh_1_explorer",
+      "Camera_support_bracket_explorer",
+      "ESP32_camera_PCB_explorer",
+      "ESP32_WROVER_radio_module_explorer",
+      "Camera_lens_explorer",
+      "Camera_XH_connector_explorer"
+    ],
+    "scope": "Rigid head reference geometry, full360deg yaw bound includes +/-90deg. Static SG90 body/ears/boss and cable route excluded. Actual flex cables and unmeasured hardware still require physical check.",
+    "accessory_clearances": [
+      {
+        "printed_part": "01_slotted_deck",
+        "conservative_minimum_distance_mm": 54.128812164703646
+      },
+      {
+        "printed_part": "Deck_spacer_1",
+        "conservative_minimum_distance_mm": 72.21542054816565
+      },
+      {
+        "printed_part": "Deck_spacer_2",
+        "conservative_minimum_distance_mm": 71.42597248642254
+      },
+      {
+        "printed_part": "Deck_spacer_3",
+        "conservative_minimum_distance_mm": 145.02739503731328
+      },
+      {
+        "printed_part": "Deck_spacer_4",
+        "conservative_minimum_distance_mm": 144.0933210452533
+      },
+      {
+        "printed_part": "03_side_guard_left",
+        "conservative_minimum_distance_mm": 81.8662932126133
+      },
+      {
+        "printed_part": "04_side_guard_right",
+        "conservative_minimum_distance_mm": 82.78236478686688
+      },
+      {
+        "printed_part": "05_front_guard",
+        "conservative_minimum_distance_mm": 13.058411091184231
+      },
+      {
+        "printed_part": "Guard_spacer_1",
+        "conservative_minimum_distance_mm": 26.105442577746587
+      },
+      {
+        "printed_part": "Guard_spacer_2",
+        "conservative_minimum_distance_mm": 23.877741395896592
+      },
+      {
+        "printed_part": "Downward_carrier_-1",
+        "conservative_minimum_distance_mm": 11.916406790617437
+      },
+      {
+        "printed_part": "Downward_carrier_1",
+        "conservative_minimum_distance_mm": 12.605543777323678
+      },
+      {
+        "printed_part": "07_rear_sensor_carrier",
+        "conservative_minimum_distance_mm": 138.58297877951586
+      },
+      {
+        "printed_part": "09_optional_servo_adapter",
+        "conservative_minimum_distance_mm": 7.0
+      },
+      {
+        "printed_part": "10_optional_pi4_tray",
+        "conservative_minimum_distance_mm": 84.08297877951586
+      },
+      {
+        "printed_part": "Pi_tray_spacer_1",
+        "conservative_minimum_distance_mm": 134.13857548449815
+      },
+      {
+        "printed_part": "Pi_tray_spacer_2",
+        "conservative_minimum_distance_mm": 104.52175538650037
+      },
+      {
+        "printed_part": "Pi_tray_spacer_3",
+        "conservative_minimum_distance_mm": 134.62820082290554
+      },
+      {
+        "printed_part": "Pi_tray_spacer_4",
+        "conservative_minimum_distance_mm": 105.12084620940956
+      }
+    ]
+  },
+  "nominal_wheel_to_print_clearances": [
+    {
+      "printed_part": "01_slotted_deck",
+      "nearest_nominal_tire": "Tire_left_rear",
+      "clearance_mm": 37.70522212982178
+    },
+    {
+      "printed_part": "Deck_spacer_1",
+      "nearest_nominal_tire": "Tire_right_front",
+      "clearance_mm": 29.54828916851432
+    },
+    {
+      "printed_part": "Deck_spacer_2",
+      "nearest_nominal_tire": "Tire_left_rear",
+      "clearance_mm": 29.371987835638716
+    },
+    {
+      "printed_part": "Deck_spacer_3",
+      "nearest_nominal_tire": "Tire_right_rear",
+      "clearance_mm": 6.647128122182588
+    },
+    {
+      "printed_part": "Deck_spacer_4",
+      "nearest_nominal_tire": "Tire_left_rear",
+      "clearance_mm": 6.844740212105881
+    },
+    {
+      "printed_part": "03_side_guard_left",
+      "nearest_nominal_tire": "Tire_left_rear",
+      "clearance_mm": 9.705222129821777
+    },
+    {
+      "printed_part": "04_side_guard_right",
+      "nearest_nominal_tire": "Tire_right_rear",
+      "clearance_mm": 9.705222129821777
+    },
+    {
+      "printed_part": "05_front_guard",
+      "nearest_nominal_tire": "Tire_right_front",
+      "clearance_mm": 10.514909265728319
+    },
+    {
+      "printed_part": "Guard_spacer_1",
+      "nearest_nominal_tire": "Tire_right_front",
+      "clearance_mm": 9.7222997809456
+    },
+    {
+      "printed_part": "Guard_spacer_2",
+      "nearest_nominal_tire": "Tire_left_front",
+      "clearance_mm": 9.912845009612314
+    },
+    {
+      "printed_part": "Downward_carrier_-1",
+      "nearest_nominal_tire": "Tire_left_front",
+      "clearance_mm": 37.14380214460937
+    },
+    {
+      "printed_part": "Downward_carrier_1",
+      "nearest_nominal_tire": "Tire_right_front",
+      "clearance_mm": 37.14380214460937
+    },
+    {
+      "printed_part": "07_rear_sensor_carrier",
+      "nearest_nominal_tire": "Tire_left_rear",
+      "clearance_mm": 61.28600231410541
+    },
+    {
+      "printed_part": "09_optional_servo_adapter",
+      "nearest_nominal_tire": "Tire_right_front",
+      "clearance_mm": 35.2436800125375
+    },
+    {
+      "printed_part": "10_optional_pi4_tray",
+      "nearest_nominal_tire": "Tire_left_rear",
+      "clearance_mm": 46.23287763625184
+    },
+    {
+      "printed_part": "Pi_tray_spacer_1",
+      "nearest_nominal_tire": "Tire_left_rear",
+      "clearance_mm": 43.74878017886777
+    },
+    {
+      "printed_part": "Pi_tray_spacer_2",
+      "nearest_nominal_tire": "Tire_left_rear",
+      "clearance_mm": 43.74878017886777
+    },
+    {
+      "printed_part": "Pi_tray_spacer_3",
+      "nearest_nominal_tire": "Tire_right_rear",
+      "clearance_mm": 43.74878017886777
+    },
+    {
+      "printed_part": "Pi_tray_spacer_4",
+      "nearest_nominal_tire": "Tire_right_rear",
+      "clearance_mm": 43.74878017886777
+    }
+  ],
+  "deck_spacer_to_side_guard_clearances": [
+    {
+      "spacer": "Deck_spacer_1",
+      "nearest_side_guard": "04_side_guard_right",
+      "clearance_mm": 3.3331775545379827
+    },
+    {
+      "spacer": "Deck_spacer_2",
+      "nearest_side_guard": "03_side_guard_left",
+      "clearance_mm": 2.343473673464324
+    },
+    {
+      "spacer": "Deck_spacer_3",
+      "nearest_side_guard": "04_side_guard_right",
+      "clearance_mm": 1.6668225583647853
+    },
+    {
+      "spacer": "Deck_spacer_4",
+      "nearest_side_guard": "03_side_guard_left",
+      "clearance_mm": 1.6668225583647995
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "created_utc": "2026-10-12T22:29:50.435387+00:00",
+  "status": "passed",
+  "renderer": "Matplotlib Agg; opaque BRep tessellation; no OpenGL and no generated imagery",
+  "geometry_sources_sha256": {
+    "build_full_body.py": "4a25721027ceea20f52a605ded3e8fd93ef21778db4ab07d126956c92fa6ec2f",
+    "full_body_parameters.json": "4a3747ffe9a076aca66898d1463dabcbe093ce8a49065e8082d3c500ca2882e2",
+    "body_reference_rover.py": "6dd702f4ee50331c432698160b00bae217d25d85a73d1fae3d98e06897d91dd6",
+    "body_reference_parameters.json": "d902dcb2cc64851c7aaa02920541409aa2d43bd39cc4377c2246764bb8afc138",
+    "body_reference_profiles.json": "3c43f5000e7aafb51ae2e5e31f8f603af5a7025052637c06113078b2eb9610b3"
+  },
+  "renderer_sha256": "57ae06c3da7894c8f2b635cd93044d399bab81d3661b632c2049ffe6101efcc9",
+  "assembled_component_count": 195,
+  "exploded_component_count": 141,
+  "body_panel_count": 6,
+  "unique_print_design_count": 8,
+  "tessellated_triangles": 566262,
+  "assembled_visible_triangles": 280707,
+  "exploded_visible_triangles": 258516,
+  "display_only_bulkhead_translation_mm": [
+    0,
+    96,
+    90
+  ],
+  "visual_checks": [
+    "Assembled exterior fits its canvas; header, subtitle, legend and footer are visible.",
+    "All six numbered shell pieces are legible in the exploded view.",
+    "The revised exploded bulkhead translation avoids its former intersection with the camera head.",
+    "Uniform camera-head subdivision removes the initial painter-sorting artifacts.",
+    "The parts sheet contains all six body panels and both joint coupons, with dimensions and quantities.",
+    "Every preview was regenerated from the final supplied geometry source after the fit-review updates."
+  ],
+  "limitations": [
+    "Rendering verifies presentation, not manufacturing accuracy or physical fit."
+  ],
+  "files": [
+    {
+      "name": "full_body_preview.png",
+      "pixels": [
+        1700,
+        1350
+      ],
+      "bytes": 128357,
+      "sha256": "dea9ef190eb618aad73d43eec9b4f13deaeab934d1fd4789284a215a5cf929e8"
+    },
+    {
+      "name": "full_body_exploded.png",
+      "pixels": [
+        1700,
+        1350
+      ],
+      "bytes": 152453,
+      "sha256": "510e70edabcafa065fb9f9dd2f6e361d26bcf1e41c9ea016171bafe9152baffb"
+    },
+    {
+      "name": "full_body_parts.png",
+      "pixels": [
+        1800,
+        1470
+      ],
+      "bytes": 136561,
+      "sha256": "efdb8cc92940386ca39b9ebf90376f96093caa7e982f925a6bd4232c9253499b"
+    }
+  ]
+}

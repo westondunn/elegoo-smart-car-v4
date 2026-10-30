@@ -1,0 +1,3573 @@
+{
+  "created_utc": "2026-10-12T22:30:51.451827+00:00",
+  "deliverables": "/workspace/scratch/5751292c2c7f/rover-cad/full-body/deliverables",
+  "valid": true,
+  "errors": [],
+  "print_packs": [
+    {
+      "file": "body_00_joint_check.3mf",
+      "bytes": 22692,
+      "sha256": "c49c8bb935b6acbeb0878d4d7f6c7d9b58b27e96ef5567918edf8117cf1e0dc5",
+      "core_validation": {
+        "path": "/workspace/scratch/5751292c2c7f/rover-cad/full-body/deliverables/body_00_joint_check.3mf",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "validation_scope": [
+          "OPC package/CRC",
+          "core XML resource/build references",
+          "explicit millimeter units",
+          "indexed mesh topology",
+          "edge/vertex manifoldness",
+          "triangle winding",
+          "degeneracy",
+          "signed volume",
+          "build transforms",
+          "bounding boxes"
+        ],
+        "not_validated": [
+          "XML XSD schema (unless separately checked)",
+          "self-intersections",
+          "shell containment",
+          "minimum wall thickness",
+          "physical fit",
+          "printer profile",
+          "toolpaths",
+          "actual slicer import"
+        ],
+        "unit": "millimeter",
+        "build_items": 2,
+        "resource_objects": 2,
+        "package_parts": [
+          "[Content_Types].xml",
+          "_rels/.rels",
+          "3D/3dmodel.model"
+        ],
+        "objects": [
+          {
+            "valid": true,
+            "vertices": 672,
+            "triangles": 1352,
+            "edges": 2028,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "inconsistent_winding_edges": 0,
+            "nonmanifold_vertices": 0,
+            "degenerate_triangles": 0,
+            "duplicate_triangles": 0,
+            "unused_vertices": 0,
+            "connected_surface_shells": 1,
+            "surface_shell_signed_volumes_mm3": [
+              2866.4419508848378
+            ],
+            "signed_volume_mm3": 2866.4419508848378,
+            "surface_area_mm2": 2559.368641040566,
+            "bounds_mm": [
+              [
+                1.4210854715202004e-14,
+                0.0,
+                0.0
+              ],
+              [
+                22.0,
+                24.0,
+                19.0
+              ]
+            ],
+            "size_mm": [
+              21.999999999999986,
+              24.0,
+              19.0
+            ],
+            "errors": [],
+            "warnings": [],
+            "self_intersection_check": "not_performed",
+            "name": "body_00_joint_side_sample",
+            "object_id": 2,
+            "transform": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                4.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                4.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "build_bounds_mm": [
+              [
+                4.000000000000014,
+                4.0,
+                0.0
+              ],
+              [
+                26.0,
+                28.0,
+                19.0
+              ]
+            ],
+            "build_size_mm": [
+              21.999999999999986,
+              24.0,
+              19.0
+            ],
+            "build_volume_mm3": 2866.4419508848378
+          },
+          {
+            "valid": true,
+            "vertices": 218,
+            "triangles": 436,
+            "edges": 654,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "inconsistent_winding_edges": 0,
+            "nonmanifold_vertices": 0,
+            "degenerate_triangles": 0,
+            "duplicate_triangles": 0,
+            "unused_vertices": 0,
+            "connected_surface_shells": 1,
+            "surface_shell_signed_volumes_mm3": [
+              827.003072096461
+            ],
+            "signed_volume_mm3": 827.003072096461,
+            "surface_area_mm2": 898.434667908459,
+            "bounds_mm": [
+              [
+                0.0,
+                0.0,
+                -1.9420207181221404e-16
+              ],
+              [
+                16.099999999999994,
+                21.999999999999986,
+                2.4000000000000057
+              ]
+            ],
+            "size_mm": [
+              16.099999999999994,
+              21.999999999999986,
+              2.4000000000000057
+            ],
+            "errors": [],
+            "warnings": [],
+            "self_intersection_check": "not_performed",
+            "name": "body_00_joint_rear_sample",
+            "object_id": 3,
+            "transform": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                31.000783443503877
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                4.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "build_bounds_mm": [
+              [
+                31.000783443503877,
+                4.0,
+                -1.9420207181221404e-16
+              ],
+              [
+                47.10078344350387,
+                25.999999999999986,
+                2.4000000000000057
+              ]
+            ],
+            "build_size_mm": [
+              16.099999999999994,
+              21.999999999999986,
+              2.4000000000000057
+            ],
+            "build_volume_mm3": 827.003072096461
+          }
+        ],
+        "build_bounds_mm": [
+          [
+            4.000000000000014,
+            4.0,
+            -1.9420207181221404e-16
+          ],
+          [
+            47.10078344350387,
+            28.0,
+            19.0
+          ]
+        ],
+        "build_size_mm": [
+          43.10078344350386,
+          24.0,
+          19.0
+        ],
+        "sha256": "c49c8bb935b6acbeb0878d4d7f6c7d9b58b27e96ef5567918edf8117cf1e0dc5",
+        "bytes": 22692
+      },
+      "independent_lib3mf": {
+        "validator": "3MF Consortium lib3mf",
+        "version": [
+          2,
+          5,
+          0
+        ],
+        "strict_reader": true,
+        "valid": true,
+        "unit": "millimeter",
+        "reader_warnings": [],
+        "errors": [],
+        "objects": [
+          {
+            "name": "body_00_joint_side_sample",
+            "vertices": 672,
+            "triangles": 1352,
+            "is_valid": true,
+            "is_manifold_and_oriented": true,
+            "geometry_matches": true
+          },
+          {
+            "name": "body_00_joint_rear_sample",
+            "vertices": 218,
+            "triangles": 436,
+            "is_valid": true,
+            "is_manifold_and_oriented": true,
+            "geometry_matches": true
+          }
+        ],
+        "build_items": [
+          {
+            "partnumber": "body_00_joint_side_sample",
+            "object_id": 2,
+            "transform_matches": true
+          },
+          {
+            "partnumber": "body_00_joint_rear_sample",
+            "object_id": 3,
+            "transform_matches": true
+          }
+        ],
+        "bounds_mm": [
+          [
+            4.0,
+            4.0,
+            -1.9420207608341082e-16
+          ],
+          [
+            47.10078430175781,
+            28.0,
+            19.0
+          ]
+        ],
+        "actual_slicer_import": "not_performed"
+      },
+      "pure_model_package": {
+        "valid": true,
+        "parts": [
+          "[Content_Types].xml",
+          "_rels/.rels",
+          "3D/3dmodel.model"
+        ],
+        "errors": [],
+        "printer_profile_present": false,
+        "gcode_present": false,
+        "filament_mapping_present": false
+      },
+      "valid": true,
+      "errors": [],
+      "expected_names": [
+        "body_00_joint_side_sample",
+        "body_00_joint_rear_sample"
+      ],
+      "actual_names": [
+        "body_00_joint_side_sample",
+        "body_00_joint_rear_sample"
+      ],
+      "expected_count": 2,
+      "actual_count": 2,
+      "bed_xy_mm": [
+        180.0,
+        180.0
+      ],
+      "edge_margin_mm": 4.0,
+      "minimum_spacing_mm": 5.0,
+      "transformed_object_bounds": [
+        {
+          "name": "body_00_joint_side_sample",
+          "minimum_mm": [
+            4.000000000000014,
+            4.0,
+            0.0
+          ],
+          "maximum_mm": [
+            26.0,
+            28.0,
+            19.0
+          ],
+          "inside_bed_xy_and_nonnegative_z": true,
+          "touches_z0": true,
+          "edge_margin_satisfied": true,
+          "unscaled_rigid_transform": true,
+          "design_name": "body_00_joint_side_sample",
+          "modeled_volume_mm3": 2866.4006165838036,
+          "mesh_volume_mm3": 2866.4419508848378,
+          "volume_relative_error": 1.4420280541027372e-05,
+          "local_size_mm": [
+            21.999999999999986,
+            24.0,
+            19.0
+          ],
+          "modeled_size_mm": [
+            22.000000000000014,
+            24.0,
+            19.000000000000004
+          ],
+          "local_dimensions_match_cad": true
+        },
+        {
+          "name": "body_00_joint_rear_sample",
+          "minimum_mm": [
+            31.000783443503877,
+            4.0,
+            -1.9420207181221404e-16
+          ],
+          "maximum_mm": [
+            47.10078344350387,
+            25.999999999999986,
+            2.4000000000000057
+          ],
+          "inside_bed_xy_and_nonnegative_z": true,
+          "touches_z0": true,
+          "edge_margin_satisfied": true,
+          "unscaled_rigid_transform": true,
+          "design_name": "body_00_joint_rear_sample",
+          "modeled_volume_mm3": 826.9892939961153,
+          "mesh_volume_mm3": 827.003072096461,
+          "volume_relative_error": 1.6660554671889263e-05,
+          "local_size_mm": [
+            16.099999999999994,
+            21.999999999999986,
+            2.4000000000000057
+          ],
+          "modeled_size_mm": [
+            16.099999999999994,
+            22.0,
+            2.4000000000000226
+          ],
+          "local_dimensions_match_cad": true
+        }
+      ],
+      "pair_clearances": [
+        {
+          "names": [
+            "body_00_joint_side_sample",
+            "body_00_joint_rear_sample"
+          ],
+          "aabb_xy_distance_mm": 5.000783443503877,
+          "aabbs_do_not_overlap_xy": true,
+          "minimum_spacing_satisfied": true
+        }
+      ]
+    },
+    {
+      "file": "body_01_left_side.3mf",
+      "bytes": 111148,
+      "sha256": "4677e01c157fca9d11a404a423a8e6b3554a9e53cce95736b2f1e8756c9b2f81",
+      "core_validation": {
+        "path": "/workspace/scratch/5751292c2c7f/rover-cad/full-body/deliverables/body_01_left_side.3mf",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "validation_scope": [
+          "OPC package/CRC",
+          "core XML resource/build references",
+          "explicit millimeter units",
+          "indexed mesh topology",
+          "edge/vertex manifoldness",
+          "triangle winding",
+          "degeneracy",
+          "signed volume",
+          "build transforms",
+          "bounding boxes"
+        ],
+        "not_validated": [
+          "XML XSD schema (unless separately checked)",
+          "self-intersections",
+          "shell containment",
+          "minimum wall thickness",
+          "physical fit",
+          "printer profile",
+          "toolpaths",
+          "actual slicer import"
+        ],
+        "unit": "millimeter",
+        "build_items": 1,
+        "resource_objects": 1,
+        "package_parts": [
+          "[Content_Types].xml",
+          "_rels/.rels",
+          "3D/3dmodel.model"
+        ],
+        "objects": [
+          {
+            "valid": true,
+            "vertices": 5311,
+            "triangles": 10710,
+            "edges": 16065,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "inconsistent_winding_edges": 0,
+            "nonmanifold_vertices": 0,
+            "degenerate_triangles": 0,
+            "duplicate_triangles": 0,
+            "unused_vertices": 0,
+            "connected_surface_shells": 1,
+            "surface_shell_signed_volumes_mm3": [
+              41226.28271301062
+            ],
+            "signed_volume_mm3": 41226.28271301062,
+            "surface_area_mm2": 37432.594064451434,
+            "bounds_mm": [
+              [
+                -1.9420207181221404e-16,
+                0.0,
+                -1.1605264649234535e-15
+              ],
+              [
+                124.0,
+                166.0,
+                21.000000000000014
+              ]
+            ],
+            "size_mm": [
+              124.0,
+              166.0,
+              21.000000000000014
+            ],
+            "errors": [],
+            "warnings": [],
+            "self_intersection_check": "not_performed",
+            "name": "body_01_left_side",
+            "object_id": 2,
+            "transform": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                4.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                4.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "build_bounds_mm": [
+              [
+                4.0,
+                4.0,
+                -1.1605264649234535e-15
+              ],
+              [
+                128.0,
+                170.0,
+                21.000000000000014
+              ]
+            ],
+            "build_size_mm": [
+              124.0,
+              166.0,
+              21.000000000000014
+            ],
+            "build_volume_mm3": 41226.28271301062
+          }
+        ],
+        "build_bounds_mm": [
+          [
+            4.0,
+            4.0,
+            -1.1605264649234535e-15
+          ],
+          [
+            128.0,
+            170.0,
+            21.000000000000014
+          ]
+        ],
+        "build_size_mm": [
+          124.0,
+          166.0,
+          21.000000000000014
+        ],
+        "sha256": "4677e01c157fca9d11a404a423a8e6b3554a9e53cce95736b2f1e8756c9b2f81",
+        "bytes": 111148
+      },
+      "independent_lib3mf": {
+        "validator": "3MF Consortium lib3mf",
+        "version": [
+          2,
+          5,
+          0
+        ],
+        "strict_reader": true,
+        "valid": true,
+        "unit": "millimeter",
+        "reader_warnings": [],
+        "errors": [],
+        "objects": [
+          {
+            "name": "body_01_left_side",
+            "vertices": 5311,
+            "triangles": 10710,
+            "is_valid": true,
+            "is_manifold_and_oriented": true,
+            "geometry_matches": true
+          }
+        ],
+        "build_items": [
+          {
+            "partnumber": "body_01_left_side",
+            "object_id": 2,
+            "transform_matches": true
+          }
+        ],
+        "bounds_mm": [
+          [
+            4.0,
+            4.0,
+            -1.1605265114175765e-15
+          ],
+          [
+            128.0,
+            170.0,
+            21.0
+          ]
+        ],
+        "actual_slicer_import": "not_performed"
+      },
+      "pure_model_package": {
+        "valid": true,
+        "parts": [
+          "[Content_Types].xml",
+          "_rels/.rels",
+          "3D/3dmodel.model"
+        ],
+        "errors": [],
+        "printer_profile_present": false,
+        "gcode_present": false,
+        "filament_mapping_present": false
+      },
+      "valid": true,
+      "errors": [],
+      "expected_names": [
+        "body_01_left_side"
+      ],
+      "actual_names": [
+        "body_01_left_side"
+      ],
+      "expected_count": 1,
+      "actual_count": 1,
+      "bed_xy_mm": [
+        180.0,
+        180.0
+      ],
+      "edge_margin_mm": 4.0,
+      "minimum_spacing_mm": 5.0,
+      "transformed_object_bounds": [
+        {
+          "name": "body_01_left_side",
+          "minimum_mm": [
+            4.0,
+            4.0,
+            -1.1605264649234535e-15
+          ],
+          "maximum_mm": [
+            128.0,
+            170.0,
+            21.000000000000014
+          ],
+          "inside_bed_xy_and_nonnegative_z": true,
+          "touches_z0": true,
+          "edge_margin_satisfied": true,
+          "unscaled_rigid_transform": true,
+          "design_name": "body_01_left_side",
+          "modeled_volume_mm3": 41220.76120947932,
+          "mesh_volume_mm3": 41226.28271301062,
+          "volume_relative_error": 0.00013394957708911804,
+          "local_size_mm": [
+            124.0,
+            166.0,
+            21.000000000000014
+          ],
+          "modeled_size_mm": [
+            124.00000000000001,
+            166.0,
+            21.000000000000014
+          ],
+          "local_dimensions_match_cad": true
+        }
+      ],
+      "pair_clearances": []
+    },
+    {
+      "file": "body_02_right_side.3mf",
+      "bytes": 76965,
+      "sha256": "2647151cf7f1f9c7ae43894e5a9c7b60277060062236eeefcf415d8232e237c4",
+      "core_validation": {
+        "path": "/workspace/scratch/5751292c2c7f/rover-cad/full-body/deliverables/body_02_right_side.3mf",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "validation_scope": [
+          "OPC package/CRC",
+          "core XML resource/build references",
+          "explicit millimeter units",
+          "indexed mesh topology",
+          "edge/vertex manifoldness",
+          "triangle winding",
+          "degeneracy",
+          "signed volume",
+          "build transforms",
+          "bounding boxes"
+        ],
+        "not_validated": [
+          "XML XSD schema (unless separately checked)",
+          "self-intersections",
+          "shell containment",
+          "minimum wall thickness",
+          "physical fit",
+          "printer profile",
+          "toolpaths",
+          "actual slicer import"
+        ],
+        "unit": "millimeter",
+        "build_items": 1,
+        "resource_objects": 1,
+        "package_parts": [
+          "[Content_Types].xml",
+          "_rels/.rels",
+          "3D/3dmodel.model"
+        ],
+        "objects": [
+          {
+            "valid": true,
+            "vertices": 3516,
+            "triangles": 7088,
+            "edges": 10632,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "inconsistent_winding_edges": 0,
+            "nonmanifold_vertices": 0,
+            "degenerate_triangles": 0,
+            "duplicate_triangles": 0,
+            "unused_vertices": 0,
+            "connected_surface_shells": 1,
+            "surface_shell_signed_volumes_mm3": [
+              36870.1875639464
+            ],
+            "signed_volume_mm3": 36870.1875639464,
+            "surface_area_mm2": 33369.95665723843,
+            "bounds_mm": [
+              [
+                0.0,
+                0.0,
+                -1.1605264649234535e-15
+              ],
+              [
+                124.0,
+                166.0,
+                21.000000000000014
+              ]
+            ],
+            "size_mm": [
+              124.0,
+              166.0,
+              21.000000000000014
+            ],
+            "errors": [],
+            "warnings": [],
+            "self_intersection_check": "not_performed",
+            "name": "body_02_right_side",
+            "object_id": 2,
+            "transform": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                4.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                4.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "build_bounds_mm": [
+              [
+                4.0,
+                4.0,
+                -1.1605264649234535e-15
+              ],
+              [
+                128.0,
+                170.0,
+                21.000000000000014
+              ]
+            ],
+            "build_size_mm": [
+              124.0,
+              166.0,
+              21.000000000000014
+            ],
+            "build_volume_mm3": 36870.1875639464
+          }
+        ],
+        "build_bounds_mm": [
+          [
+            4.0,
+            4.0,
+            -1.1605264649234535e-15
+          ],
+          [
+            128.0,
+            170.0,
+            21.000000000000014
+          ]
+        ],
+        "build_size_mm": [
+          124.0,
+          166.0,
+          21.000000000000014
+        ],
+        "sha256": "2647151cf7f1f9c7ae43894e5a9c7b60277060062236eeefcf415d8232e237c4",
+        "bytes": 76965
+      },
+      "independent_lib3mf": {
+        "validator": "3MF Consortium lib3mf",
+        "version": [
+          2,
+          5,
+          0
+        ],
+        "strict_reader": true,
+        "valid": true,
+        "unit": "millimeter",
+        "reader_warnings": [],
+        "errors": [],
+        "objects": [
+          {
+            "name": "body_02_right_side",
+            "vertices": 3516,
+            "triangles": 7088,
+            "is_valid": true,
+            "is_manifold_and_oriented": true,
+            "geometry_matches": true
+          }
+        ],
+        "build_items": [
+          {
+            "partnumber": "body_02_right_side",
+            "object_id": 2,
+            "transform_matches": true
+          }
+        ],
+        "bounds_mm": [
+          [
+            4.0,
+            4.0,
+            -1.1605265114175765e-15
+          ],
+          [
+            128.0,
+            170.0,
+            21.0
+          ]
+        ],
+        "actual_slicer_import": "not_performed"
+      },
+      "pure_model_package": {
+        "valid": true,
+        "parts": [
+          "[Content_Types].xml",
+          "_rels/.rels",
+          "3D/3dmodel.model"
+        ],
+        "errors": [],
+        "printer_profile_present": false,
+        "gcode_present": false,
+        "filament_mapping_present": false
+      },
+      "valid": true,
+      "errors": [],
+      "expected_names": [
+        "body_02_right_side"
+      ],
+      "actual_names": [
+        "body_02_right_side"
+      ],
+      "expected_count": 1,
+      "actual_count": 1,
+      "bed_xy_mm": [
+        180.0,
+        180.0
+      ],
+      "edge_margin_mm": 4.0,
+      "minimum_spacing_mm": 5.0,
+      "transformed_object_bounds": [
+        {
+          "name": "body_02_right_side",
+          "minimum_mm": [
+            4.0,
+            4.0,
+            -1.1605264649234535e-15
+          ],
+          "maximum_mm": [
+            128.0,
+            170.0,
+            21.000000000000014
+          ],
+          "inside_bed_xy_and_nonnegative_z": true,
+          "touches_z0": true,
+          "edge_margin_satisfied": true,
+          "unscaled_rigid_transform": true,
+          "design_name": "body_02_right_side",
+          "modeled_volume_mm3": 36864.75878945191,
+          "mesh_volume_mm3": 36870.1875639464,
+          "volume_relative_error": 0.00014726190195612888,
+          "local_size_mm": [
+            124.0,
+            166.0,
+            21.000000000000014
+          ],
+          "modeled_size_mm": [
+            124.0,
+            166.0,
+            21.000000000000014
+          ],
+          "local_dimensions_match_cad": true
+        }
+      ],
+      "pair_clearances": []
+    },
+    {
+      "file": "body_03_rear_panel.3mf",
+      "bytes": 48814,
+      "sha256": "0d6adf6880a6d91c0aeaccf673338254448f12b8a183807b859eee29460ea258",
+      "core_validation": {
+        "path": "/workspace/scratch/5751292c2c7f/rover-cad/full-body/deliverables/body_03_rear_panel.3mf",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "validation_scope": [
+          "OPC package/CRC",
+          "core XML resource/build references",
+          "explicit millimeter units",
+          "indexed mesh topology",
+          "edge/vertex manifoldness",
+          "triangle winding",
+          "degeneracy",
+          "signed volume",
+          "build transforms",
+          "bounding boxes"
+        ],
+        "not_validated": [
+          "XML XSD schema (unless separately checked)",
+          "self-intersections",
+          "shell containment",
+          "minimum wall thickness",
+          "physical fit",
+          "printer profile",
+          "toolpaths",
+          "actual slicer import"
+        ],
+        "unit": "millimeter",
+        "build_items": 1,
+        "resource_objects": 1,
+        "package_parts": [
+          "[Content_Types].xml",
+          "_rels/.rels",
+          "3D/3dmodel.model"
+        ],
+        "objects": [
+          {
+            "valid": true,
+            "vertices": 2192,
+            "triangles": 4420,
+            "edges": 6630,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "inconsistent_winding_edges": 0,
+            "nonmanifold_vertices": 0,
+            "degenerate_triangles": 0,
+            "duplicate_triangles": 0,
+            "unused_vertices": 0,
+            "connected_surface_shells": 1,
+            "surface_shell_signed_volumes_mm3": [
+              27112.263149301176
+            ],
+            "signed_volume_mm3": 27112.263149301176,
+            "surface_area_mm2": 26682.73158558468,
+            "bounds_mm": [
+              [
+                0.0,
+                0.0,
+                -1.330013643580676e-16
+              ],
+              [
+                136.2,
+                123.99999999999999,
+                2.4000000000000203
+              ]
+            ],
+            "size_mm": [
+              136.2,
+              123.99999999999999,
+              2.4000000000000203
+            ],
+            "errors": [],
+            "warnings": [],
+            "self_intersection_check": "not_performed",
+            "name": "body_03_rear_panel",
+            "object_id": 2,
+            "transform": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                4.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                4.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "build_bounds_mm": [
+              [
+                4.0,
+                4.0,
+                -1.330013643580676e-16
+              ],
+              [
+                140.2,
+                127.99999999999999,
+                2.4000000000000203
+              ]
+            ],
+            "build_size_mm": [
+              136.2,
+              123.99999999999999,
+              2.4000000000000203
+            ],
+            "build_volume_mm3": 27112.263149301176
+          }
+        ],
+        "build_bounds_mm": [
+          [
+            4.0,
+            4.0,
+            -1.330013643580676e-16
+          ],
+          [
+            140.2,
+            127.99999999999999,
+            2.4000000000000203
+          ]
+        ],
+        "build_size_mm": [
+          136.2,
+          123.99999999999999,
+          2.4000000000000203
+        ],
+        "sha256": "0d6adf6880a6d91c0aeaccf673338254448f12b8a183807b859eee29460ea258",
+        "bytes": 48814
+      },
+      "independent_lib3mf": {
+        "validator": "3MF Consortium lib3mf",
+        "version": [
+          2,
+          5,
+          0
+        ],
+        "strict_reader": true,
+        "valid": true,
+        "unit": "millimeter",
+        "reader_warnings": [],
+        "errors": [],
+        "objects": [
+          {
+            "name": "body_03_rear_panel",
+            "vertices": 2192,
+            "triangles": 4420,
+            "is_valid": true,
+            "is_manifold_and_oriented": true,
+            "geometry_matches": true
+          }
+        ],
+        "build_items": [
+          {
+            "partnumber": "body_03_rear_panel",
+            "object_id": 2,
+            "transform_matches": true
+          }
+        ],
+        "bounds_mm": [
+          [
+            4.0,
+            4.0,
+            -1.3300136484077646e-16
+          ],
+          [
+            140.1999969482422,
+            128.0,
+            2.4000000953674316
+          ]
+        ],
+        "actual_slicer_import": "not_performed"
+      },
+      "pure_model_package": {
+        "valid": true,
+        "parts": [
+          "[Content_Types].xml",
+          "_rels/.rels",
+          "3D/3dmodel.model"
+        ],
+        "errors": [],
+        "printer_profile_present": false,
+        "gcode_present": false,
+        "filament_mapping_present": false
+      },
+      "valid": true,
+      "errors": [],
+      "expected_names": [
+        "body_03_rear_panel"
+      ],
+      "actual_names": [
+        "body_03_rear_panel"
+      ],
+      "expected_count": 1,
+      "actual_count": 1,
+      "bed_xy_mm": [
+        180.0,
+        180.0
+      ],
+      "edge_margin_mm": 4.0,
+      "minimum_spacing_mm": 5.0,
+      "transformed_object_bounds": [
+        {
+          "name": "body_03_rear_panel",
+          "minimum_mm": [
+            4.0,
+            4.0,
+            -1.330013643580676e-16
+          ],
+          "maximum_mm": [
+            140.2,
+            127.99999999999999,
+            2.4000000000000203
+          ],
+          "inside_bed_xy_and_nonnegative_z": true,
+          "touches_z0": true,
+          "edge_margin_satisfied": true,
+          "unscaled_rigid_transform": true,
+          "design_name": "body_03_rear_panel",
+          "modeled_volume_mm3": 27112.10699650617,
+          "mesh_volume_mm3": 27112.263149301176,
+          "volume_relative_error": 5.7595226747665466e-06,
+          "local_size_mm": [
+            136.2,
+            123.99999999999999,
+            2.4000000000000203
+          ],
+          "modeled_size_mm": [
+            136.2,
+            124.0,
+            2.400000000000034
+          ],
+          "local_dimensions_match_cad": true
+        }
+      ],
+      "pair_clearances": []
+    },
+    {
+      "file": "body_04_front_bulkhead.3mf",
+      "bytes": 50041,
+      "sha256": "88a864e818bb8f2bf0a020034be0b71a3bcb91f209424ef5982d3f8a37dfa433",
+      "core_validation": {
+        "path": "/workspace/scratch/5751292c2c7f/rover-cad/full-body/deliverables/body_04_front_bulkhead.3mf",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "validation_scope": [
+          "OPC package/CRC",
+          "core XML resource/build references",
+          "explicit millimeter units",
+          "indexed mesh topology",
+          "edge/vertex manifoldness",
+          "triangle winding",
+          "degeneracy",
+          "signed volume",
+          "build transforms",
+          "bounding boxes"
+        ],
+        "not_validated": [
+          "XML XSD schema (unless separately checked)",
+          "self-intersections",
+          "shell containment",
+          "minimum wall thickness",
+          "physical fit",
+          "printer profile",
+          "toolpaths",
+          "actual slicer import"
+        ],
+        "unit": "millimeter",
+        "build_items": 1,
+        "resource_objects": 1,
+        "package_parts": [
+          "[Content_Types].xml",
+          "_rels/.rels",
+          "3D/3dmodel.model"
+        ],
+        "objects": [
+          {
+            "valid": true,
+            "vertices": 2192,
+            "triangles": 4420,
+            "edges": 6630,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "inconsistent_winding_edges": 0,
+            "nonmanifold_vertices": 0,
+            "degenerate_triangles": 0,
+            "duplicate_triangles": 0,
+            "unused_vertices": 0,
+            "connected_surface_shells": 1,
+            "surface_shell_signed_volumes_mm3": [
+              19663.693989597086
+            ],
+            "signed_volume_mm3": 19663.693989597086,
+            "surface_area_mm2": 18745.44229748254,
+            "bounds_mm": [
+              [
+                0.0,
+                0.0,
+                6.7729239467058325e-15
+              ],
+              [
+                136.2,
+                75.79477787017822,
+                2.4000000000000203
+              ]
+            ],
+            "size_mm": [
+              136.2,
+              75.79477787017822,
+              2.4000000000000137
+            ],
+            "errors": [],
+            "warnings": [],
+            "self_intersection_check": "not_performed",
+            "name": "body_04_front_bulkhead",
+            "object_id": 2,
+            "transform": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                4.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                4.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "build_bounds_mm": [
+              [
+                4.0,
+                4.0,
+                6.7729239467058325e-15
+              ],
+              [
+                140.2,
+                79.79477787017822,
+                2.4000000000000203
+              ]
+            ],
+            "build_size_mm": [
+              136.2,
+              75.79477787017822,
+              2.4000000000000137
+            ],
+            "build_volume_mm3": 19663.693989597086
+          }
+        ],
+        "build_bounds_mm": [
+          [
+            4.0,
+            4.0,
+            6.7729239467058325e-15
+          ],
+          [
+            140.2,
+            79.79477787017822,
+            2.4000000000000203
+          ]
+        ],
+        "build_size_mm": [
+          136.2,
+          75.79477787017822,
+          2.4000000000000137
+        ],
+        "sha256": "88a864e818bb8f2bf0a020034be0b71a3bcb91f209424ef5982d3f8a37dfa433",
+        "bytes": 50041
+      },
+      "independent_lib3mf": {
+        "validator": "3MF Consortium lib3mf",
+        "version": [
+          2,
+          5,
+          0
+        ],
+        "strict_reader": true,
+        "valid": true,
+        "unit": "millimeter",
+        "reader_warnings": [],
+        "errors": [],
+        "objects": [
+          {
+            "name": "body_04_front_bulkhead",
+            "vertices": 2192,
+            "triangles": 4420,
+            "is_valid": true,
+            "is_manifold_and_oriented": true,
+            "geometry_matches": true
+          }
+        ],
+        "build_items": [
+          {
+            "partnumber": "body_04_front_bulkhead",
+            "object_id": 2,
+            "transform_matches": true
+          }
+        ],
+        "bounds_mm": [
+          [
+            4.0,
+            4.0,
+            6.772924150639853e-15
+          ],
+          [
+            140.1999969482422,
+            79.7947769165039,
+            2.4000000953674316
+          ]
+        ],
+        "actual_slicer_import": "not_performed"
+      },
+      "pure_model_package": {
+        "valid": true,
+        "parts": [
+          "[Content_Types].xml",
+          "_rels/.rels",
+          "3D/3dmodel.model"
+        ],
+        "errors": [],
+        "printer_profile_present": false,
+        "gcode_present": false,
+        "filament_mapping_present": false
+      },
+      "valid": true,
+      "errors": [],
+      "expected_names": [
+        "body_04_front_bulkhead"
+      ],
+      "actual_names": [
+        "body_04_front_bulkhead"
+      ],
+      "expected_count": 1,
+      "actual_count": 1,
+      "bed_xy_mm": [
+        180.0,
+        180.0
+      ],
+      "edge_margin_mm": 4.0,
+      "minimum_spacing_mm": 5.0,
+      "transformed_object_bounds": [
+        {
+          "name": "body_04_front_bulkhead",
+          "minimum_mm": [
+            4.0,
+            4.0,
+            6.7729239467058325e-15
+          ],
+          "maximum_mm": [
+            140.2,
+            79.79477787017822,
+            2.4000000000000203
+          ],
+          "inside_bed_xy_and_nonnegative_z": true,
+          "touches_z0": true,
+          "edge_margin_satisfied": true,
+          "unscaled_rigid_transform": true,
+          "design_name": "body_04_front_bulkhead",
+          "modeled_volume_mm3": 19663.552763223845,
+          "mesh_volume_mm3": 19663.693989597086,
+          "volume_relative_error": 7.1821392066004646e-06,
+          "local_size_mm": [
+            136.2,
+            75.79477787017822,
+            2.4000000000000137
+          ],
+          "modeled_size_mm": [
+            136.2,
+            75.79477787017822,
+            2.400000000000034
+          ],
+          "local_dimensions_match_cad": true
+        }
+      ],
+      "pair_clearances": []
+    },
+    {
+      "file": "body_05_roof.3mf",
+      "bytes": 76416,
+      "sha256": "da28dc349daea876b652abcc095d608b28543323914d7c6e68ed1ce42c585da1",
+      "core_validation": {
+        "path": "/workspace/scratch/5751292c2c7f/rover-cad/full-body/deliverables/body_05_roof.3mf",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "validation_scope": [
+          "OPC package/CRC",
+          "core XML resource/build references",
+          "explicit millimeter units",
+          "indexed mesh topology",
+          "edge/vertex manifoldness",
+          "triangle winding",
+          "degeneracy",
+          "signed volume",
+          "build transforms",
+          "bounding boxes"
+        ],
+        "not_validated": [
+          "XML XSD schema (unless separately checked)",
+          "self-intersections",
+          "shell containment",
+          "minimum wall thickness",
+          "physical fit",
+          "printer profile",
+          "toolpaths",
+          "actual slicer import"
+        ],
+        "unit": "millimeter",
+        "build_items": 1,
+        "resource_objects": 1,
+        "package_parts": [
+          "[Content_Types].xml",
+          "_rels/.rels",
+          "3D/3dmodel.model"
+        ],
+        "objects": [
+          {
+            "valid": true,
+            "vertices": 3632,
+            "triangles": 7324,
+            "edges": 10986,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "inconsistent_winding_edges": 0,
+            "nonmanifold_vertices": 0,
+            "degenerate_triangles": 0,
+            "duplicate_triangles": 0,
+            "unused_vertices": 0,
+            "connected_surface_shells": 1,
+            "surface_shell_signed_volumes_mm3": [
+              57414.15881593165
+            ],
+            "signed_volume_mm3": 57414.15881593165,
+            "surface_area_mm2": 46854.594176471845,
+            "bounds_mm": [
+              [
+                0.0,
+                0.0,
+                2.814628491013271e-14
+              ],
+              [
+                142.0,
+                166.0,
+                2.8000000000000402
+              ]
+            ],
+            "size_mm": [
+              142.0,
+              166.0,
+              2.8000000000000123
+            ],
+            "errors": [],
+            "warnings": [],
+            "self_intersection_check": "not_performed",
+            "name": "body_05_removable_roof",
+            "object_id": 2,
+            "transform": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                4.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                4.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "build_bounds_mm": [
+              [
+                4.0,
+                4.0,
+                2.814628491013271e-14
+              ],
+              [
+                146.0,
+                170.0,
+                2.8000000000000402
+              ]
+            ],
+            "build_size_mm": [
+              142.0,
+              166.0,
+              2.8000000000000123
+            ],
+            "build_volume_mm3": 57414.15881593165
+          }
+        ],
+        "build_bounds_mm": [
+          [
+            4.0,
+            4.0,
+            2.814628491013271e-14
+          ],
+          [
+            146.0,
+            170.0,
+            2.8000000000000402
+          ]
+        ],
+        "build_size_mm": [
+          142.0,
+          166.0,
+          2.8000000000000123
+        ],
+        "sha256": "da28dc349daea876b652abcc095d608b28543323914d7c6e68ed1ce42c585da1",
+        "bytes": 76416
+      },
+      "independent_lib3mf": {
+        "validator": "3MF Consortium lib3mf",
+        "version": [
+          2,
+          5,
+          0
+        ],
+        "strict_reader": true,
+        "valid": true,
+        "unit": "millimeter",
+        "reader_warnings": [],
+        "errors": [],
+        "objects": [
+          {
+            "name": "body_05_removable_roof",
+            "vertices": 3632,
+            "triangles": 7324,
+            "is_valid": true,
+            "is_manifold_and_oriented": true,
+            "geometry_matches": true
+          }
+        ],
+        "build_items": [
+          {
+            "partnumber": "body_05_removable_roof",
+            "object_id": 2,
+            "transform_matches": true
+          }
+        ],
+        "bounds_mm": [
+          [
+            4.0,
+            4.0,
+            2.814628480914301e-14
+          ],
+          [
+            146.0,
+            170.0,
+            2.799999952316284
+          ]
+        ],
+        "actual_slicer_import": "not_performed"
+      },
+      "pure_model_package": {
+        "valid": true,
+        "parts": [
+          "[Content_Types].xml",
+          "_rels/.rels",
+          "3D/3dmodel.model"
+        ],
+        "errors": [],
+        "printer_profile_present": false,
+        "gcode_present": false,
+        "filament_mapping_present": false
+      },
+      "valid": true,
+      "errors": [],
+      "expected_names": [
+        "body_05_removable_roof"
+      ],
+      "actual_names": [
+        "body_05_removable_roof"
+      ],
+      "expected_count": 1,
+      "actual_count": 1,
+      "bed_xy_mm": [
+        180.0,
+        180.0
+      ],
+      "edge_margin_mm": 4.0,
+      "minimum_spacing_mm": 5.0,
+      "transformed_object_bounds": [
+        {
+          "name": "body_05_removable_roof",
+          "minimum_mm": [
+            4.0,
+            4.0,
+            2.814628491013271e-14
+          ],
+          "maximum_mm": [
+            146.0,
+            170.0,
+            2.8000000000000402
+          ],
+          "inside_bed_xy_and_nonnegative_z": true,
+          "touches_z0": true,
+          "edge_margin_satisfied": true,
+          "unscaled_rigid_transform": true,
+          "design_name": "body_05_removable_roof",
+          "modeled_volume_mm3": 57413.82659647691,
+          "mesh_volume_mm3": 57414.15881593165,
+          "volume_relative_error": 5.786401541889117e-06,
+          "local_size_mm": [
+            142.0,
+            166.0,
+            2.8000000000000123
+          ],
+          "modeled_size_mm": [
+            142.0,
+            166.0,
+            2.800000000000032
+          ],
+          "local_dimensions_match_cad": true
+        }
+      ],
+      "pair_clearances": []
+    },
+    {
+      "file": "body_06_front_cowl.3mf",
+      "bytes": 39140,
+      "sha256": "b9c1426c5799ed9d070c0b2a1ef54d3a38ae608410c91d412814ac4d6e962fa2",
+      "core_validation": {
+        "path": "/workspace/scratch/5751292c2c7f/rover-cad/full-body/deliverables/body_06_front_cowl.3mf",
+        "valid": true,
+        "errors": [],
+        "warnings": [],
+        "validation_scope": [
+          "OPC package/CRC",
+          "core XML resource/build references",
+          "explicit millimeter units",
+          "indexed mesh topology",
+          "edge/vertex manifoldness",
+          "triangle winding",
+          "degeneracy",
+          "signed volume",
+          "build transforms",
+          "bounding boxes"
+        ],
+        "not_validated": [
+          "XML XSD schema (unless separately checked)",
+          "self-intersections",
+          "shell containment",
+          "minimum wall thickness",
+          "physical fit",
+          "printer profile",
+          "toolpaths",
+          "actual slicer import"
+        ],
+        "unit": "millimeter",
+        "build_items": 1,
+        "resource_objects": 1,
+        "package_parts": [
+          "[Content_Types].xml",
+          "_rels/.rels",
+          "3D/3dmodel.model"
+        ],
+        "objects": [
+          {
+            "valid": true,
+            "vertices": 1478,
+            "triangles": 2964,
+            "edges": 4446,
+            "boundary_edges": 0,
+            "nonmanifold_edges": 0,
+            "inconsistent_winding_edges": 0,
+            "nonmanifold_vertices": 0,
+            "degenerate_triangles": 0,
+            "duplicate_triangles": 0,
+            "unused_vertices": 0,
+            "connected_surface_shells": 1,
+            "surface_shell_signed_volumes_mm3": [
+              32809.873564408714
+            ],
+            "signed_volume_mm3": 32809.873564408714,
+            "surface_area_mm2": 29736.072403490696,
+            "bounds_mm": [
+              [
+                -1.2771111322005574e-15,
+                0.0,
+                -1.2225748905895979e-16
+              ],
+              [
+                142.0,
+                73.9,
+                57.105222129821804
+              ]
+            ],
+            "size_mm": [
+              142.0,
+              73.9,
+              57.105222129821804
+            ],
+            "errors": [],
+            "warnings": [],
+            "self_intersection_check": "not_performed",
+            "name": "body_06_front_cowl",
+            "object_id": 2,
+            "transform": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                4.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                4.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "build_bounds_mm": [
+              [
+                3.9999999999999987,
+                4.0,
+                -1.2225748905895979e-16
+              ],
+              [
+                146.0,
+                77.9,
+                57.105222129821804
+              ]
+            ],
+            "build_size_mm": [
+              142.0,
+              73.9,
+              57.105222129821804
+            ],
+            "build_volume_mm3": 32809.873564408714
+          }
+        ],
+        "build_bounds_mm": [
+          [
+            3.9999999999999987,
+            4.0,
+            -1.2225748905895979e-16
+          ],
+          [
+            146.0,
+            77.9,
+            57.105222129821804
+          ]
+        ],
+        "build_size_mm": [
+          142.0,
+          73.9,
+          57.105222129821804
+        ],
+        "sha256": "b9c1426c5799ed9d070c0b2a1ef54d3a38ae608410c91d412814ac4d6e962fa2",
+        "bytes": 39140
+      },
+      "independent_lib3mf": {
+        "validator": "3MF Consortium lib3mf",
+        "version": [
+          2,
+          5,
+          0
+        ],
+        "strict_reader": true,
+        "valid": true,
+        "unit": "millimeter",
+        "reader_warnings": [],
+        "errors": [],
+        "objects": [
+          {
+            "name": "body_06_front_cowl",
+            "vertices": 1478,
+            "triangles": 2964,
+            "is_valid": true,
+            "is_manifold_and_oriented": true,
+            "geometry_matches": true
+          }
+        ],
+        "build_items": [
+          {
+            "partnumber": "body_06_front_cowl",
+            "object_id": 2,
+            "transform_matches": true
+          }
+        ],
+        "bounds_mm": [
+          [
+            4.0,
+            4.0,
+            -1.222574930586845e-16
+          ],
+          [
+            146.0,
+            77.9000015258789,
+            57.105220794677734
+          ]
+        ],
+        "actual_slicer_import": "not_performed"
+      },
+      "pure_model_package": {
+        "valid": true,
+        "parts": [
+          "[Content_Types].xml",
+          "_rels/.rels",
+          "3D/3dmodel.model"
+        ],
+        "errors": [],
+        "printer_profile_present": false,
+        "gcode_present": false,
+        "filament_mapping_present": false
+      },
+      "valid": true,
+      "errors": [],
+      "expected_names": [
+        "body_06_front_cowl"
+      ],
+      "actual_names": [
+        "body_06_front_cowl"
+      ],
+      "expected_count": 1,
+      "actual_count": 1,
+      "bed_xy_mm": [
+        180.0,
+        180.0
+      ],
+      "edge_margin_mm": 4.0,
+      "minimum_spacing_mm": 5.0,
+      "transformed_object_bounds": [
+        {
+          "name": "body_06_front_cowl",
+          "minimum_mm": [
+            3.9999999999999987,
+            4.0,
+            -1.2225748905895979e-16
+          ],
+          "maximum_mm": [
+            146.0,
+            77.9,
+            57.105222129821804
+          ],
+          "inside_bed_xy_and_nonnegative_z": true,
+          "touches_z0": true,
+          "edge_margin_satisfied": true,
+          "unscaled_rigid_transform": true,
+          "design_name": "body_06_front_cowl",
+          "modeled_volume_mm3": 32801.28508931469,
+          "mesh_volume_mm3": 32809.873564408714,
+          "volume_relative_error": 0.0002618334943475067,
+          "local_size_mm": [
+            142.0,
+            73.9,
+            57.105222129821804
+          ],
+          "modeled_size_mm": [
+            142.0,
+            73.9,
+            57.105222129821804
+          ],
+          "local_dimensions_match_cad": true
+        }
+      ],
+      "pair_clearances": []
+    }
+  ],
+  "stl_parts": [
+    {
+      "file": "body_01_left_side.stl",
+      "bytes": 535584,
+      "sha256": "3bd40107ce7df445985ce2bae3acab30b997e8364ae7ec7596065acbff5e1c81",
+      "binary_stl_declared_triangles": 10710,
+      "expected_bounds_size_mm": [
+        124.00000000000001,
+        166.0,
+        21.000000000000014
+      ],
+      "expected_volume_mm3": 41220.76120947932,
+      "volume_relative_error": 0.0001339938050081813,
+      "valid": true,
+      "errors": [],
+      "vtk_version": "9.3.1",
+      "vertices": 5311,
+      "triangles": 10710,
+      "minimum_mm": [
+        -1.9420207608341082e-16,
+        0.0,
+        -1.1605265114175765e-15
+      ],
+      "maximum_mm": [
+        124.0,
+        166.0,
+        21.0
+      ],
+      "size_mm": [
+        124.0,
+        166.0,
+        21.0
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertices": 0,
+      "connected_surfaces": 1,
+      "triangle_normals_requiring_reversal": 0,
+      "volume_mm3": 41226.284536119114,
+      "surface_area_mm2": 37432.59414124886
+    },
+    {
+      "file": "body_02_right_side.stl",
+      "bytes": 354484,
+      "sha256": "43c7b3a096342b1f583a8b84968db1af8e5595621f0d7a8a617d3b1b74f5e4fd",
+      "binary_stl_declared_triangles": 7088,
+      "expected_bounds_size_mm": [
+        124.0,
+        166.0,
+        21.000000000000014
+      ],
+      "expected_volume_mm3": 36864.75878945191,
+      "volume_relative_error": 0.00014736261287605587,
+      "valid": true,
+      "errors": [],
+      "vtk_version": "9.3.1",
+      "vertices": 3516,
+      "triangles": 7088,
+      "minimum_mm": [
+        0.0,
+        0.0,
+        -1.1605265114175765e-15
+      ],
+      "maximum_mm": [
+        124.0,
+        166.0,
+        21.0
+      ],
+      "size_mm": [
+        124.0,
+        166.0,
+        21.0
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertices": 0,
+      "connected_surfaces": 1,
+      "triangle_normals_requiring_reversal": 0,
+      "volume_mm3": 36870.19127663017,
+      "surface_area_mm2": 33369.956951336775
+    },
+    {
+      "file": "body_03_rear_panel.stl",
+      "bytes": 221084,
+      "sha256": "df4befc135b8ae0070cee0dfaa94c059fe62607305fc128a5f2249ef7e4583d2",
+      "binary_stl_declared_triangles": 4420,
+      "expected_bounds_size_mm": [
+        136.2,
+        124.0,
+        2.400000000000034
+      ],
+      "expected_volume_mm3": 27112.10699650617,
+      "volume_relative_error": 5.7714021903153834e-06,
+      "valid": true,
+      "errors": [],
+      "vtk_version": "9.3.1",
+      "vertices": 2192,
+      "triangles": 4420,
+      "minimum_mm": [
+        0.0,
+        0.0,
+        -1.3300136484077646e-16
+      ],
+      "maximum_mm": [
+        136.1999969482422,
+        124.0,
+        2.4000000953674316
+      ],
+      "size_mm": [
+        136.1999969482422,
+        124.0,
+        2.4000000953674316
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertices": 0,
+      "connected_surfaces": 1,
+      "triangle_normals_requiring_reversal": 0,
+      "volume_mm3": 27112.263471379872,
+      "surface_area_mm2": 26682.731103077058
+    },
+    {
+      "file": "body_04_front_bulkhead.stl",
+      "bytes": 221084,
+      "sha256": "a26897f796f7df05385ffb31f9c817fa9b8075aba9b28e0dcfd9d1323b8b33a4",
+      "binary_stl_declared_triangles": 4420,
+      "expected_bounds_size_mm": [
+        136.2,
+        75.79477787017822,
+        2.400000000000034
+      ],
+      "expected_volume_mm3": 19663.552763223845,
+      "volume_relative_error": 7.190023540181178e-06,
+      "valid": true,
+      "errors": [],
+      "vtk_version": "9.3.1",
+      "vertices": 2192,
+      "triangles": 4420,
+      "minimum_mm": [
+        0.0,
+        0.0,
+        6.772924150639853e-15
+      ],
+      "maximum_mm": [
+        136.1999969482422,
+        75.7947769165039,
+        2.4000000953674316
+      ],
+      "size_mm": [
+        136.1999969482422,
+        75.7947769165039,
+        2.400000095367425
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertices": 0,
+      "connected_surfaces": 1,
+      "triangle_normals_requiring_reversal": 0,
+      "volume_mm3": 19663.694144631096,
+      "surface_area_mm2": 18745.44184202632
+    },
+    {
+      "file": "body_05_removable_roof.stl",
+      "bytes": 366284,
+      "sha256": "312b91aa953115eea8870731dcdd5d23af86d699cfa535b399b0b6c77fee39c7",
+      "binary_stl_declared_triangles": 7324,
+      "expected_bounds_size_mm": [
+        142.0,
+        166.0,
+        2.800000000000032
+      ],
+      "expected_volume_mm3": 57413.82659647691,
+      "volume_relative_error": 5.76876474465752e-06,
+      "valid": true,
+      "errors": [],
+      "vtk_version": "9.3.1",
+      "vertices": 3632,
+      "triangles": 7324,
+      "minimum_mm": [
+        0.0,
+        0.0,
+        2.814628480914301e-14
+      ],
+      "maximum_mm": [
+        142.0,
+        166.0,
+        2.799999952316284
+      ],
+      "size_mm": [
+        142.0,
+        166.0,
+        2.799999952316256
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertices": 0,
+      "connected_surfaces": 1,
+      "triangle_normals_requiring_reversal": 0,
+      "volume_mm3": 57414.157803335635,
+      "surface_area_mm2": 46854.594080559706
+    },
+    {
+      "file": "body_06_front_cowl.stl",
+      "bytes": 148284,
+      "sha256": "91967aa6624421ec4f6af54b0456e1291aafb54f4faf54c09f08f4951fdcaa32",
+      "binary_stl_declared_triangles": 2964,
+      "expected_bounds_size_mm": [
+        142.0,
+        73.9,
+        57.105222129821804
+      ],
+      "expected_volume_mm3": 32801.28508931469,
+      "volume_relative_error": 0.00026159627803554295,
+      "valid": true,
+      "errors": [],
+      "vtk_version": "9.3.1",
+      "vertices": 1478,
+      "triangles": 2964,
+      "minimum_mm": [
+        -1.2771111733655928e-15,
+        0.0,
+        -1.222574930586845e-16
+      ],
+      "maximum_mm": [
+        142.0,
+        73.9000015258789,
+        57.105220794677734
+      ],
+      "size_mm": [
+        142.0,
+        73.9000015258789,
+        57.105220794677734
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertices": 0,
+      "connected_surfaces": 1,
+      "triangle_normals_requiring_reversal": 0,
+      "volume_mm3": 32809.86578340884,
+      "surface_area_mm2": 29736.07299425971
+    },
+    {
+      "file": "body_00_joint_side_sample.stl",
+      "bytes": 67684,
+      "sha256": "741ded1a8f7d169bc855854863a3360d3b24771d8e44a20030ee007875e0139e",
+      "binary_stl_declared_triangles": 1352,
+      "expected_bounds_size_mm": [
+        22.000000000000014,
+        24.0,
+        19.000000000000004
+      ],
+      "expected_volume_mm3": 2866.4006165838036,
+      "volume_relative_error": 1.4403975285881276e-05,
+      "valid": true,
+      "errors": [],
+      "vtk_version": "9.3.1",
+      "vertices": 672,
+      "triangles": 1352,
+      "minimum_mm": [
+        1.4210854715202004e-14,
+        0.0,
+        0.0
+      ],
+      "maximum_mm": [
+        22.0,
+        24.0,
+        19.0
+      ],
+      "size_mm": [
+        21.999999999999986,
+        24.0,
+        19.0
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertices": 0,
+      "connected_surfaces": 1,
+      "triangle_normals_requiring_reversal": 0,
+      "volume_mm3": 2866.4419041474443,
+      "surface_area_mm2": 2559.3686694303583
+    },
+    {
+      "file": "body_00_joint_rear_sample.stl",
+      "bytes": 21884,
+      "sha256": "370b31b88c0d64db8655b1f4262c9a9204c340c926b133773c7ba0abe548eb44",
+      "binary_stl_declared_triangles": 436,
+      "expected_bounds_size_mm": [
+        16.099999999999994,
+        22.0,
+        2.4000000000000226
+      ],
+      "expected_volume_mm3": 826.9892939961153,
+      "volume_relative_error": 1.6723221123479657e-05,
+      "valid": true,
+      "errors": [],
+      "vtk_version": "9.3.1",
+      "vertices": 218,
+      "triangles": 436,
+      "minimum_mm": [
+        0.0,
+        0.0,
+        -1.9420207608341082e-16
+      ],
+      "maximum_mm": [
+        16.100000381469727,
+        22.0,
+        2.4000000953674316
+      ],
+      "size_mm": [
+        16.100000381469727,
+        22.0,
+        2.4000000953674316
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertices": 0,
+      "connected_surfaces": 1,
+      "triangle_normals_requiring_reversal": 0,
+      "volume_mm3": 827.0031239209455,
+      "surface_area_mm2": 898.4346945312777
+    }
+  ],
+  "step_assemblies": [
+    {
+      "file": "elegoo_v4_full_body_assembly.step",
+      "bytes": 8616630,
+      "sha256": "d505d7221d753a5227b5703956e7da3acbb1db10a6c16fcf92f176723898cec4",
+      "length_unit_entity_count": 205,
+      "named_assembly_structure": {
+        "valid": true,
+        "errors": [],
+        "root": "ELEGOO_V4_full_body_mm",
+        "expected_component_count": 195,
+        "matched_component_products": 195,
+        "matched_named_component_occurrences": 195,
+        "product_count": 205,
+        "assembly_occurrence_count": 204,
+        "group_names": [
+          "OEM_chassis_from_supplied_meshes",
+          "Stock_hardware_reference",
+          "Head_explorer",
+          "Cable_routes_reference",
+          "PLA_accessories",
+          "Added_fasteners_reference",
+          "Optional_purchased_hardware",
+          "PLA_body",
+          "Body_fasteners_reference"
+        ],
+        "missing_product_names": [],
+        "unexpected_product_names": [],
+        "missing_hierarchy_edges": [],
+        "unexpected_hierarchy_edges": [],
+        "missing_named_component_occurrences": []
+      },
+      "valid": true,
+      "errors": [],
+      "expected": {
+        "solids": 195,
+        "volume_mm3": 1091723.1952939094,
+        "bounds_mm": [
+          -87.0,
+          -122.4,
+          0.0,
+          87.0,
+          148.5,
+          172.90522212982177
+        ],
+        "named_hierarchy": {
+          "root": "ELEGOO_V4_full_body_mm",
+          "groups": [
+            "OEM_chassis_from_supplied_meshes",
+            "Stock_hardware_reference",
+            "Head_explorer",
+            "Cable_routes_reference",
+            "PLA_accessories",
+            "Added_fasteners_reference",
+            "Optional_purchased_hardware",
+            "PLA_body",
+            "Body_fasteners_reference"
+          ],
+          "components": [
+            "OEM_Bottom_Plate",
+            "OEM_Top_Plate",
+            "Frame_pillar_1_nominal_M3x40",
+            "Frame_bottom_screw_1",
+            "Frame_pillar_2_nominal_M3x40",
+            "Frame_bottom_screw_2",
+            "Frame_pillar_3_nominal_M3x40",
+            "Frame_bottom_screw_3",
+            "Frame_pillar_4_nominal_M3x40",
+            "Frame_bottom_screw_4",
+            "Frame_pillar_5_nominal_M3x40",
+            "Frame_bottom_screw_5",
+            "Frame_pillar_6_nominal_M3x40",
+            "Frame_bottom_screw_6",
+            "TT_gearbox_left_front",
+            "DC_motor_can_left_front",
+            "Drive_shaft_left_front",
+            "Aluminum_motor_block_left_front",
+            "Motor_through_bolt_left_front_-1",
+            "Motor_through_bolt_left_front_1",
+            "Tire_left_front",
+            "Wheel_hub_left_front",
+            "Wheel_M2_fastener_left_front",
+            "TT_gearbox_left_rear",
+            "DC_motor_can_left_rear",
+            "Drive_shaft_left_rear",
+            "Aluminum_motor_block_left_rear",
+            "Motor_through_bolt_left_rear_-1",
+            "Motor_through_bolt_left_rear_1",
+            "Tire_left_rear",
+            "Wheel_hub_left_rear",
+            "Wheel_M2_fastener_left_rear",
+            "TT_gearbox_right_front",
+            "DC_motor_can_right_front",
+            "Drive_shaft_right_front",
+            "Aluminum_motor_block_right_front",
+            "Motor_through_bolt_right_front_-1",
+            "Motor_through_bolt_right_front_1",
+            "Tire_right_front",
+            "Wheel_hub_right_front",
+            "Wheel_M2_fastener_right_front",
+            "TT_gearbox_right_rear",
+            "DC_motor_can_right_rear",
+            "Drive_shaft_right_rear",
+            "Aluminum_motor_block_right_rear",
+            "Motor_through_bolt_right_rear_-1",
+            "Motor_through_bolt_right_rear_1",
+            "Tire_right_rear",
+            "Wheel_hub_right_rear",
+            "Wheel_M2_fastener_right_rear",
+            "UNO_spacer_1",
+            "UNO_M3_screw_1",
+            "UNO_spacer_2",
+            "UNO_M3_screw_2",
+            "UNO_spacer_3",
+            "UNO_M3_screw_3",
+            "UNO_R3_PCB",
+            "UNO_USB_B_connector",
+            "UNO_barrel_connector",
+            "UNO_header_-1",
+            "UNO_header_1",
+            "UNO_ATmega_reference",
+            "SmartRobot_motor_expansion_shield_PCB",
+            "Shield_XH_connector_1",
+            "Shield_XH_connector_2",
+            "Shield_XH_connector_3",
+            "Shield_XH_connector_4",
+            "Shield_XH_connector_5",
+            "Shield_XH_connector_6",
+            "Shield_XH_connector_7",
+            "Shield_XH_connector_8",
+            "Shield_IR_receiver",
+            "Shield_mode_button",
+            "Shield_RGB_LED",
+            "Shield_motor_driver_reference",
+            "GY521_MPU6050_module_PCB",
+            "GY521_sensor_package",
+            "GY521_M3x11_pillar",
+            "Battery_M3_screw_-1",
+            "Battery_M3_screw_1",
+            "Battery_enclosure_LiIon_reference",
+            "Battery_power_switch",
+            "Battery_charge_port",
+            "Line_sensor_spacer_15",
+            "Line_sensor_spacer_16",
+            "Line_sensor_spacer_23",
+            "Line_sensor_spacer_24",
+            "Line_tracking_PCB",
+            "Line_sensor_1_ITR20001",
+            "Line_sensor_2_ITR20001",
+            "Line_sensor_3_ITR20001",
+            "SG90_body_explorer",
+            "SG90_mounting_ears_explorer",
+            "SG90_output_boss_explorer",
+            "Servo_horn_explorer",
+            "OEM_sonar_head_bracket_explorer",
+            "HC_SR04_PCB_explorer",
+            "Ultrasonic_transducer_-1_explorer",
+            "Ultrasonic_mesh_-1_explorer",
+            "Ultrasonic_transducer_1_explorer",
+            "Ultrasonic_mesh_1_explorer",
+            "Camera_support_bracket_explorer",
+            "ESP32_camera_PCB_explorer",
+            "ESP32_WROVER_radio_module_explorer",
+            "Camera_lens_explorer",
+            "Camera_XH_connector_explorer",
+            "Head_cable_route_explorer",
+            "01_slotted_deck",
+            "Deck_spacer_1",
+            "Deck_M3x50_screw_1",
+            "Deck_spacer_2",
+            "Deck_M3x50_screw_2",
+            "Deck_spacer_3",
+            "Deck_M3x50_screw_3",
+            "Deck_spacer_4",
+            "Deck_M3x50_screw_4",
+            "Side_guard_screw_-1_1",
+            "Side_guard_nut_-1_1",
+            "Side_guard_screw_-1_2",
+            "Side_guard_nut_-1_2",
+            "Side_guard_screw_1_1",
+            "Side_guard_nut_1_1",
+            "Side_guard_screw_1_2",
+            "Side_guard_nut_1_2",
+            "05_front_guard",
+            "Guard_spacer_1",
+            "Guard_spacer_2",
+            "Downward_carrier_-1",
+            "Downward_carrier_screw_-1_-6",
+            "Downward_carrier_nut_-1_-6",
+            "Downward_carrier_screw_-1_6",
+            "Downward_carrier_nut_-1_6",
+            "Downward_carrier_1",
+            "Downward_carrier_screw_1_-6",
+            "Downward_carrier_nut_1_-6",
+            "Downward_carrier_screw_1_6",
+            "Downward_carrier_nut_1_6",
+            "07_rear_sensor_carrier",
+            "09_optional_servo_adapter",
+            "10_optional_pi4_tray",
+            "Pi_tray_spacer_1",
+            "Pi_tray_M3_screw_1",
+            "Pi_tray_M3_nut_1",
+            "Pi_tray_spacer_2",
+            "Pi_tray_M3_screw_2",
+            "Pi_tray_M3_nut_2",
+            "Pi_tray_spacer_3",
+            "Pi_tray_M3_screw_3",
+            "Pi_tray_M3_nut_3",
+            "Pi_tray_spacer_4",
+            "Pi_tray_M3_screw_4",
+            "Pi_tray_M3_nut_4",
+            "OPTIONAL_Pi4B_PCB",
+            "OPTIONAL_Pi4B_USB_stack",
+            "OPTIONAL_Pi4B_Ethernet",
+            "OPTIONAL_Pi4B_GPIO_header",
+            "OPTIONAL_Pi4B_CPU",
+            "OPTIONAL_rear_ToF_board",
+            "OPTIONAL_ToF_optical_package",
+            "OPTIONAL_floor_ToF_board_-1",
+            "OPTIONAL_floor_ToF_optic_-1",
+            "OPTIONAL_floor_ToF_board_1",
+            "OPTIONAL_floor_ToF_optic_1",
+            "body_01_left_side",
+            "body_02_right_side",
+            "body_03_rear_panel",
+            "body_04_front_bulkhead",
+            "Body_end_M3x12_rear_-1_1",
+            "Body_end_M3_nut_rear_-1_1",
+            "Body_end_M3x12_rear_-1_2",
+            "Body_end_M3_nut_rear_-1_2",
+            "Body_end_M3x12_rear_1_1",
+            "Body_end_M3_nut_rear_1_1",
+            "Body_end_M3x12_rear_1_2",
+            "Body_end_M3_nut_rear_1_2",
+            "Body_end_M3x12_front_-1_1",
+            "Body_end_M3_nut_front_-1_1",
+            "Body_end_M3x12_front_-1_2",
+            "Body_end_M3_nut_front_-1_2",
+            "Body_end_M3x12_front_1_1",
+            "Body_end_M3_nut_front_1_1",
+            "Body_end_M3x12_front_1_2",
+            "Body_end_M3_nut_front_1_2",
+            "Body_roof_M3x10_-1_1",
+            "Body_roof_M3_nut_-1_1",
+            "Body_roof_M3x10_-1_2",
+            "Body_roof_M3_nut_-1_2",
+            "Body_roof_M3x10_1_1",
+            "Body_roof_M3_nut_1_1",
+            "Body_roof_M3x10_1_2",
+            "Body_roof_M3_nut_1_2",
+            "body_05_removable_roof",
+            "Body_nose_M3x20_1",
+            "Body_nose_M3x20_2",
+            "body_06_front_cowl"
+          ],
+          "edges": [
+            [
+              "ELEGOO_V4_full_body_mm",
+              "OEM_chassis_from_supplied_meshes"
+            ],
+            [
+              "ELEGOO_V4_full_body_mm",
+              "Stock_hardware_reference"
+            ],
+            [
+              "ELEGOO_V4_full_body_mm",
+              "Head_explorer"
+            ],
+            [
+              "ELEGOO_V4_full_body_mm",
+              "Cable_routes_reference"
+            ],
+            [
+              "ELEGOO_V4_full_body_mm",
+              "PLA_accessories"
+            ],
+            [
+              "ELEGOO_V4_full_body_mm",
+              "Added_fasteners_reference"
+            ],
+            [
+              "ELEGOO_V4_full_body_mm",
+              "Optional_purchased_hardware"
+            ],
+            [
+              "ELEGOO_V4_full_body_mm",
+              "PLA_body"
+            ],
+            [
+              "ELEGOO_V4_full_body_mm",
+              "Body_fasteners_reference"
+            ],
+            [
+              "OEM_chassis_from_supplied_meshes",
+              "OEM_Bottom_Plate"
+            ],
+            [
+              "OEM_chassis_from_supplied_meshes",
+              "OEM_Top_Plate"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Frame_pillar_1_nominal_M3x40"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Frame_bottom_screw_1"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Frame_pillar_2_nominal_M3x40"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Frame_bottom_screw_2"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Frame_pillar_3_nominal_M3x40"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Frame_bottom_screw_3"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Frame_pillar_4_nominal_M3x40"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Frame_bottom_screw_4"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Frame_pillar_5_nominal_M3x40"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Frame_bottom_screw_5"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Frame_pillar_6_nominal_M3x40"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Frame_bottom_screw_6"
+            ],
+            [
+              "Stock_hardware_reference",
+              "TT_gearbox_left_front"
+            ],
+            [
+              "Stock_hardware_reference",
+              "DC_motor_can_left_front"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Drive_shaft_left_front"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Aluminum_motor_block_left_front"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Motor_through_bolt_left_front_-1"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Motor_through_bolt_left_front_1"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Tire_left_front"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Wheel_hub_left_front"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Wheel_M2_fastener_left_front"
+            ],
+            [
+              "Stock_hardware_reference",
+              "TT_gearbox_left_rear"
+            ],
+            [
+              "Stock_hardware_reference",
+              "DC_motor_can_left_rear"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Drive_shaft_left_rear"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Aluminum_motor_block_left_rear"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Motor_through_bolt_left_rear_-1"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Motor_through_bolt_left_rear_1"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Tire_left_rear"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Wheel_hub_left_rear"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Wheel_M2_fastener_left_rear"
+            ],
+            [
+              "Stock_hardware_reference",
+              "TT_gearbox_right_front"
+            ],
+            [
+              "Stock_hardware_reference",
+              "DC_motor_can_right_front"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Drive_shaft_right_front"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Aluminum_motor_block_right_front"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Motor_through_bolt_right_front_-1"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Motor_through_bolt_right_front_1"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Tire_right_front"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Wheel_hub_right_front"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Wheel_M2_fastener_right_front"
+            ],
+            [
+              "Stock_hardware_reference",
+              "TT_gearbox_right_rear"
+            ],
+            [
+              "Stock_hardware_reference",
+              "DC_motor_can_right_rear"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Drive_shaft_right_rear"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Aluminum_motor_block_right_rear"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Motor_through_bolt_right_rear_-1"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Motor_through_bolt_right_rear_1"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Tire_right_rear"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Wheel_hub_right_rear"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Wheel_M2_fastener_right_rear"
+            ],
+            [
+              "Stock_hardware_reference",
+              "UNO_spacer_1"
+            ],
+            [
+              "Stock_hardware_reference",
+              "UNO_M3_screw_1"
+            ],
+            [
+              "Stock_hardware_reference",
+              "UNO_spacer_2"
+            ],
+            [
+              "Stock_hardware_reference",
+              "UNO_M3_screw_2"
+            ],
+            [
+              "Stock_hardware_reference",
+              "UNO_spacer_3"
+            ],
+            [
+              "Stock_hardware_reference",
+              "UNO_M3_screw_3"
+            ],
+            [
+              "Stock_hardware_reference",
+              "UNO_R3_PCB"
+            ],
+            [
+              "Stock_hardware_reference",
+              "UNO_USB_B_connector"
+            ],
+            [
+              "Stock_hardware_reference",
+              "UNO_barrel_connector"
+            ],
+            [
+              "Stock_hardware_reference",
+              "UNO_header_-1"
+            ],
+            [
+              "Stock_hardware_reference",
+              "UNO_header_1"
+            ],
+            [
+              "Stock_hardware_reference",
+              "UNO_ATmega_reference"
+            ],
+            [
+              "Stock_hardware_reference",
+              "SmartRobot_motor_expansion_shield_PCB"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Shield_XH_connector_1"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Shield_XH_connector_2"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Shield_XH_connector_3"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Shield_XH_connector_4"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Shield_XH_connector_5"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Shield_XH_connector_6"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Shield_XH_connector_7"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Shield_XH_connector_8"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Shield_IR_receiver"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Shield_mode_button"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Shield_RGB_LED"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Shield_motor_driver_reference"
+            ],
+            [
+              "Stock_hardware_reference",
+              "GY521_MPU6050_module_PCB"
+            ],
+            [
+              "Stock_hardware_reference",
+              "GY521_sensor_package"
+            ],
+            [
+              "Stock_hardware_reference",
+              "GY521_M3x11_pillar"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Battery_M3_screw_-1"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Battery_M3_screw_1"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Battery_enclosure_LiIon_reference"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Battery_power_switch"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Battery_charge_port"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Line_sensor_spacer_15"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Line_sensor_spacer_16"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Line_sensor_spacer_23"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Line_sensor_spacer_24"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Line_tracking_PCB"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Line_sensor_1_ITR20001"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Line_sensor_2_ITR20001"
+            ],
+            [
+              "Stock_hardware_reference",
+              "Line_sensor_3_ITR20001"
+            ],
+            [
+              "Head_explorer",
+              "SG90_body_explorer"
+            ],
+            [
+              "Head_explorer",
+              "SG90_mounting_ears_explorer"
+            ],
+            [
+              "Head_explorer",
+              "SG90_output_boss_explorer"
+            ],
+            [
+              "Head_explorer",
+              "Servo_horn_explorer"
+            ],
+            [
+              "Head_explorer",
+              "OEM_sonar_head_bracket_explorer"
+            ],
+            [
+              "Head_explorer",
+              "HC_SR04_PCB_explorer"
+            ],
+            [
+              "Head_explorer",
+              "Ultrasonic_transducer_-1_explorer"
+            ],
+            [
+              "Head_explorer",
+              "Ultrasonic_mesh_-1_explorer"
+            ],
+            [
+              "Head_explorer",
+              "Ultrasonic_transducer_1_explorer"
+            ],
+            [
+              "Head_explorer",
+              "Ultrasonic_mesh_1_explorer"
+            ],
+            [
+              "Head_explorer",
+              "Camera_support_bracket_explorer"
+            ],
+            [
+              "Head_explorer",
+              "ESP32_camera_PCB_explorer"
+            ],
+            [
+              "Head_explorer",
+              "ESP32_WROVER_radio_module_explorer"
+            ],
+            [
+              "Head_explorer",
+              "Camera_lens_explorer"
+            ],
+            [
+              "Head_explorer",
+              "Camera_XH_connector_explorer"
+            ],
+            [
+              "Cable_routes_reference",
+              "Head_cable_route_explorer"
+            ],
+            [
+              "PLA_accessories",
+              "01_slotted_deck"
+            ],
+            [
+              "PLA_accessories",
+              "Deck_spacer_1"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Deck_M3x50_screw_1"
+            ],
+            [
+              "PLA_accessories",
+              "Deck_spacer_2"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Deck_M3x50_screw_2"
+            ],
+            [
+              "PLA_accessories",
+              "Deck_spacer_3"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Deck_M3x50_screw_3"
+            ],
+            [
+              "PLA_accessories",
+              "Deck_spacer_4"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Deck_M3x50_screw_4"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Side_guard_screw_-1_1"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Side_guard_nut_-1_1"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Side_guard_screw_-1_2"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Side_guard_nut_-1_2"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Side_guard_screw_1_1"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Side_guard_nut_1_1"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Side_guard_screw_1_2"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Side_guard_nut_1_2"
+            ],
+            [
+              "PLA_accessories",
+              "05_front_guard"
+            ],
+            [
+              "PLA_accessories",
+              "Guard_spacer_1"
+            ],
+            [
+              "PLA_accessories",
+              "Guard_spacer_2"
+            ],
+            [
+              "PLA_accessories",
+              "Downward_carrier_-1"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Downward_carrier_screw_-1_-6"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Downward_carrier_nut_-1_-6"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Downward_carrier_screw_-1_6"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Downward_carrier_nut_-1_6"
+            ],
+            [
+              "PLA_accessories",
+              "Downward_carrier_1"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Downward_carrier_screw_1_-6"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Downward_carrier_nut_1_-6"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Downward_carrier_screw_1_6"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Downward_carrier_nut_1_6"
+            ],
+            [
+              "PLA_accessories",
+              "07_rear_sensor_carrier"
+            ],
+            [
+              "PLA_accessories",
+              "09_optional_servo_adapter"
+            ],
+            [
+              "PLA_accessories",
+              "10_optional_pi4_tray"
+            ],
+            [
+              "PLA_accessories",
+              "Pi_tray_spacer_1"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Pi_tray_M3_screw_1"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Pi_tray_M3_nut_1"
+            ],
+            [
+              "PLA_accessories",
+              "Pi_tray_spacer_2"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Pi_tray_M3_screw_2"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Pi_tray_M3_nut_2"
+            ],
+            [
+              "PLA_accessories",
+              "Pi_tray_spacer_3"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Pi_tray_M3_screw_3"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Pi_tray_M3_nut_3"
+            ],
+            [
+              "PLA_accessories",
+              "Pi_tray_spacer_4"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Pi_tray_M3_screw_4"
+            ],
+            [
+              "Added_fasteners_reference",
+              "Pi_tray_M3_nut_4"
+            ],
+            [
+              "Optional_purchased_hardware",
+              "OPTIONAL_Pi4B_PCB"
+            ],
+            [
+              "Optional_purchased_hardware",
+              "OPTIONAL_Pi4B_USB_stack"
+            ],
+            [
+              "Optional_purchased_hardware",
+              "OPTIONAL_Pi4B_Ethernet"
+            ],
+            [
+              "Optional_purchased_hardware",
+              "OPTIONAL_Pi4B_GPIO_header"
+            ],
+            [
+              "Optional_purchased_hardware",
+              "OPTIONAL_Pi4B_CPU"
+            ],
+            [
+              "Optional_purchased_hardware",
+              "OPTIONAL_rear_ToF_board"
+            ],
+            [
+              "Optional_purchased_hardware",
+              "OPTIONAL_ToF_optical_package"
+            ],
+            [
+              "Optional_purchased_hardware",
+              "OPTIONAL_floor_ToF_board_-1"
+            ],
+            [
+              "Optional_purchased_hardware",
+              "OPTIONAL_floor_ToF_optic_-1"
+            ],
+            [
+              "Optional_purchased_hardware",
+              "OPTIONAL_floor_ToF_board_1"
+            ],
+            [
+              "Optional_purchased_hardware",
+              "OPTIONAL_floor_ToF_optic_1"
+            ],
+            [
+              "PLA_body",
+              "body_01_left_side"
+            ],
+            [
+              "PLA_body",
+              "body_02_right_side"
+            ],
+            [
+              "PLA_body",
+              "body_03_rear_panel"
+            ],
+            [
+              "PLA_body",
+              "body_04_front_bulkhead"
+            ],
+            [
+              "Body_fasteners_reference",
+              "Body_end_M3x12_rear_-1_1"
+            ],
+            [
+              "Body_fasteners_reference",
+              "Body_end_M3_nut_rear_-1_1"
+            ],
+            [
+              "Body_fasteners_reference",
+              "Body_end_M3x12_rear_-1_2"
+            ],
+            [
+              "Body_fasteners_reference",
+              "Body_end_M3_nut_rear_-1_2"
+            ],
+            [
+              "Body_fasteners_reference",
+              "Body_end_M3x12_rear_1_1"
+            ],
+            [
+              "Body_fasteners_reference",
+              "Body_end_M3_nut_rear_1_1"
+            ],
+            [
+              "Body_fasteners_reference",
+              "Body_end_M3x12_rear_1_2"
+            ],
+            [
+              "Body_fasteners_reference",
+              "Body_end_M3_nut_rear_1_2"
+            ],
+            [
+              "Body_fasteners_reference",
+              "Body_end_M3x12_front_-1_1"
+            ],
+            [
+              "Body_fasteners_reference",
+              "Body_end_M3_nut_front_-1_1"
+            ],
+            [
+              "Body_fasteners_reference",
+              "Body_end_M3x12_front_-1_2"
+            ],
+            [
+              "Body_fasteners_reference",
+              "Body_end_M3_nut_front_-1_2"
+            ],
+            [
+              "Body_fasteners_reference",
+              "Body_end_M3x12_front_1_1"
+            ],
+            [
+              "Body_fasteners_reference",
+              "Body_end_M3_nut_front_1_1"
+            ],
+            [
+              "Body_fasteners_reference",
+              "Body_end_M3x12_front_1_2"
+            ],
+            [
+              "Body_fasteners_reference",
+              "Body_end_M3_nut_front_1_2"
+            ],
+            [
+              "Body_fasteners_reference",
+              "Body_roof_M3x10_-1_1"
+            ],
+            [
+              "Body_fasteners_reference",
+              "Body_roof_M3_nut_-1_1"
+            ],
+            [
+              "Body_fasteners_reference",
+              "Body_roof_M3x10_-1_2"
+            ],
+            [
+              "Body_fasteners_reference",
+              "Body_roof_M3_nut_-1_2"
+            ],
+            [
+              "Body_fasteners_reference",
+              "Body_roof_M3x10_1_1"
+            ],
+            [
+              "Body_fasteners_reference",
+              "Body_roof_M3_nut_1_1"
+            ],
+            [
+              "Body_fasteners_reference",
+              "Body_roof_M3x10_1_2"
+            ],
+            [
+              "Body_fasteners_reference",
+              "Body_roof_M3_nut_1_2"
+            ],
+            [
+              "PLA_body",
+              "body_05_removable_roof"
+            ],
+            [
+              "Body_fasteners_reference",
+              "Body_nose_M3x20_1"
+            ],
+            [
+              "Body_fasteners_reference",
+              "Body_nose_M3x20_2"
+            ],
+            [
+              "PLA_body",
+              "body_06_front_cowl"
+            ]
+          ]
+        }
+      },
+      "solid_count": 195,
+      "valid_solid_count": 195,
+      "total_volume_mm3": 1091723.1952913178,
+      "volume_relative_error": 2.373896520366147e-12,
+      "bounds_mm": [
+        -87.0,
+        -122.4,
+        0.0,
+        87.0,
+        148.5,
+        172.90522212982
+      ],
+      "explicit_millimeter_unit": true,
+      "cadquery_version": "2.7.0"
+    },
+    {
+      "file": "elegoo_v4_body_shell_only.step",
+      "bytes": 1941724,
+      "sha256": "e614ae17e17427855b8717b9f0889dbe723fad8da2e5931a8765cc89ca15a254",
+      "length_unit_entity_count": 8,
+      "named_assembly_structure": {
+        "valid": true,
+        "errors": [],
+        "root": "ELEGOO_V4_body_shell_mm",
+        "expected_component_count": 6,
+        "matched_component_products": 6,
+        "matched_named_component_occurrences": 6,
+        "product_count": 8,
+        "assembly_occurrence_count": 7,
+        "group_names": [
+          "PLA_body"
+        ],
+        "missing_product_names": [],
+        "unexpected_product_names": [],
+        "missing_hierarchy_edges": [],
+        "unexpected_hierarchy_edges": [],
+        "missing_named_component_occurrences": []
+      },
+      "valid": true,
+      "errors": [],
+      "expected": {
+        "solids": 6,
+        "volume_mm3": 215076.2914444529,
+        "bounds_mm": [
+          -71.0,
+          -120.0,
+          20.0,
+          71.0,
+          120.5,
+          146.8
+        ],
+        "named_hierarchy": {
+          "root": "ELEGOO_V4_body_shell_mm",
+          "groups": [
+            "PLA_body"
+          ],
+          "components": [
+            "body_01_left_side",
+            "body_02_right_side",
+            "body_03_rear_panel",
+            "body_04_front_bulkhead",
+            "body_05_removable_roof",
+            "body_06_front_cowl"
+          ],
+          "edges": [
+            [
+              "ELEGOO_V4_body_shell_mm",
+              "PLA_body"
+            ],
+            [
+              "PLA_body",
+              "body_01_left_side"
+            ],
+            [
+              "PLA_body",
+              "body_02_right_side"
+            ],
+            [
+              "PLA_body",
+              "body_03_rear_panel"
+            ],
+            [
+              "PLA_body",
+              "body_04_front_bulkhead"
+            ],
+            [
+              "PLA_body",
+              "body_05_removable_roof"
+            ],
+            [
+              "PLA_body",
+              "body_06_front_cowl"
+            ]
+          ]
+        }
+      },
+      "solid_count": 6,
+      "valid_solid_count": 6,
+      "total_volume_mm3": 215076.29144447748,
+      "volume_relative_error": 1.143442476656776e-13,
+      "bounds_mm": [
+        -71.0,
+        -120.0,
+        19.9999999999843,
+        71.0,
+        120.5,
+        146.8
+      ],
+      "explicit_millimeter_unit": true,
+      "cadquery_version": "2.7.0"
+    },
+    {
+      "file": "full_body_printable_parts.step",
+      "bytes": 2042711,
+      "sha256": "316be7906493d6f52bd21e5ddbecd73d7f454e6a3885201e1c95e266c9e7e6ed",
+      "length_unit_entity_count": 10,
+      "named_assembly_structure": {
+        "valid": true,
+        "errors": [],
+        "root": "ELEGOO_V4_body_print_designs_mm",
+        "expected_component_count": 8,
+        "matched_component_products": 8,
+        "matched_named_component_occurrences": 8,
+        "product_count": 10,
+        "assembly_occurrence_count": 9,
+        "group_names": [
+          "Print_designs"
+        ],
+        "missing_product_names": [],
+        "unexpected_product_names": [],
+        "missing_hierarchy_edges": [],
+        "unexpected_hierarchy_edges": [],
+        "missing_named_component_occurrences": []
+      },
+      "valid": true,
+      "errors": [],
+      "expected": {
+        "solids": 8,
+        "volume_mm3": 218769.68135503266,
+        "bounds_mm": [
+          -1.4210854715202004e-14,
+          -1.4210854715202004e-14,
+          -2.886579864025407e-15,
+          522.0,
+          404.0,
+          57.105222129821804
+        ],
+        "named_hierarchy": {
+          "root": "ELEGOO_V4_body_print_designs_mm",
+          "groups": [
+            "Print_designs"
+          ],
+          "components": [
+            "body_01_left_side",
+            "body_02_right_side",
+            "body_03_rear_panel",
+            "body_04_front_bulkhead",
+            "body_05_removable_roof",
+            "body_06_front_cowl",
+            "body_00_joint_side_sample",
+            "body_00_joint_rear_sample"
+          ],
+          "edges": [
+            [
+              "ELEGOO_V4_body_print_designs_mm",
+              "Print_designs"
+            ],
+            [
+              "Print_designs",
+              "body_01_left_side"
+            ],
+            [
+              "Print_designs",
+              "body_02_right_side"
+            ],
+            [
+              "Print_designs",
+              "body_03_rear_panel"
+            ],
+            [
+              "Print_designs",
+              "body_04_front_bulkhead"
+            ],
+            [
+              "Print_designs",
+              "body_05_removable_roof"
+            ],
+            [
+              "Print_designs",
+              "body_06_front_cowl"
+            ],
+            [
+              "Print_designs",
+              "body_00_joint_side_sample"
+            ],
+            [
+              "Print_designs",
+              "body_00_joint_rear_sample"
+            ]
+          ]
+        }
+      },
+      "solid_count": 8,
+      "valid_solid_count": 8,
+      "total_volume_mm3": 218769.68135504634,
+      "volume_relative_error": 6.252603299479171e-14,
+      "bounds_mm": [
+        -1.94289029309375e-16,
+        0.0,
+        -2.886579864025e-15,
+        522.0,
+        404.0,
+        57.1052221298377
+      ],
+      "explicit_millimeter_unit": true,
+      "cadquery_version": "2.7.0"
+    }
+  ],
+  "validator": {
+    "file": "validate_body_exports.py",
+    "bytes": 32437,
+    "sha256": "06bdefab95dead3a33bd614ddb697a4f0c7a79a29fa21f4a74a8e75944f2f7fd"
+  },
+  "tolerances": {
+    "placement_mm": 0.0001,
+    "mesh_bounds_mm": 0.08,
+    "mesh_volume_relative": 0.005,
+    "step_bounds_mm": 0.001,
+    "step_volume_relative": 1e-06
+  },
+  "limits": [
+    "No actual Fusion 360 or Bambu Studio application import was performed.",
+    "No slicer toolpath was generated or checked; no print was sent.",
+    "Minimum wall thickness, self-intersections, and mechanical hardware fit are not certified.",
+    "STEP reimport uses the OpenCascade kernel through CadQuery.",
+    "Print-pack spacing is checked conservatively using XY bounding boxes.",
+    "STL has no units field; scale is checked against the millimeter CAD manifest."
+  ],
+  "component_manifest": {
+    "file": "body_manifest.json",
+    "bytes": 126955,
+    "sha256": "fa3e38e5447760476b9ec46e56641d2183c705bf6e97dc11622143eba7a69b24"
+  },
+  "totals": {
+    "expected_3mf_files": 7,
+    "actual_3mf_files": 7,
+    "expected_named_build_items": 8,
+    "actual_named_build_items": 8,
+    "expected_unique_stl_parts": 8,
+    "actual_stl_parts": 8,
+    "expected_step_assemblies": 3,
+    "actual_step_assemblies": 3,
+    "lib3mf_reader_warning_count": 0
+  },
+  "elapsed_seconds": 9.07
+}

@@ -1,0 +1,137 @@
+{
+  "preserved_components": 166,
+  "preserved_checks": [
+    {
+      "part": "01_slotted_deck",
+      "action": "unchanged snapshot geometry and installed position",
+      "volume_delta": 0.0
+    },
+    {
+      "part": "10_optional_pi4_tray",
+      "action": "unchanged snapshot geometry and installed position",
+      "volume_delta": 0.0
+    },
+    {
+      "part": "body_05_removable_roof",
+      "action": "unchanged snapshot geometry and installed position",
+      "volume_delta": 0.0
+    },
+    {
+      "part": "body_03_rear_panel",
+      "action": "unchanged snapshot geometry and installed position",
+      "volume_delta": 0.0
+    },
+    {
+      "part": "PRINT_roof_tray_v2",
+      "action": "unchanged snapshot geometry and installed position",
+      "volume_delta": 0.0
+    },
+    {
+      "part": "PRINT_slotted_snap_lid_v2",
+      "action": "unchanged snapshot geometry and installed position",
+      "volume_delta": 0.0
+    },
+    {
+      "part": "Deck_spacer_1",
+      "action": "unchanged snapshot geometry and installed position",
+      "volume_delta": 0.0
+    },
+    {
+      "part": "Deck_spacer_2",
+      "action": "unchanged snapshot geometry and installed position",
+      "volume_delta": 0.0
+    },
+    {
+      "part": "Deck_spacer_3",
+      "action": "unchanged snapshot geometry and installed position",
+      "volume_delta": 0.0
+    },
+    {
+      "part": "Deck_spacer_4",
+      "action": "unchanged snapshot geometry and installed position",
+      "volume_delta": 0.0
+    }
+  ],
+  "changed_panel_mount_interfaces": [
+    {
+      "part": "body_01_left_side",
+      "interface": "deck",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "part": "body_01_left_side",
+      "interface": "deck",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "part": "body_01_left_side",
+      "interface": "roof",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "part": "body_01_left_side",
+      "interface": "roof",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "part": "body_01_left_side",
+      "interface": "end_panel",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "part": "body_01_left_side",
+      "interface": "end_panel",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "part": "body_01_left_side",
+      "interface": "end_panel",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "part": "body_01_left_side",
+      "interface": "end_panel",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "part": "body_02_right_side",
+      "interface": "deck",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "part": "body_02_right_side",
+      "interface": "deck",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "part": "body_02_right_side",
+      "interface": "roof",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "part": "body_02_right_side",
+      "interface": "roof",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "part": "body_02_right_side",
+      "interface": "end_panel",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "part": "body_02_right_side",
+      "interface": "end_panel",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "part": "body_02_right_side",
+      "interface": "end_panel",
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "part": "body_02_right_side",
+      "interface": "end_panel",
+      "symmetric_difference_mm3": 0.0
+    }
+  ]
+}

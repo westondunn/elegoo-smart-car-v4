@@ -1,0 +1,91 @@
+{
+  "reviewed_build_sha256": "4a25721027ceea20f52a605ded3e8fd93ef21778db4ab07d126956c92fa6ec2f",
+  "nut_across_corners_mm": 6.35,
+  "nut_across_flats_mm": 5.499261314031185,
+  "cavity_across_corners_mm": 6.8,
+  "entry_width_mm": 5.9,
+  "nominal_entry_side_clearance_mm": 0.20036934298440778,
+  "continuous_linear_nut_insertion": [
+    {
+      "side": -1,
+      "y_mm": -104.0,
+      "start_nut_center_x_mm": -48,
+      "end_nut_center_x_mm": -61,
+      "z_mm": [
+        140.2,
+        142.6
+      ],
+      "sweep_bounds_mm": [
+        -64.175,
+        -106.74963065701559,
+        140.2,
+        -44.825,
+        -101.25036934298441,
+        142.6
+      ],
+      "collisions": [],
+      "scope": "Continuous convex swept envelope of nominal solid hex nut along X; threads/central hole filled conservatively. Roof screws excluded because nuts insert before screws."
+    },
+    {
+      "side": -1,
+      "y_mm": 30.0,
+      "start_nut_center_x_mm": -48,
+      "end_nut_center_x_mm": -61,
+      "z_mm": [
+        140.2,
+        142.6
+      ],
+      "sweep_bounds_mm": [
+        -64.175,
+        27.250369342984406,
+        140.2,
+        -44.825,
+        32.749630657015594,
+        142.6
+      ],
+      "collisions": [],
+      "scope": "Continuous convex swept envelope of nominal solid hex nut along X; threads/central hole filled conservatively. Roof screws excluded because nuts insert before screws."
+    },
+    {
+      "side": 1,
+      "y_mm": -104.0,
+      "start_nut_center_x_mm": 48,
+      "end_nut_center_x_mm": 61,
+      "z_mm": [
+        140.2,
+        142.6
+      ],
+      "sweep_bounds_mm": [
+        44.825,
+        -106.74963065701559,
+        140.2,
+        64.175,
+        -101.25036934298441,
+        142.6
+      ],
+      "collisions": [],
+      "scope": "Continuous convex swept envelope of nominal solid hex nut along X; threads/central hole filled conservatively. Roof screws excluded because nuts insert before screws."
+    },
+    {
+      "side": 1,
+      "y_mm": 30.0,
+      "start_nut_center_x_mm": 48,
+      "end_nut_center_x_mm": 61,
+      "z_mm": [
+        140.2,
+        142.6
+      ],
+      "sweep_bounds_mm": [
+        44.825,
+        27.250369342984406,
+        140.2,
+        64.175,
+        32.749630657015594,
+        142.6
+      ],
+      "collisions": [],
+      "scope": "Continuous convex swept envelope of nominal solid hex nut along X; threads/central hole filled conservatively. Roof screws excluded because nuts insert before screws."
+    }
+  ],
+  "passed": true
+}

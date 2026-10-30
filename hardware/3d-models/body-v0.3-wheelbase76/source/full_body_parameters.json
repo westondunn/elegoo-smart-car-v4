@@ -1,0 +1,37 @@
+{
+  "version": "0.3.0",
+  "units": "millimeter",
+  "outer_half_width": 71.0,
+  "cabin_rear_y": -120.0,
+  "cabin_front_y": 46.0,
+  "skirt_bottom_z": 20.0,
+  "roof_underside_z": 144.0,
+  "wall_thickness": 2.4,
+  "roof_thickness": 2.8,
+  "panel_seam_clearance": 0.5,
+  "m3_clearance": 3.5,
+  "head_opening_radius": 31.0,
+  "nose_rear_y": 46.6,
+  "nose_front_y": 120.5,
+  "nose_roof_thickness": 2.4,
+  "roof_mount_x": 61.0,
+  "roof_mount_y": [
+    -104.0,
+    30.0
+  ],
+  "end_panel_mount_z": [
+    85.0,
+    132.0
+  ],
+  "bed_mm": [
+    180.0,
+    180.0
+  ],
+  "notice": "Continuous open-bottom wheel bays. Nominal tire size 64.77 x 27.94 mm, wheelbase 76.2 mm. Uses inferred chassis-relative axle midpoint; test with the supplied gauges. Roof, Pi, deck and battery latch interfaces are unchanged.",
+  "wheel_bay_rear_y": -90.0,
+  "wheel_bay_front_y": 90.0,
+  "wheel_bay_top_z": 74.0,
+  "axle_pair_translation_allowance_y": 8.0,
+  "axle_height_allowance_z": 2.0,
+  "tire_radius_envelope_extra": 3.0
+}

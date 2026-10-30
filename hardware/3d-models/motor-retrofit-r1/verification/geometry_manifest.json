@@ -1,0 +1,90 @@
+{
+  "parameters": {
+    "revision": "R1",
+    "plate_thickness": 4.0,
+    "endward_offset": 11.0,
+    "floor_pitch": 7.8,
+    "floor_thickness": 4.5,
+    "slide_min": 0.0,
+    "slide_max": 18.0,
+    "clearance_diameter": 3.4,
+    "countersink_diameter": 6.4,
+    "nut_pocket_af": 5.8,
+    "nut_seat_z": 1.0,
+    "assumed_nut_thickness": 2.4,
+    "key_radius": 1.5,
+    "key_arc_y": 3.1,
+    "key_end_y": 3.6,
+    "key_depth": 3.8,
+    "xmin": -5.2,
+    "xmax": 23.2,
+    "ymin": -8.1,
+    "ymax": 20.1,
+    "outline_radius": 1.8,
+    "rear_post_local_x": -6.5,
+    "rear_post_local_y": -12.26291025,
+    "rear_post_keepout_radius": 5.2,
+    "floor_screw_length": 10.0,
+    "floor_spacer_thickness": 1.6,
+    "floor_spacer_od": 8.0,
+    "block_screw_total_length": 8.0,
+    "reported_ground_clearance": 24.0,
+    "reported_side_gap": 14.0,
+    "reported_inner_shaft_post_gap": 3.0,
+    "block_height": 22.0,
+    "block_length": 12.0,
+    "block_thickness": 4.0,
+    "carrier_underside_above_floor": 27.5,
+    "mesh_tolerance": 0.015,
+    "mesh_angular_tolerance": 0.06
+  },
+  "status": "Digitally checked fit prototype; physical fit pending",
+  "parts": {
+    "Adapter_A_FR_RL_R1": {
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 2435.916980569358,
+      "bbox_mm": [
+        28.4,
+        28.200000000000003,
+        7.800000000000002
+      ],
+      "sha256_stl": "865e19e11812d5accaea9b39e4911438dc1fbe86d8ce8dd1a3201f72b2ca7ecd",
+      "quantity": 2
+    },
+    "Adapter_B_FL_RR_R1": {
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 2435.673601712489,
+      "bbox_mm": [
+        28.4000002,
+        28.200000200000005,
+        7.800000000000002
+      ],
+      "sha256_stl": "035acbb42c236c8112e01f1f236a164e54f64b3023aa87f297304a018464049f",
+      "quantity": 2
+    },
+    "Floor_Screw_Spacer_1p6_R1": {
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 65.89804750169951,
+      "bbox_mm": [
+        8.0,
+        8.0,
+        1.6
+      ],
+      "sha256_stl": "f898411069c17ff81f12ee11c62748d777fc6d088508cca8d3bf28f06666cdf6",
+      "quantity": 4
+    }
+  },
+  "nominal_stack_checks": {
+    "floor_screw_tip_above_original_floor": 3.9,
+    "nut_top_above_original_floor": 3.4,
+    "screw_tip_below_motor_seat": 0.10000000000000009,
+    "block_screw_engagement": 4.0,
+    "new_reported_body_ground_clearance": 20.0,
+    "block_to_carrier_gap": 1.5,
+    "slot_head_outer_ligament": 1.9999999999999991,
+    "key_to_countersink_gap": 0.2999999999999994
+  }
+}

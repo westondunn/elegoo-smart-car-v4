@@ -1,0 +1,1088 @@
+{
+  "body_00_joint_check.3mf": {
+    "path": "/workspace/scratch/5751292c2c7f/rover-cad/full-body/deliverables/body_00_joint_check.3mf",
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "validation_scope": [
+      "OPC package/CRC",
+      "core XML resource/build references",
+      "explicit millimeter units",
+      "indexed mesh topology",
+      "edge/vertex manifoldness",
+      "triangle winding",
+      "degeneracy",
+      "signed volume",
+      "build transforms",
+      "bounding boxes"
+    ],
+    "not_validated": [
+      "XML XSD schema (unless separately checked)",
+      "self-intersections",
+      "shell containment",
+      "minimum wall thickness",
+      "physical fit",
+      "printer profile",
+      "toolpaths",
+      "actual slicer import"
+    ],
+    "unit": "millimeter",
+    "build_items": 2,
+    "resource_objects": 2,
+    "package_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "3D/3dmodel.model"
+    ],
+    "objects": [
+      {
+        "valid": true,
+        "vertices": 672,
+        "triangles": 1352,
+        "edges": 2028,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          2866.4419508848378
+        ],
+        "signed_volume_mm3": 2866.4419508848378,
+        "surface_area_mm2": 2559.368641040566,
+        "bounds_mm": [
+          [
+            1.4210854715202004e-14,
+            0.0,
+            0.0
+          ],
+          [
+            22.0,
+            24.0,
+            19.0
+          ]
+        ],
+        "size_mm": [
+          21.999999999999986,
+          24.0,
+          19.0
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "body_00_joint_side_sample",
+        "object_id": 2,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            4.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            4.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            4.000000000000014,
+            4.0,
+            0.0
+          ],
+          [
+            26.0,
+            28.0,
+            19.0
+          ]
+        ],
+        "build_size_mm": [
+          21.999999999999986,
+          24.0,
+          19.0
+        ],
+        "build_volume_mm3": 2866.4419508848378
+      },
+      {
+        "valid": true,
+        "vertices": 218,
+        "triangles": 436,
+        "edges": 654,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          827.003072096461
+        ],
+        "signed_volume_mm3": 827.003072096461,
+        "surface_area_mm2": 898.434667908459,
+        "bounds_mm": [
+          [
+            0.0,
+            0.0,
+            -1.9420207181221404e-16
+          ],
+          [
+            16.099999999999994,
+            21.999999999999986,
+            2.4000000000000057
+          ]
+        ],
+        "size_mm": [
+          16.099999999999994,
+          21.999999999999986,
+          2.4000000000000057
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "body_00_joint_rear_sample",
+        "object_id": 3,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            31.000783443503877
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            4.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            31.000783443503877,
+            4.0,
+            -1.9420207181221404e-16
+          ],
+          [
+            47.10078344350387,
+            25.999999999999986,
+            2.4000000000000057
+          ]
+        ],
+        "build_size_mm": [
+          16.099999999999994,
+          21.999999999999986,
+          2.4000000000000057
+        ],
+        "build_volume_mm3": 827.003072096461
+      }
+    ],
+    "build_bounds_mm": [
+      [
+        4.000000000000014,
+        4.0,
+        -1.9420207181221404e-16
+      ],
+      [
+        47.10078344350387,
+        28.0,
+        19.0
+      ]
+    ],
+    "build_size_mm": [
+      43.10078344350386,
+      24.0,
+      19.0
+    ],
+    "sha256": "c49c8bb935b6acbeb0878d4d7f6c7d9b58b27e96ef5567918edf8117cf1e0dc5",
+    "bytes": 22692,
+    "round_trip_geometry_exact": true
+  },
+  "body_01_left_side.3mf": {
+    "path": "/workspace/scratch/5751292c2c7f/rover-cad/full-body/deliverables/body_01_left_side.3mf",
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "validation_scope": [
+      "OPC package/CRC",
+      "core XML resource/build references",
+      "explicit millimeter units",
+      "indexed mesh topology",
+      "edge/vertex manifoldness",
+      "triangle winding",
+      "degeneracy",
+      "signed volume",
+      "build transforms",
+      "bounding boxes"
+    ],
+    "not_validated": [
+      "XML XSD schema (unless separately checked)",
+      "self-intersections",
+      "shell containment",
+      "minimum wall thickness",
+      "physical fit",
+      "printer profile",
+      "toolpaths",
+      "actual slicer import"
+    ],
+    "unit": "millimeter",
+    "build_items": 1,
+    "resource_objects": 1,
+    "package_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "3D/3dmodel.model"
+    ],
+    "objects": [
+      {
+        "valid": true,
+        "vertices": 5311,
+        "triangles": 10710,
+        "edges": 16065,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          41226.28271301062
+        ],
+        "signed_volume_mm3": 41226.28271301062,
+        "surface_area_mm2": 37432.594064451434,
+        "bounds_mm": [
+          [
+            -1.9420207181221404e-16,
+            0.0,
+            -1.1605264649234535e-15
+          ],
+          [
+            124.0,
+            166.0,
+            21.000000000000014
+          ]
+        ],
+        "size_mm": [
+          124.0,
+          166.0,
+          21.000000000000014
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "body_01_left_side",
+        "object_id": 2,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            4.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            4.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            4.0,
+            4.0,
+            -1.1605264649234535e-15
+          ],
+          [
+            128.0,
+            170.0,
+            21.000000000000014
+          ]
+        ],
+        "build_size_mm": [
+          124.0,
+          166.0,
+          21.000000000000014
+        ],
+        "build_volume_mm3": 41226.28271301062
+      }
+    ],
+    "build_bounds_mm": [
+      [
+        4.0,
+        4.0,
+        -1.1605264649234535e-15
+      ],
+      [
+        128.0,
+        170.0,
+        21.000000000000014
+      ]
+    ],
+    "build_size_mm": [
+      124.0,
+      166.0,
+      21.000000000000014
+    ],
+    "sha256": "4677e01c157fca9d11a404a423a8e6b3554a9e53cce95736b2f1e8756c9b2f81",
+    "bytes": 111148,
+    "round_trip_geometry_exact": true
+  },
+  "body_02_right_side.3mf": {
+    "path": "/workspace/scratch/5751292c2c7f/rover-cad/full-body/deliverables/body_02_right_side.3mf",
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "validation_scope": [
+      "OPC package/CRC",
+      "core XML resource/build references",
+      "explicit millimeter units",
+      "indexed mesh topology",
+      "edge/vertex manifoldness",
+      "triangle winding",
+      "degeneracy",
+      "signed volume",
+      "build transforms",
+      "bounding boxes"
+    ],
+    "not_validated": [
+      "XML XSD schema (unless separately checked)",
+      "self-intersections",
+      "shell containment",
+      "minimum wall thickness",
+      "physical fit",
+      "printer profile",
+      "toolpaths",
+      "actual slicer import"
+    ],
+    "unit": "millimeter",
+    "build_items": 1,
+    "resource_objects": 1,
+    "package_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "3D/3dmodel.model"
+    ],
+    "objects": [
+      {
+        "valid": true,
+        "vertices": 3516,
+        "triangles": 7088,
+        "edges": 10632,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          36870.1875639464
+        ],
+        "signed_volume_mm3": 36870.1875639464,
+        "surface_area_mm2": 33369.95665723843,
+        "bounds_mm": [
+          [
+            0.0,
+            0.0,
+            -1.1605264649234535e-15
+          ],
+          [
+            124.0,
+            166.0,
+            21.000000000000014
+          ]
+        ],
+        "size_mm": [
+          124.0,
+          166.0,
+          21.000000000000014
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "body_02_right_side",
+        "object_id": 2,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            4.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            4.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            4.0,
+            4.0,
+            -1.1605264649234535e-15
+          ],
+          [
+            128.0,
+            170.0,
+            21.000000000000014
+          ]
+        ],
+        "build_size_mm": [
+          124.0,
+          166.0,
+          21.000000000000014
+        ],
+        "build_volume_mm3": 36870.1875639464
+      }
+    ],
+    "build_bounds_mm": [
+      [
+        4.0,
+        4.0,
+        -1.1605264649234535e-15
+      ],
+      [
+        128.0,
+        170.0,
+        21.000000000000014
+      ]
+    ],
+    "build_size_mm": [
+      124.0,
+      166.0,
+      21.000000000000014
+    ],
+    "sha256": "2647151cf7f1f9c7ae43894e5a9c7b60277060062236eeefcf415d8232e237c4",
+    "bytes": 76965,
+    "round_trip_geometry_exact": true
+  },
+  "body_03_rear_panel.3mf": {
+    "path": "/workspace/scratch/5751292c2c7f/rover-cad/full-body/deliverables/body_03_rear_panel.3mf",
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "validation_scope": [
+      "OPC package/CRC",
+      "core XML resource/build references",
+      "explicit millimeter units",
+      "indexed mesh topology",
+      "edge/vertex manifoldness",
+      "triangle winding",
+      "degeneracy",
+      "signed volume",
+      "build transforms",
+      "bounding boxes"
+    ],
+    "not_validated": [
+      "XML XSD schema (unless separately checked)",
+      "self-intersections",
+      "shell containment",
+      "minimum wall thickness",
+      "physical fit",
+      "printer profile",
+      "toolpaths",
+      "actual slicer import"
+    ],
+    "unit": "millimeter",
+    "build_items": 1,
+    "resource_objects": 1,
+    "package_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "3D/3dmodel.model"
+    ],
+    "objects": [
+      {
+        "valid": true,
+        "vertices": 2192,
+        "triangles": 4420,
+        "edges": 6630,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          27112.263149301176
+        ],
+        "signed_volume_mm3": 27112.263149301176,
+        "surface_area_mm2": 26682.73158558468,
+        "bounds_mm": [
+          [
+            0.0,
+            0.0,
+            -1.330013643580676e-16
+          ],
+          [
+            136.2,
+            123.99999999999999,
+            2.4000000000000203
+          ]
+        ],
+        "size_mm": [
+          136.2,
+          123.99999999999999,
+          2.4000000000000203
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "body_03_rear_panel",
+        "object_id": 2,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            4.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            4.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            4.0,
+            4.0,
+            -1.330013643580676e-16
+          ],
+          [
+            140.2,
+            127.99999999999999,
+            2.4000000000000203
+          ]
+        ],
+        "build_size_mm": [
+          136.2,
+          123.99999999999999,
+          2.4000000000000203
+        ],
+        "build_volume_mm3": 27112.263149301176
+      }
+    ],
+    "build_bounds_mm": [
+      [
+        4.0,
+        4.0,
+        -1.330013643580676e-16
+      ],
+      [
+        140.2,
+        127.99999999999999,
+        2.4000000000000203
+      ]
+    ],
+    "build_size_mm": [
+      136.2,
+      123.99999999999999,
+      2.4000000000000203
+    ],
+    "sha256": "0d6adf6880a6d91c0aeaccf673338254448f12b8a183807b859eee29460ea258",
+    "bytes": 48814,
+    "round_trip_geometry_exact": true
+  },
+  "body_04_front_bulkhead.3mf": {
+    "path": "/workspace/scratch/5751292c2c7f/rover-cad/full-body/deliverables/body_04_front_bulkhead.3mf",
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "validation_scope": [
+      "OPC package/CRC",
+      "core XML resource/build references",
+      "explicit millimeter units",
+      "indexed mesh topology",
+      "edge/vertex manifoldness",
+      "triangle winding",
+      "degeneracy",
+      "signed volume",
+      "build transforms",
+      "bounding boxes"
+    ],
+    "not_validated": [
+      "XML XSD schema (unless separately checked)",
+      "self-intersections",
+      "shell containment",
+      "minimum wall thickness",
+      "physical fit",
+      "printer profile",
+      "toolpaths",
+      "actual slicer import"
+    ],
+    "unit": "millimeter",
+    "build_items": 1,
+    "resource_objects": 1,
+    "package_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "3D/3dmodel.model"
+    ],
+    "objects": [
+      {
+        "valid": true,
+        "vertices": 2192,
+        "triangles": 4420,
+        "edges": 6630,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          19663.693989597086
+        ],
+        "signed_volume_mm3": 19663.693989597086,
+        "surface_area_mm2": 18745.44229748254,
+        "bounds_mm": [
+          [
+            0.0,
+            0.0,
+            6.7729239467058325e-15
+          ],
+          [
+            136.2,
+            75.79477787017822,
+            2.4000000000000203
+          ]
+        ],
+        "size_mm": [
+          136.2,
+          75.79477787017822,
+          2.4000000000000137
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "body_04_front_bulkhead",
+        "object_id": 2,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            4.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            4.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            4.0,
+            4.0,
+            6.7729239467058325e-15
+          ],
+          [
+            140.2,
+            79.79477787017822,
+            2.4000000000000203
+          ]
+        ],
+        "build_size_mm": [
+          136.2,
+          75.79477787017822,
+          2.4000000000000137
+        ],
+        "build_volume_mm3": 19663.693989597086
+      }
+    ],
+    "build_bounds_mm": [
+      [
+        4.0,
+        4.0,
+        6.7729239467058325e-15
+      ],
+      [
+        140.2,
+        79.79477787017822,
+        2.4000000000000203
+      ]
+    ],
+    "build_size_mm": [
+      136.2,
+      75.79477787017822,
+      2.4000000000000137
+    ],
+    "sha256": "88a864e818bb8f2bf0a020034be0b71a3bcb91f209424ef5982d3f8a37dfa433",
+    "bytes": 50041,
+    "round_trip_geometry_exact": true
+  },
+  "body_05_roof.3mf": {
+    "path": "/workspace/scratch/5751292c2c7f/rover-cad/full-body/deliverables/body_05_roof.3mf",
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "validation_scope": [
+      "OPC package/CRC",
+      "core XML resource/build references",
+      "explicit millimeter units",
+      "indexed mesh topology",
+      "edge/vertex manifoldness",
+      "triangle winding",
+      "degeneracy",
+      "signed volume",
+      "build transforms",
+      "bounding boxes"
+    ],
+    "not_validated": [
+      "XML XSD schema (unless separately checked)",
+      "self-intersections",
+      "shell containment",
+      "minimum wall thickness",
+      "physical fit",
+      "printer profile",
+      "toolpaths",
+      "actual slicer import"
+    ],
+    "unit": "millimeter",
+    "build_items": 1,
+    "resource_objects": 1,
+    "package_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "3D/3dmodel.model"
+    ],
+    "objects": [
+      {
+        "valid": true,
+        "vertices": 3632,
+        "triangles": 7324,
+        "edges": 10986,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          57414.15881593165
+        ],
+        "signed_volume_mm3": 57414.15881593165,
+        "surface_area_mm2": 46854.594176471845,
+        "bounds_mm": [
+          [
+            0.0,
+            0.0,
+            2.814628491013271e-14
+          ],
+          [
+            142.0,
+            166.0,
+            2.8000000000000402
+          ]
+        ],
+        "size_mm": [
+          142.0,
+          166.0,
+          2.8000000000000123
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "body_05_removable_roof",
+        "object_id": 2,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            4.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            4.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            4.0,
+            4.0,
+            2.814628491013271e-14
+          ],
+          [
+            146.0,
+            170.0,
+            2.8000000000000402
+          ]
+        ],
+        "build_size_mm": [
+          142.0,
+          166.0,
+          2.8000000000000123
+        ],
+        "build_volume_mm3": 57414.15881593165
+      }
+    ],
+    "build_bounds_mm": [
+      [
+        4.0,
+        4.0,
+        2.814628491013271e-14
+      ],
+      [
+        146.0,
+        170.0,
+        2.8000000000000402
+      ]
+    ],
+    "build_size_mm": [
+      142.0,
+      166.0,
+      2.8000000000000123
+    ],
+    "sha256": "da28dc349daea876b652abcc095d608b28543323914d7c6e68ed1ce42c585da1",
+    "bytes": 76416,
+    "round_trip_geometry_exact": true
+  },
+  "body_06_front_cowl.3mf": {
+    "path": "/workspace/scratch/5751292c2c7f/rover-cad/full-body/deliverables/body_06_front_cowl.3mf",
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "validation_scope": [
+      "OPC package/CRC",
+      "core XML resource/build references",
+      "explicit millimeter units",
+      "indexed mesh topology",
+      "edge/vertex manifoldness",
+      "triangle winding",
+      "degeneracy",
+      "signed volume",
+      "build transforms",
+      "bounding boxes"
+    ],
+    "not_validated": [
+      "XML XSD schema (unless separately checked)",
+      "self-intersections",
+      "shell containment",
+      "minimum wall thickness",
+      "physical fit",
+      "printer profile",
+      "toolpaths",
+      "actual slicer import"
+    ],
+    "unit": "millimeter",
+    "build_items": 1,
+    "resource_objects": 1,
+    "package_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "3D/3dmodel.model"
+    ],
+    "objects": [
+      {
+        "valid": true,
+        "vertices": 1478,
+        "triangles": 2964,
+        "edges": 4446,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          32809.873564408714
+        ],
+        "signed_volume_mm3": 32809.873564408714,
+        "surface_area_mm2": 29736.072403490696,
+        "bounds_mm": [
+          [
+            -1.2771111322005574e-15,
+            0.0,
+            -1.2225748905895979e-16
+          ],
+          [
+            142.0,
+            73.9,
+            57.105222129821804
+          ]
+        ],
+        "size_mm": [
+          142.0,
+          73.9,
+          57.105222129821804
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "body_06_front_cowl",
+        "object_id": 2,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            4.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            4.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            3.9999999999999987,
+            4.0,
+            -1.2225748905895979e-16
+          ],
+          [
+            146.0,
+            77.9,
+            57.105222129821804
+          ]
+        ],
+        "build_size_mm": [
+          142.0,
+          73.9,
+          57.105222129821804
+        ],
+        "build_volume_mm3": 32809.873564408714
+      }
+    ],
+    "build_bounds_mm": [
+      [
+        3.9999999999999987,
+        4.0,
+        -1.2225748905895979e-16
+      ],
+      [
+        146.0,
+        77.9,
+        57.105222129821804
+      ]
+    ],
+    "build_size_mm": [
+      142.0,
+      73.9,
+      57.105222129821804
+    ],
+    "sha256": "b9c1426c5799ed9d070c0b2a1ef54d3a38ae608410c91d412814ac4d6e962fa2",
+    "bytes": 39140,
+    "round_trip_geometry_exact": true
+  }
+}

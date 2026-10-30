@@ -45,20 +45,16 @@ disables line-ending conversion), so hashes are stable on every platform.
 
 ## Families
 
-Only `rover-v3/` is in this first pull request. The seven earlier families
-listed below are staged in the follow-up branch `feat/rover-3d-models-history`
-so the first update stays small; their rows are kept here for context.
-
 | Family | What it is | Status label | Start here |
 | --- | --- | --- | --- |
 | [`rover-v3/`](rover-v3/) | Full PLA chassis: 230 × 230.8 mm lower base, 168 × 210 mm service deck, rails, posts, standoffs, spacers. Fusion builder + motion/exploded-view script. | Digitally checked prototype. C1 motor-corner coupon physically tested (project record). Native Fusion build completed 2026-10-20. Chassis not printed. | [`rover-v3/docs/start_here.txt`](rover-v3/docs/start_here.txt) |
-| `motor-retrofit-r1/` (follow-up PR) | Motor-block adapters for the printed V2 P1B chassis (11 mm end-ward offset, 0–18 mm lateral slot). R2 variant has no documentation. | Digitally checked prototype; physical fit pending (R1). R2 unassessed. | `motor-retrofit-r1/docs/motor_adapters_r1_guide.md` (follow-up PR) |
-| `rover-v2-p1/` (follow-up PR) | Box chassis, cover, Pi/UNO/servo carriers (STEP + sliced PETG project). | P1B chassis physically printed (evidence: retrofit guide and user measurements). No source scripts or assembly guide were located. | `rover-v2-p1/cad/` (follow-up PR) |
-| `body-v0.3-wheelbase76/` (follow-up PR) | Six-panel body for the explorer deck, corrected to the measured 76.2 mm wheel-screw spacing. Open wheel bays, fit templates. | Digitally checked prototype (12 regression tests in source environment). Not printed. | `body-v0.3-wheelbase76/docs/start_here.md` (follow-up PR) |
-| `body-v0.2-full/` (follow-up PR) | First six-panel removable body on the explorer deck. | Digitally checked prototype; superseded (wheel arches assume 114 mm tire spacing). | `body-v0.2-full/docs/start_here.txt` (follow-up PR) |
-| `explorer-v0.1/` (follow-up PR) | Slotted deck, 36 mm spacers, side/front guards, carriers, optional Pi tray on the stock acrylic chassis. | Digitally checked prototype. Later docs imply the deck, spacers and Pi tray were installed; no direct fit record. | `explorer-v0.1/docs/start_here.txt` (follow-up PR) |
-| `roof-battery-v2/` (follow-up PR) | Roof-mounted snap-lid battery tray, spacers, latch and fit coupons. | **Unverified**: geometry-only exports, no documentation found. | `roof-battery-v2/print/` (follow-up PR) |
-| `service-hatch-v4/` (follow-up PR) | Right side panel with a service hatch (124 × 166 × 21 mm, same envelope as the v0.3 right side). | **Unverified**: single export, no documentation; purpose inferred from the filename only. | `service-hatch-v4/print/` (follow-up PR) |
+| [`motor-retrofit-r1/`](motor-retrofit-r1/) | Motor-block adapters for the printed V2 P1B chassis (11 mm end-ward offset, 0–18 mm lateral slot). R2 variant has no documentation. | Digitally checked prototype; physical fit pending (R1). R2 unassessed. | [`motor-retrofit-r1/docs/motor_adapters_r1_guide.md`](motor-retrofit-r1/docs/motor_adapters_r1_guide.md) |
+| [`rover-v2-p1/`](rover-v2-p1/) | Box chassis, cover, Pi/UNO/servo carriers (STEP + sliced PETG project). | P1B chassis physically printed (evidence: retrofit guide and user measurements). No source scripts or assembly guide were located. | [`rover-v2-p1/cad/`](rover-v2-p1/cad/) |
+| [`body-v0.3-wheelbase76/`](body-v0.3-wheelbase76/) | Six-panel body for the explorer deck, corrected to the measured 76.2 mm wheel-screw spacing. Open wheel bays, fit templates. | Digitally checked prototype (12 regression tests in source environment). Not printed. | [`body-v0.3-wheelbase76/docs/start_here.md`](body-v0.3-wheelbase76/docs/start_here.md) |
+| [`body-v0.2-full/`](body-v0.2-full/) | First six-panel removable body on the explorer deck. | Digitally checked prototype; superseded (wheel arches assume 114 mm tire spacing). | [`body-v0.2-full/docs/start_here.txt`](body-v0.2-full/docs/start_here.txt) |
+| [`explorer-v0.1/`](explorer-v0.1/) | Slotted deck, 36 mm spacers, side/front guards, carriers, optional Pi tray on the stock acrylic chassis. | Digitally checked prototype. Later docs imply the deck, spacers and Pi tray were installed; no direct fit record. | [`explorer-v0.1/docs/start_here.txt`](explorer-v0.1/docs/start_here.txt) |
+| [`roof-battery-v2/`](roof-battery-v2/) | Roof-mounted snap-lid battery tray, spacers, latch and fit coupons. | **Unverified**: geometry-only exports, no documentation found. | [`roof-battery-v2/print/`](roof-battery-v2/print/) |
+| [`service-hatch-v4/`](service-hatch-v4/) | Right side panel with a service hatch (124 × 166 × 21 mm, same envelope as the v0.3 right side). | **Unverified**: single export, no documentation; purpose inferred from the filename only. | [`service-hatch-v4/print/`](service-hatch-v4/print/) |
 
 Labels mean: *concept* = no geometry checks on record; *digitally checked
 prototype* = source environment ran solid/mesh/interference checks and this
@@ -145,10 +141,10 @@ and `cad/complete_assembly.f3d`, which were exported before the removal).
 | View | Image |
 | --- | --- |
 | Rover V3 full assembly (CAD render) | [`rover-v3/preview/full_assembly.png`](rover-v3/preview/full_assembly.png) |
-| Body v0.3 assembled / side / fit templates | `revised_rover_v3.png` (follow-up PR), `revised_side_view.png` (follow-up PR), `fit_templates_installed.png` (follow-up PR) |
-| Body v0.2 assembled / exploded / printed parts only | `full_body_preview.png` (follow-up PR), `full_body_exploded.png` (follow-up PR), `full_body_parts.png` (follow-up PR) |
-| Explorer v0.1 assembled / exploded / stock | `explorer_preview.png` (follow-up PR), `explorer_exploded.png` (follow-up PR), `stock_reference_preview.png` (follow-up PR) |
-| Retrofit R1 plate | `retrofit_r1_plate_closeup.png` (follow-up PR) |
+| Body v0.3 assembled / side / fit templates | [`revised_rover_v3.png`](body-v0.3-wheelbase76/preview/revised_rover_v3.png), [`revised_side_view.png`](body-v0.3-wheelbase76/preview/revised_side_view.png), [`fit_templates_installed.png`](body-v0.3-wheelbase76/preview/fit_templates_installed.png) |
+| Body v0.2 assembled / exploded / printed parts only | [`full_body_preview.png`](body-v0.2-full/preview/full_body_preview.png), [`full_body_exploded.png`](body-v0.2-full/preview/full_body_exploded.png), [`full_body_parts.png`](body-v0.2-full/preview/full_body_parts.png) |
+| Explorer v0.1 assembled / exploded / stock | [`explorer_preview.png`](explorer-v0.1/preview/explorer_preview.png), [`explorer_exploded.png`](explorer-v0.1/preview/explorer_exploded.png), [`stock_reference_preview.png`](explorer-v0.1/preview/stock_reference_preview.png) |
+| Retrofit R1 plate | [`retrofit_r1_plate_closeup.png`](motor-retrofit-r1/preview/retrofit_r1_plate_closeup.png) |
 
 No exploded or printed-parts-only render exists for Rover V3; RoverMotion
 produces those views live in Fusion.

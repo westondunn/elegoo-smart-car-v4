@@ -1,0 +1,336 @@
+{
+  "review_scope": "Independent BRep checks against generated source-derived plates and nominal hardware; not physical-fit certification.",
+  "active_component_count": 206,
+  "body_component_count": 6,
+  "body_components": [
+    {
+      "name": "body_01_left_side",
+      "bounds_mm": [
+        -71.0,
+        -120.0,
+        20.0,
+        -50.0,
+        46.0,
+        144.0
+      ],
+      "volume_mm3": 34094.222614536695
+    },
+    {
+      "name": "body_02_right_side",
+      "bounds_mm": [
+        50.0,
+        -120.0,
+        20.0,
+        71.0,
+        46.0,
+        144.0
+      ],
+      "volume_mm3": 30132.14939516801
+    },
+    {
+      "name": "body_03_rear_panel",
+      "bounds_mm": [
+        -68.1,
+        -120.0,
+        20.0,
+        68.1,
+        -117.6,
+        144.0
+      ],
+      "volume_mm3": 27112.106996505885
+    },
+    {
+      "name": "body_04_front_bulkhead",
+      "bounds_mm": [
+        -68.1,
+        43.599999999999994,
+        74.0,
+        68.1,
+        46.0,
+        144.0
+      ],
+      "volume_mm3": 17769.355773019983
+    },
+    {
+      "name": "body_05_removable_roof",
+      "bounds_mm": [
+        -71.0,
+        -120.0,
+        144.0,
+        71.0,
+        46.0,
+        146.8
+      ],
+      "volume_mm3": 57413.82659647693
+    },
+    {
+      "name": "body_06_front_cowl",
+      "bounds_mm": [
+        -71.0,
+        46.599999999999994,
+        20.0,
+        71.0,
+        120.5,
+        77.10522212982178
+      ],
+      "volume_mm3": 30683.458490189678
+    }
+  ],
+  "positive_volume_intersections": [],
+  "nominal_wheel_clearances": [
+    {
+      "body_part": "body_01_left_side",
+      "nearest_nominal_tire": "Tire_left_rear",
+      "distance_mm": 9.22999999999999
+    },
+    {
+      "body_part": "body_02_right_side",
+      "nearest_nominal_tire": "Tire_right_rear",
+      "distance_mm": 9.22999999999999
+    },
+    {
+      "body_part": "body_03_rear_panel",
+      "nearest_nominal_tire": "Tire_left_rear",
+      "distance_mm": 45.163226302338614
+    },
+    {
+      "body_part": "body_04_front_bulkhead",
+      "nearest_nominal_tire": "Tire_left_front",
+      "distance_mm": 9.891910438691678
+    },
+    {
+      "body_part": "body_05_removable_roof",
+      "nearest_nominal_tire": "Tire_left_rear",
+      "distance_mm": 79.22999999999999
+    },
+    {
+      "body_part": "body_06_front_cowl",
+      "nearest_nominal_tire": "Tire_left_front",
+      "distance_mm": 10.522432904184868
+    }
+  ],
+  "head_sweep_bound": {
+    "axis_xy_mm": [
+      -0.9001850000000002,
+      81.189175
+    ],
+    "radius_mm": 23.60619622048415,
+    "z_range_mm": [
+      76.905222129822,
+      172.90522212982
+    ],
+    "scope": "Full360deg conservative bound of moving rigid head parts; includes +/-90deg. Excludes flexible cable travel and field of view.",
+    "body_clearances": [
+      {
+        "body_part": "body_01_left_side",
+        "conservative_distance_mm": 39.829891065971744,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "body_part": "body_02_right_side",
+        "conservative_distance_mm": 41.2889164630982,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "body_part": "body_03_rear_panel",
+        "conservative_distance_mm": 175.18297877951585,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "body_part": "body_04_front_bulkhead",
+        "conservative_distance_mm": 11.582978779515855,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "body_part": "body_05_removable_roof",
+        "conservative_distance_mm": 11.582978779515855,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "body_part": "body_06_front_cowl",
+        "conservative_distance_mm": 7.393803779515842,
+        "intersection_volume_mm3": 0.0
+      }
+    ]
+  },
+  "print_checks": [
+    {
+      "part": "body_01_left_side",
+      "valid_brep": true,
+      "solid_count": 1,
+      "size_xyz_mm": [
+        124.00000000000001,
+        166.0,
+        21.000000000000014
+      ],
+      "z_min_mm": 0.0,
+      "fits_180mm_xy": true,
+      "fits_180mm_xy_with_4mm_brim": true
+    },
+    {
+      "part": "body_04_front_bulkhead",
+      "valid_brep": true,
+      "solid_count": 1,
+      "size_xyz_mm": [
+        136.2,
+        70.0,
+        2.400000000000034
+      ],
+      "z_min_mm": 0.0,
+      "fits_180mm_xy": true,
+      "fits_180mm_xy_with_4mm_brim": true
+    },
+    {
+      "part": "body_02_right_side",
+      "valid_brep": true,
+      "solid_count": 1,
+      "size_xyz_mm": [
+        124.0,
+        166.0,
+        21.000000000000014
+      ],
+      "z_min_mm": 0.0,
+      "fits_180mm_xy": true,
+      "fits_180mm_xy_with_4mm_brim": true
+    },
+    {
+      "part": "body_06_front_cowl",
+      "valid_brep": true,
+      "solid_count": 1,
+      "size_xyz_mm": [
+        142.0,
+        73.9,
+        57.10522212982181
+      ],
+      "z_min_mm": -1.2246467991473532e-16,
+      "fits_180mm_xy": true,
+      "fits_180mm_xy_with_4mm_brim": true
+    },
+    {
+      "part": "wheel_bay_fit_gauge_left",
+      "valid_brep": true,
+      "solid_count": 1,
+      "size_xyz_mm": [
+        48.705222129821784,
+        166.0,
+        21.000000000000014
+      ],
+      "z_min_mm": 0.0,
+      "fits_180mm_xy": true,
+      "fits_180mm_xy_with_4mm_brim": true
+    },
+    {
+      "part": "wheel_bay_fit_gauge_right",
+      "valid_brep": true,
+      "solid_count": 1,
+      "size_xyz_mm": [
+        48.705222129821784,
+        166.0,
+        21.000000000000014
+      ],
+      "z_min_mm": 0.0,
+      "fits_180mm_xy": true,
+      "fits_180mm_xy_with_4mm_brim": true
+    }
+  ],
+  "nominal_service_and_sensor_access": [
+    {
+      "name": "Battery_charge_port_nominal_rear_access",
+      "probe_bounds_mm": [
+        -20.0,
+        -149.4,
+        70.705222129822,
+        -10.0,
+        -109.4,
+        80.705222129822
+      ],
+      "intersections": [],
+      "scope": "Illustrative straight rear approach, 10mm diameter; physical plug size/angle and finger reach remain unmeasured."
+    },
+    {
+      "name": "Battery_power_switch_nominal_rear_access",
+      "probe_bounds_mm": [
+        15.0,
+        -149.4,
+        72.205222129822,
+        25.0,
+        -109.4,
+        82.205222129822
+      ],
+      "intersections": [],
+      "scope": "Illustrative straight rear approach, 10mm diameter; physical plug size/angle and finger reach remain unmeasured."
+    },
+    {
+      "name": "UNO_USB_B_connector_nominal_right_access",
+      "probe_bounds_mm": [
+        43.51,
+        5.0,
+        72.305222129822,
+        85.0,
+        19.0,
+        85.305222129822
+      ],
+      "intersections": [],
+      "scope": "Nominal connector envelope projected to +X with 1.0mm edge allowance; actual connector faces and cables must be checked on rover."
+    },
+    {
+      "name": "UNO_barrel_connector_nominal_right_access",
+      "probe_bounds_mm": [
+        42.01,
+        -15.5,
+        72.305222129822,
+        85.0,
+        -4.5,
+        85.305222129822
+      ],
+      "intersections": [],
+      "scope": "Nominal connector envelope projected to +X with 1.0mm edge allowance; actual connector faces and cables must be checked on rover."
+    },
+    {
+      "name": "OPTIONAL_Pi4B_USB_stack_nominal_right_access",
+      "probe_bounds_mm": [
+        42.51,
+        -82.0,
+        118.30522212982,
+        85.0,
+        -48.0,
+        137.30522212982
+      ],
+      "intersections": [],
+      "scope": "Nominal connector envelope projected to +X with 2.0mm edge allowance; actual connector faces and cables must be checked on rover."
+    },
+    {
+      "name": "OPTIONAL_Pi4B_Ethernet_nominal_right_access",
+      "probe_bounds_mm": [
+        42.51,
+        -49.0,
+        118.30522212982,
+        85.0,
+        -29.0,
+        135.30522212982
+      ],
+      "intersections": [],
+      "scope": "Nominal connector envelope projected to +X with 2.0mm edge allowance; actual connector faces and cables must be checked on rover."
+    },
+    {
+      "name": "rear_ToF_straight_optical_exit",
+      "probe_bounds_mm": [
+        -4.5,
+        -145.0,
+        123.90522212982,
+        4.5,
+        -100.01,
+        130.90522212982
+      ],
+      "intersections": [],
+      "scope": "Straight rear exit about nominal optical package with 2mm allowance; this is not a calibrated ToF field-of-view proof."
+    }
+  ],
+  "limitations": [
+    "Purchased hardware geometry is nominal or estimated.",
+    "Camera and ultrasonic FOV are not established by the supplied CAD.",
+    "Mechanical sweep clearance alone does not prove unobstructed peripheral camera view or acoustic response.",
+    "Arches use nominal wheel diameter and center positions; check tire tolerances and fastener head clearance physically.",
+    "No physical print, thermal test or live wiring/connector installation has been performed."
+  ]
+}
