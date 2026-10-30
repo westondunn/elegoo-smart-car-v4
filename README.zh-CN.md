@@ -31,7 +31,7 @@ ELEGOO Smart Robot Car Kit V4.0 New 是一套基于 Arduino 的智能小车程�
 
 ## 社区硬件与许可说明
 
-套件自带的底盘为原厂亚克力板。围绕套件自带硬件（电机、车轮、UNO 与扩展板、舵机云台、传感器、电池盒）设计的 3D 打印底盘模型，在社区分支 https://github.com/westondunn/elegoo-smart-car-v4 中维护（见 Pull Request [#1](https://github.com/westondunn/elegoo-smart-car-v4/pull/1) 与 [#2](https://github.com/westondunn/elegoo-smart-car-v4/pull/2)），不涉及固件改动。
+套件自带的底盘为原厂亚克力板。围绕套件自带硬件（电机、车轮、UNO 与扩展板、舵机云台、传感器、电池盒）设计的 3D 打印底盘模型，保存在本仓库的 [hardware/3d-models/](hardware/3d-models/) 目录中（模型索引见 [hardware/3d-models/README.md](hardware/3d-models/README.md)，装配、打印与验证说明见 [docs/hardware/](docs/hardware/)），不涉及固件改动。
 
 本仓库未附带许可证文件，固件仍遵循 ELEGOO 的条款。来自 ELEGOO 官方仓库的资料（原理图、数据手册、底盘板模型）仅以固定提交号引用而不复制，社区分支也不会为其指定任何许可证。
 

@@ -1,0 +1,22 @@
+[
+  {
+    "path": "ELEGOO-Smart-Robot-Car-Kit-V4.0/extracted/Schematic_diagram/ESP32-wrover_datasheet_en.pdf",
+    "sha256": "eabf11601f08e1b28869bcc9aeee9d909a2b7e78278d7c01ebf02fa04d4a5267",
+    "pdfinfo": "Creator:         LaTeX with hyperref package\nProducer:        XeTeX 0.99996\nCreationDate:    Thu Sep  5 12:48:17 2019 CST\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           27\nEncrypted:       no\nPage size:       595.28 x 841.89 pts (A4)\nPage rot:        0\nFile size:       536988 bytes\nOptimized:       no\nPDF version:     1.5\n"
+  },
+  {
+    "path": "ELEGOO-Smart-Robot-Car-Kit-V4.0/extracted/Schematic_diagram/ITR20001_datasheet_en.pdf",
+    "sha256": "14fd4116d0ccc72543cb8fd8458ab1368f068315aa834cd05d0db9fba013595f",
+    "pdfinfo": "Title:           New Output\nSubject:         \nKeywords:        Altium\nAuthor:          \nCreator:         Altium Designer\nProducer:        llPDFLib 3.x\nCreationDate:    Mon Jun 22 08:00:00 2020 CST\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      yes\nPages:           1\nEncrypted:       no\nPage size:       842 x 595 pts (A4)\nPage rot:        0\nFile size:       54566 bytes\nOptimized:       no\nPDF version:     1.4\n"
+  },
+  {
+    "path": "ELEGOO-Smart-Robot-Car-Kit-V4.0/extracted/Schematic_diagram/DRV8835_datasheet_en.pdf",
+    "sha256": "3c17d8a86a53e97e9f58e4fddc67fab4d23a5b81bbf6b29ea804a213c0586378",
+    "pdfinfo": "Title:           \u53cc\u8def\u4f4e\u7535\u538b H-\u6865\u96c6\u6210\u7535\u8def (IC), DRV8835 datasheet (Rev. D)\nSubject:         Data Sheet\nKeywords:        , ZHCS380,ZHCS380D\nAuthor:          Texas Instruments, Incorporated [ZHCS380,D\n]\nCreator:         TopLeaf 7.6.056\nProducer:        iText 2.1.7 by 1T3XT\nCreationDate:    Wed Apr 17 18:31:19 2019 CST\nModDate:         Wed Apr 17 18:31:19 2019 CST\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            AcroForm\nJavaScript:      no\nPages:           20\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       1246167 bytes\nOptimized:       no\nPDF version:     1.4\n"
+  },
+  {
+    "path": "ELEGOO-Smart-Robot-Car-Kit-V4.0/extracted/Schematic_diagram/SmartRobot-Shield.pdf",
+    "sha256": "226fc0aa234d343dba138837c61d91e9d1cd4fed283604ec865e749444b97647",
+    "pdfinfo": "Title:           New Output\nSubject:         \nKeywords:        Altium\nAuthor:          \nCreator:         Altium Designer\nProducer:        llPDFLib 3.x\nCreationDate:    Tue Nov 24 08:00:00 2020 CST\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      yes\nPages:           1\nEncrypted:       no\nPage size:       842 x 595 pts (A4)\nPage rot:        0\nFile size:       222750 bytes\nOptimized:       no\nPDF version:     1.4\n"
+  }
+]

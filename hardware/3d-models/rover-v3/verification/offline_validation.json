@@ -1,0 +1,29 @@
+{
+  "test_scope": "Offline assembly contract and motion math; Autodesk Fusion was not run.",
+  "fusion_runtime_executed": false,
+  "manifest": "assembly_reference.json",
+  "tests_run": 16,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "status": "passed",
+  "checks": [
+    "test_complete_assembly_partition_matches_independent_manifest",
+    "test_focus_modes_only_remove_the_selected_units_and_printed_supports",
+    "test_forward_spin_has_consistent_ground_contact_velocity",
+    "test_home_is_exact_and_unaffected_by_prior_poses",
+    "test_invalid_inputs_and_clamped_endpoints",
+    "test_motion_axes_match_existing_assembly_joints",
+    "test_spin_groups_exclude_motor_cases_and_pan_excludes_fixed_servo",
+    "test_user_requested_bought_units_remain_whole_at_every_phase",
+    "test_composition_order_and_mm_length_contract",
+    "test_demo_rotation_is_visible_and_directionally_correct",
+    "test_explode_follows_rover_orientation_without_reapplying_its_translation",
+    "test_home_returns_exact_saved_matrices_after_arbitrary_pose_sequence",
+    "test_known_right_hand_rotation_about_offset_pivot",
+    "test_pan_moves_only_head_and_preserves_pan_axis",
+    "test_spinning_wheels_preserve_axles_and_stationary_motor_cases",
+    "test_whole_unit_relative_placements_survive_nonidentity_home"
+  ],
+  "failed_checks": []
+}

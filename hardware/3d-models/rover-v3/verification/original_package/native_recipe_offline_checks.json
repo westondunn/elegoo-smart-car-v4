@@ -1,0 +1,110 @@
+{
+  "status": "passed",
+  "scope": "Analytic annular-cylinder recipe versus mechanical STEP reference metadata",
+  "fusion_runtime_executed": false,
+  "part_count": 17,
+  "parts": [
+    {
+      "part_id": "support_post_01",
+      "volume_error_mm3": 0.0,
+      "bbox_error_mm": 0.0,
+      "status": "passed"
+    },
+    {
+      "part_id": "support_post_02",
+      "volume_error_mm3": 0.0,
+      "bbox_error_mm": 0.0,
+      "status": "passed"
+    },
+    {
+      "part_id": "support_post_03",
+      "volume_error_mm3": 9.094947017729282e-13,
+      "bbox_error_mm": 0.0,
+      "status": "passed"
+    },
+    {
+      "part_id": "support_post_04",
+      "volume_error_mm3": 9.094947017729282e-13,
+      "bbox_error_mm": 0.0,
+      "status": "passed"
+    },
+    {
+      "part_id": "support_post_05",
+      "volume_error_mm3": 0.0,
+      "bbox_error_mm": 0.0,
+      "status": "passed"
+    },
+    {
+      "part_id": "support_post_06",
+      "volume_error_mm3": 0.0,
+      "bbox_error_mm": 0.0,
+      "status": "passed"
+    },
+    {
+      "part_id": "pi_standoff_01",
+      "volume_error_mm3": 5.684341886080802e-14,
+      "bbox_error_mm": 0.0,
+      "status": "passed"
+    },
+    {
+      "part_id": "pi_standoff_02",
+      "volume_error_mm3": 1.1368683772161603e-13,
+      "bbox_error_mm": 0.0,
+      "status": "passed"
+    },
+    {
+      "part_id": "pi_standoff_03",
+      "volume_error_mm3": 0.0,
+      "bbox_error_mm": 0.0,
+      "status": "passed"
+    },
+    {
+      "part_id": "pi_standoff_04",
+      "volume_error_mm3": 5.684341886080802e-14,
+      "bbox_error_mm": 0.0,
+      "status": "passed"
+    },
+    {
+      "part_id": "uno_standoff_01",
+      "volume_error_mm3": 5.684341886080802e-14,
+      "bbox_error_mm": 0.0,
+      "status": "passed"
+    },
+    {
+      "part_id": "uno_standoff_02",
+      "volume_error_mm3": 5.684341886080802e-14,
+      "bbox_error_mm": 0.0,
+      "status": "passed"
+    },
+    {
+      "part_id": "uno_standoff_03",
+      "volume_error_mm3": 2.842170943040401e-14,
+      "bbox_error_mm": 0.0,
+      "status": "passed"
+    },
+    {
+      "part_id": "tracker_spacer_01",
+      "volume_error_mm3": 4.263256414560601e-14,
+      "bbox_error_mm": 0.0,
+      "status": "passed"
+    },
+    {
+      "part_id": "tracker_spacer_02",
+      "volume_error_mm3": 4.263256414560601e-14,
+      "bbox_error_mm": 0.0,
+      "status": "passed"
+    },
+    {
+      "part_id": "tracker_spacer_03",
+      "volume_error_mm3": 5.684341886080802e-14,
+      "bbox_error_mm": 0.0,
+      "status": "passed"
+    },
+    {
+      "part_id": "tracker_spacer_04",
+      "volume_error_mm3": 5.684341886080802e-14,
+      "bbox_error_mm": 0.0,
+      "status": "passed"
+    }
+  ]
+}

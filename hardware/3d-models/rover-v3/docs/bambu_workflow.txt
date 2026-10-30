@@ -1,0 +1,113 @@
+ROVER V3 FULL PRINT PROJECT — BAMBU X1 CARBON, 0.4 MM, PLA
+
+Open the supplied 3MF as a project in desktop Bambu Studio. This retains the
+separate build plates, named objects, printer/filament/process settings, and
+the sliced G-code included for each plate. native_project_audit.json records
+the actual final object count, plate count, material use, and estimated time.
+
+This is a Bambu Studio project prepared for an X1 Carbon. A direct phone-local
+3MF import into Bambu Handy has not been tested. Use desktop Studio for the
+initial transfer of this custom project to your printer. A public MakerWorld
+upload is not necessary for that route.
+
+PLATES AND ESTIMATES
+
+Plate 1: one full lower chassis, 230 x 230.7796 x 5.1 mm.
+Native estimate: 5 hours 31 minutes 34 seconds; 164.56 g PLA.
+
+Plate 2: one upper service deck, two retaining rails, six deck posts,
+four Pi standoffs, three UNO standoffs, and four tracker spacers.
+Native estimate: 5 hours 31 minutes 4 seconds; 160.30 g PLA.
+
+Total: 21 printed pieces on two plates, approximately 11 hours 3 minutes
+and 324.86 g PLA. These are slicer estimates, including the supplied brim.
+The original motors, wheels, silver blocks, head/bracket, and electronics
+are reused. They are not objects on the print plates.
+
+PRINT SETTINGS
+
+Printer: Bambu Lab X1 Carbon, 0.4 mm nozzle.
+Material: Generic PLA profile, one filament color.
+Physical plate preset: Textured PEI Plate.
+First layer and normal layer: 0.15 mm.
+Walls: 6. Top and bottom shell layers: 6 each.
+Sparse infill: 35% gyroid. Supports: off.
+Outside brim: 2 mm.
+Current Generic PLA preset: 220 C nozzle, 55 C textured bed, maximum
+volumetric flow 12 mm3/s. Use the appropriate profile for the actual PLA you
+load. If changing filament or plate presets, reslice every plate in Studio.
+
+The 0.15 mm layers preserve the layer increments used for the tested 1.8,
+2.4, and 3.3 mm mounting/recess features. These thin floors often become
+solid naturally because the top/bottom shell requirements overlap.
+
+WORKFLOW
+
+1. Download the 3MF and open it in Bambu Studio using File > Open Project.
+   If Studio asks whether to open geometry or the project, choose the project.
+2. Confirm X1 Carbon, 0.4 mm nozzle, PLA, and the physical plate type. Inspect
+   each named plate in Prepare and Preview. Preserve the supplied orientation.
+3. The supplied project already contains sliced toolpaths for every plate.
+   If Studio requests slicing, or if you change any setting, use the drop-down
+   beside Slice Plate to choose Slice All. Slice all plates before sending.
+4. Use the print/send drop-down and choose Send All to transfer the multi-plate
+   project to your own paired printer. Select the printer and filament mapping
+   in the resulting dialog. This step is performed by you; nothing has been
+   transmitted to a printer or cloud account while creating these files.
+5. Select and start each plate from the printer's stored job/model interface.
+   Handy's printer/file controls may also offer the transferred job, depending
+   on the installed app/firmware. The desktop Studio transfer and printer-side
+   selection are the documented route if phone controls differ.
+6. Remove the completed print, clear the brim/purge material, and prepare the
+   plate before starting the next one. A multi-plate project does not exchange
+   physical build plates automatically.
+
+For a local SD-card transfer, Studio also provides "Export all sliced file".
+Use that command to save the sliced project to the printer's MicroSD card,
+then select the stored job on the X1 Carbon. The official Studio Quick Start
+Guide documents this route; it does not require publishing a MakerWorld model.
+
+PLA PARTS AND ASSEMBLY
+
+Print with the flat faces already on the bed. All supplied printable objects
+are intended to use the chosen no-support orientation. Let the large base
+cool before flexing the plate, then remove the outside brim. Do not scale
+the project: scaling would change the tested hardware interfaces.
+
+Use the assembly guide for screw lengths, washers, retention, and electronics.
+The native project contains only the objects that should be printed; reference
+electronics and bought hardware belong in the CAD/assembly references.
+
+VALIDATION SCOPE
+
+The project is exported and reopened by the official Bambu Studio runtime.
+Each final object retains its CAD STL geometry under rigid placement. The
+verification checks correct plate membership, nonempty G-code for every object,
+layer heights, machine/material settings, original X1C cutter exclusion, and
+actual local extrusion-path bounds. The final audit records those results.
+
+The main base is placed at local XY (22,20) mm. This keeps its 2 mm brim clear
+of the original front-left cutter exclusion and the stock startup calibration
+paint. The nominal 256 mm bed is not treated as an unrestricted square.
+
+Plate thumbnails are generated from the retained native mesh geometry at its
+actual plate location. They are custom top-view renders, not screenshots from
+the Bambu Studio graphical interface. No physical print, Handy phone import,
+printer connection, or completed full-rover assembly is claimed by this audit.
+
+OFFICIAL WORKFLOW REFERENCES
+
+Bambu Studio Multi Plate Printing Guide:
+https://wiki.bambulab.com/en/studio-handy/multi-plate-printing
+
+Bambu Studio Quick Start Guide:
+https://wiki.bambulab.com/en/software/bambu-studio/studio-quick-start
+
+Bambu Studio command-line options:
+https://github.com/bambulab/BambuStudio/wiki/Command-Line-Usage
+
+Bambu Handy Quick Start Guide:
+https://wiki.bambulab.com/en/studio-handy/handy/bambu-handy-quick-start
+
+References checked 20 October 2026. The Bambu Wiki search index was available;
+direct retrieval of some Wiki pages returned an access error in this environment.

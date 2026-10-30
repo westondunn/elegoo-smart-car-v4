@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rover Motion</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 13px;
+      color: #22303d;
+      background: #f5f6f8;
+      --accent: #146c94;
+      --line: #d8dee5;
+      --muted: #5d6a77;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-width: 280px; }
+    main { max-width: 520px; margin: 0 auto; padding: 16px; }
+    header { margin-bottom: 14px; }
+    .eyebrow {
+      margin: 0 0 5px; color: var(--accent); font-size: 10px;
+      font-weight: 700; letter-spacing: .09em; text-transform: uppercase;
+    }
+    h1 { margin: 0; font-size: 22px; font-weight: 650; line-height: 1.2; }
+    #document-name {
+      margin: 6px 0 0; color: var(--muted); font-size: 11px;
+      overflow-wrap: anywhere;
+    }
+    .scope {
+      padding: 11px 12px; margin: 0 0 16px; border: 1px solid var(--line);
+      border-radius: 7px; background: #fff;
+    }
+    .scope p { margin: 0; line-height: 1.45; font-size: 12px; }
+    .scope strong { display: block; margin-bottom: 4px; font-weight: 650; }
+    #counts { margin-top: 8px; color: var(--muted); font-size: 11px; }
+    label, .field-title { font-weight: 600; }
+    .field { margin: 0 0 15px; }
+    .field > label { display: block; margin-bottom: 6px; }
+    select {
+      width: 100%; height: 36px; padding: 0 9px; border: 1px solid #b9c4ce;
+      border-radius: 5px; background: #fff; color: inherit; font: inherit;
+    }
+    .progress-head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+    #progress-value { color: var(--accent); font-variant-numeric: tabular-nums; font-weight: 650; }
+    input[type="range"] { width: 100%; margin: 12px 0 5px; accent-color: var(--accent); cursor: pointer; }
+    .range-labels { display: flex; justify-content: space-between; color: var(--muted); font-size: 11px; }
+    .buttons { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 7px; }
+    button {
+      min-height: 35px; padding: 7px 9px; border: 1px solid #bac5d0;
+      border-radius: 5px; color: #273745; background: #fff;
+      font: inherit; font-weight: 600; cursor: pointer;
+    }
+    button:hover:not(:disabled) { border-color: var(--accent); background: #edf5f9; }
+    button:active:not(:disabled) { background: #dfeef5; }
+    button.primary { color: #fff; background: var(--accent); border-color: var(--accent); }
+    button.primary:hover:not(:disabled) { color: #fff; background: #0b587e; }
+    button:disabled, select:disabled, input:disabled { opacity: .48; cursor: default; }
+    button:focus-visible, select:focus-visible, input:focus-visible {
+      outline: 2px solid #2087b4; outline-offset: 3px;
+    }
+    .home { width: 100%; margin-top: 7px; }
+    .marker-row { display: flex; align-items: flex-start; gap: 7px; margin: 15px 0; }
+    .marker-row input { margin: 2px 0 0; accent-color: var(--accent); }
+    .marker-row label { font-size: 12px; line-height: 1.4; font-weight: 400; }
+    .marker-row small { display: block; color: var(--muted); font-size: 11px; }
+    .exports { grid-template-columns: 1fr 1fr; padding-top: 14px; border-top: 1px solid var(--line); }
+    .status-box {
+      margin: 14px 0 10px; padding: 10px 11px; border-left: 3px solid #9fb7c9;
+      background: #eaf0f5; border-radius: 0 4px 4px 0;
+    }
+    #status { margin: 0; font-size: 12px; line-height: 1.45; white-space: pre-wrap; overflow-wrap: anywhere; }
+    .status-box.error { background: #fff0ed; border-color: #c1573a; }
+    .close { width: 100%; }
+    .footnote { margin: 8px 0 0; color: var(--muted); text-align: center; font-size: 11px; line-height: 1.4; }
+    @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">Presentation copy</p>
+      <h1>Rover motion</h1>
+      <p id="document-name">Connecting to your rover…</p>
+    </header>
+
+    <section class="scope" aria-label="Exploded view scope">
+      <p><strong>Complete purchased modules stay together.</strong>
+        Exploded views separate printed parts from intact motors, boards, batteries and the sensor head.</p>
+      <p id="counts" hidden></p>
+    </section>
+
+    <div class="field">
+      <label for="mode">View or motion</label>
+      <select id="mode" disabled>
+        <optgroup label="Exploded views">
+          <option value="full">Full assembly</option>
+          <option value="electronics">Electronics access</option>
+          <option value="pi">Pi standoffs (board not modelled)</option>
+          <option value="uno">Arduino Uno access</option>
+        </optgroup>
+        <optgroup label="Motion demonstrations">
+          <option value="drive">Drive — wheel rotation</option>
+          <option value="turn">Turn in place</option>
+          <option value="pan">Sensor pan</option>
+        </optgroup>
+      </select>
+    </div>
+
+    <div class="field">
+      <div class="progress-head">
+        <label id="progress-label" for="progress">Assembly separation</label>
+        <output id="progress-value" for="progress">0%</output>
+      </div>
+      <input id="progress" type="range" min="0" max="100" step="0.5" value="0"
+        aria-valuetext="0 percent" disabled>
+      <div class="range-labels" aria-hidden="true">
+        <span id="range-start">Assembled</span><span id="range-end">Exploded</span>
+      </div>
+    </div>
+
+    <div class="buttons" aria-label="Playback controls">
+      <button id="play" class="primary" type="button" disabled>Play</button>
+      <button id="pause" type="button" disabled>Pause</button>
+      <button id="reverse" type="button" disabled>Reverse</button>
+    </div>
+    <button id="home" class="home" type="button" disabled>Assembled</button>
+
+    <div class="marker-row">
+      <input id="markers" type="checkbox" checked disabled>
+      <label for="markers">Show wheel rotation markers
+        <small>Visual guides in this presentation copy.</small>
+      </label>
+    </div>
+
+    <div class="buttons exports" aria-label="Save controls">
+      <button id="image" type="button" disabled>Save image</button>
+      <button id="save" type="button" disabled>Save pose (.f3d)</button>
+    </div>
+
+    <div id="status-box" class="status-box">
+      <p id="status" role="status" aria-live="polite">Waiting for Fusion…</p>
+    </div>
+    <button id="close" class="close" type="button" disabled>Close and restore</button>
+    <p class="footnote">Assembled restores the starting pose.</p>
+  </main>
+
+  <script>
+    (function () {
+      "use strict";
+
+      var ids = ["mode", "progress", "play", "pause", "reverse", "home", "markers", "image", "save", "close"];
+      var controls = {};
+      ids.forEach(function (id) { controls[id] = document.getElementById(id); });
+      var modes = ["full", "electronics", "pi", "uno", "drive", "turn", "pan"];
+      var state = { mode: "full", progress: 0, playing: false, markers: true };
+      var connected = false;
+      var dragging = false;
+      var pendingScrub = null;
+      var scrubTimer = null;
+      var lastScrubAt = 0;
+      var bridgeTries = 0;
+      var bridgeTimer = null;
+
+      function clamp(value) {
+        var number = Number(value);
+        return isFinite(number) ? Math.max(0, Math.min(1, number)) : 0;
+      }
+
+      function showStatus(message, isError) {
+        var node = document.getElementById("status");
+        var text = String(message || "Ready.");
+        if (node.textContent !== text) { node.textContent = text; }
+        document.getElementById("status-box").classList.toggle("error", !!isError);
+      }
+
+      function renderControls() {
+        ids.forEach(function (id) { controls[id].disabled = !connected; });
+        controls.pause.disabled = !connected || !state.playing;
+        controls.play.setAttribute("aria-pressed", state.playing ? "true" : "false");
+        controls.mode.value = state.mode;
+        controls.markers.checked = state.markers;
+        var explode = ["full", "electronics", "pi", "uno"].indexOf(state.mode) !== -1;
+        document.getElementById("progress-label").textContent = explode ? "Assembly separation" : "Motion progress";
+        document.getElementById("range-start").textContent = explode ? "Assembled" : "Start";
+        document.getElementById("range-end").textContent = explode ? "Exploded" : "End";
+        controls.reverse.title = explode ? "Play back toward the assembled pose" : "Play the motion backward";
+      }
+
+      function displayProgress(value) {
+        var percent = Math.round(clamp(value) * 1000) / 10;
+        controls.progress.value = String(percent);
+        document.getElementById("progress-value").textContent = String(percent) + "%";
+        controls.progress.setAttribute("aria-valuetext", String(percent) + " percent");
+      }
+
+      function bridgeAvailable() {
+        return window.adsk && typeof window.adsk.fusionSendData === "function";
+      }
+
+      function transportError(error) {
+        state.playing = false;
+        renderControls();
+        showStatus("Fusion could not receive this action. " + String(error && error.message ? error.message : error) +
+          "\nRun RoverMotion again if the connection has closed.", true);
+      }
+
+      function send(payload) {
+        if (!bridgeAvailable()) {
+          connected = false;
+          renderControls();
+          showStatus("Open this panel through the RoverMotion script inside Fusion to use the controls.", true);
+          return false;
+        }
+        try {
+          var result = window.adsk.fusionSendData("rover", JSON.stringify(payload));
+          if (result && typeof result.catch === "function") { result.catch(transportError); }
+          return true;
+        } catch (error) {
+          transportError(error);
+          return false;
+        }
+      }
+
+      function cancelPendingScrub() {
+        if (scrubTimer !== null) { window.clearTimeout(scrubTimer); scrubTimer = null; }
+        pendingScrub = null;
+      }
+
+      function flushScrub() {
+        if (scrubTimer !== null) { window.clearTimeout(scrubTimer); scrubTimer = null; }
+        if (pendingScrub !== null) {
+          var value = pendingScrub;
+          pendingScrub = null;
+          lastScrubAt = Date.now();
+          send({ op: "scrub", mode: state.mode, progress: value });
+        }
+      }
+
+      function startPlayback(direction) {
+        flushScrub();
+        state.playing = true;
+        renderControls();
+        send({ op: "play", mode: state.mode, progress: state.progress, direction: direction });
+      }
+
+      controls.mode.addEventListener("change", function () {
+        cancelPendingScrub();
+        state.mode = controls.mode.value;
+        state.progress = 0;
+        state.playing = false;
+        renderControls();
+        displayProgress(0);
+        send({ op: "mode", mode: state.mode, progress: 0 });
+      });
+
+      controls.progress.addEventListener("pointerdown", function () { dragging = true; });
+      window.addEventListener("pointerup", function () { dragging = false; flushScrub(); });
+      window.addEventListener("pointercancel", function () { dragging = false; flushScrub(); });
+      controls.progress.addEventListener("input", function () {
+        state.progress = clamp(Number(controls.progress.value) / 100);
+        state.playing = false;
+        pendingScrub = state.progress;
+        displayProgress(state.progress);
+        renderControls();
+        if (Date.now() - lastScrubAt >= 50) { flushScrub(); }
+        else if (scrubTimer === null) { scrubTimer = window.setTimeout(flushScrub, 50); }
+      });
+      controls.progress.addEventListener("change", function () { dragging = false; flushScrub(); });
+      controls.play.addEventListener("click", function () { startPlayback(1); });
+      controls.reverse.addEventListener("click", function () { startPlayback(-1); });
+      controls.pause.addEventListener("click", function () {
+        flushScrub();
+        state.playing = false;
+        renderControls();
+        send({ op: "pause" });
+      });
+      controls.home.addEventListener("click", function () {
+        cancelPendingScrub();
+        state.playing = false;
+        state.progress = 0;
+        renderControls();
+        displayProgress(0);
+        send({ op: "home" });
+      });
+      controls.markers.addEventListener("change", function () {
+        state.markers = controls.markers.checked;
+        send({ op: "markers", visible: state.markers });
+      });
+      ["image", "save"].forEach(function (op) {
+        controls[op].addEventListener("click", function () {
+          flushScrub();
+          send({ op: op });
+        });
+      });
+      controls.close.addEventListener("click", function () {
+        cancelPendingScrub();
+        state.playing = false;
+        renderControls();
+        send({ op: "close" });
+      });
+
+      window.fusionJavaScriptHandler = {
+        handle: function (action, data) {
+          if (action !== "state") { return "Ignored unrecognized action."; }
+          try {
+            var incoming = typeof data === "string" ? JSON.parse(data) : data;
+            if (!incoming || typeof incoming !== "object" || Array.isArray(incoming)) {
+              throw new Error("Expected a state object.");
+            }
+            connected = true;
+            if (bridgeTimer !== null) { window.clearTimeout(bridgeTimer); bridgeTimer = null; }
+            if (modes.indexOf(incoming.mode) !== -1) { state.mode = incoming.mode; }
+            if (typeof incoming.playing === "boolean") { state.playing = incoming.playing; }
+            if (typeof incoming.markers === "boolean") { state.markers = incoming.markers; }
+            if (typeof incoming.progress === "number" && !dragging && pendingScrub === null) {
+              state.progress = clamp(incoming.progress);
+              displayProgress(state.progress);
+            }
+            if (typeof incoming.document_name === "string") {
+              document.getElementById("document-name").textContent = incoming.document_name;
+            }
+            if (incoming.counts && typeof incoming.counts === "object") {
+              var parts = [];
+              if (typeof incoming.counts.printed === "number") {
+                parts.push(String(incoming.counts.printed) + " printed parts");
+              }
+              if (typeof incoming.counts.bought === "number") {
+                parts.push(String(incoming.counts.bought) + " purchased modules");
+              }
+              var counts = document.getElementById("counts");
+              counts.textContent = parts.join(" · ");
+              counts.hidden = parts.length === 0;
+            }
+            renderControls();
+            if (typeof incoming.status === "string") { showStatus(incoming.status, false); }
+            else { showStatus(state.playing ? "Playing…" : "Ready.", false); }
+            return "OK";
+          } catch (error) {
+            showStatus("Could not read the update from Fusion: " + String(error.message || error), true);
+            return "State update rejected.";
+          }
+        }
+      };
+
+      function initialize() {
+        if (bridgeAvailable()) {
+          send({ op: "ready" });
+          return;
+        }
+        bridgeTries += 1;
+        if (bridgeTries < 12) { bridgeTimer = window.setTimeout(initialize, 250); }
+        else {
+          showStatus("Open this panel through the RoverMotion script inside Fusion to use the controls.", true);
+          document.getElementById("document-name").textContent = "Fusion connection required";
+        }
+      }
+
+      window.addEventListener("beforeunload", function () {
+        cancelPendingScrub();
+        if (bridgeTimer !== null) { window.clearTimeout(bridgeTimer); }
+      });
+      renderControls();
+      displayProgress(0);
+      initialize();
+    }());
+  </script>
+</body>
+</html>

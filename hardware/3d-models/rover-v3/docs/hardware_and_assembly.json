@@ -1,0 +1,152 @@
+{
+  "units": "mm",
+  "status": "Hardware lengths below assume0.5mm washers and stated nominal nut heights; actual stock motor/battery/head fasteners remain authoritative.",
+  "printed_inventory": [
+    {
+      "name": "Full lower chassis",
+      "quantity": 1
+    },
+    {
+      "name": "Upper service deck with integrated motor-battery slider pocket",
+      "quantity": 1
+    },
+    {
+      "name": "Powerbank retaining rail",
+      "quantity": 2
+    },
+    {
+      "name": "Deck support post \u00d812\u00d740.5, bore3.4",
+      "quantity": 6
+    },
+    {
+      "name": "Pi standoff \u00d88\u00d76, bore2.8",
+      "quantity": 4
+    },
+    {
+      "name": "UNO standoff \u00d88\u00d76, bore3.4",
+      "quantity": 3
+    },
+    {
+      "name": "Tracker spacer \u00d87\u00d73, bore3.2",
+      "quantity": 4
+    }
+  ],
+  "new_hardware": [
+    {
+      "use": "Six deck supports",
+      "quantity": 6,
+      "fastener": "M3\u00d750 low round/button hex screw",
+      "head_max_height_mm": 2.0,
+      "washer_quantity": 12,
+      "washer_nominal_outer_diameter_mm": 6,
+      "washer_assumed_thickness_mm": 0.5,
+      "nut_quantity": 6,
+      "nut_assumed_AF_mm": 5.5,
+      "nut_assumed_height_mm": 2.4,
+      "notes": "One washer below base, one above deck. M3 thread type is new hardware selection, not inferred from the user original4mm head."
+    },
+    {
+      "use": "Six powerbank-rail feet",
+      "quantity": 6,
+      "fastener": "M3\u00d78 low round/button hex screw",
+      "head_max_height_mm": 2.0,
+      "washer_quantity": 6,
+      "washer_nominal_outer_diameter_mm": 6,
+      "washer_assumed_thickness_mm": 0.5,
+      "nut_quantity": 6,
+      "nut_assumed_AF_mm": 5.5,
+      "nut_assumed_height_mm": 2.4,
+      "notes": "Insert M3 nuts in underside5.8AF\u00d72.4deep hex pockets. Screw heads and washers sit in rail7.4\u00d8\u00d73.3deep pockets. With0.5washer, M3\u00d78 thread ends flush with nominal base underside."
+    },
+    {
+      "use": "Pi board and6mm standoffs",
+      "quantity": 4,
+      "fastener": "M2.5\u00d716 screw",
+      "washer_quantity": 8,
+      "washer_assumed_thickness_mm": 0.5,
+      "nut_quantity": 4,
+      "nut_thread": "M2.5",
+      "nut_assumed_height_mm": 2.0,
+      "notes": "Through-hole2.8; exact Pi model unconfirmed, but58\u00d749mount pattern was reported to fit."
+    },
+    {
+      "use": "UNO board and6mm standoffs",
+      "quantity": 3,
+      "fastener": "M3\u00d716 screw",
+      "washer_quantity": 6,
+      "washer_assumed_thickness_mm": 0.5,
+      "nut_quantity": 3,
+      "nut_thread": "M3",
+      "nut_assumed_height_mm": 2.4,
+      "notes": "Original OEM three-hole pattern; board envelope remains nominal."
+    },
+    {
+      "use": "Vertical powerbank retention",
+      "quantity": 2,
+      "fastener": "Hook-and-loop strap",
+      "maximum_width_mm": 12,
+      "suggested_length_mm": [
+        220,
+        250
+      ],
+      "notes": "Thread through four base slots before installing the bank. Width3.4mm slots accept thin straps; do not over-tighten over battery case."
+    }
+  ],
+  "reused_hardware": [
+    {
+      "use": "Four motors and their four mounting blocks",
+      "quantity": "Four complete groups, eight mount screws",
+      "notes": "Reuse original tested screws, washers and blocks. Motor bore pitch and1.8mm bearing floor match the C1/C3 local interface; no new thread length is imposed."
+    },
+    {
+      "use": "Motor battery",
+      "quantity": "Two mounting fasteners",
+      "notes": "Retain stock fasteners if they match. The deck floor is2.4mm, plus a0.5mm washer if used. Required under-head thread length = actual battery lug thickness + about5.8mm for a2.4mm nut and0.5mm exposed thread. Do not select from the unmeasured86\u00d752\u00d722body alone."
+    },
+    {
+      "use": "Front servo/camera/sonar head",
+      "quantity": "Existing complete head, support bracket and fasteners",
+      "notes": "Use preserved OEM front opening and three-hole pattern; no printed servo-horn replacement."
+    },
+    {
+      "use": "Line tracker",
+      "quantity": "Existing board and mounting fasteners",
+      "notes": "Four3mm printed spacers included. Source hole pattern40.6\u00d725.6; board topZ\u22123, undersideZ\u22124.6 for nominal1.6PCB. Stock spacer hardware can be reused to preserve actual sensor-to-ground distance."
+    }
+  ],
+  "support_bolt_stack": {
+    "base_head_pocket_floor_z_mm": 2.7,
+    "bottom_washer_thickness_mm": 0.5,
+    "under_head_bearing_plane_z_mm": 2.2,
+    "base_motor_contact_z_mm": 4.5,
+    "support_height_mm": 40.5,
+    "deck_under_z_mm": 45.0,
+    "deck_top_z_mm": 48.6,
+    "top_washer_top_z_mm": 49.1,
+    "nut_top_z_mm": 51.5,
+    "M3x50_thread_tip_z_mm": 52.2,
+    "thread_exposure_above_nut_mm": 0.7,
+    "nominal_board_underside_z_mm": 54.6,
+    "thread_tip_to_nominal_board_plane_clearance_mm": 2.4,
+    "actual_board_underside_components_modeled": false,
+    "instruction": "Use50mm screws;55mm screws would project above the nominal board underside."
+  },
+  "assembly_sequence": [
+    "Identify FRONT on the base. Motor-contact face is the broad flat side; motor head/washer pockets face down in the assembled rover.",
+    "Insert the six M3 rail nuts into the underside hex pockets. Bolt the two identical rails to the top: one is rotated180degrees. End stops face inward; the clear bay is73.025\u00d7149.225.",
+    "Thread both12mm powerbank straps through the four base slots. Fit the centered low bank, leaving the required charging and output ports accessible through the open ends. Close straps gently.",
+    "Fit all four existing motor/block/shaft/wheel groups to their matching holes. Preserve the stock group geometry. Front and rear hole positions differ; do not substitute a mirrored front pair for the rear.",
+    "Fit the line tracker below the base with the supplied3mm spacers or the existing stock spacer hardware appropriate to the actual sensor height.",
+    "Fit six40.5mm deck posts at X\u00b148,Y\u221288,0,+88. Use the sixM3\u00d750 support screws, bottom washers, top washers and nuts. Tighten evenly without crushing PLA.",
+    "Before closing the upper deck, route wires clear of wheels and shafts. Fit the motor battery on the rear upper deck; set the slot to its actual mounting-hole pitch between65and90mm.",
+    "Install the Pi and UNO on their6mm detachable standoffs. Refit the complete original front head to the source opening and hole pattern.",
+    "With power off and the rover lifted, turn each wheel through a full revolution and verify plugs, wires and screw ends clear the moving parts. The exact local motor fit is preserved; the full new assembly still requires this check."
+  ],
+  "geometry_notes": [
+    "Main base230mm overall width, original OEM230.77959mm length and front/rear asymmetry. Widening is rigid translation with a new central span, not scaling.",
+    "Exact imported C3 bores, pocket and bearing floor are retained in four18\u00d726mm local neighborhoods. No block orientation is claimed from the user22\u00d712\u00d74dimensions.",
+    "The upper deck is168\u00d7210\u00d73.6mm. Its underside isZ45, leaving40.5mm above the motor-contact plane. Integrated motor-battery pocket rim reachesZ42.9.",
+    "All21 printed assembly instances pass positive-volume printed-to-printed interference checks. Hardware envelopes and port details remain nominal where the actual model was not measured.",
+    "All seven unique print meshes are closed, consistently oriented, single-component geometry. Slicing and packaging are separate validation stages."
+  ]
+}

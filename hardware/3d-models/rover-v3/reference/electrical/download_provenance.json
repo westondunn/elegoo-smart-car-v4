@@ -1,0 +1,51 @@
+{
+  "retrieved_utc": "2026-10-20T20:48:55.859132+00:00",
+  "repositories": [
+    {
+      "repository": "ELEGOO-Smart-Robot-Car-Kit-V4.0",
+      "tree_sha": "096094e07dc7e5eea8c986986158e2d9111dab64",
+      "references": [
+        {
+          "repository": "ELEGOO-Smart-Robot-Car-Kit-V4.0",
+          "path": "README.md",
+          "source_url": "https://raw.githubusercontent.com/elegooofficial/ELEGOO-Smart-Robot-Car-Kit-V4.0/main/README.md",
+          "git_blob_sha": "a933a51bd9f4d5e1d5f1319124deffa7e1f56083",
+          "sha256": "cd21d2709b6de4b4905871a5d22d368637a648e4504ce4d7a98560ed5cd0f9c2",
+          "bytes": 66,
+          "local_path": "ELEGOO-Smart-Robot-Car-Kit-V4.0/README.md"
+        },
+        {
+          "repository": "ELEGOO-Smart-Robot-Car-Kit-V4.0",
+          "path": "Schematic diagram.zip",
+          "source_url": "https://raw.githubusercontent.com/elegooofficial/ELEGOO-Smart-Robot-Car-Kit-V4.0/main/Schematic%20diagram.zip",
+          "git_blob_sha": "009062603977c70bb009713d3c8153cd21806c85",
+          "sha256": "8e7a488c3924d1ed5ebfb5601190135ea9e8a9141ac42960d430d695d6ab4bc2",
+          "bytes": 1763430,
+          "local_path": "ELEGOO-Smart-Robot-Car-Kit-V4.0/Schematic_diagram.zip",
+          "archive_members": [
+            "Schematic diagram/",
+            "Schematic diagram/DRV8835_datasheet_en.pdf",
+            "Schematic diagram/ESP32-wrover_datasheet_en.pdf",
+            "Schematic diagram/ITR20001_datasheet_en.pdf",
+            "Schematic diagram/SmartRobot-Shield.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "ELEGOO-Smart-Robot-Car-Kit-V4.0-New",
+      "tree_sha": "76d82704b20b8b38d3eb874afd865b349cbc1a48",
+      "references": [
+        {
+          "repository": "ELEGOO-Smart-Robot-Car-Kit-V4.0-New",
+          "path": "README.md",
+          "source_url": "https://raw.githubusercontent.com/elegooofficial/ELEGOO-Smart-Robot-Car-Kit-V4.0-New/main/README.md",
+          "git_blob_sha": "995069bbf59dd4bc9aca08ec4f3813f656b9faf3",
+          "sha256": "a547803cd73f58a347f61cfa4de5ce0237ebb95d199b968ddc33db0f7b244475",
+          "bytes": 5930,
+          "local_path": "ELEGOO-Smart-Robot-Car-Kit-V4.0-New/README.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "package": "Rover V3 Motion Companion",
+  "version": "1.0.0",
+  "validation": "26 passing offline tests; Autodesk Fusion native execution not performed",
+  "files": [
+    {
+      "path": "API_REFERENCES.txt",
+      "bytes": 1417,
+      "sha256": "f76a08118885c0eb79671e213584064cc42c21e7a50162065bfa0fe6a73ac430"
+    },
+    {
+      "path": "README_START_HERE.txt",
+      "bytes": 15111,
+      "sha256": "9af048a0f40f0e0889af8a6fc7b0db30b4855a261307ca665f034d8976c6dfb4"
+    },
+    {
+      "path": "RoverMotion/RoverMotion.manifest",
+      "bytes": 281,
+      "sha256": "aac500735ebdb67b741880b6afa768ffb641a1e9e5c015862e0217da6778dc53"
+    },
+    {
+      "path": "RoverMotion/RoverMotion.py",
+      "bytes": 29179,
+      "sha256": "3c9756b10e25e1d51def8206007aae4244bb4d06fc57a0184160d3cff6a7eb56"
+    },
+    {
+      "path": "RoverMotion/motion_math.py",
+      "bytes": 5231,
+      "sha256": "3e6119ba8418c12b18eb94a652e447f49b618b83f842add738677157603ed127"
+    },
+    {
+      "path": "RoverMotion/motion_plan.py",
+      "bytes": 11816,
+      "sha256": "43ce6470ecb681ed304ebb52e24c6ac99e9c9dd1684283780bd9d2bb50ed97ee"
+    },
+    {
+      "path": "RoverMotion/palette.html",
+      "bytes": 15962,
+      "sha256": "811e8c8db172e0cedbca48590454affdcabb4d33716cb3cea21bc1731ab23867"
+    },
+    {
+      "path": "RoverMotion/part_catalog.json",
+      "bytes": 32949,
+      "sha256": "bb946812e4192b6eaa37cf0df49170d075361fc7eb63400bc8465a8c0aae976d"
+    },
+    {
+      "path": "fusion_boundary_validation.json",
+      "bytes": 929,
+      "sha256": "ae2cd4a8105d80c62b4c332283d40e4597ef8e51744239c8d0926f94a3c6dd82"
+    },
+    {
+      "path": "motion_plan_validation.json",
+      "bytes": 680,
+      "sha256": "d0da466ffd92239b7ebab28b6bef06c601c97fc5172a1b749e3a9e435fd29671"
+    },
+    {
+      "path": "offline_validation.json",
+      "bytes": 1334,
+      "sha256": "c2bbcbf8a8972f67a9d16e3af4ddd40590cdb61c5040202fbfffbac73d7ac38c"
+    },
+    {
+      "path": "tests/verify_fusion_boundary.py",
+      "bytes": 15759,
+      "sha256": "dfa07ac5a172b3536277e87a8a2ae5ef17e0690f16d4dbeb0b2cb57256064ae2"
+    },
+    {
+      "path": "tests/verify_motion.py",
+      "bytes": 15070,
+      "sha256": "9cabe05d2ca898207537e5e3397141ee46ff79719571d909bfb007d93a6d73bd"
+    },
+    {
+      "path": "verification/assembly_reference.json",
+      "bytes": 19915,
+      "sha256": "7b05c3e58d76a4bbae2dc20ecb256083ada9fa1058fe66da759a46a6a336f298"
+    }
+  ]
+}

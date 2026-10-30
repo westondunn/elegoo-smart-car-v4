@@ -1,0 +1,23 @@
+RoverMotion 1.0.0 - official Autodesk references
+Checked 2026-10-20. The package was verified offline, not run in native Fusion.
+
+Independent presentation geometry:
+https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-26E53439-9DE5-4A11-93AD-7E0570BAA657
+https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/fusion_TemporaryBRepManager_transform.htm
+https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/fusion_BRepBodies_add.htm
+https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/fusion_Occurrence_transform2.htm
+
+Palette and main-thread event lifecycle:
+https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/PaletteSample_Sample.htm
+https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/Threading_UM.htm
+
+Install and export:
+https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-9701BBA7-EC0E-4016-A9C8-964AA4838954
+https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ExportManager_Sample.htm
+https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/core_Viewport_saveAsImageFile.htm
+
+Native Animation surface reviewed:
+https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/fusion_AnimationManager.htm
+https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/fusion_Storyboard.htm
+The reviewed object tables do not expose creation of component-transform actions.
+RoverMotion uses live Design placements; it creates no native Animation storyboard.

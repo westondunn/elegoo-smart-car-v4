@@ -1,0 +1,68 @@
+{
+  "printed_part_pairs": 210,
+  "broad_phase_overlap_pairs_checked": 12,
+  "positive_volume_intersections_mm3": [],
+  "all_printed_parts_clear_except_intended_surface_contacts": true,
+  "details": [
+    [
+      "base",
+      "tracker_spacer_01",
+      0.0
+    ],
+    [
+      "base",
+      "tracker_spacer_02",
+      0.0
+    ],
+    [
+      "base",
+      "tracker_spacer_03",
+      0.0
+    ],
+    [
+      "base",
+      "tracker_spacer_04",
+      0.0
+    ],
+    [
+      "upper_deck",
+      "support_post_01",
+      0.0
+    ],
+    [
+      "upper_deck",
+      "support_post_02",
+      0.0
+    ],
+    [
+      "upper_deck",
+      "support_post_03",
+      0.0
+    ],
+    [
+      "upper_deck",
+      "support_post_04",
+      0.0
+    ],
+    [
+      "upper_deck",
+      "support_post_05",
+      0.0
+    ],
+    [
+      "upper_deck",
+      "support_post_06",
+      0.0
+    ],
+    [
+      "bank_rail_right",
+      "support_post_04",
+      0.0
+    ],
+    [
+      "bank_rail_left",
+      "support_post_03",
+      0.0
+    ]
+  ]
+}

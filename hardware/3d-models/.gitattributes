@@ -1,0 +1,11 @@
+# Imported CAD assets are stored byte-for-byte so that the SHA-256 values in
+# manifest.json stay valid on every platform. No end-of-line normalisation.
+* -text
+*.3mf binary
+*.f3d binary
+*.stl binary
+*.png binary
+*.step linguist-generated
+*.3mf linguist-generated
+*.stl linguist-generated
+*.f3d linguist-generated

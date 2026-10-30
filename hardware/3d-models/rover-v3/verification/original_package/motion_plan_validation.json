@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "part_count": 64,
+  "printed_part_count": 21,
+  "bought_reference_component_count": 43,
+  "complete_bought_unit_count": 10,
+  "explode_modes": [
+    "full",
+    "electronics",
+    "pi",
+    "uno"
+  ],
+  "wheel_rotation_groups": 4,
+  "purchased_units_remain_whole_at_all_progress_values": true,
+  "fusion_runtime_executed": false,
+  "manifest_ids_matched": true,
+  "exact_manifest_rotation_axes_matched": true,
+  "sampled_poses_checked": 404,
+  "subset_modes_preserve_unrelated_parts": true,
+  "deterministic_exact_home_endpoint": true,
+  "mutable_result_isolation_checked": true,
+  "nonfinite_progress_rejected": true,
+  "not_executed_in_fusion": true
+}

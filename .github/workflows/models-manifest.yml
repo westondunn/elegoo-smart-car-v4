@@ -1,0 +1,47 @@
+# Verifies that the 3D-model manifest still matches the committed files and that
+# the hardware documentation links resolve. Standard-library Python only.
+# Firmware compilation is handled by the separate Firmware CI workflow.
+
+name: 3D model manifest
+
+on:
+  push:
+    paths:
+      - "hardware/3d-models/**"
+      - "docs/hardware/**"
+      - "README.md"
+      - ".github/workflows/models-manifest.yml"
+  pull_request:
+    paths:
+      - "hardware/3d-models/**"
+      - "docs/hardware/**"
+      - "README.md"
+      - ".github/workflows/models-manifest.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate manifest and links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Manifest, checksums and documentation links
+        run: python -I hardware/3d-models/validate_manifest.py
+
+      - name: Geometry parse checks (STEP / 3MF / STL)
+        run: python -I hardware/3d-models/validate_manifest.py --geometry --report "$RUNNER_TEMP/validation_report.json"
+
+      - name: Upload geometry report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-report
+          path: ${{ runner.temp }}/validation_report.json

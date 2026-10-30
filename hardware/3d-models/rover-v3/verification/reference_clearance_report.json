@@ -1,0 +1,7 @@
+{
+  "all_reference_shapes_valid": true,
+  "printed_parts": 21,
+  "hardware_references": 43,
+  "intersections": [],
+  "interpretation": "Exact BRep intersections of simplified assembly envelopes. A clear nominal envelope is not proof of physical fit; source-backed printed interfaces remain authoritative."
+}

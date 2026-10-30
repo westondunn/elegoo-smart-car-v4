@@ -1,0 +1,106 @@
+ROVER V3 - ELECTRICAL REFERENCE AND HARDWARE REVISION NOTES
+
+REPOSITORY NOTE: the four PDFs described below are NOT stored in this
+repository (ELEGOO and vendor material without a stated redistribution
+license). Pinned sources, hashes and retrieval steps are in
+hardware/3d-models/reference/README.md; running source/recover_oem_references.py
+re-creates reference/electrical/ with the PDFs. Tables and provenance files
+are in reference/electrical/.
+Source recovery and inspection: 2026-10-20.
+
+WHAT WAS RECOVERED
+
+The original official ELEGOO-Smart-Robot-Car-Kit-V4.0 repository contains
+Schematic diagram.zip. Its four PDFs are included unchanged under:
+  ELEGOO-Smart-Robot-Car-Kit-V4.0/extracted/Schematic_diagram/
+
+  SmartRobot-Shield.pdf        One-page circuit diagram for the original shield
+  DRV8835_datasheet_en.pdf     Motor-driver device datasheet
+  ESP32-wrover_datasheet_en.pdf  Camera processor module datasheet
+  ITR20001_datasheet_en.pdf    Reflective-sensor device datasheet
+
+The shield diagram's title is ELEGOO Smart Robot Car V4.0. Its date is
+2020-11-24. Its file field identifies SmartCar-Shield-V1.0.SchDoc; the separate
+revision field is blank. The original editable SchDoc is not in this archive.
+The diagram was inspected both as rendered graphics and extracted text.
+
+The ELEGOO-Smart-Robot-Car-Kit-V4.0-New repository was also inspected. Its
+retrieved tree contains firmware and README documentation; no schematic PDF,
+editable schematic, PCB or electrical netlist was found in that tree. A copy
+of its README and the full retrieved file tree are supplied for provenance.
+
+download_provenance.json records source URLs, repository tree identifiers,
+download time, Git blob identifiers and SHA-256 hashes. pdf_inventory.json
+records the exact PDF hashes and page information. Original PDF content has
+not been edited to make a different hardware revision appear compatible.
+
+THE REVISION DIFFERENCE THAT MATTERS
+
+The 2020 diagram has a DRV8835 motor driver. Its right motor connectors M2/M3
+use channel A; that channel's direction signal is D8 and PWM is D5. Its left
+motor connectors M1/M4 use channel B; direction is D7 and PWM is D6. There is
+no motor STBY connection shown on D3 in that sheet.
+
+The New repository README lists right direction D7, left direction D8, PWM
+D5/D6 respectively, and a motor STBY signal on D3. Those labels differ from
+the original shield sheet. The comparison is preserved in
+OEM_REVISION_PIN_REFERENCE.csv. It is a source comparison, not a verified
+pinout of the user's physical rover. The two references should not be merged
+into a new wiring diagram until the actual shield/driver revision is known.
+
+HOW THE NEW BODY REUSES THE ELECTRONICS
+
+Keep the existing working motor, servo, sensor, camera and battery harnesses
+with their original connector orientations. The new printed body changes
+mounting and cable routing; it does not require a firmware or pin-map change.
+HARNESS_FUNCTIONAL_REFERENCE.csv groups the existing connections by function
+and identifies the appropriate route/access check. No electrical connection
+from the Pi to the controller has been assumed or added.
+
+The motor battery is a separate component from the flat Pi power bank. Its
+switch, output plug and charging/service port need usable hand and cable
+access in the installed position. Use the actual fully seated connectors
+when reviewing the new deck and adjustable battery mount. The schematic
+does not specify those mechanical connector envelopes or their cable bend
+clearances.
+
+The line tracker uses its existing harness and should remain aimed toward
+the floor. The original camera/sonar head uses its existing servo and sensor
+harnesses. Retain enough cable loop for the actual allowed head travel, and
+check the loop with the complete installed stack. The reference servo joint
+angle range is an illustration, not a measured cable or servo limit.
+
+MECHANICAL ELECTRONICS FIDELITY
+
+The Pi's 58 x 49 mm mounting pattern is a known project datum. Its generation
+and complete connector layout are unconfirmed. The UNO/shield revision is
+also unconfirmed. Line-tracker and servo dimensions from earlier nominal
+references remain nominal unless confirmed by the user or the matching OEM
+drawing. The assembly labels retain this distinction.
+
+PCB, connector, camera, sensor and battery solids show packaging envelopes.
+They do not contain individual electronic parts, routed copper, a board stack
+specification or a verified netlist. A 3D component's colour or material intent
+does not establish electrical characteristics. The generic composite reference
+models do not supply calibrated hardware masses or thermal properties.
+
+EDITABLE FUSION ELECTRONICS
+
+No editable Fusion Electronics document is supplied from these PDFs. Building
+one would require the matching controller/shield revision, source schematic
+or a verified reconstruction, component/library choices and a verified
+netlist. The recovered archive supplies a PDF diagram and device datasheets,
+not those editable project files. The current public Fusion Electronics API
+also does not expose design-content write operations.
+
+PRIMARY SOURCES
+
+Original repository and schematic archive:
+https://github.com/elegooofficial/ELEGOO-Smart-Robot-Car-Kit-V4.0
+https://github.com/elegooofficial/ELEGOO-Smart-Robot-Car-Kit-V4.0/blob/main/Schematic%20diagram.zip
+
+New firmware repository and its documented pin table:
+https://github.com/elegooofficial/ELEGOO-Smart-Robot-Car-Kit-V4.0-New
+
+Fusion Electronics API scope:
+https://help.autodesk.com/cloudhelp/ENU/Fusion-360-API/files/ElectronicsIntro.htm

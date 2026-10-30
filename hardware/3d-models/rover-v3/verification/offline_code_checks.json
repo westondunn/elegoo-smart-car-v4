@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "tests_run": 13,
+  "failures": 0,
+  "errors": 0,
+  "fusion_runtime_executed": false,
+  "scope": "Portable manifest constraints, mm/cm conversion, asset integrity and recipe schema checks"
+}
