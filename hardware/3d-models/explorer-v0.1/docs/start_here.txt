@@ -1,0 +1,384 @@
+ELEGOO SMART ROBOT CAR V4 — EXPLORER CAD AND PLA ACCESSORIES
+Version 0.1.0 | 12 October 2026 | All dimensions in millimeters
+
+START WITH THESE FILES
+
+cad/explorer_assembly.step
+  The assembled explorer layout, with 167 named solid components in seven
+  groups. Includes the stock hardware references, new PLA accessories, the
+  optional Pi 4 board/tray, and illustrative distance-sensor boards.
+
+cad/stock_reference_assembly.step
+  The stock layout, with 114 named solid components in four groups. Use it
+  to inspect the source chassis and stock hardware without the accessories.
+
+cad/printable_parts.step
+  Thirteen unique printable designs, separated into named CAD components.
+  This is a CAD editing master: its 190 mm layout grid spans multiple print
+  areas. It is NOT a single arranged print plate. Export a selected part
+  after editing it, or split and arrange the components in your slicer.
+
+print/00_fit_check.3mf
+  Print this first. It contains one mounting gauge and four 36 mm spacers.
+  Fit the gauge at the intended deck height using the spacers; do not rest
+  it directly on the stock electronics or battery.
+
+preview/explorer_preview.png / preview/stock_reference_preview.png / preview/explorer_exploded.png
+  Previews rendered from the actual modeled solids. In the exploded preview,
+  the PLA accessories are shifted up 55 mm and the optional purchased
+  hardware is shifted up 90 mm. Added fasteners are hidden in that preview.
+  These offsets are for illustration only and do not alter the CAD files.
+
+
+WHAT THE MODEL REPRESENTS
+
+The supplied official repository archive contains Bottom Plate.stl,
+Top Plate.stl and Dead Plate.stl. It does not contain factory CAD for the
+motors, wheels, electronics or complete assembly. The three plates were
+reconstructed as solids using sections of those supplied meshes. The
+remaining purchased parts are explicitly labeled reference geometry.
+
+Major stock components represented include both chassis levels, the servo
+plate, four motors and their mounting hardware, four wheels and hubs, six
+pillars, the UNO and expansion shield, connector blocks, the GY-521 module,
+IR/RGB/button details, the battery enclosure, the servo and head bracket,
+ultrasonic board and transducers, camera PCB/radio/lens, the underside line
+sensor board, representative fasteners, and a schematic head-cable route.
+
+This is a complete major-component layout for planning and modification.
+Small electronic details, internal battery construction, exact cable
+lengths, connectors and individual fastener shapes are simplified. Do not
+use purchased-part reference bodies as manufacturing drawings.
+
+The verification/component_manifest.json file records every modeled component's group,
+variant, evidence level, notes, dimensions and volume. Evidence categories
+distinguish supplied-mesh geometry, documented nominal hardware, nominal
+component envelopes, estimated envelopes, and new designs.
+
+Source geometry and known discrepancy:
+  - Main plates: approximately 132.523 x 230.780 x 4.5 mm each.
+  - Supplied plate gap: 39.705222 mm. This exact gap is preserved, although
+    the ELEGOO assembly manual describes nominal M3 x 40 mm pillars.
+  - Source Dead Plate: 32.8 x 41.0 x 2.6 mm; its source pose is retained in
+    the stock reference file, including the 0.180406 mm gap above the top.
+  - The top mesh has a defect where nearby cutouts meet at the servo opening.
+    The solid reconstruction produces a valid cutout using sequential cuts.
+  - The supplied Dead Plate's three-hole row does not match the Top Plate:
+    the row pitches are 15.60/17.65 mm versus approximately 15.15/15.15 mm.
+    The stock STEP preserves this discrepancy rather than moving the source
+    holes. The explorer STEP shows the separate optional replacement adapter.
+  - Outer-profile simplification differs by at most 0.02 mm at the measured
+    section vertices. This is not a global accuracy claim for the car.
+  - Reconstructed plate volumes differ from the source STL mesh volumes by
+    approximately -0.0052% (bottom), -0.0165% (top) and -0.0519% (Dead Plate).
+
+Retain your physical stock servo bracket if it already fits and works. The
+optional adapter is useful only after you check its servo opening, ear
+holes and the physical top-plate pattern. Its main row follows the source
+Top Plate; its servo opening and ear fit are nominal, not measured from
+your particular servo.
+
+
+OPENING AND EDITING IN AUTODESK FUSION
+
+1. Download cad/explorer_assembly.step and use Fusion's local-file opening or
+   upload workflow for STEP files. Fusion officially supports STEP import.
+2. Save the imported design as a Fusion project and confirm document units
+   are millimeters. The supplied STEP files explicitly declare millimeters.
+3. Expand the named groups to inspect or hide the source chassis, stock
+   references, PLA accessories, optional hardware and added fasteners.
+4. For an individual print edit, open cad/printable_parts.step and
+   select the relevant component. Keep its mounting pattern fixed unless
+   you are intentionally adapting it to measured hardware.
+5. Export only the edited printable component as STEP or STL for slicing.
+
+The STEP files contain separated, named BRep solid geometry and assembly
+relationships. They are not native F3D files with a sketch/feature timeline,
+motion joints, contacts or simulation setup. Fusion direct edits and new
+features can be added after import. Source-level parameters are also
+provided for regenerating the design outside Fusion.
+
+
+PRINT PACKS FOR BAMBU STUDIO
+
+These are portable 3MF geometry packages with explicit millimeter units and
+separate named objects. They contain no printer profile, filament mapping,
+G-code or automated printing action. Choose your actual printer and PLA
+profile in Bambu Studio before slicing. Colors are visual identifiers and
+do not require an AMS or multiple filaments.
+
+Pack                         Contents                              Objects
+print/00_fit_check.3mf              Gauge + four deck spacers                 5
+print/01_deck.3mf                   Slotted upper deck                        1
+print/02_body_and_guard.3mf         Two side guards + front guard              3
+print/03_mounts_and_spacers.3mf     Two guard shims, rear carrier,             9
+                             four cable saddles, two floor carriers
+print/04_optional_pi_tray.3mf       Pi 4 tray + four short spacers             5
+print/05_optional_servo_adapter.3mf Replacement servo adapter                  1
+
+There are 24 build objects across the six packs and 13 unique designs.
+All packs have been checked within a 180 x 180 mm geometric print area.
+The front guard is the largest part at 170 mm wide. With a 4 mm brim around
+that part, the width becomes 178 mm. Check the usable area on your selected
+printer, and rearrange objects if your brim or slicer exclusions need it.
+
+Suggested starting settings, not a tested printer profile:
+  - PLA using the printer's established material profile.
+  - 0.4 mm nozzle; 0.20 mm layer height.
+  - Four walls and approximately 20-25% gyroid infill.
+  - Four or five top/bottom layers where those settings apply.
+  - Consider a 4 mm brim for the tall deck spacers and the long front guard.
+  - Parts are already oriented in the STLs and 3MFs. Side guards lie on
+    their broad outer faces; spacers stand upright. Review the first layer
+    and bridges in the sliced preview before deciding on local supports.
+  - Use metal through-bolts and nuts. The PLA parts have clearance holes;
+    they do not depend on printed threads, flexible latches or heat inserts.
+
+Keep the body ventilated. Avoid locating the PLA directly against a hot
+processor or power regulator. All accessories can be printed in one color.
+
+
+FIT CHECK AND BUILD ORDER
+
+1. Print pack 00: the gauge and all four tall spacers.
+2. With the car powered off, replace the four middle/rear top-plate bolts
+   one at a time. Put a printed spacer at each location and position the
+   gauge on top, 36 mm above the stock top plate.
+3. Start the four proposed M3 x 50 mm screws loosely. All four must enter
+   the existing pillar threads without forcing the gauge or bending a
+   plate. Keep the chassis supported while changing these bolts.
+4. Check thread depth before tightening. The 2 mm gauge gives about 7.5 mm
+   nominal engagement; the final 3.2 mm deck gives about 6.3 mm. If a screw
+   bottoms out, select a shorter screw or suitable washers after measuring.
+   Do not use tightening force to compensate for a mismatch.
+5. Check the hole-size ladder on the gauge: 3.1, 3.3, 3.5, 3.7 and 3.9 mm
+   from left to right in the supplied top-view orientation. The design's
+   M3 clearance is 3.5 mm. Adjust hole size locally if your print needs it.
+6. Confirm clearance around your battery, controller connectors and cable
+   plugs. The gauge verifies the mounting pattern, not every payload fit.
+7. Print pack 01 and replace the gauge with the deck on the same spacers.
+   Leave the service opening above the controller accessible.
+8. Print pack 02 and the two guard shims from pack 03. Fasten the side-panel
+   flanges beneath the deck. Mount the front guard on its two 4 mm shims
+   above the front top-plate pillars.
+   Add soft foam tape to the guard's contact face if desired.
+9. Print and fit the remaining required pieces from pack 03. The rear
+   sensor carrier bolts to the two rear deck holes. The downward carriers
+   bolt below the guard;
+   strap the actual sensor boards beneath them with their optics facing
+   the floor. Leave optical apertures unobstructed. Cable saddles can use
+   suitable deck slots with bolts/nuts or ties; their positions are chosen
+   during wiring and are not fixed in the installed assembly.
+10. Print pack 04 only if adding a Pi 4 Model B. The tray mounts above the
+    deck on four 4 mm spacers. Check board underside/connector access with
+    your actual board and cooling arrangement before fastening it.
+11. Use pack 05 only if you choose to replace the stock servo bracket after
+    comparing it to the physical parts. It is not required for the deck.
+12. Check wheel movement, camera/sonar visibility and the full physical head
+    motion with cables connected. The model's sweep review covers rigid
+    reference shapes; it does not model cable bending or servo hard stops.
+
+If the gauge does not fit, modify the mounting coordinates or local hole
+clearances. Do not scale the entire model: that also changes wheel, board,
+fastener and accessory interfaces.
+
+
+PROPOSED ACCESSORY FASTENERS
+
+Check the actual pillar threads and available clearances before buying a
+large quantity. Lengths below are a starting BOM for the modeled stack.
+Screw lengths are under-head lengths. Use modest hand tightening on PLA.
+
+Use                            Screws                     Nuts
+Deck + four tall spacers       4 x M3 x 50 mm             Existing pillars
+Front guard + two shims        2 x M3 x 20 mm             Existing pillars
+Two side guards                4 x M3 x 10 mm             4 x M3
+Rear sensor carrier            2 x M3 x 10 mm             2 x M3
+Two downward carriers          4 x M3 x 10 mm             4 x M3
+Four cable saddles, if bolted   Up to 4 x M3 x 10 mm       Up to 4 x M3
+Optional Pi tray to deck       4 x M3 x 14 mm             4 x M3
+Optional Pi board to tray      4 x M2.5 x 14 mm           4 x M2.5
+
+The optional Pi board stack is approximately 10.4 mm before the nut; check
+washer and nut thickness against the actual board. The Pi tray uses the
+nominal 85 x 56 mm PCB and 58 x 49 mm hole pitch, offset toward the left
+edge of the board. A Pi case, HAT, cooler or different board needs its own
+clearance check. The optional servo adapter needs three suitable M3
+through-fasteners and the appropriate servo-ear screws; choose lengths
+from the actual stack and retain working kit hardware where appropriate.
+
+Also useful: small cable ties, foam tape, and suitable washers where space
+allows. Some accessory fasteners in this BOM are not explicitly modeled
+(rear carrier, cable saddles and Pi board screws), so inspect those local
+clearances during assembly. No electrical supply or wiring design for the
+optional computer/sensors is included in this mechanical package.
+
+
+WHY THESE ADDITIONS
+
+Slotted deck: provides an adaptable platform for future sensors or compute
+while retaining a service opening above the controller. Mount a sensor on
+the deck only after checking its footprint and keeping its view clear.
+
+Removable side guards: help keep the central wiring contained and make
+electronics accessible without a complete shell. The wheel areas remain
+open and the body has ventilation windows.
+
+Front guard: provides a replaceable, rigid contact surface. It is not a
+bumper switch and cannot tell the controller that a collision occurred.
+
+Rear and downward sensor carriers: let you add sensing coverage as the
+autonomous explorer develops. The boards shown are generic envelopes, not
+a promise of a particular breakout-board fit. Downward brackets alone do
+not provide stair protection; the sensors and stop behavior must be tested.
+
+Optional Pi tray: reserves space for a companion computer without making
+it a requirement for the first PLA build. Adding a board does not itself
+implement mapping or a Home Assistant connection.
+
+For later mapping work, record measured sensor positions/orientations
+after the hardware is installed. Use those measurements to calibrate the
+software's sensor-to-rover transforms; reference CAD positions alone are
+not a calibration.
+
+
+REFERENCE DIMENSIONS AND COORDINATES
+
+Model coordinates: X across the car, +Y toward the front, +Z upward.
+Ground is Z=0 only for the nominal 65 mm diameter wheel references.
+
+Stock top-plate surface Z:          66.705222 mm
+New deck underside Z:             102.705222 mm
+New deck thickness:                 3.2 mm
+New deck overall size:            126 x 104 mm
+New deck center Y:                -42 mm
+Printed deck spacer:              10 mm OD, 3.5 mm bore, 36 mm tall
+Reference wheel size:             65 mm diameter x 26 mm width
+
+Top-plate mounting locations (X, Y), rounded to 0.001 mm:
+  Front right:      52.750,   82.437
+  Front left:      -52.250,   82.437
+  Middle right:     56.544,   -1.667
+  Middle left:     -55.456,   -2.657
+  Rear right:       56.544,  -82.667
+  Rear left:       -55.456,  -82.667
+
+The deck uses the middle/rear four locations. The guard uses the front two.
+The top and bottom source patterns differ by up to about 0.242 mm; new
+attachments follow the top-plate positions rather than averaging the two.
+
+
+VALIDATION PERFORMED
+
+verification/final_validation.json contains the detailed checks and hashes of the CAD
+and mesh exports. verification/explorer_fit_review.json contains the assembly review.
+
+Export results:
+  - Three STEP files re-import as valid solids with the expected counts,
+    dimensions, volume, millimeter units, names and assembly relationships.
+  - Stock: 114 components; explorer: 167; printable-only master: 13.
+  - All six 3MF packs load in strict lib3mf 2.5.0 with zero warnings.
+  - The 24 correctly named build objects are on Z=0 and inside 180 x 180 mm.
+  - All 13 individual STL designs pass independent VTK manifoldness,
+    connected-surface, orientation, bounds and volume checks.
+  - Maximum STL volume deviation from analytic CAD: approximately 0.060%.
+
+Assembly review:
+  - No positive-volume intersections above 0.01 mm3 between PLA parts,
+    source plates and the purchased-hardware reference envelopes reviewed.
+  - No added-fastener-to-PLA/source-plate intersections above that threshold.
+  - Smallest reviewed side-guard/deck-spacer gap: approximately 1.667 mm.
+  - Side guard to nominal tires: at least 9.705 mm; front guard to nominal
+    tires: at least 10.515 mm. Closest accessory-to-tire gap: 6.647 mm.
+  - A conservative cylindrical envelope around the modeled rotating head
+    stays clear of the printed accessories throughout a +/-90 degree sweep.
+    Front-guard clearance is 13.058 mm; overall minimum is 7.000 mm to the
+    optional servo adapter. Flexible cable routing is excluded.
+  - The mounting gauge clears the modeled hardware at the intended deck
+    height on its four spacers.
+
+These checks are digital verification, not a physical fit or print test.
+Application-level opening in Fusion/Bambu Studio, slicing, printing,
+material strength, payload capacity, minimum wall thickness and complete
+mesh self-intersection certification have not been performed. The fit
+review depends on the stated approximate hardware dimensions. Its source
+hash records the geometry-reviewed generator; the subsequent generator
+change only replaced the preview renderer, leaving geometry unchanged.
+
+
+REBUILDING AND FUTURE DEVELOPMENT
+
+Keep these files together:
+  source/build_explorer.py
+  source/explorer_parameters.json
+  source/stock_profiles.json
+  source/rover_3mf.py
+  source/render_previews.py        (needed only for previews)
+  source/validate_final_exports.py (needed only for independent export validation)
+  source/requirements.txt
+
+In a Python 3.11+ environment, install source/requirements.txt, then run:
+  python source/build_explorer.py --output rebuilt
+  python source/build_explorer.py --output rebuilt --render
+
+To create previews without re-exporting STEP/STL/3MF:
+  python source/build_explorer.py --output previews --manifest-only --render
+
+For strict validation of rebuilt exports:
+  python source/validate_final_exports.py --deliverables rebuilt
+
+The generator uses CadQuery 2.7.0. Preview rendering uses Matplotlib's
+headless Agg backend; it does not require a display server. Validation
+also uses VTK (available with the CAD environment) and lib3mf 2.5.0.
+source/stock_profiles.json contains the extracted source section geometry, so
+the original archive is not required merely to regenerate this model.
+
+source/explorer_parameters.json exposes major envelope/deck settings. Some
+interfaces are fixed source-derived coordinates and some component details
+are defined in the Python generator. Parameters are not a guarantee of
+arbitrary-size configurability: review clearances after changing them.
+
+Every printable design also has an individual, print-oriented STL with the
+same component name as in the 3MF pack. Their quantities and dimensions are
+listed in verification/component_manifest.json. verification/sha256sums.txt covers the final files.
+
+
+DOCUMENTATION AND DIMENSION SOURCES
+
+User-supplied archive:
+  ELEGOO-Smart-Robot-Car-Kit-V4.0-main.zip
+  Smart Robot Car 3D model / Smart Robot Car 3D model /
+  Bottom Plate.stl, Top Plate.stl, Dead Plate.stl
+
+ELEGOO official repository:
+  https://github.com/elegooofficial/ELEGOO-Smart-Robot-Car-Kit-V4.0
+
+ELEGOO official tutorial and linked English assembly manual:
+  https://us.elegoo.com/blogs/arduino-projects/elegoo-smart-robot-car-kit-v4-0-tutorial
+  https://drive.google.com/file/d/1eJYjE6uJ9rBuBfKgcivZSfuRoR8YzztS/view
+  The manual establishes assembly arrangement and nominal kit fasteners;
+  it is not a complete dimensional drawing set.
+
+Arduino UNO official reference dimensions:
+  https://docs.arduino.cc/resources/datasheets/A000066-datasheet.pdf
+
+Raspberry Pi 4 official mechanical drawing:
+  https://datasheets.raspberrypi.com/rpi4/raspberry-pi-4-mechanical-drawing.pdf
+  https://pip-assets.raspberrypi.com/categories/1261-transitioning/documents/RP-003475-WP-1-Transitioning%20from%20Pi%203%20to%20Pi%204.pdf
+
+Representative component envelopes, not verified ELEGOO part identities:
+  TT motor: https://www.adafruit.com/product/3777
+  SG90 servo: https://towerpro.com.tw/product/sg90-analog/
+  65 mm wheel: https://www.dfrobot.com/product-352.html
+  HC-SR04: https://www.adafruit.com/product/3942
+
+Fusion format support and STEP workflow:
+  https://help.autodesk.com/view/fusion360/ENU/?guid=TPD-SUPPORTED-FILE-FORMATS
+  https://www.autodesk.com/products/fusion-360/blog/import-step-file-into-fusion-360/
+
+Bambu Studio project documentation:
+  https://github.com/bambulab/BambuStudio
+
+The new accessories and simplified reference models were created for this
+prototype. Supplied/source-derived material retains its original rights;
+no independent license is asserted for the official ELEGOO assets.

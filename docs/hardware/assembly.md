@@ -62,10 +62,10 @@ finish 2.4 mm below the nominal board underside.
 ## Older revisions
 
 * Explorer deck and v0.2 / v0.3 body: order and fasteners in
-  `explorer-v0.1/docs/start_here.txt` (follow-up PR),
-  `body-v0.2-full/docs/start_here.txt` (follow-up PR),
-  `body-v0.3-wheelbase76/docs/start_here.md` (follow-up PR).
-* V2 P1B motor retrofit: `motor-retrofit-r1/docs/motor_adapters_r1_guide.md` (follow-up PR)
+  [`explorer-v0.1/docs/start_here.txt`](../../hardware/3d-models/explorer-v0.1/docs/start_here.txt),
+  [`body-v0.2-full/docs/start_here.txt`](../../hardware/3d-models/body-v0.2-full/docs/start_here.txt),
+  [`body-v0.3-wheelbase76/docs/start_here.md`](../../hardware/3d-models/body-v0.3-wheelbase76/docs/start_here.md).
+* V2 P1B motor retrofit: [`motor-retrofit-r1/docs/motor_adapters_r1_guide.md`](../../hardware/3d-models/motor-retrofit-r1/docs/motor_adapters_r1_guide.md)
   (needs 8 × M3 × 8 countersunk screws with heads ≤ 6.2 mm, 4 × M3 × 10, 4 M3 nuts).
 * V2 P1 chassis and the roof-battery/service-hatch parts have no assembly
   documentation on record.

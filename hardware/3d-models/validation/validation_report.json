@@ -1,8 +1,2969 @@
 {
-  "manifest_assets": 300,
-  "links_checked": 35,
+  "manifest_assets": 303,
+  "links_checked": 63,
   "problems": [],
   "geometry": {
+    "hardware/3d-models/body-v0.2-full/cad/body_shell_only.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 8,
+      "manifold_solids": 6,
+      "cartesian_point_count": 2945,
+      "approx_bbox_from_points_mm": [
+        -110.0,
+        -160.0,
+        0.0,
+        71.0,
+        120.5,
+        146.8
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.2-full/cad/full_body_assembly.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 205,
+      "manifold_solids": 195,
+      "cartesian_point_count": 12357,
+      "approx_bbox_from_points_mm": [
+        -110.0,
+        -160.0,
+        0.0,
+        87.0,
+        148.5,
+        172.905
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.2-full/cad/printable_parts.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 10,
+      "manifold_solids": 8,
+      "cartesian_point_count": 3127,
+      "approx_bbox_from_points_mm": [
+        -102.0,
+        -40.0,
+        -40.0,
+        561.0,
+        504.0,
+        206.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.2-full/print/body_00_joint_check.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "body_00_joint_side_sample",
+          "vertices": 672,
+          "bbox": [
+            0.0,
+            0.0,
+            0.0,
+            22.0,
+            24.0,
+            19.0
+          ],
+          "signed_volume": 2866.442,
+          "triangles": 1352,
+          "edges": 2028,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "3",
+          "name": "body_00_joint_rear_sample",
+          "vertices": 218,
+          "bbox": [
+            0.0,
+            0.0,
+            -0.0,
+            16.1,
+            22.0,
+            2.4
+          ],
+          "signed_volume": 827.003,
+          "triangles": 436,
+          "edges": 654,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.2-full/print/body_00_joint_rear_sample.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 218,
+      "bbox": [
+        0.0,
+        0.0,
+        -0.0,
+        16.1,
+        22.0,
+        2.4
+      ],
+      "signed_volume": 827.003,
+      "triangles": 436,
+      "edges": 654,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.2-full/print/body_00_joint_side_sample.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 672,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        22.0,
+        24.0,
+        19.0
+      ],
+      "signed_volume": 2866.442,
+      "triangles": 1352,
+      "edges": 2028,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.2-full/print/body_01_left_side.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "body_01_left_side",
+          "vertices": 5311,
+          "bbox": [
+            -0.0,
+            0.0,
+            -0.0,
+            124.0,
+            166.0,
+            21.0
+          ],
+          "signed_volume": 41226.283,
+          "triangles": 10710,
+          "edges": 16065,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.2-full/print/body_01_left_side.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 5311,
+      "bbox": [
+        -0.0,
+        0.0,
+        -0.0,
+        124.0,
+        166.0,
+        21.0
+      ],
+      "signed_volume": 41226.285,
+      "triangles": 10710,
+      "edges": 16065,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.2-full/print/body_02_right_side.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "body_02_right_side",
+          "vertices": 3516,
+          "bbox": [
+            0.0,
+            0.0,
+            -0.0,
+            124.0,
+            166.0,
+            21.0
+          ],
+          "signed_volume": 36870.188,
+          "triangles": 7088,
+          "edges": 10632,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.2-full/print/body_02_right_side.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 3516,
+      "bbox": [
+        0.0,
+        0.0,
+        -0.0,
+        124.0,
+        166.0,
+        21.0
+      ],
+      "signed_volume": 36870.191,
+      "triangles": 7088,
+      "edges": 10632,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.2-full/print/body_03_rear_panel.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "body_03_rear_panel",
+          "vertices": 2192,
+          "bbox": [
+            0.0,
+            0.0,
+            -0.0,
+            136.2,
+            124.0,
+            2.4
+          ],
+          "signed_volume": 27112.263,
+          "triangles": 4420,
+          "edges": 6630,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.2-full/print/body_03_rear_panel.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 2192,
+      "bbox": [
+        0.0,
+        0.0,
+        -0.0,
+        136.2,
+        124.0,
+        2.4
+      ],
+      "signed_volume": 27112.263,
+      "triangles": 4420,
+      "edges": 6630,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.2-full/print/body_04_front_bulkhead.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "body_04_front_bulkhead",
+          "vertices": 2192,
+          "bbox": [
+            0.0,
+            0.0,
+            0.0,
+            136.2,
+            75.795,
+            2.4
+          ],
+          "signed_volume": 19663.694,
+          "triangles": 4420,
+          "edges": 6630,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.2-full/print/body_04_front_bulkhead.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 2192,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        136.2,
+        75.795,
+        2.4
+      ],
+      "signed_volume": 19663.694,
+      "triangles": 4420,
+      "edges": 6630,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.2-full/print/body_05_removable_roof.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 3632,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        142.0,
+        166.0,
+        2.8
+      ],
+      "signed_volume": 57414.158,
+      "triangles": 7324,
+      "edges": 10986,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.2-full/print/body_05_roof.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "body_05_removable_roof",
+          "vertices": 3632,
+          "bbox": [
+            0.0,
+            0.0,
+            0.0,
+            142.0,
+            166.0,
+            2.8
+          ],
+          "signed_volume": 57414.159,
+          "triangles": 7324,
+          "edges": 10986,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.2-full/print/body_06_front_cowl.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "body_06_front_cowl",
+          "vertices": 1478,
+          "bbox": [
+            -0.0,
+            0.0,
+            -0.0,
+            142.0,
+            73.9,
+            57.105
+          ],
+          "signed_volume": 32809.874,
+          "triangles": 2964,
+          "edges": 4446,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.2-full/print/body_06_front_cowl.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 1478,
+      "bbox": [
+        -0.0,
+        0.0,
+        -0.0,
+        142.0,
+        73.9,
+        57.105
+      ],
+      "signed_volume": 32809.866,
+      "triangles": 2964,
+      "edges": 4446,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.3-wheelbase76/cad/body_01_left_side.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 898,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        -40.0,
+        -49.0,
+        194.0,
+        166.0,
+        21.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.3-wheelbase76/cad/body_02_right_side.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 491,
+      "approx_bbox_from_points_mm": [
+        -70.0,
+        -40.0,
+        0.0,
+        124.0,
+        166.0,
+        191.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.3-wheelbase76/cad/body_04_front_bulkhead.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 339,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        0.0,
+        0.0,
+        136.2,
+        70.0,
+        206.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.3-wheelbase76/cad/body_06_front_cowl.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 285,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        -136.6,
+        0.0,
+        191.0,
+        73.9,
+        127.105
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.3-wheelbase76/cad/body_shell_v3.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 8,
+      "manifold_solids": 6,
+      "cartesian_point_count": 2645,
+      "approx_bbox_from_points_mm": [
+        -120.0,
+        -160.0,
+        -50.0,
+        71.0,
+        120.5,
+        146.8
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.3-wheelbase76/cad/open_rover_v3_reference.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 171,
+      "manifold_solids": 163,
+      "cartesian_point_count": 8648,
+      "approx_bbox_from_points_mm": [
+        -87.97,
+        -115.39,
+        0.0,
+        87.97,
+        148.5,
+        172.905
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.3-wheelbase76/cad/rover_body_v3_with_snap_battery.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 217,
+      "manifold_solids": 206,
+      "cartesian_point_count": 13688,
+      "approx_bbox_from_points_mm": [
+        -120.0,
+        -160.0,
+        -50.0,
+        87.97,
+        148.5,
+        179.6
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.3-wheelbase76/cad/wheel_bay_fit_gauge_left.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 207,
+      "approx_bbox_from_points_mm": [
+        -6.184,
+        0.0,
+        -169.0,
+        56.018,
+        166.0,
+        71.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.3-wheelbase76/cad/wheel_bay_fit_gauge_right.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 207,
+      "approx_bbox_from_points_mm": [
+        -7.313,
+        0.0,
+        0.0,
+        54.889,
+        166.0,
+        311.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.3-wheelbase76/print/00_wheel_bay_fit_checks.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "wheel_bay_fit_gauge_left",
+          "vertices": 568,
+          "bbox": [
+            0.0,
+            0.0,
+            0.0,
+            48.705,
+            166.0,
+            21.0
+          ],
+          "signed_volume": 4945.518,
+          "triangles": 1140,
+          "edges": 1710,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "3",
+          "name": "wheel_bay_fit_gauge_right",
+          "vertices": 568,
+          "bbox": [
+            0.0,
+            0.0,
+            0.0,
+            48.705,
+            166.0,
+            21.0
+          ],
+          "signed_volume": 4945.518,
+          "triangles": 1140,
+          "edges": 1710,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.3-wheelbase76/print/01_left_side_v3.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "body_01_left_side",
+          "vertices": 5275,
+          "bbox": [
+            -0.0,
+            0.0,
+            0.0,
+            124.0,
+            166.0,
+            21.0
+          ],
+          "signed_volume": 34094.458,
+          "triangles": 10626,
+          "edges": 15939,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.3-wheelbase76/print/02_right_side_v3.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "body_02_right_side",
+          "vertices": 3032,
+          "bbox": [
+            0.0,
+            0.0,
+            0.0,
+            124.0,
+            166.0,
+            21.0
+          ],
+          "signed_volume": 30132.305,
+          "triangles": 6104,
+          "edges": 9156,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.3-wheelbase76/print/04_front_bulkhead_v3.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "body_04_front_bulkhead",
+          "vertices": 2600,
+          "bbox": [
+            0.0,
+            0.0,
+            0.0,
+            136.2,
+            70.0,
+            2.4
+          ],
+          "signed_volume": 17769.455,
+          "triangles": 5236,
+          "edges": 7854,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.3-wheelbase76/print/06_front_cowl_v3.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "body_06_front_cowl",
+          "vertices": 1588,
+          "bbox": [
+            0.0,
+            0.0,
+            -0.0,
+            142.0,
+            73.9,
+            57.105
+          ],
+          "signed_volume": 30686.577,
+          "triangles": 3184,
+          "edges": 4776,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.3-wheelbase76/print/body_01_left_side.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 5275,
+      "bbox": [
+        -0.0,
+        0.0,
+        0.0,
+        124.0,
+        166.0,
+        21.0
+      ],
+      "signed_volume": 34094.459,
+      "triangles": 10626,
+      "edges": 15939,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.3-wheelbase76/print/body_02_right_side.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 3032,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        124.0,
+        166.0,
+        21.0
+      ],
+      "signed_volume": 30132.309,
+      "triangles": 6104,
+      "edges": 9156,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.3-wheelbase76/print/body_04_front_bulkhead.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 2600,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        136.2,
+        70.0,
+        2.4
+      ],
+      "signed_volume": 17769.456,
+      "triangles": 5236,
+      "edges": 7854,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.3-wheelbase76/print/body_06_front_cowl.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 1588,
+      "bbox": [
+        0.0,
+        0.0,
+        -0.0,
+        142.0,
+        73.9,
+        57.105
+      ],
+      "signed_volume": 30686.572,
+      "triangles": 3184,
+      "edges": 4776,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.3-wheelbase76/print/unchanged/03_rear_panel_unchanged.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "body_03_rear_panel",
+          "vertices": 2192,
+          "bbox": [
+            0.0,
+            0.0,
+            -0.0,
+            136.2,
+            124.0,
+            2.4
+          ],
+          "signed_volume": 27112.263,
+          "triangles": 4420,
+          "edges": 6630,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.3-wheelbase76/print/unchanged/05_roof_unchanged.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "body_05_removable_roof",
+          "vertices": 3632,
+          "bbox": [
+            0.0,
+            0.0,
+            0.0,
+            142.0,
+            166.0,
+            2.8
+          ],
+          "signed_volume": 57414.159,
+          "triangles": 7324,
+          "edges": 10986,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.3-wheelbase76/print/wheel_bay_fit_gauge_left.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 568,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        48.705,
+        166.0,
+        21.0
+      ],
+      "signed_volume": 4945.518,
+      "triangles": 1140,
+      "edges": 1710,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.3-wheelbase76/print/wheel_bay_fit_gauge_right.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 568,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        48.705,
+        166.0,
+        21.0
+      ],
+      "signed_volume": 4945.519,
+      "triangles": 1140,
+      "edges": 1710,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/body-v0.3-wheelbase76/reference/previous_rover_roof_snap_v2.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 207,
+      "manifold_solids": 206,
+      "cartesian_point_count": 13978,
+      "approx_bbox_from_points_mm": [
+        -110.0,
+        -160.0,
+        0.0,
+        87.0,
+        148.5,
+        179.6
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/explorer-v0.1/cad/explorer_assembly.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 175,
+      "manifold_solids": 167,
+      "cartesian_point_count": 9014,
+      "approx_bbox_from_points_mm": [
+        -87.0,
+        -115.39,
+        0.0,
+        87.0,
+        148.5,
+        172.905
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/explorer-v0.1/cad/printable_parts.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 14,
+      "manifold_solids": 13,
+      "cartesian_point_count": 2310,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        0.0,
+        -5.1,
+        604.0,
+        669.0,
+        36.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/explorer-v0.1/cad/stock_reference_assembly.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 119,
+      "manifold_solids": 114,
+      "cartesian_point_count": 6348,
+      "approx_bbox_from_points_mm": [
+        -87.0,
+        -115.39,
+        0.0,
+        87.0,
+        115.39,
+        172.486
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/explorer-v0.1/print/00_fit_check.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "00_mount_fit_gauge",
+          "vertices": 3898,
+          "bbox": [
+            4.0,
+            4.0,
+            0.0,
+            126.044,
+            104.331,
+            2.0
+          ],
+          "signed_volume": 5563.452,
+          "triangles": 7832,
+          "edges": 11748,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "3",
+          "name": "02_deck_spacer_36mm_1",
+          "vertices": 420,
+          "bbox": [
+            131.049,
+            4.001,
+            0.0,
+            141.047,
+            13.999,
+            36.0
+          ],
+          "signed_volume": 2479.592,
+          "triangles": 840,
+          "edges": 1260,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "4",
+          "name": "02_deck_spacer_36mm_2",
+          "vertices": 420,
+          "bbox": [
+            146.052,
+            4.001,
+            0.0,
+            156.049,
+            13.999,
+            36.0
+          ],
+          "signed_volume": 2479.592,
+          "triangles": 840,
+          "edges": 1260,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "5",
+          "name": "02_deck_spacer_36mm_3",
+          "vertices": 420,
+          "bbox": [
+            161.054,
+            4.001,
+            0.0,
+            171.052,
+            13.999,
+            36.0
+          ],
+          "signed_volume": 2479.592,
+          "triangles": 840,
+          "edges": 1260,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "6",
+          "name": "02_deck_spacer_36mm_4",
+          "vertices": 420,
+          "bbox": [
+            4.002,
+            109.335,
+            0.0,
+            14.0,
+            119.334,
+            36.0
+          ],
+          "signed_volume": 2479.592,
+          "triangles": 840,
+          "edges": 1260,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/explorer-v0.1/print/00_mount_fit_gauge.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 3898,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        122.044,
+        100.331,
+        2.0
+      ],
+      "signed_volume": 5563.452,
+      "triangles": 7832,
+      "edges": 11748,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/explorer-v0.1/print/01_deck.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "01_slotted_deck",
+          "vertices": 4432,
+          "bbox": [
+            4.0,
+            4.0,
+            0.0,
+            130.0,
+            108.0,
+            3.2
+          ],
+          "signed_volume": 29594.659,
+          "triangles": 8936,
+          "edges": 13404,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/explorer-v0.1/print/01_slotted_deck.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 4432,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        126.0,
+        104.0,
+        3.2
+      ],
+      "signed_volume": 29594.659,
+      "triangles": 8936,
+      "edges": 13404,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/explorer-v0.1/print/02_body_and_guard.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "05_front_guard",
+          "vertices": 2080,
+          "bbox": [
+            4.0,
+            4.0,
+            0.0,
+            174.0,
+            60.063,
+            14.0
+          ],
+          "signed_volume": 27932.152,
+          "triangles": 4180,
+          "edges": 6270,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "3",
+          "name": "03_side_guard_left",
+          "vertices": 468,
+          "bbox": [
+            4.0,
+            65.065,
+            0.0,
+            32.0,
+            131.065,
+            9.5
+          ],
+          "signed_volume": 5071.902,
+          "triangles": 956,
+          "edges": 1434,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "4",
+          "name": "04_side_guard_right",
+          "vertices": 468,
+          "bbox": [
+            37.001,
+            65.065,
+            0.0,
+            65.001,
+            131.065,
+            9.5
+          ],
+          "signed_volume": 5071.902,
+          "triangles": 956,
+          "edges": 1434,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/explorer-v0.1/print/02_deck_spacer_36mm.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 420,
+      "bbox": [
+        0.002,
+        0.001,
+        0.0,
+        10.0,
+        9.999,
+        36.0
+      ],
+      "signed_volume": 2479.592,
+      "triangles": 840,
+      "edges": 1260,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/explorer-v0.1/print/03_mounts_and_spacers.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "06_front_guard_spacer_4mm_1",
+          "vertices": 420,
+          "bbox": [
+            4.002,
+            4.001,
+            0.0,
+            13.4,
+            13.399,
+            4.0
+          ],
+          "signed_volume": 238.964,
+          "triangles": 840,
+          "edges": 1260,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "3",
+          "name": "06_front_guard_spacer_4mm_2",
+          "vertices": 420,
+          "bbox": [
+            18.404,
+            4.001,
+            0.0,
+            27.802,
+            13.399,
+            4.0
+          ],
+          "signed_volume": 238.964,
+          "triangles": 840,
+          "edges": 1260,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "4",
+          "name": "07_rear_sensor_carrier",
+          "vertices": 618,
+          "bbox": [
+            32.804,
+            4.0,
+            0.0,
+            66.804,
+            18.0,
+            30.0
+          ],
+          "signed_volume": 3792.747,
+          "triangles": 1248,
+          "edges": 1872,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "5",
+          "name": "08_cable_tie_saddle_1",
+          "vertices": 866,
+          "bbox": [
+            71.806,
+            4.0,
+            0.0,
+            94.806,
+            16.0,
+            3.0
+          ],
+          "signed_volume": 695.464,
+          "triangles": 1740,
+          "edges": 2610,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "6",
+          "name": "08_cable_tie_saddle_2",
+          "vertices": 866,
+          "bbox": [
+            99.808,
+            4.0,
+            0.0,
+            122.808,
+            16.0,
+            3.0
+          ],
+          "signed_volume": 695.464,
+          "triangles": 1740,
+          "edges": 2610,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "7",
+          "name": "08_cable_tie_saddle_3",
+          "vertices": 866,
+          "bbox": [
+            127.809,
+            4.0,
+            0.0,
+            150.809,
+            16.0,
+            3.0
+          ],
+          "signed_volume": 695.464,
+          "triangles": 1740,
+          "edges": 2610,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "8",
+          "name": "08_cable_tie_saddle_4",
+          "vertices": 866,
+          "bbox": [
+            4.0,
+            23.001,
+            0.0,
+            27.0,
+            35.001,
+            3.0
+          ],
+          "signed_volume": 695.464,
+          "triangles": 1740,
+          "edges": 2610,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "9",
+          "name": "12_downward_sensor_carrier_1",
+          "vertices": 1300,
+          "bbox": [
+            32.002,
+            23.001,
+            0.0,
+            65.002,
+            60.001,
+            3.0
+          ],
+          "signed_volume": 2835.47,
+          "triangles": 2616,
+          "edges": 3924,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "10",
+          "name": "12_downward_sensor_carrier_2",
+          "vertices": 1300,
+          "bbox": [
+            70.004,
+            23.001,
+            0.0,
+            103.004,
+            60.001,
+            3.0
+          ],
+          "signed_volume": 2835.47,
+          "triangles": 2616,
+          "edges": 3924,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/explorer-v0.1/print/03_side_guard_left.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 468,
+      "bbox": [
+        -0.0,
+        0.0,
+        0.0,
+        28.0,
+        66.0,
+        9.5
+      ],
+      "signed_volume": 5071.901,
+      "triangles": 956,
+      "edges": 1434,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/explorer-v0.1/print/04_optional_pi_tray.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "10_optional_pi4_tray",
+          "vertices": 2968,
+          "bbox": [
+            4.0,
+            4.0,
+            0.0,
+            100.0,
+            69.0,
+            8.8
+          ],
+          "signed_volume": 12421.361,
+          "triangles": 5968,
+          "edges": 8952,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "3",
+          "name": "11_pi_tray_spacer_4mm_1",
+          "vertices": 420,
+          "bbox": [
+            105.005,
+            4.0,
+            0.0,
+            112.603,
+            11.6,
+            4.0
+          ],
+          "signed_volume": 142.889,
+          "triangles": 840,
+          "edges": 1260,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "4",
+          "name": "11_pi_tray_spacer_4mm_2",
+          "vertices": 420,
+          "bbox": [
+            117.607,
+            4.0,
+            0.0,
+            125.205,
+            11.6,
+            4.0
+          ],
+          "signed_volume": 142.889,
+          "triangles": 840,
+          "edges": 1260,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "5",
+          "name": "11_pi_tray_spacer_4mm_3",
+          "vertices": 420,
+          "bbox": [
+            130.208,
+            4.0,
+            0.0,
+            137.807,
+            11.6,
+            4.0
+          ],
+          "signed_volume": 142.889,
+          "triangles": 840,
+          "edges": 1260,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "6",
+          "name": "11_pi_tray_spacer_4mm_4",
+          "vertices": 420,
+          "bbox": [
+            142.81,
+            4.0,
+            0.0,
+            150.408,
+            11.6,
+            4.0
+          ],
+          "signed_volume": 142.889,
+          "triangles": 840,
+          "edges": 1260,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/explorer-v0.1/print/04_side_guard_right.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 468,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        28.0,
+        66.0,
+        9.5
+      ],
+      "signed_volume": 5071.902,
+      "triangles": 956,
+      "edges": 1434,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/explorer-v0.1/print/05_front_guard.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 2080,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        170.0,
+        56.063,
+        14.0
+      ],
+      "signed_volume": 27932.152,
+      "triangles": 4180,
+      "edges": 6270,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/explorer-v0.1/print/05_optional_servo_adapter.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "09_optional_servo_adapter",
+          "vertices": 1282,
+          "bbox": [
+            4.0,
+            4.0,
+            0.0,
+            41.0,
+            47.0,
+            3.2
+          ],
+          "signed_volume": 3937.567,
+          "triangles": 2584,
+          "edges": 3876,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/explorer-v0.1/print/06_front_guard_spacer_4mm.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 420,
+      "bbox": [
+        0.002,
+        0.001,
+        0.0,
+        9.4,
+        9.399,
+        4.0
+      ],
+      "signed_volume": 238.964,
+      "triangles": 840,
+      "edges": 1260,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/explorer-v0.1/print/07_rear_sensor_carrier.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 618,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        34.0,
+        14.0,
+        30.0
+      ],
+      "signed_volume": 3792.747,
+      "triangles": 1248,
+      "edges": 1872,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/explorer-v0.1/print/08_cable_tie_saddle.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 866,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        23.0,
+        12.0,
+        3.0
+      ],
+      "signed_volume": 695.464,
+      "triangles": 1740,
+      "edges": 2610,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/explorer-v0.1/print/09_optional_servo_adapter.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 1282,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        37.0,
+        43.0,
+        3.2
+      ],
+      "signed_volume": 3937.567,
+      "triangles": 2584,
+      "edges": 3876,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/explorer-v0.1/print/10_optional_pi4_tray.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 2968,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        96.0,
+        65.0,
+        8.8
+      ],
+      "signed_volume": 12421.361,
+      "triangles": 5968,
+      "edges": 8952,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/explorer-v0.1/print/11_pi_tray_spacer_4mm.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 420,
+      "bbox": [
+        0.002,
+        0.0,
+        0.0,
+        7.6,
+        7.6,
+        4.0
+      ],
+      "signed_volume": 142.889,
+      "triangles": 840,
+      "edges": 1260,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/explorer-v0.1/print/12_downward_sensor_carrier.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 1300,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        33.0,
+        37.0,
+        3.0
+      ],
+      "signed_volume": 2835.47,
+      "triangles": 2616,
+      "edges": 3924,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/motor-retrofit-r1/cad/adapter_a_fr_rl_r1.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 340,
+      "approx_bbox_from_points_mm": [
+        -6.5,
+        -12.263,
+        -4.2,
+        23.2,
+        20.1,
+        4.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/motor-retrofit-r1/cad/adapter_b_fl_rr_r1.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 617,
+      "approx_bbox_from_points_mm": [
+        -23.2,
+        -12.263,
+        -4.2,
+        6.5,
+        20.1,
+        4.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/motor-retrofit-r1/cad/floor_screw_spacer_1p6_r1.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 15,
+      "approx_bbox_from_points_mm": [
+        0.0,
+        -0.0,
+        -0.1,
+        4.0,
+        0.0,
+        1.6
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/motor-retrofit-r1/print/adapter_a_fr_rl_r1.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 3598,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        28.4,
+        28.2,
+        7.8
+      ],
+      "signed_volume": 2435.949,
+      "triangles": 7204,
+      "edges": 10806,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/motor-retrofit-r1/print/adapter_b_fl_rr_r1.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 6102,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        28.4,
+        28.2,
+        7.8
+      ],
+      "signed_volume": 2435.706,
+      "triangles": 12212,
+      "edges": 18318,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/motor-retrofit-r1/print/floor_screw_spacer_1p6_r1.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 840,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        8.0,
+        8.0,
+        1.6
+      ],
+      "signed_volume": 65.888,
+      "triangles": 1680,
+      "edges": 2520,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/motor-retrofit-r1/print/motor_retrofit_r1_x1c_pla.3mf": {
+      "entries": 31,
+      "gcode_files": 1,
+      "bambu_project_settings": true,
+      "models": [
+        {
+          "model_file": "3D/Objects/object_8.model",
+          "object_id": "15",
+          "name": null,
+          "vertices": 840,
+          "bbox": [
+            -4.0,
+            -4.0,
+            -0.8,
+            4.0,
+            4.0,
+            0.8
+          ],
+          "signed_volume": 65.888,
+          "triangles": 1680,
+          "edges": 2520,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/Objects/object_7.model",
+          "object_id": "13",
+          "name": null,
+          "vertices": 840,
+          "bbox": [
+            -4.0,
+            -4.0,
+            -0.8,
+            4.0,
+            4.0,
+            0.8
+          ],
+          "signed_volume": 65.888,
+          "triangles": 1680,
+          "edges": 2520,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/Objects/object_6.model",
+          "object_id": "11",
+          "name": null,
+          "vertices": 840,
+          "bbox": [
+            -4.0,
+            -4.0,
+            -0.8,
+            4.0,
+            4.0,
+            0.8
+          ],
+          "signed_volume": 65.888,
+          "triangles": 1680,
+          "edges": 2520,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/Objects/object_5.model",
+          "object_id": "9",
+          "name": null,
+          "vertices": 840,
+          "bbox": [
+            -4.0,
+            -4.0,
+            -0.8,
+            4.0,
+            4.0,
+            0.8
+          ],
+          "signed_volume": 65.888,
+          "triangles": 1680,
+          "edges": 2520,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/Objects/object_3.model",
+          "object_id": "5",
+          "name": null,
+          "vertices": 3598,
+          "bbox": [
+            -14.2,
+            -14.1,
+            -3.9,
+            14.2,
+            14.1,
+            3.9
+          ],
+          "signed_volume": 2435.948,
+          "triangles": 7204,
+          "edges": 10806,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/Objects/object_1.model",
+          "object_id": "1",
+          "name": null,
+          "vertices": 3598,
+          "bbox": [
+            -14.2,
+            -14.1,
+            -3.9,
+            14.2,
+            14.1,
+            3.9
+          ],
+          "signed_volume": 2435.949,
+          "triangles": 7204,
+          "edges": 10806,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/Objects/object_2.model",
+          "object_id": "3",
+          "name": null,
+          "vertices": 6102,
+          "bbox": [
+            -14.2,
+            -14.1,
+            -3.9,
+            14.2,
+            14.1,
+            3.9
+          ],
+          "signed_volume": 2435.706,
+          "triangles": 12212,
+          "edges": 18318,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/Objects/object_4.model",
+          "object_id": "7",
+          "name": null,
+          "vertices": 6102,
+          "bbox": [
+            -14.2,
+            -14.1,
+            -3.9,
+            14.2,
+            14.1,
+            3.9
+          ],
+          "signed_volume": 2435.705,
+          "triangles": 12212,
+          "edges": 18318,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "printer_model": "Bambu Lab X1 Carbon",
+      "print_settings_id": "Rover Motor Retrofit R1 - PLA 0.20mm",
+      "filament_type": [
+        "PLA"
+      ],
+      "curr_bed_type": "Textured PEI Plate",
+      "sliced_plates": 1,
+      "predicted_seconds": [
+        2747
+      ],
+      "filament_grams": [
+        12.67
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/motor-retrofit-r1/print/motor_retrofit_r2_x1c_pla.3mf": {
+      "entries": 33,
+      "gcode_files": 2,
+      "bambu_project_settings": true,
+      "models": [
+        {
+          "model_file": "3D/Objects/object_2.model",
+          "object_id": "3",
+          "name": null,
+          "vertices": 3857,
+          "bbox": [
+            -14.2,
+            -14.1,
+            -4.2,
+            14.2,
+            14.1,
+            4.2
+          ],
+          "signed_volume": 2492.003,
+          "triangles": 7722,
+          "edges": 11583,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/Objects/object_3.model",
+          "object_id": "5",
+          "name": null,
+          "vertices": 3857,
+          "bbox": [
+            -14.2,
+            -14.1,
+            -4.2,
+            14.2,
+            14.1,
+            4.2
+          ],
+          "signed_volume": 2492.003,
+          "triangles": 7722,
+          "edges": 11583,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/Objects/object_1.model",
+          "object_id": "1",
+          "name": null,
+          "vertices": 6361,
+          "bbox": [
+            -14.2,
+            -14.1,
+            -4.2,
+            14.2,
+            14.1,
+            4.2
+          ],
+          "signed_volume": 2491.761,
+          "triangles": 12730,
+          "edges": 19095,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/Objects/object_4.model",
+          "object_id": "7",
+          "name": null,
+          "vertices": 6361,
+          "bbox": [
+            -14.2,
+            -14.1,
+            -4.2,
+            14.2,
+            14.1,
+            4.2
+          ],
+          "signed_volume": 2491.76,
+          "triangles": 12730,
+          "edges": 19095,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "printer_model": "Bambu Lab X1 Carbon",
+      "print_settings_id": "Rover Motor Retrofit R2 - PLA 0.20mm",
+      "filament_type": [
+        "PLA"
+      ],
+      "curr_bed_type": "Textured PEI Plate",
+      "sliced_plates": 2,
+      "predicted_seconds": [
+        1108,
+        2311
+      ],
+      "filament_grams": [
+        3.37,
+        9.47
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/roof-battery-v2/cad/battery_tray_150x99.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 843,
+      "approx_bbox_from_points_mm": [
+        -70.0,
+        -79.5,
+        -1.0,
+        70.0,
+        78.0,
+        13.2
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/roof-battery-v2/print/00_fit_check.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "fit_frame_150x99_1",
+          "vertices": 272,
+          "bbox": [
+            5.0,
+            8.0,
+            0.0,
+            110.0,
+            164.0,
+            4.0
+          ],
+          "signed_volume": 6089.052,
+          "triangles": 544,
+          "edges": 816,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "3",
+          "name": "hole_and_strap_coupon_2",
+          "vertices": 1276,
+          "bbox": [
+            119.0,
+            15.0,
+            0.0,
+            157.0,
+            40.0,
+            3.2
+          ],
+          "signed_volume": 2769.433,
+          "triangles": 2564,
+          "edges": 3846,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/roof-battery-v2/print/00_latch_test.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "test_receiver_1",
+          "vertices": 1363,
+          "bbox": [
+            10.0,
+            20.0,
+            0.0,
+            35.732,
+            105.0,
+            24.8
+          ],
+          "signed_volume": 7688.55,
+          "triangles": 2722,
+          "edges": 4083,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "3",
+          "name": "test_keyhole_and_latch_2",
+          "vertices": 588,
+          "bbox": [
+            55.0,
+            20.0,
+            0.0,
+            78.5,
+            105.0,
+            3.2
+          ],
+          "signed_volume": 3239.605,
+          "triangles": 1176,
+          "edges": 1764,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/roof-battery-v2/print/01_battery_tray.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "battery_tray_150x99_1",
+          "vertices": 6492,
+          "bbox": [
+            20.0,
+            12.0,
+            0.0,
+            160.0,
+            168.0,
+            13.2
+          ],
+          "signed_volume": 62891.64,
+          "triangles": 13052,
+          "edges": 19578,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/roof-battery-v2/print/01_roof_tray.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "roof_tray_v2_1",
+          "vertices": 8304,
+          "bbox": [
+            20.0,
+            12.0,
+            0.0,
+            160.0,
+            168.0,
+            24.8
+          ],
+          "signed_volume": 67693.996,
+          "triangles": 16644,
+          "edges": 24966,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/roof-battery-v2/print/02_slotted_snap_lid.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "slotted_snap_lid_v2_1",
+          "vertices": 4470,
+          "bbox": [
+            20.0,
+            15.0,
+            0.0,
+            155.0,
+            159.0,
+            3.2
+          ],
+          "signed_volume": 37567.045,
+          "triangles": 8984,
+          "edges": 13476,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/roof-battery-v2/print/03_roof_spacers_4x.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "roof_spacer_8mm_1",
+          "vertices": 504,
+          "bbox": [
+            30.0,
+            30.0,
+            0.0,
+            40.0,
+            39.997,
+            8.0
+          ],
+          "signed_volume": 551.121,
+          "triangles": 1008,
+          "edges": 1512,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "3",
+          "name": "roof_spacer_8mm_2",
+          "vertices": 504,
+          "bbox": [
+            55.0,
+            30.0,
+            0.0,
+            65.0,
+            39.997,
+            8.0
+          ],
+          "signed_volume": 551.121,
+          "triangles": 1008,
+          "edges": 1512,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "4",
+          "name": "roof_spacer_8mm_3",
+          "vertices": 504,
+          "bbox": [
+            30.0,
+            55.0,
+            0.0,
+            40.0,
+            64.997,
+            8.0
+          ],
+          "signed_volume": 551.121,
+          "triangles": 1008,
+          "edges": 1512,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "5",
+          "name": "roof_spacer_8mm_4",
+          "vertices": 504,
+          "bbox": [
+            55.0,
+            55.0,
+            0.0,
+            65.0,
+            64.997,
+            8.0
+          ],
+          "signed_volume": 551.121,
+          "triangles": 1008,
+          "edges": 1512,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/roof-battery-v2/print/battery_tray_150x99.stl": {
+      "format": "binary STL",
+      "units": "not encoded",
+      "vertices_after_weld": 6492,
+      "bbox": [
+        -70.0,
+        -78.0,
+        0.0,
+        70.0,
+        78.0,
+        13.2
+      ],
+      "signed_volume": 62891.641,
+      "triangles": 13052,
+      "edges": 19578,
+      "edges_not_shared_by_exactly_two": 0,
+      "inconsistently_oriented_edge_pairs": 0,
+      "closed_and_consistent": true,
+      "ok": true
+    },
+    "hardware/3d-models/rover-v2-p1/cad/battery_tray_centered_73p025x149p225.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 1,
+      "manifold_solids": 1,
+      "cartesian_point_count": 843,
+      "approx_bbox_from_points_mm": [
+        -70.0,
+        -78.612,
+        0.0,
+        70.0,
+        78.612,
+        13.2
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v2-p1/cad/printed_parts_p1.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 6,
+      "manifold_solids": 5,
+      "cartesian_point_count": 4884,
+      "approx_bbox_from_points_mm": [
+        -95.0,
+        -126.0,
+        0.0,
+        83.0,
+        114.0,
+        106.0
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v2-p1/cad/reference_assembly_p1.step": {
+      "format": "STEP AP214",
+      "length_unit": "mm",
+      "product_entities": 96,
+      "manifold_solids": 95,
+      "cartesian_point_count": 7372,
+      "approx_bbox_from_points_mm": [
+        -117.0,
+        -126.0,
+        0.0,
+        117.0,
+        114.0,
+        165.5
+      ],
+      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v2-p1/print/p1b_x1c_all_plates_petg.3mf": {
+      "entries": 43,
+      "gcode_files": 3,
+      "bambu_project_settings": true,
+      "models": [
+        {
+          "model_file": "3D/Objects/object_6.model",
+          "object_id": "11",
+          "name": null,
+          "vertices": 3132,
+          "bbox": [
+            -40.0,
+            -22.5,
+            -9.25,
+            40.0,
+            22.5,
+            9.25
+          ],
+          "signed_volume": 14717.404,
+          "triangles": 6296,
+          "edges": 9444,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/Objects/object_4.model",
+          "object_id": "7",
+          "name": null,
+          "vertices": 3080,
+          "bbox": [
+            -58.0,
+            -40.5,
+            -1.75,
+            58.0,
+            40.5,
+            1.75
+          ],
+          "signed_volume": 20096.53,
+          "triangles": 6200,
+          "edges": 9300,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/Objects/object_5.model",
+          "object_id": "9",
+          "name": null,
+          "vertices": 3596,
+          "bbox": [
+            -59.0,
+            -32.0,
+            -4.25,
+            59.0,
+            32.0,
+            4.25
+          ],
+          "signed_volume": 23580.728,
+          "triangles": 7228,
+          "edges": 10842,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/Objects/object_2.model",
+          "object_id": "3",
+          "name": null,
+          "vertices": 4112,
+          "bbox": [
+            -56.0,
+            -32.0,
+            -3.75,
+            56.0,
+            32.0,
+            3.75
+          ],
+          "signed_volume": 17989.207,
+          "triangles": 8264,
+          "edges": 12396,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/Objects/object_3.model",
+          "object_id": "5",
+          "name": null,
+          "vertices": 6232,
+          "bbox": [
+            -83.0,
+            -76.0,
+            -28.0,
+            83.0,
+            76.0,
+            28.0
+          ],
+          "signed_volume": 120368.452,
+          "triangles": 12556,
+          "edges": 18834,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/Objects/object_1.model",
+          "object_id": "1",
+          "name": null,
+          "vertices": 16286,
+          "bbox": [
+            -118.0,
+            -83.0,
+            -21.5,
+            118.0,
+            83.0,
+            21.5
+          ],
+          "signed_volume": 251994.914,
+          "triangles": 32720,
+          "edges": 49080,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "printer_model": "Bambu Lab X1 Carbon",
+      "print_settings_id": "Rover V2 P1B - PETG 0.20mm",
+      "filament_type": [
+        "PETG"
+      ],
+      "curr_bed_type": "Textured PEI Plate",
+      "sliced_plates": 3,
+      "predicted_seconds": [
+        25002,
+        17363,
+        2397
+      ],
+      "filament_grams": [
+        238.27,
+        176.8,
+        14.01
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v2-p1/print/p1b_x1c_all_plates_pla_unsliced.3mf": {
+      "entries": 44,
+      "gcode_files": 0,
+      "bambu_project_settings": true,
+      "models": [
+        {
+          "model_file": "3D/Objects/object_6.model",
+          "object_id": "3",
+          "name": null,
+          "vertices": 3132,
+          "bbox": [
+            -40.0,
+            -22.5,
+            -9.25,
+            40.0,
+            22.5,
+            9.25
+          ],
+          "signed_volume": 14717.404,
+          "triangles": 6296,
+          "edges": 9444,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/Objects/object_4.model",
+          "object_id": "7",
+          "name": null,
+          "vertices": 3080,
+          "bbox": [
+            -58.0,
+            -40.5,
+            -1.75,
+            58.0,
+            40.5,
+            1.75
+          ],
+          "signed_volume": 20096.53,
+          "triangles": 6200,
+          "edges": 9300,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/Objects/object_5.model",
+          "object_id": "9",
+          "name": null,
+          "vertices": 3596,
+          "bbox": [
+            -59.0,
+            -32.0,
+            -4.25,
+            59.0,
+            32.0,
+            4.25
+          ],
+          "signed_volume": 23580.728,
+          "triangles": 7228,
+          "edges": 10842,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/Objects/object_2.model",
+          "object_id": "11",
+          "name": null,
+          "vertices": 4112,
+          "bbox": [
+            -56.0,
+            -32.0,
+            -3.75,
+            56.0,
+            32.0,
+            3.75
+          ],
+          "signed_volume": 17989.207,
+          "triangles": 8264,
+          "edges": 12396,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/Objects/object_3.model",
+          "object_id": "5",
+          "name": null,
+          "vertices": 6232,
+          "bbox": [
+            -83.0,
+            -76.0,
+            -28.0,
+            83.0,
+            76.0,
+            28.0
+          ],
+          "signed_volume": 120368.452,
+          "triangles": 12556,
+          "edges": 18834,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/Objects/object_1.model",
+          "object_id": "1",
+          "name": null,
+          "vertices": 16286,
+          "bbox": [
+            -118.0,
+            -83.0,
+            -21.5,
+            118.0,
+            83.0,
+            21.5
+          ],
+          "signed_volume": 251994.914,
+          "triangles": 32720,
+          "edges": 49080,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "printer_model": "Bambu Lab X1 Carbon",
+      "print_settings_id": "0.20mm Standard @BBL X1C",
+      "filament_type": [
+        "PLA"
+      ],
+      "curr_bed_type": "High Temp Plate",
+      "sliced_plates": 0,
+      "predicted_seconds": [],
+      "filament_grams": [],
+      "units": "millimeter",
+      "ok": true
+    },
+    "hardware/3d-models/rover-v2-p1/print/plate_1_p1b.3mf": {
+      "entries": 3,
+      "gcode_files": 0,
+      "bambu_project_settings": false,
+      "models": [
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "1",
+          "name": "Rover_V2_01_chassis_P1B",
+          "vertices": 16286,
+          "bbox": [
+            10.0,
+            84.0,
+            0.0,
+            246.0,
+            250.0,
+            43.0
+          ],
+          "signed_volume": 251994.904,
+          "triangles": 32720,
+          "edges": 49080,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        },
+        {
+          "model_file": "3D/3dmodel.model",
+          "object_id": "2",
+          "name": "Rover_V2_03_pi_carrier_P1",
+          "vertices": 4112,
+          "bbox": [
+            26.0,
+            9.0,
+            0.0,
+            138.0,
+            73.0,
+            7.5
+          ],
+          "signed_volume": 17989.207,
+          "triangles": 8264,
+          "edges": 12396,
+          "edges_not_shared_by_exactly_two": 0,
+          "inconsistently_oriented_edge_pairs": 0,
+          "closed_and_consistent": true,
+          "ok": true
+        }
+      ],
+      "units": "millimeter",
+      "ok": true
+    },
     "hardware/3d-models/rover-v3/cad/complete_assembly.step": {
       "format": "STEP AP214",
       "length_unit": "mm",
@@ -1880,2968 +4841,7 @@
       "units": "millimeter",
       "ok": true
     },
-    "hardware/3d-models/source/motor-retrofit-r1/geometry/Adapter_A_FR_RL_R1.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 340,
-      "approx_bbox_from_points_mm": [
-        -6.5,
-        -12.263,
-        -4.2,
-        23.2,
-        20.1,
-        4.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/motor-retrofit-r1/geometry/Adapter_A_FR_RL_R1.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 3598,
-      "bbox": [
-        0.0,
-        0.0,
-        0.0,
-        28.4,
-        28.2,
-        7.8
-      ],
-      "signed_volume": 2435.949,
-      "triangles": 7204,
-      "edges": 10806,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/motor-retrofit-r1/geometry/Adapter_B_FL_RR_R1.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 617,
-      "approx_bbox_from_points_mm": [
-        -23.2,
-        -12.263,
-        -4.2,
-        6.5,
-        20.1,
-        4.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/motor-retrofit-r1/geometry/Adapter_B_FL_RR_R1.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 6102,
-      "bbox": [
-        0.0,
-        0.0,
-        0.0,
-        28.4,
-        28.2,
-        7.8
-      ],
-      "signed_volume": 2435.706,
-      "triangles": 12212,
-      "edges": 18318,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/motor-retrofit-r1/geometry/Floor_Screw_Spacer_1p6_R1.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 15,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        -0.0,
-        -0.1,
-        4.0,
-        0.0,
-        1.6
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/motor-retrofit-r1/geometry/Floor_Screw_Spacer_1p6_R1.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 840,
-      "bbox": [
-        0.0,
-        0.0,
-        0.0,
-        8.0,
-        8.0,
-        1.6
-      ],
-      "signed_volume": 65.888,
-      "triangles": 1680,
-      "edges": 2520,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/3mf/motor-retrofit/Rover_Motor_Retrofit_R1_X1C_PLA.3mf": {
-      "entries": 31,
-      "gcode_files": 1,
-      "bambu_project_settings": true,
-      "models": [
-        {
-          "model_file": "3D/Objects/object_8.model",
-          "object_id": "15",
-          "name": null,
-          "vertices": 840,
-          "bbox": [
-            -4.0,
-            -4.0,
-            -0.8,
-            4.0,
-            4.0,
-            0.8
-          ],
-          "signed_volume": 65.888,
-          "triangles": 1680,
-          "edges": 2520,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/Objects/object_7.model",
-          "object_id": "13",
-          "name": null,
-          "vertices": 840,
-          "bbox": [
-            -4.0,
-            -4.0,
-            -0.8,
-            4.0,
-            4.0,
-            0.8
-          ],
-          "signed_volume": 65.888,
-          "triangles": 1680,
-          "edges": 2520,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/Objects/object_6.model",
-          "object_id": "11",
-          "name": null,
-          "vertices": 840,
-          "bbox": [
-            -4.0,
-            -4.0,
-            -0.8,
-            4.0,
-            4.0,
-            0.8
-          ],
-          "signed_volume": 65.888,
-          "triangles": 1680,
-          "edges": 2520,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/Objects/object_5.model",
-          "object_id": "9",
-          "name": null,
-          "vertices": 840,
-          "bbox": [
-            -4.0,
-            -4.0,
-            -0.8,
-            4.0,
-            4.0,
-            0.8
-          ],
-          "signed_volume": 65.888,
-          "triangles": 1680,
-          "edges": 2520,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/Objects/object_3.model",
-          "object_id": "5",
-          "name": null,
-          "vertices": 3598,
-          "bbox": [
-            -14.2,
-            -14.1,
-            -3.9,
-            14.2,
-            14.1,
-            3.9
-          ],
-          "signed_volume": 2435.948,
-          "triangles": 7204,
-          "edges": 10806,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/Objects/object_1.model",
-          "object_id": "1",
-          "name": null,
-          "vertices": 3598,
-          "bbox": [
-            -14.2,
-            -14.1,
-            -3.9,
-            14.2,
-            14.1,
-            3.9
-          ],
-          "signed_volume": 2435.949,
-          "triangles": 7204,
-          "edges": 10806,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/Objects/object_2.model",
-          "object_id": "3",
-          "name": null,
-          "vertices": 6102,
-          "bbox": [
-            -14.2,
-            -14.1,
-            -3.9,
-            14.2,
-            14.1,
-            3.9
-          ],
-          "signed_volume": 2435.706,
-          "triangles": 12212,
-          "edges": 18318,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/Objects/object_4.model",
-          "object_id": "7",
-          "name": null,
-          "vertices": 6102,
-          "bbox": [
-            -14.2,
-            -14.1,
-            -3.9,
-            14.2,
-            14.1,
-            3.9
-          ],
-          "signed_volume": 2435.705,
-          "triangles": 12212,
-          "edges": 18318,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "printer_model": "Bambu Lab X1 Carbon",
-      "print_settings_id": "Rover Motor Retrofit R1 - PLA 0.20mm",
-      "filament_type": [
-        "PLA"
-      ],
-      "curr_bed_type": "Textured PEI Plate",
-      "sliced_plates": 1,
-      "predicted_seconds": [
-        2747
-      ],
-      "filament_grams": [
-        12.67
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/3mf/motor-retrofit/Rover_Motor_Retrofit_R2_X1C_PLA.3mf": {
-      "entries": 33,
-      "gcode_files": 2,
-      "bambu_project_settings": true,
-      "models": [
-        {
-          "model_file": "3D/Objects/object_2.model",
-          "object_id": "3",
-          "name": null,
-          "vertices": 3857,
-          "bbox": [
-            -14.2,
-            -14.1,
-            -4.2,
-            14.2,
-            14.1,
-            4.2
-          ],
-          "signed_volume": 2492.003,
-          "triangles": 7722,
-          "edges": 11583,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/Objects/object_3.model",
-          "object_id": "5",
-          "name": null,
-          "vertices": 3857,
-          "bbox": [
-            -14.2,
-            -14.1,
-            -4.2,
-            14.2,
-            14.1,
-            4.2
-          ],
-          "signed_volume": 2492.003,
-          "triangles": 7722,
-          "edges": 11583,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/Objects/object_1.model",
-          "object_id": "1",
-          "name": null,
-          "vertices": 6361,
-          "bbox": [
-            -14.2,
-            -14.1,
-            -4.2,
-            14.2,
-            14.1,
-            4.2
-          ],
-          "signed_volume": 2491.761,
-          "triangles": 12730,
-          "edges": 19095,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/Objects/object_4.model",
-          "object_id": "7",
-          "name": null,
-          "vertices": 6361,
-          "bbox": [
-            -14.2,
-            -14.1,
-            -4.2,
-            14.2,
-            14.1,
-            4.2
-          ],
-          "signed_volume": 2491.76,
-          "triangles": 12730,
-          "edges": 19095,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "printer_model": "Bambu Lab X1 Carbon",
-      "print_settings_id": "Rover Motor Retrofit R2 - PLA 0.20mm",
-      "filament_type": [
-        "PLA"
-      ],
-      "curr_bed_type": "Textured PEI Plate",
-      "sliced_plates": 2,
-      "predicted_seconds": [
-        1108,
-        2311
-      ],
-      "filament_grams": [
-        3.37,
-        9.47
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/step/rover-v2-p1/Rover_V2_Printed_Parts_P1.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 6,
-      "manifold_solids": 5,
-      "cartesian_point_count": 4884,
-      "approx_bbox_from_points_mm": [
-        -95.0,
-        -126.0,
-        0.0,
-        83.0,
-        114.0,
-        106.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/step/rover-v2-p1/Rover_V2_Reference_Assembly_P1.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 96,
-      "manifold_solids": 95,
-      "cartesian_point_count": 7372,
-      "approx_bbox_from_points_mm": [
-        -117.0,
-        -126.0,
-        0.0,
-        117.0,
-        114.0,
-        165.5
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/step/rover-v2-p1/battery_tray_centered_73p025x149p225.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 843,
-      "approx_bbox_from_points_mm": [
-        -70.0,
-        -78.612,
-        0.0,
-        70.0,
-        78.612,
-        13.2
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/3mf/rover-v2-p1/Rover_V2_P1B_X1C_All_Plates.3mf": {
-      "entries": 43,
-      "gcode_files": 3,
-      "bambu_project_settings": true,
-      "models": [
-        {
-          "model_file": "3D/Objects/object_6.model",
-          "object_id": "11",
-          "name": null,
-          "vertices": 3132,
-          "bbox": [
-            -40.0,
-            -22.5,
-            -9.25,
-            40.0,
-            22.5,
-            9.25
-          ],
-          "signed_volume": 14717.404,
-          "triangles": 6296,
-          "edges": 9444,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/Objects/object_4.model",
-          "object_id": "7",
-          "name": null,
-          "vertices": 3080,
-          "bbox": [
-            -58.0,
-            -40.5,
-            -1.75,
-            58.0,
-            40.5,
-            1.75
-          ],
-          "signed_volume": 20096.53,
-          "triangles": 6200,
-          "edges": 9300,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/Objects/object_5.model",
-          "object_id": "9",
-          "name": null,
-          "vertices": 3596,
-          "bbox": [
-            -59.0,
-            -32.0,
-            -4.25,
-            59.0,
-            32.0,
-            4.25
-          ],
-          "signed_volume": 23580.728,
-          "triangles": 7228,
-          "edges": 10842,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/Objects/object_2.model",
-          "object_id": "3",
-          "name": null,
-          "vertices": 4112,
-          "bbox": [
-            -56.0,
-            -32.0,
-            -3.75,
-            56.0,
-            32.0,
-            3.75
-          ],
-          "signed_volume": 17989.207,
-          "triangles": 8264,
-          "edges": 12396,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/Objects/object_3.model",
-          "object_id": "5",
-          "name": null,
-          "vertices": 6232,
-          "bbox": [
-            -83.0,
-            -76.0,
-            -28.0,
-            83.0,
-            76.0,
-            28.0
-          ],
-          "signed_volume": 120368.452,
-          "triangles": 12556,
-          "edges": 18834,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/Objects/object_1.model",
-          "object_id": "1",
-          "name": null,
-          "vertices": 16286,
-          "bbox": [
-            -118.0,
-            -83.0,
-            -21.5,
-            118.0,
-            83.0,
-            21.5
-          ],
-          "signed_volume": 251994.914,
-          "triangles": 32720,
-          "edges": 49080,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "printer_model": "Bambu Lab X1 Carbon",
-      "print_settings_id": "Rover V2 P1B - PETG 0.20mm",
-      "filament_type": [
-        "PETG"
-      ],
-      "curr_bed_type": "Textured PEI Plate",
-      "sliced_plates": 3,
-      "predicted_seconds": [
-        25002,
-        17363,
-        2397
-      ],
-      "filament_grams": [
-        238.27,
-        176.8,
-        14.01
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/3mf/rover-v2-p1/Rover_V2_P1B_X1C_All_Plates_alt1.3mf": {
-      "entries": 44,
-      "gcode_files": 0,
-      "bambu_project_settings": true,
-      "models": [
-        {
-          "model_file": "3D/Objects/object_6.model",
-          "object_id": "3",
-          "name": null,
-          "vertices": 3132,
-          "bbox": [
-            -40.0,
-            -22.5,
-            -9.25,
-            40.0,
-            22.5,
-            9.25
-          ],
-          "signed_volume": 14717.404,
-          "triangles": 6296,
-          "edges": 9444,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/Objects/object_4.model",
-          "object_id": "7",
-          "name": null,
-          "vertices": 3080,
-          "bbox": [
-            -58.0,
-            -40.5,
-            -1.75,
-            58.0,
-            40.5,
-            1.75
-          ],
-          "signed_volume": 20096.53,
-          "triangles": 6200,
-          "edges": 9300,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/Objects/object_5.model",
-          "object_id": "9",
-          "name": null,
-          "vertices": 3596,
-          "bbox": [
-            -59.0,
-            -32.0,
-            -4.25,
-            59.0,
-            32.0,
-            4.25
-          ],
-          "signed_volume": 23580.728,
-          "triangles": 7228,
-          "edges": 10842,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/Objects/object_2.model",
-          "object_id": "11",
-          "name": null,
-          "vertices": 4112,
-          "bbox": [
-            -56.0,
-            -32.0,
-            -3.75,
-            56.0,
-            32.0,
-            3.75
-          ],
-          "signed_volume": 17989.207,
-          "triangles": 8264,
-          "edges": 12396,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/Objects/object_3.model",
-          "object_id": "5",
-          "name": null,
-          "vertices": 6232,
-          "bbox": [
-            -83.0,
-            -76.0,
-            -28.0,
-            83.0,
-            76.0,
-            28.0
-          ],
-          "signed_volume": 120368.452,
-          "triangles": 12556,
-          "edges": 18834,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/Objects/object_1.model",
-          "object_id": "1",
-          "name": null,
-          "vertices": 16286,
-          "bbox": [
-            -118.0,
-            -83.0,
-            -21.5,
-            118.0,
-            83.0,
-            21.5
-          ],
-          "signed_volume": 251994.914,
-          "triangles": 32720,
-          "edges": 49080,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "printer_model": "Bambu Lab X1 Carbon",
-      "print_settings_id": "0.20mm Standard @BBL X1C",
-      "filament_type": [
-        "PLA"
-      ],
-      "curr_bed_type": "High Temp Plate",
-      "sliced_plates": 0,
-      "predicted_seconds": [],
-      "filament_grams": [],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/3mf/rover-v2-p1/Rover_V2_Plate_1_P1B.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "1",
-          "name": "Rover_V2_01_chassis_P1B",
-          "vertices": 16286,
-          "bbox": [
-            10.0,
-            84.0,
-            0.0,
-            246.0,
-            250.0,
-            43.0
-          ],
-          "signed_volume": 251994.904,
-          "triangles": 32720,
-          "edges": 49080,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "Rover_V2_03_pi_carrier_P1",
-          "vertices": 4112,
-          "bbox": [
-            26.0,
-            9.0,
-            0.0,
-            138.0,
-            73.0,
-            7.5
-          ],
-          "signed_volume": 17989.207,
-          "triangles": 8264,
-          "edges": 12396,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/source/wheelbase76-body-v0.3/cad/body_01_left_side.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 898,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        -40.0,
-        -49.0,
-        194.0,
-        166.0,
-        21.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/wheelbase76-body-v0.3/cad/body_02_right_side.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 491,
-      "approx_bbox_from_points_mm": [
-        -70.0,
-        -40.0,
-        0.0,
-        124.0,
-        166.0,
-        191.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/wheelbase76-body-v0.3/cad/body_04_front_bulkhead.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 339,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        0.0,
-        0.0,
-        136.2,
-        70.0,
-        206.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/wheelbase76-body-v0.3/cad/body_06_front_cowl.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 285,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        -136.6,
-        0.0,
-        191.0,
-        73.9,
-        127.105
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/wheelbase76-body-v0.3/cad/body_shell_v3.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 8,
-      "manifold_solids": 6,
-      "cartesian_point_count": 2645,
-      "approx_bbox_from_points_mm": [
-        -120.0,
-        -160.0,
-        -50.0,
-        71.0,
-        120.5,
-        146.8
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/wheelbase76-body-v0.3/cad/open_rover_v3_reference.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 171,
-      "manifold_solids": 163,
-      "cartesian_point_count": 8648,
-      "approx_bbox_from_points_mm": [
-        -87.97,
-        -115.39,
-        0.0,
-        87.97,
-        148.5,
-        172.905
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/wheelbase76-body-v0.3/cad/rover_body_v3_with_snap_battery.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 217,
-      "manifold_solids": 206,
-      "cartesian_point_count": 13688,
-      "approx_bbox_from_points_mm": [
-        -120.0,
-        -160.0,
-        -50.0,
-        87.97,
-        148.5,
-        179.6
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/wheelbase76-body-v0.3/cad/wheel_bay_fit_gauge_left.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 207,
-      "approx_bbox_from_points_mm": [
-        -6.184,
-        0.0,
-        -169.0,
-        56.018,
-        166.0,
-        71.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/wheelbase76-body-v0.3/cad/wheel_bay_fit_gauge_right.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 207,
-      "approx_bbox_from_points_mm": [
-        -7.313,
-        0.0,
-        0.0,
-        54.889,
-        166.0,
-        311.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/wheelbase76-body-v0.3/print/00_wheel_bay_fit_checks.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "wheel_bay_fit_gauge_left",
-          "vertices": 568,
-          "bbox": [
-            0.0,
-            0.0,
-            0.0,
-            48.705,
-            166.0,
-            21.0
-          ],
-          "signed_volume": 4945.518,
-          "triangles": 1140,
-          "edges": 1710,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "3",
-          "name": "wheel_bay_fit_gauge_right",
-          "vertices": 568,
-          "bbox": [
-            0.0,
-            0.0,
-            0.0,
-            48.705,
-            166.0,
-            21.0
-          ],
-          "signed_volume": 4945.518,
-          "triangles": 1140,
-          "edges": 1710,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/source/wheelbase76-body-v0.3/print/01_left_side_v3.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "body_01_left_side",
-          "vertices": 5275,
-          "bbox": [
-            -0.0,
-            0.0,
-            0.0,
-            124.0,
-            166.0,
-            21.0
-          ],
-          "signed_volume": 34094.458,
-          "triangles": 10626,
-          "edges": 15939,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/source/wheelbase76-body-v0.3/print/02_right_side_v3.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "body_02_right_side",
-          "vertices": 3032,
-          "bbox": [
-            0.0,
-            0.0,
-            0.0,
-            124.0,
-            166.0,
-            21.0
-          ],
-          "signed_volume": 30132.305,
-          "triangles": 6104,
-          "edges": 9156,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/source/wheelbase76-body-v0.3/print/04_front_bulkhead_v3.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "body_04_front_bulkhead",
-          "vertices": 2600,
-          "bbox": [
-            0.0,
-            0.0,
-            0.0,
-            136.2,
-            70.0,
-            2.4
-          ],
-          "signed_volume": 17769.455,
-          "triangles": 5236,
-          "edges": 7854,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/source/wheelbase76-body-v0.3/print/06_front_cowl_v3.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "body_06_front_cowl",
-          "vertices": 1588,
-          "bbox": [
-            0.0,
-            0.0,
-            -0.0,
-            142.0,
-            73.9,
-            57.105
-          ],
-          "signed_volume": 30686.577,
-          "triangles": 3184,
-          "edges": 4776,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/source/wheelbase76-body-v0.3/print/body_01_left_side.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 5275,
-      "bbox": [
-        -0.0,
-        0.0,
-        0.0,
-        124.0,
-        166.0,
-        21.0
-      ],
-      "signed_volume": 34094.459,
-      "triangles": 10626,
-      "edges": 15939,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/wheelbase76-body-v0.3/print/body_02_right_side.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 3032,
-      "bbox": [
-        0.0,
-        0.0,
-        0.0,
-        124.0,
-        166.0,
-        21.0
-      ],
-      "signed_volume": 30132.309,
-      "triangles": 6104,
-      "edges": 9156,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/wheelbase76-body-v0.3/print/body_04_front_bulkhead.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 2600,
-      "bbox": [
-        0.0,
-        0.0,
-        0.0,
-        136.2,
-        70.0,
-        2.4
-      ],
-      "signed_volume": 17769.456,
-      "triangles": 5236,
-      "edges": 7854,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/wheelbase76-body-v0.3/print/body_06_front_cowl.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 1588,
-      "bbox": [
-        0.0,
-        0.0,
-        -0.0,
-        142.0,
-        73.9,
-        57.105
-      ],
-      "signed_volume": 30686.572,
-      "triangles": 3184,
-      "edges": 4776,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/wheelbase76-body-v0.3/print/wheel_bay_fit_gauge_left.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 568,
-      "bbox": [
-        0.0,
-        0.0,
-        0.0,
-        48.705,
-        166.0,
-        21.0
-      ],
-      "signed_volume": 4945.518,
-      "triangles": 1140,
-      "edges": 1710,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/wheelbase76-body-v0.3/print/wheel_bay_fit_gauge_right.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 568,
-      "bbox": [
-        0.0,
-        0.0,
-        0.0,
-        48.705,
-        166.0,
-        21.0
-      ],
-      "signed_volume": 4945.519,
-      "triangles": 1140,
-      "edges": 1710,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/wheelbase76-body-v0.3/print/unchanged/03_rear_panel_UNCHANGED.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "body_03_rear_panel",
-          "vertices": 2192,
-          "bbox": [
-            0.0,
-            0.0,
-            -0.0,
-            136.2,
-            124.0,
-            2.4
-          ],
-          "signed_volume": 27112.263,
-          "triangles": 4420,
-          "edges": 6630,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/source/wheelbase76-body-v0.3/print/unchanged/05_roof_UNCHANGED.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "body_05_removable_roof",
-          "vertices": 3632,
-          "bbox": [
-            0.0,
-            0.0,
-            0.0,
-            142.0,
-            166.0,
-            2.8
-          ],
-          "signed_volume": 57414.159,
-          "triangles": 7324,
-          "edges": 10986,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/source/wheelbase76-body-v0.3/reference/previous_rover_roof_snap_v2.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 207,
-      "manifold_solids": 206,
-      "cartesian_point_count": 13978,
-      "approx_bbox_from_points_mm": [
-        -110.0,
-        -160.0,
-        0.0,
-        87.0,
-        148.5,
-        179.6
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/full-body-v0.2/body_00_joint_check.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "body_00_joint_side_sample",
-          "vertices": 672,
-          "bbox": [
-            0.0,
-            0.0,
-            0.0,
-            22.0,
-            24.0,
-            19.0
-          ],
-          "signed_volume": 2866.442,
-          "triangles": 1352,
-          "edges": 2028,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "3",
-          "name": "body_00_joint_rear_sample",
-          "vertices": 218,
-          "bbox": [
-            0.0,
-            0.0,
-            -0.0,
-            16.1,
-            22.0,
-            2.4
-          ],
-          "signed_volume": 827.003,
-          "triangles": 436,
-          "edges": 654,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/source/full-body-v0.2/body_00_joint_rear_sample.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 218,
-      "bbox": [
-        0.0,
-        0.0,
-        -0.0,
-        16.1,
-        22.0,
-        2.4
-      ],
-      "signed_volume": 827.003,
-      "triangles": 436,
-      "edges": 654,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/full-body-v0.2/body_00_joint_side_sample.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 672,
-      "bbox": [
-        0.0,
-        0.0,
-        0.0,
-        22.0,
-        24.0,
-        19.0
-      ],
-      "signed_volume": 2866.442,
-      "triangles": 1352,
-      "edges": 2028,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/full-body-v0.2/body_01_left_side.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "body_01_left_side",
-          "vertices": 5311,
-          "bbox": [
-            -0.0,
-            0.0,
-            -0.0,
-            124.0,
-            166.0,
-            21.0
-          ],
-          "signed_volume": 41226.283,
-          "triangles": 10710,
-          "edges": 16065,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/source/full-body-v0.2/body_01_left_side.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 5311,
-      "bbox": [
-        -0.0,
-        0.0,
-        -0.0,
-        124.0,
-        166.0,
-        21.0
-      ],
-      "signed_volume": 41226.285,
-      "triangles": 10710,
-      "edges": 16065,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/full-body-v0.2/body_02_right_side.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "body_02_right_side",
-          "vertices": 3516,
-          "bbox": [
-            0.0,
-            0.0,
-            -0.0,
-            124.0,
-            166.0,
-            21.0
-          ],
-          "signed_volume": 36870.188,
-          "triangles": 7088,
-          "edges": 10632,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/source/full-body-v0.2/body_02_right_side.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 3516,
-      "bbox": [
-        0.0,
-        0.0,
-        -0.0,
-        124.0,
-        166.0,
-        21.0
-      ],
-      "signed_volume": 36870.191,
-      "triangles": 7088,
-      "edges": 10632,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/full-body-v0.2/body_03_rear_panel.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "body_03_rear_panel",
-          "vertices": 2192,
-          "bbox": [
-            0.0,
-            0.0,
-            -0.0,
-            136.2,
-            124.0,
-            2.4
-          ],
-          "signed_volume": 27112.263,
-          "triangles": 4420,
-          "edges": 6630,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/source/full-body-v0.2/body_03_rear_panel.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 2192,
-      "bbox": [
-        0.0,
-        0.0,
-        -0.0,
-        136.2,
-        124.0,
-        2.4
-      ],
-      "signed_volume": 27112.263,
-      "triangles": 4420,
-      "edges": 6630,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/full-body-v0.2/body_04_front_bulkhead.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "body_04_front_bulkhead",
-          "vertices": 2192,
-          "bbox": [
-            0.0,
-            0.0,
-            0.0,
-            136.2,
-            75.795,
-            2.4
-          ],
-          "signed_volume": 19663.694,
-          "triangles": 4420,
-          "edges": 6630,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/source/full-body-v0.2/body_04_front_bulkhead.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 2192,
-      "bbox": [
-        0.0,
-        0.0,
-        0.0,
-        136.2,
-        75.795,
-        2.4
-      ],
-      "signed_volume": 19663.694,
-      "triangles": 4420,
-      "edges": 6630,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/full-body-v0.2/body_05_removable_roof.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 3632,
-      "bbox": [
-        0.0,
-        0.0,
-        0.0,
-        142.0,
-        166.0,
-        2.8
-      ],
-      "signed_volume": 57414.158,
-      "triangles": 7324,
-      "edges": 10986,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/full-body-v0.2/body_05_roof.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "body_05_removable_roof",
-          "vertices": 3632,
-          "bbox": [
-            0.0,
-            0.0,
-            0.0,
-            142.0,
-            166.0,
-            2.8
-          ],
-          "signed_volume": 57414.159,
-          "triangles": 7324,
-          "edges": 10986,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/source/full-body-v0.2/body_06_front_cowl.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "body_06_front_cowl",
-          "vertices": 1478,
-          "bbox": [
-            -0.0,
-            0.0,
-            -0.0,
-            142.0,
-            73.9,
-            57.105
-          ],
-          "signed_volume": 32809.874,
-          "triangles": 2964,
-          "edges": 4446,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/source/full-body-v0.2/body_06_front_cowl.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 1478,
-      "bbox": [
-        -0.0,
-        0.0,
-        -0.0,
-        142.0,
-        73.9,
-        57.105
-      ],
-      "signed_volume": 32809.866,
-      "triangles": 2964,
-      "edges": 4446,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/full-body-v0.2/elegoo_v4_body_shell_only.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 8,
-      "manifold_solids": 6,
-      "cartesian_point_count": 2945,
-      "approx_bbox_from_points_mm": [
-        -110.0,
-        -160.0,
-        0.0,
-        71.0,
-        120.5,
-        146.8
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/full-body-v0.2/elegoo_v4_full_body_assembly.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 205,
-      "manifold_solids": 195,
-      "cartesian_point_count": 12357,
-      "approx_bbox_from_points_mm": [
-        -110.0,
-        -160.0,
-        0.0,
-        87.0,
-        148.5,
-        172.905
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/full-body-v0.2/full_body_printable_parts.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 10,
-      "manifold_solids": 8,
-      "cartesian_point_count": 3127,
-      "approx_bbox_from_points_mm": [
-        -102.0,
-        -40.0,
-        -40.0,
-        561.0,
-        504.0,
-        206.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/explorer-v0.1/00_fit_check.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "00_mount_fit_gauge",
-          "vertices": 3898,
-          "bbox": [
-            4.0,
-            4.0,
-            0.0,
-            126.044,
-            104.331,
-            2.0
-          ],
-          "signed_volume": 5563.452,
-          "triangles": 7832,
-          "edges": 11748,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "3",
-          "name": "02_deck_spacer_36mm_1",
-          "vertices": 420,
-          "bbox": [
-            131.049,
-            4.001,
-            0.0,
-            141.047,
-            13.999,
-            36.0
-          ],
-          "signed_volume": 2479.592,
-          "triangles": 840,
-          "edges": 1260,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "4",
-          "name": "02_deck_spacer_36mm_2",
-          "vertices": 420,
-          "bbox": [
-            146.052,
-            4.001,
-            0.0,
-            156.049,
-            13.999,
-            36.0
-          ],
-          "signed_volume": 2479.592,
-          "triangles": 840,
-          "edges": 1260,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "5",
-          "name": "02_deck_spacer_36mm_3",
-          "vertices": 420,
-          "bbox": [
-            161.054,
-            4.001,
-            0.0,
-            171.052,
-            13.999,
-            36.0
-          ],
-          "signed_volume": 2479.592,
-          "triangles": 840,
-          "edges": 1260,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "6",
-          "name": "02_deck_spacer_36mm_4",
-          "vertices": 420,
-          "bbox": [
-            4.002,
-            109.335,
-            0.0,
-            14.0,
-            119.334,
-            36.0
-          ],
-          "signed_volume": 2479.592,
-          "triangles": 840,
-          "edges": 1260,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/source/explorer-v0.1/00_mount_fit_gauge.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 3898,
-      "bbox": [
-        0.0,
-        0.0,
-        0.0,
-        122.044,
-        100.331,
-        2.0
-      ],
-      "signed_volume": 5563.452,
-      "triangles": 7832,
-      "edges": 11748,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/explorer-v0.1/01_deck.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "01_slotted_deck",
-          "vertices": 4432,
-          "bbox": [
-            4.0,
-            4.0,
-            0.0,
-            130.0,
-            108.0,
-            3.2
-          ],
-          "signed_volume": 29594.659,
-          "triangles": 8936,
-          "edges": 13404,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/source/explorer-v0.1/01_slotted_deck.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 4432,
-      "bbox": [
-        0.0,
-        0.0,
-        0.0,
-        126.0,
-        104.0,
-        3.2
-      ],
-      "signed_volume": 29594.659,
-      "triangles": 8936,
-      "edges": 13404,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/explorer-v0.1/02_body_and_guard.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "05_front_guard",
-          "vertices": 2080,
-          "bbox": [
-            4.0,
-            4.0,
-            0.0,
-            174.0,
-            60.063,
-            14.0
-          ],
-          "signed_volume": 27932.152,
-          "triangles": 4180,
-          "edges": 6270,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "3",
-          "name": "03_side_guard_left",
-          "vertices": 468,
-          "bbox": [
-            4.0,
-            65.065,
-            0.0,
-            32.0,
-            131.065,
-            9.5
-          ],
-          "signed_volume": 5071.902,
-          "triangles": 956,
-          "edges": 1434,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "4",
-          "name": "04_side_guard_right",
-          "vertices": 468,
-          "bbox": [
-            37.001,
-            65.065,
-            0.0,
-            65.001,
-            131.065,
-            9.5
-          ],
-          "signed_volume": 5071.902,
-          "triangles": 956,
-          "edges": 1434,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/source/explorer-v0.1/02_deck_spacer_36mm.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 420,
-      "bbox": [
-        0.002,
-        0.001,
-        0.0,
-        10.0,
-        9.999,
-        36.0
-      ],
-      "signed_volume": 2479.592,
-      "triangles": 840,
-      "edges": 1260,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/explorer-v0.1/03_mounts_and_spacers.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "06_front_guard_spacer_4mm_1",
-          "vertices": 420,
-          "bbox": [
-            4.002,
-            4.001,
-            0.0,
-            13.4,
-            13.399,
-            4.0
-          ],
-          "signed_volume": 238.964,
-          "triangles": 840,
-          "edges": 1260,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "3",
-          "name": "06_front_guard_spacer_4mm_2",
-          "vertices": 420,
-          "bbox": [
-            18.404,
-            4.001,
-            0.0,
-            27.802,
-            13.399,
-            4.0
-          ],
-          "signed_volume": 238.964,
-          "triangles": 840,
-          "edges": 1260,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "4",
-          "name": "07_rear_sensor_carrier",
-          "vertices": 618,
-          "bbox": [
-            32.804,
-            4.0,
-            0.0,
-            66.804,
-            18.0,
-            30.0
-          ],
-          "signed_volume": 3792.747,
-          "triangles": 1248,
-          "edges": 1872,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "5",
-          "name": "08_cable_tie_saddle_1",
-          "vertices": 866,
-          "bbox": [
-            71.806,
-            4.0,
-            0.0,
-            94.806,
-            16.0,
-            3.0
-          ],
-          "signed_volume": 695.464,
-          "triangles": 1740,
-          "edges": 2610,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "6",
-          "name": "08_cable_tie_saddle_2",
-          "vertices": 866,
-          "bbox": [
-            99.808,
-            4.0,
-            0.0,
-            122.808,
-            16.0,
-            3.0
-          ],
-          "signed_volume": 695.464,
-          "triangles": 1740,
-          "edges": 2610,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "7",
-          "name": "08_cable_tie_saddle_3",
-          "vertices": 866,
-          "bbox": [
-            127.809,
-            4.0,
-            0.0,
-            150.809,
-            16.0,
-            3.0
-          ],
-          "signed_volume": 695.464,
-          "triangles": 1740,
-          "edges": 2610,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "8",
-          "name": "08_cable_tie_saddle_4",
-          "vertices": 866,
-          "bbox": [
-            4.0,
-            23.001,
-            0.0,
-            27.0,
-            35.001,
-            3.0
-          ],
-          "signed_volume": 695.464,
-          "triangles": 1740,
-          "edges": 2610,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "9",
-          "name": "12_downward_sensor_carrier_1",
-          "vertices": 1300,
-          "bbox": [
-            32.002,
-            23.001,
-            0.0,
-            65.002,
-            60.001,
-            3.0
-          ],
-          "signed_volume": 2835.47,
-          "triangles": 2616,
-          "edges": 3924,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "10",
-          "name": "12_downward_sensor_carrier_2",
-          "vertices": 1300,
-          "bbox": [
-            70.004,
-            23.001,
-            0.0,
-            103.004,
-            60.001,
-            3.0
-          ],
-          "signed_volume": 2835.47,
-          "triangles": 2616,
-          "edges": 3924,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/source/explorer-v0.1/03_side_guard_left.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 468,
-      "bbox": [
-        -0.0,
-        0.0,
-        0.0,
-        28.0,
-        66.0,
-        9.5
-      ],
-      "signed_volume": 5071.901,
-      "triangles": 956,
-      "edges": 1434,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/explorer-v0.1/04_optional_pi_tray.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "10_optional_pi4_tray",
-          "vertices": 2968,
-          "bbox": [
-            4.0,
-            4.0,
-            0.0,
-            100.0,
-            69.0,
-            8.8
-          ],
-          "signed_volume": 12421.361,
-          "triangles": 5968,
-          "edges": 8952,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "3",
-          "name": "11_pi_tray_spacer_4mm_1",
-          "vertices": 420,
-          "bbox": [
-            105.005,
-            4.0,
-            0.0,
-            112.603,
-            11.6,
-            4.0
-          ],
-          "signed_volume": 142.889,
-          "triangles": 840,
-          "edges": 1260,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "4",
-          "name": "11_pi_tray_spacer_4mm_2",
-          "vertices": 420,
-          "bbox": [
-            117.607,
-            4.0,
-            0.0,
-            125.205,
-            11.6,
-            4.0
-          ],
-          "signed_volume": 142.889,
-          "triangles": 840,
-          "edges": 1260,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "5",
-          "name": "11_pi_tray_spacer_4mm_3",
-          "vertices": 420,
-          "bbox": [
-            130.208,
-            4.0,
-            0.0,
-            137.807,
-            11.6,
-            4.0
-          ],
-          "signed_volume": 142.889,
-          "triangles": 840,
-          "edges": 1260,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "6",
-          "name": "11_pi_tray_spacer_4mm_4",
-          "vertices": 420,
-          "bbox": [
-            142.81,
-            4.0,
-            0.0,
-            150.408,
-            11.6,
-            4.0
-          ],
-          "signed_volume": 142.889,
-          "triangles": 840,
-          "edges": 1260,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/source/explorer-v0.1/04_side_guard_right.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 468,
-      "bbox": [
-        0.0,
-        0.0,
-        0.0,
-        28.0,
-        66.0,
-        9.5
-      ],
-      "signed_volume": 5071.902,
-      "triangles": 956,
-      "edges": 1434,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/explorer-v0.1/05_front_guard.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 2080,
-      "bbox": [
-        0.0,
-        0.0,
-        0.0,
-        170.0,
-        56.063,
-        14.0
-      ],
-      "signed_volume": 27932.152,
-      "triangles": 4180,
-      "edges": 6270,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/explorer-v0.1/05_optional_servo_adapter.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "09_optional_servo_adapter",
-          "vertices": 1282,
-          "bbox": [
-            4.0,
-            4.0,
-            0.0,
-            41.0,
-            47.0,
-            3.2
-          ],
-          "signed_volume": 3937.567,
-          "triangles": 2584,
-          "edges": 3876,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/source/explorer-v0.1/06_front_guard_spacer_4mm.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 420,
-      "bbox": [
-        0.002,
-        0.001,
-        0.0,
-        9.4,
-        9.399,
-        4.0
-      ],
-      "signed_volume": 238.964,
-      "triangles": 840,
-      "edges": 1260,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/explorer-v0.1/07_rear_sensor_carrier.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 618,
-      "bbox": [
-        0.0,
-        0.0,
-        0.0,
-        34.0,
-        14.0,
-        30.0
-      ],
-      "signed_volume": 3792.747,
-      "triangles": 1248,
-      "edges": 1872,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/explorer-v0.1/08_cable_tie_saddle.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 866,
-      "bbox": [
-        0.0,
-        0.0,
-        0.0,
-        23.0,
-        12.0,
-        3.0
-      ],
-      "signed_volume": 695.464,
-      "triangles": 1740,
-      "edges": 2610,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/explorer-v0.1/09_optional_servo_adapter.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 1282,
-      "bbox": [
-        0.0,
-        0.0,
-        0.0,
-        37.0,
-        43.0,
-        3.2
-      ],
-      "signed_volume": 3937.567,
-      "triangles": 2584,
-      "edges": 3876,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/explorer-v0.1/10_optional_pi4_tray.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 2968,
-      "bbox": [
-        0.0,
-        0.0,
-        0.0,
-        96.0,
-        65.0,
-        8.8
-      ],
-      "signed_volume": 12421.361,
-      "triangles": 5968,
-      "edges": 8952,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/explorer-v0.1/11_pi_tray_spacer_4mm.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 420,
-      "bbox": [
-        0.002,
-        0.0,
-        0.0,
-        7.6,
-        7.6,
-        4.0
-      ],
-      "signed_volume": 142.889,
-      "triangles": 840,
-      "edges": 1260,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/explorer-v0.1/12_downward_sensor_carrier.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 1300,
-      "bbox": [
-        0.0,
-        0.0,
-        0.0,
-        33.0,
-        37.0,
-        3.0
-      ],
-      "signed_volume": 2835.47,
-      "triangles": 2616,
-      "edges": 3924,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/source/explorer-v0.1/elegoo_v4_explorer.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 175,
-      "manifold_solids": 167,
-      "cartesian_point_count": 9014,
-      "approx_bbox_from_points_mm": [
-        -87.0,
-        -115.39,
-        0.0,
-        87.0,
-        148.5,
-        172.905
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/explorer-v0.1/elegoo_v4_stock_reference.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 119,
-      "manifold_solids": 114,
-      "cartesian_point_count": 6348,
-      "approx_bbox_from_points_mm": [
-        -87.0,
-        -115.39,
-        0.0,
-        87.0,
-        115.39,
-        172.486
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/source/explorer-v0.1/explorer_printable_parts.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 14,
-      "manifold_solids": 13,
-      "cartesian_point_count": 2310,
-      "approx_bbox_from_points_mm": [
-        0.0,
-        0.0,
-        -5.1,
-        604.0,
-        669.0,
-        36.0
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/3mf/roof-battery-snap-v2/00_fit_check_alt1.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "fit_frame_150x99_1",
-          "vertices": 272,
-          "bbox": [
-            5.0,
-            8.0,
-            0.0,
-            110.0,
-            164.0,
-            4.0
-          ],
-          "signed_volume": 6089.052,
-          "triangles": 544,
-          "edges": 816,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "3",
-          "name": "hole_and_strap_coupon_2",
-          "vertices": 1276,
-          "bbox": [
-            119.0,
-            15.0,
-            0.0,
-            157.0,
-            40.0,
-            3.2
-          ],
-          "signed_volume": 2769.433,
-          "triangles": 2564,
-          "edges": 3846,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/3mf/roof-battery-snap-v2/00_latch_test.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "test_receiver_1",
-          "vertices": 1363,
-          "bbox": [
-            10.0,
-            20.0,
-            0.0,
-            35.732,
-            105.0,
-            24.8
-          ],
-          "signed_volume": 7688.55,
-          "triangles": 2722,
-          "edges": 4083,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "3",
-          "name": "test_keyhole_and_latch_2",
-          "vertices": 588,
-          "bbox": [
-            55.0,
-            20.0,
-            0.0,
-            78.5,
-            105.0,
-            3.2
-          ],
-          "signed_volume": 3239.605,
-          "triangles": 1176,
-          "edges": 1764,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/3mf/roof-battery-snap-v2/01_battery_tray.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "battery_tray_150x99_1",
-          "vertices": 6492,
-          "bbox": [
-            20.0,
-            12.0,
-            0.0,
-            160.0,
-            168.0,
-            13.2
-          ],
-          "signed_volume": 62891.64,
-          "triangles": 13052,
-          "edges": 19578,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/3mf/roof-battery-snap-v2/01_roof_tray.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "roof_tray_v2_1",
-          "vertices": 8304,
-          "bbox": [
-            20.0,
-            12.0,
-            0.0,
-            160.0,
-            168.0,
-            24.8
-          ],
-          "signed_volume": 67693.996,
-          "triangles": 16644,
-          "edges": 24966,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/3mf/roof-battery-snap-v2/02_slotted_snap_lid.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "slotted_snap_lid_v2_1",
-          "vertices": 4470,
-          "bbox": [
-            20.0,
-            15.0,
-            0.0,
-            155.0,
-            159.0,
-            3.2
-          ],
-          "signed_volume": 37567.045,
-          "triangles": 8984,
-          "edges": 13476,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/3mf/roof-battery-snap-v2/03_roof_spacers_4x.3mf": {
-      "entries": 3,
-      "gcode_files": 0,
-      "bambu_project_settings": false,
-      "models": [
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "2",
-          "name": "roof_spacer_8mm_1",
-          "vertices": 504,
-          "bbox": [
-            30.0,
-            30.0,
-            0.0,
-            40.0,
-            39.997,
-            8.0
-          ],
-          "signed_volume": 551.121,
-          "triangles": 1008,
-          "edges": 1512,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "3",
-          "name": "roof_spacer_8mm_2",
-          "vertices": 504,
-          "bbox": [
-            55.0,
-            30.0,
-            0.0,
-            65.0,
-            39.997,
-            8.0
-          ],
-          "signed_volume": 551.121,
-          "triangles": 1008,
-          "edges": 1512,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "4",
-          "name": "roof_spacer_8mm_3",
-          "vertices": 504,
-          "bbox": [
-            30.0,
-            55.0,
-            0.0,
-            40.0,
-            64.997,
-            8.0
-          ],
-          "signed_volume": 551.121,
-          "triangles": 1008,
-          "edges": 1512,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        },
-        {
-          "model_file": "3D/3dmodel.model",
-          "object_id": "5",
-          "name": "roof_spacer_8mm_4",
-          "vertices": 504,
-          "bbox": [
-            55.0,
-            55.0,
-            0.0,
-            65.0,
-            64.997,
-            8.0
-          ],
-          "signed_volume": 551.121,
-          "triangles": 1008,
-          "edges": 1512,
-          "edges_not_shared_by_exactly_two": 0,
-          "inconsistently_oriented_edge_pairs": 0,
-          "closed_and_consistent": true,
-          "ok": true
-        }
-      ],
-      "units": "millimeter",
-      "ok": true
-    },
-    "hardware/3d-models/step/roof-battery-snap-v2/battery_tray_150x99.step": {
-      "format": "STEP AP214",
-      "length_unit": "mm",
-      "product_entities": 1,
-      "manifold_solids": 1,
-      "cartesian_point_count": 843,
-      "approx_bbox_from_points_mm": [
-        -70.0,
-        -79.5,
-        -1.0,
-        70.0,
-        78.0,
-        13.2
-      ],
-      "note": "bounding box from CARTESIAN_POINT entities (control points/vertices) is approximate; no B-rep kernel used",
-      "ok": true
-    },
-    "hardware/3d-models/stl/roof-battery-snap-v2/battery_tray_150x99.stl": {
-      "format": "binary STL",
-      "units": "not encoded",
-      "vertices_after_weld": 6492,
-      "bbox": [
-        -70.0,
-        -78.0,
-        0.0,
-        70.0,
-        78.0,
-        13.2
-      ],
-      "signed_volume": 62891.641,
-      "triangles": 13052,
-      "edges": 19578,
-      "edges_not_shared_by_exactly_two": 0,
-      "inconsistently_oriented_edge_pairs": 0,
-      "closed_and_consistent": true,
-      "ok": true
-    },
-    "hardware/3d-models/3mf/service-hatch-v4/01_right_side_service_hatch_v4.3mf": {
+    "hardware/3d-models/service-hatch-v4/print/01_right_side_service_hatch_v4.3mf": {
       "entries": 3,
       "gcode_files": 0,
       "bambu_project_settings": false,
