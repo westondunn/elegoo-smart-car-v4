@@ -1,0 +1,505 @@
+{
+  "status": "native slice and packaging checks passed; physical fit untested",
+  "raw": "/workspace/scratch/0d844ccc1f5a/rover_v2_work/motor_retrofit_r1/native/Rover_Motor_Retrofit_R1_X1C_PLA_Native.3mf",
+  "sha256": "b26f780cf4e5de0bb4aa0f5424465f1f82bf8f1df6d4a9797ac7c4336997ec54",
+  "core": {
+    "root_units": "millimeter",
+    "all_model_units_mm": true,
+    "positive_resource_ids": true,
+    "unique_build_ids": true,
+    "model_file_count": 9,
+    "build_object_ids": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16
+    ]
+  },
+  "plate_count": 1,
+  "object_count": 8,
+  "geometry": [
+    {
+      "source_name": "Adapter_A_FR_R1",
+      "actual_vertex_count": 3598,
+      "source_vertex_count": 3598,
+      "actual_face_count": 7204,
+      "source_face_count": 7204,
+      "maximum_vertex_distance_mm": 1.596517900246276e-05,
+      "one_to_one_vertex_mapping": true,
+      "same_oriented_triangle_connectivity": true,
+      "matches_geometry_within_0p0001_mm": true
+    },
+    {
+      "source_name": "Adapter_B_FL_R1",
+      "actual_vertex_count": 6102,
+      "source_vertex_count": 6102,
+      "actual_face_count": 12212,
+      "source_face_count": 12212,
+      "maximum_vertex_distance_mm": 1.7029366044839956e-05,
+      "one_to_one_vertex_mapping": true,
+      "same_oriented_triangle_connectivity": true,
+      "matches_geometry_within_0p0001_mm": true
+    },
+    {
+      "source_name": "Adapter_A_RL_R1",
+      "actual_vertex_count": 3598,
+      "source_vertex_count": 3598,
+      "actual_face_count": 7204,
+      "source_face_count": 7204,
+      "maximum_vertex_distance_mm": 8.477176485853018e-06,
+      "one_to_one_vertex_mapping": true,
+      "same_oriented_triangle_connectivity": true,
+      "matches_geometry_within_0p0001_mm": true
+    },
+    {
+      "source_name": "Adapter_B_RR_R1",
+      "actual_vertex_count": 6102,
+      "source_vertex_count": 6102,
+      "actual_face_count": 12212,
+      "source_face_count": 12212,
+      "maximum_vertex_distance_mm": 9.941454647200992e-06,
+      "one_to_one_vertex_mapping": true,
+      "same_oriented_triangle_connectivity": true,
+      "matches_geometry_within_0p0001_mm": true
+    },
+    {
+      "source_name": "Floor_Screw_Spacer_FR_1p6_R1",
+      "actual_vertex_count": 840,
+      "source_vertex_count": 840,
+      "actual_face_count": 1680,
+      "source_face_count": 1680,
+      "maximum_vertex_distance_mm": 5.29640217621311e-06,
+      "one_to_one_vertex_mapping": true,
+      "same_oriented_triangle_connectivity": true,
+      "matches_geometry_within_0p0001_mm": true
+    },
+    {
+      "source_name": "Floor_Screw_Spacer_FL_1p6_R1",
+      "actual_vertex_count": 840,
+      "source_vertex_count": 840,
+      "actual_face_count": 1680,
+      "source_face_count": 1680,
+      "maximum_vertex_distance_mm": 5.29640217621311e-06,
+      "one_to_one_vertex_mapping": true,
+      "same_oriented_triangle_connectivity": true,
+      "matches_geometry_within_0p0001_mm": true
+    },
+    {
+      "source_name": "Floor_Screw_Spacer_RL_1p6_R1",
+      "actual_vertex_count": 840,
+      "source_vertex_count": 840,
+      "actual_face_count": 1680,
+      "source_face_count": 1680,
+      "maximum_vertex_distance_mm": 8.3007168871854e-06,
+      "one_to_one_vertex_mapping": true,
+      "same_oriented_triangle_connectivity": true,
+      "matches_geometry_within_0p0001_mm": true
+    },
+    {
+      "source_name": "Floor_Screw_Spacer_RR_1p6_R1",
+      "actual_vertex_count": 840,
+      "source_vertex_count": 840,
+      "actual_face_count": 1680,
+      "source_face_count": 1680,
+      "maximum_vertex_distance_mm": 8.3007168871854e-06,
+      "one_to_one_vertex_mapping": true,
+      "same_oriented_triangle_connectivity": true,
+      "matches_geometry_within_0p0001_mm": true
+    }
+  ],
+  "settings": {
+    "printer_model": {
+      "expected": "Bambu Lab X1 Carbon",
+      "actual": "Bambu Lab X1 Carbon",
+      "matches": true
+    },
+    "printer_variant": {
+      "expected": "0.4",
+      "actual": "0.4",
+      "matches": true
+    },
+    "printer_settings_id": {
+      "expected": "Bambu Lab X1 Carbon 0.4 nozzle",
+      "actual": "Bambu Lab X1 Carbon 0.4 nozzle",
+      "matches": true
+    },
+    "nozzle_diameter": {
+      "expected": [
+        "0.4"
+      ],
+      "actual": [
+        "0.4"
+      ],
+      "matches": true
+    },
+    "nozzle_volume_type": {
+      "expected": [
+        "Standard"
+      ],
+      "actual": [
+        "Standard"
+      ],
+      "matches": true
+    },
+    "filament_type": {
+      "expected": [
+        "PLA"
+      ],
+      "actual": [
+        "PLA"
+      ],
+      "matches": true
+    },
+    "filament_settings_id": {
+      "expected": [
+        "Generic PLA"
+      ],
+      "actual": [
+        "Generic PLA"
+      ],
+      "matches": true
+    },
+    "curr_bed_type": {
+      "expected": "Textured PEI Plate",
+      "actual": "Textured PEI Plate",
+      "matches": true
+    },
+    "layer_height": {
+      "expected": "0.2",
+      "actual": "0.2",
+      "matches": true
+    },
+    "initial_layer_print_height": {
+      "expected": "0.2",
+      "actual": "0.2",
+      "matches": true
+    },
+    "wall_loops": {
+      "expected": "5",
+      "actual": "5",
+      "matches": true
+    },
+    "top_shell_layers": {
+      "expected": "5",
+      "actual": "5",
+      "matches": true
+    },
+    "bottom_shell_layers": {
+      "expected": "5",
+      "actual": "5",
+      "matches": true
+    },
+    "sparse_infill_density": {
+      "expected": "100%",
+      "actual": "100%",
+      "matches": true
+    },
+    "sparse_infill_pattern": {
+      "expected": "zig-zag",
+      "actual": "zig-zag",
+      "matches": true
+    },
+    "enable_support": {
+      "expected": "0",
+      "actual": "0",
+      "matches": true
+    },
+    "print_sequence": {
+      "expected": "by layer",
+      "actual": "by layer",
+      "matches": true
+    },
+    "brim_width": {
+      "expected": "2",
+      "actual": "2",
+      "matches": true
+    },
+    "brim_type": {
+      "expected": "outer_only",
+      "actual": "outer_only",
+      "matches": true
+    },
+    "outer_wall_speed": {
+      "expected": [
+        "60",
+        "60"
+      ],
+      "actual": [
+        "60",
+        "60"
+      ],
+      "matches": true
+    },
+    "inner_wall_speed": {
+      "expected": [
+        "100",
+        "100"
+      ],
+      "actual": [
+        "100",
+        "100"
+      ],
+      "matches": true
+    },
+    "top_surface_speed": {
+      "expected": [
+        "40",
+        "40"
+      ],
+      "actual": [
+        "40",
+        "40"
+      ],
+      "matches": true
+    },
+    "internal_solid_infill_speed": {
+      "expected": [
+        "80",
+        "80"
+      ],
+      "actual": [
+        "80",
+        "80"
+      ],
+      "matches": true
+    },
+    "sparse_infill_speed": {
+      "expected": [
+        "80",
+        "80"
+      ],
+      "actual": [
+        "80",
+        "80"
+      ],
+      "matches": true
+    }
+  },
+  "machine_gcode_settings_unchanged": {
+    "gcode_flavor": true,
+    "machine_start_gcode": true,
+    "machine_end_gcode": true,
+    "time_lapse_gcode": true,
+    "wrapping_detection_gcode": true,
+    "change_filament_gcode": true,
+    "layer_change_gcode": true,
+    "machine_pause_gcode": true
+  },
+  "gcode": {
+    "Metadata/plate_1.gcode": {
+      "header": {
+        "filament_weight_g": 12.67,
+        "layer_count": 39,
+        "filament_length_mm": 4246.4,
+        "estimated_time_text": "45m 47s",
+        "estimated_time_seconds": 2747.0
+      },
+      "gcode_line_count": 77876,
+      "layer_markers": 39,
+      "layers_with_model_extrusion": 39,
+      "all_layer_heights_mm": [
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0,
+        1.2,
+        1.4,
+        1.6,
+        1.8,
+        2.0,
+        2.2,
+        2.4,
+        2.6,
+        2.8,
+        3.0,
+        3.2,
+        3.4,
+        3.6,
+        3.8,
+        4.0,
+        4.2,
+        4.4,
+        4.6,
+        4.8,
+        5.0,
+        5.2,
+        5.4,
+        5.6,
+        5.8,
+        6.0,
+        6.2,
+        6.4,
+        6.6,
+        6.8,
+        7.0,
+        7.2,
+        7.4,
+        7.6,
+        7.8
+      ],
+      "model_extrusion_z_range_mm": [
+        0.2,
+        7.8
+      ],
+      "positive_e_xy_moves_by_feature": {
+        "Brim": 1799,
+        "Outer wall": 3060,
+        "Inner wall": 10824,
+        "Gap infill": 6304,
+        "Bottom surface": 388,
+        "Internal solid infill": 6511,
+        "Sparse infill": 4623,
+        "Top surface": 1256,
+        "Floating vertical shell": 620,
+        "Overhang wall": 70
+      },
+      "extrusion_bounds_with_half_line_width_mm": {
+        "Brim": {
+          "min_xy": [
+            89.85,
+            80.004
+          ],
+          "max_xy": [
+            166.15,
+            172.0
+          ]
+        },
+        "ALL": {
+          "min_xy": [
+            89.85,
+            80.004
+          ],
+          "max_xy": [
+            166.15,
+            172.0
+          ]
+        },
+        "FIRST_LAYER": {
+          "min_xy": [
+            89.85,
+            80.004
+          ],
+          "max_xy": [
+            166.15,
+            172.0
+          ]
+        },
+        "Outer wall": {
+          "min_xy": [
+            91.80000000000001,
+            81.95
+          ],
+          "max_xy": [
+            164.20000000000002,
+            170.05937722420842
+          ]
+        },
+        "Inner wall": {
+          "min_xy": [
+            92.17699337201489,
+            82.32700000000001
+          ],
+          "max_xy": [
+            163.82410207899161,
+            169.673
+          ]
+        },
+        "Gap infill": {
+          "min_xy": [
+            92.31346125,
+            82.48101390000001
+          ],
+          "max_xy": [
+            163.96947200000002,
+            169.5630305
+          ]
+        },
+        "Bottom surface": {
+          "min_xy": [
+            93.9153,
+            108.25630000000001
+          ],
+          "max_xy": [
+            162.0847,
+            167.891245
+          ]
+        },
+        "Internal solid infill": {
+          "min_xy": [
+            93.57366,
+            101.79692861593352
+          ],
+          "max_xy": [
+            162.425545,
+            168.275795
+          ]
+        },
+        "Sparse infill": {
+          "min_xy": [
+            93.563,
+            115.033
+          ],
+          "max_xy": [
+            162.43699999999998,
+            168.286
+          ]
+        },
+        "Top surface": {
+          "min_xy": [
+            92.007,
+            82.162
+          ],
+          "max_xy": [
+            163.993,
+            169.842
+          ]
+        },
+        "Floating vertical shell": {
+          "min_xy": [
+            93.80488899999999,
+            115.083889
+          ],
+          "max_xy": [
+            162.196077,
+            164.2352575
+          ]
+        },
+        "Overhang wall": {
+          "min_xy": [
+            94.075,
+            120.509
+          ],
+          "max_xy": [
+            161.92499999999998,
+            168.7827790822304
+          ]
+        }
+      },
+      "arc_parse_errors": [],
+      "model_or_brim_bed_violations": [],
+      "model_or_brim_bed_violation_count": 0,
+      "startup_calibration_first_layer_intersections": [],
+      "startup_calibration_first_layer_intersection_count": 0,
+      "startup_calibration_minimum_clearance_mm": 67.40400000000001,
+      "startup_calibration_width_check": {
+        "nominal_filament_diameter_mm": 1.75,
+        "maximum_inferred_line_width_mm": 1.0333305513106747,
+        "minimum_full_width_allowance_used_mm": 1.2,
+        "maximum_full_width_allowance_used_mm": 1.2,
+        "method": "E delta times filament cross-section divided by XY distance; rounded-rectangle bead at the lesser of commandedZ and0.20mm. Use at least1.2mm full width for geometric comparison."
+      },
+      "other_startup_extrusion_moves_excluded_from_model_bed_check": 36,
+      "method": "G0/G1 and G2/G3, G90/G91, M82/M83, G92; native FEATURE and CHANGE_LAYER tags. Arc cardinal extrema checked exactly; first-layer arcs linearized within0.001mm sagitta. Model bounds include half reported LINE_WIDTH. Startup calibration evaluated conditionally; other startup/end routines kept separate. Calibration full width bounded at1.2mm or the E-derived estimate if larger.",
+      "scope_limitations": [
+        "Conditional firmware branches are not executed; calibration intersections apply if extrude_cali_flag is enabled.",
+        "Does not certify firmware limits, actual machine accuracy, physical fit, filament quality, or thermal behavior.",
+        "Native first-layer time metadata is not treated as a trustworthy timing estimate."
+      ]
+    }
+  }
+}

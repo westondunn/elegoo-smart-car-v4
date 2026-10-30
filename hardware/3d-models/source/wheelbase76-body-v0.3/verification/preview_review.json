@@ -1,0 +1,16 @@
+{
+  "preview_files": [
+    "revised_rover_v3.png",
+    "revised_side_view.png",
+    "fit_templates_installed.png"
+  ],
+  "checks": [
+    "Rendered from exported STEP and generated gauge BRep",
+    "Inspected all three previews visually",
+    "No blank graphics buffer",
+    "Both wheel centers marked at correct projected locations",
+    "Titles and dimensions within frame"
+  ],
+  "physical_fit_tested": false,
+  "native_fusion_bambu_tested": false
+}

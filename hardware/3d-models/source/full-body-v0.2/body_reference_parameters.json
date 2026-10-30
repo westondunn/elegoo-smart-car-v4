@@ -1,0 +1,49 @@
+{
+  "units": "mm",
+  "version": "0.1.0",
+  "front_axis": "+Y",
+  "source_center_xy": [
+    10.1923,
+    -50.9949
+  ],
+  "bottom_plate_underside_z": 18.0,
+  "deck_height_above_top": 36.0,
+  "deck_thickness": 3.2,
+  "deck_width": 126.0,
+  "deck_length": 104.0,
+  "deck_center_y": -42.0,
+  "m3_clearance": 3.5,
+  "reference_wheel_diameter": 65.0,
+  "reference_wheel_width": 26.0,
+  "reference_wheel_center_x": 72.0,
+  "reference_front_axle_y": 55.0,
+  "reference_rear_axle_y": -59.0,
+  "reference_uno_size": [
+    68.6,
+    53.4,
+    1.6
+  ],
+  "reference_uno_center_xy": [
+    10.5,
+    4.0
+  ],
+  "reference_battery_size": [
+    70.0,
+    52.0,
+    22.0
+  ],
+  "reference_battery_center_xy": [
+    0.0,
+    -81.14
+  ],
+  "reference_camera_pcb_size": [
+    28.0,
+    60.0,
+    1.6
+  ],
+  "print_area_xy": [
+    180.0,
+    180.0
+  ],
+  "notice": "Reference purchased-part dimensions are nominal or estimated; measure physical hardware before fit-critical printing. Do not scale the full assembly to adjust fit."
+}

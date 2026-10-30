@@ -1,0 +1,17 @@
+test_01_assembly_names_and_count (__main__.RevisionTests.test_01_assembly_names_and_count) ... ok
+test_02_tire_dimensions (__main__.RevisionTests.test_02_tire_dimensions) ... ok
+test_03_wheelbase (__main__.RevisionTests.test_03_wheelbase) ... ok
+test_04_tire_gap (__main__.RevisionTests.test_04_tire_gap) ... ok
+test_05_all_preserved_parts (__main__.RevisionTests.test_05_all_preserved_parts) ... ok
+test_06_body_single_valid_solids (__main__.RevisionTests.test_06_body_single_valid_solids) ... ok
+test_07_open_between_tires (__main__.RevisionTests.test_07_open_between_tires) ... ok
+test_08_printed_meshes (__main__.RevisionTests.test_08_printed_meshes) ... ok
+test_09_3mf_format_and_positions (__main__.RevisionTests.test_09_3mf_format_and_positions) ... ok
+test_10_conservative_geometry_review (__main__.RevisionTests.test_10_conservative_geometry_review) ... ok
+test_11_mount_interfaces (__main__.RevisionTests.test_11_mount_interfaces) ... ok
+test_12_previews_not_blank (__main__.RevisionTests.test_12_previews_not_blank) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 9.142s
+
+OK

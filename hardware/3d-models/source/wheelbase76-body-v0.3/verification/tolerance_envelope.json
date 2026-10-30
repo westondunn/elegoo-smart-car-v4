@@ -1,0 +1,154 @@
+{
+  "scope": "Body panels versus conservative BOX bounding all tire translations in declared allowances. Not actual measured tolerances.",
+  "extra_radius_mm": 3,
+  "pair_translation_y_mm": 8,
+  "axle_height_z_mm": 2,
+  "extra_each_x_face_mm": 3,
+  "minimum_gap_mm": 4.230000000000004,
+  "checks": [
+    {
+      "envelope": "-1_front",
+      "body": "body_01_left_side",
+      "intersection_volume_mm3": 0.0,
+      "gap_mm": 4.230000000000004
+    },
+    {
+      "envelope": "-1_front",
+      "body": "body_02_right_side",
+      "intersection_volume_mm3": 0,
+      "gap_mm": 107.51778364531145
+    },
+    {
+      "envelope": "-1_front",
+      "body": "body_03_rear_panel",
+      "intersection_volume_mm3": 0,
+      "gap_mm": 110.36322630233862
+    },
+    {
+      "envelope": "-1_front",
+      "body": "body_04_front_bulkhead",
+      "intersection_volume_mm3": 0,
+      "gap_mm": 4.230000000000004
+    },
+    {
+      "envelope": "-1_front",
+      "body": "body_05_removable_roof",
+      "intersection_volume_mm3": 0,
+      "gap_mm": 74.23
+    },
+    {
+      "envelope": "-1_front",
+      "body": "body_06_front_cowl",
+      "intersection_volume_mm3": 0.0,
+      "gap_mm": 4.230000000000004
+    },
+    {
+      "envelope": "-1_rear",
+      "body": "body_01_left_side",
+      "intersection_volume_mm3": 0.0,
+      "gap_mm": 4.230000000000004
+    },
+    {
+      "envelope": "-1_rear",
+      "body": "body_02_right_side",
+      "intersection_volume_mm3": 0,
+      "gap_mm": 109.15807040759672
+    },
+    {
+      "envelope": "-1_rear",
+      "body": "body_03_rear_panel",
+      "intersection_volume_mm3": 0,
+      "gap_mm": 34.163226302338614
+    },
+    {
+      "envelope": "-1_rear",
+      "body": "body_04_front_bulkhead",
+      "intersection_volume_mm3": 0,
+      "gap_mm": 40.48834355735826
+    },
+    {
+      "envelope": "-1_rear",
+      "body": "body_05_removable_roof",
+      "intersection_volume_mm3": 0,
+      "gap_mm": 74.23
+    },
+    {
+      "envelope": "-1_rear",
+      "body": "body_06_front_cowl",
+      "intersection_volume_mm3": 0,
+      "gap_mm": 43.47305609460465
+    },
+    {
+      "envelope": "1_front",
+      "body": "body_01_left_side",
+      "intersection_volume_mm3": 0,
+      "gap_mm": 107.51778364531145
+    },
+    {
+      "envelope": "1_front",
+      "body": "body_02_right_side",
+      "intersection_volume_mm3": 0.0,
+      "gap_mm": 4.230000000000004
+    },
+    {
+      "envelope": "1_front",
+      "body": "body_03_rear_panel",
+      "intersection_volume_mm3": 0,
+      "gap_mm": 110.36322630233862
+    },
+    {
+      "envelope": "1_front",
+      "body": "body_04_front_bulkhead",
+      "intersection_volume_mm3": 0,
+      "gap_mm": 4.230000000000004
+    },
+    {
+      "envelope": "1_front",
+      "body": "body_05_removable_roof",
+      "intersection_volume_mm3": 0,
+      "gap_mm": 74.23
+    },
+    {
+      "envelope": "1_front",
+      "body": "body_06_front_cowl",
+      "intersection_volume_mm3": 0.0,
+      "gap_mm": 4.230000000000004
+    },
+    {
+      "envelope": "1_rear",
+      "body": "body_01_left_side",
+      "intersection_volume_mm3": 0,
+      "gap_mm": 109.15807040759672
+    },
+    {
+      "envelope": "1_rear",
+      "body": "body_02_right_side",
+      "intersection_volume_mm3": 0.0,
+      "gap_mm": 4.230000000000004
+    },
+    {
+      "envelope": "1_rear",
+      "body": "body_03_rear_panel",
+      "intersection_volume_mm3": 0,
+      "gap_mm": 34.163226302338614
+    },
+    {
+      "envelope": "1_rear",
+      "body": "body_04_front_bulkhead",
+      "intersection_volume_mm3": 0,
+      "gap_mm": 40.48834355735826
+    },
+    {
+      "envelope": "1_rear",
+      "body": "body_05_removable_roof",
+      "intersection_volume_mm3": 0,
+      "gap_mm": 74.23
+    },
+    {
+      "envelope": "1_rear",
+      "body": "body_06_front_cowl",
+      "intersection_volume_mm3": 0,
+      "gap_mm": 43.47305609460465
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "final": "/workspace/scratch/0d844ccc1f5a/rover_v2_work/motor_retrofit_r1/native/Rover_Motor_Retrofit_R1_X1C_PLA.3mf",
+  "sha256": "26b5ae3894cacfc59b12b4948af9831f54d1a705c63dbe6013bd26ce2d6556b6",
+  "bytes": 1370272,
+  "plate_count": 1,
+  "object_count": 8,
+  "critical_native_payloads_preserved": true,
+  "native_gcode_estimate": {
+    "filament_weight_g": 12.67,
+    "layer_count": 39,
+    "filament_length_mm": 4246.4,
+    "estimated_time_text": "45m 47s",
+    "estimated_time_seconds": 2747.0
+  },
+  "preview": "/workspace/scratch/0d844ccc1f5a/rover_v2_work/motor_retrofit_r1/native/previews/Rover_Motor_Retrofit_R1_Plate_Closeup.png"
+}

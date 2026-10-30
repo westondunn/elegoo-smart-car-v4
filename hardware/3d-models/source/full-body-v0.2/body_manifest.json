@@ -1,0 +1,5097 @@
+{
+  "version": "0.2.0",
+  "units": "millimeter",
+  "bed_mm": [
+    180.0,
+    180.0
+  ],
+  "coordinate_convention": "Original explorer coordinates: +Y front, +Z up; nominal ground Z=0.",
+  "base_geometry": "Source-derived chassis; nominal/estimated purchased hardware; see component evidence.",
+  "replaces": [
+    "03_side_guard_left",
+    "04_side_guard_right"
+  ],
+  "retains": "Original deck, four deck spacers, front guard, guard shims, optional trays/carriers.",
+  "body_components": [
+    "body_01_left_side",
+    "body_02_right_side",
+    "body_03_rear_panel",
+    "body_04_front_bulkhead",
+    "body_05_removable_roof",
+    "body_06_front_cowl"
+  ],
+  "interfaces": [
+    {
+      "type": "deck",
+      "side": "left",
+      "center_xy": [
+        -57,
+        -62.0
+      ],
+      "tab_z": [
+        99.50522212982177,
+        102.70522212982178
+      ],
+      "screw": "retained M3x10 + M3 nut"
+    },
+    {
+      "type": "deck",
+      "side": "left",
+      "center_xy": [
+        -57,
+        -28.0
+      ],
+      "tab_z": [
+        99.50522212982177,
+        102.70522212982178
+      ],
+      "screw": "retained M3x10 + M3 nut"
+    },
+    {
+      "type": "deck",
+      "side": "right",
+      "center_xy": [
+        57,
+        -62.0
+      ],
+      "tab_z": [
+        99.50522212982177,
+        102.70522212982178
+      ],
+      "screw": "retained M3x10 + M3 nut"
+    },
+    {
+      "type": "deck",
+      "side": "right",
+      "center_xy": [
+        57,
+        -28.0
+      ],
+      "tab_z": [
+        99.50522212982177,
+        102.70522212982178
+      ],
+      "screw": "retained M3x10 + M3 nut"
+    },
+    {
+      "type": "rear_panel",
+      "center_xyz": [
+        -61.0,
+        -120.0,
+        85.0
+      ],
+      "axis": "Y",
+      "wall_mm": 2.4,
+      "clamped_gap_mm": 0,
+      "perimeter_seam_mm": 0.5,
+      "tab_mm": 4,
+      "screw": "M3x12",
+      "nut": "M3"
+    },
+    {
+      "type": "rear_panel",
+      "center_xyz": [
+        -61.0,
+        -120.0,
+        132.0
+      ],
+      "axis": "Y",
+      "wall_mm": 2.4,
+      "clamped_gap_mm": 0,
+      "perimeter_seam_mm": 0.5,
+      "tab_mm": 4,
+      "screw": "M3x12",
+      "nut": "M3"
+    },
+    {
+      "type": "rear_panel",
+      "center_xyz": [
+        61.0,
+        -120.0,
+        85.0
+      ],
+      "axis": "Y",
+      "wall_mm": 2.4,
+      "clamped_gap_mm": 0,
+      "perimeter_seam_mm": 0.5,
+      "tab_mm": 4,
+      "screw": "M3x12",
+      "nut": "M3"
+    },
+    {
+      "type": "rear_panel",
+      "center_xyz": [
+        61.0,
+        -120.0,
+        132.0
+      ],
+      "axis": "Y",
+      "wall_mm": 2.4,
+      "clamped_gap_mm": 0,
+      "perimeter_seam_mm": 0.5,
+      "tab_mm": 4,
+      "screw": "M3x12",
+      "nut": "M3"
+    },
+    {
+      "type": "front_panel",
+      "center_xyz": [
+        -61.0,
+        46.0,
+        85.0
+      ],
+      "axis": "Y",
+      "wall_mm": 2.4,
+      "clamped_gap_mm": 0,
+      "perimeter_seam_mm": 0.5,
+      "tab_mm": 4,
+      "screw": "M3x12",
+      "nut": "M3"
+    },
+    {
+      "type": "front_panel",
+      "center_xyz": [
+        -61.0,
+        46.0,
+        132.0
+      ],
+      "axis": "Y",
+      "wall_mm": 2.4,
+      "clamped_gap_mm": 0,
+      "perimeter_seam_mm": 0.5,
+      "tab_mm": 4,
+      "screw": "M3x12",
+      "nut": "M3"
+    },
+    {
+      "type": "front_panel",
+      "center_xyz": [
+        61.0,
+        46.0,
+        85.0
+      ],
+      "axis": "Y",
+      "wall_mm": 2.4,
+      "clamped_gap_mm": 0,
+      "perimeter_seam_mm": 0.5,
+      "tab_mm": 4,
+      "screw": "M3x12",
+      "nut": "M3"
+    },
+    {
+      "type": "front_panel",
+      "center_xyz": [
+        61.0,
+        46.0,
+        132.0
+      ],
+      "axis": "Y",
+      "wall_mm": 2.4,
+      "clamped_gap_mm": 0,
+      "perimeter_seam_mm": 0.5,
+      "tab_mm": 4,
+      "screw": "M3x12",
+      "nut": "M3"
+    },
+    {
+      "type": "roof",
+      "center_xy": [
+        -61.0,
+        -104.0
+      ],
+      "axis": "Z",
+      "roof_mm": 2.8,
+      "tab_mm": 6,
+      "screw": "M3x10",
+      "nut": "M3",
+      "nut_pocket_z": [
+        139.8,
+        142.6
+      ],
+      "nut_slot_width_mm": 5.9,
+      "nut_retention": "Slide nut outward from cabin interior; pocket restrains rotation and vertical loss."
+    },
+    {
+      "type": "roof",
+      "center_xy": [
+        -61.0,
+        30.0
+      ],
+      "axis": "Z",
+      "roof_mm": 2.8,
+      "tab_mm": 6,
+      "screw": "M3x10",
+      "nut": "M3",
+      "nut_pocket_z": [
+        139.8,
+        142.6
+      ],
+      "nut_slot_width_mm": 5.9,
+      "nut_retention": "Slide nut outward from cabin interior; pocket restrains rotation and vertical loss."
+    },
+    {
+      "type": "roof",
+      "center_xy": [
+        61.0,
+        -104.0
+      ],
+      "axis": "Z",
+      "roof_mm": 2.8,
+      "tab_mm": 6,
+      "screw": "M3x10",
+      "nut": "M3",
+      "nut_pocket_z": [
+        139.8,
+        142.6
+      ],
+      "nut_slot_width_mm": 5.9,
+      "nut_retention": "Slide nut outward from cabin interior; pocket restrains rotation and vertical loss."
+    },
+    {
+      "type": "roof",
+      "center_xy": [
+        61.0,
+        30.0
+      ],
+      "axis": "Z",
+      "roof_mm": 2.8,
+      "tab_mm": 6,
+      "screw": "M3x10",
+      "nut": "M3",
+      "nut_pocket_z": [
+        139.8,
+        142.6
+      ],
+      "nut_slot_width_mm": 5.9,
+      "nut_retention": "Slide nut outward from cabin interior; pocket restrains rotation and vertical loss."
+    },
+    {
+      "type": "nose_to_front_guard",
+      "center_xy": [
+        52.750009569296964,
+        82.43718696795491
+      ],
+      "screw": "retained M3x20 moved above cowl",
+      "nominal_pillar_engagement_mm": 5.1
+    },
+    {
+      "type": "nose_to_front_guard",
+      "center_xy": [
+        -52.24998042881052,
+        82.4371763817928
+      ],
+      "screw": "retained M3x20 moved above cowl",
+      "nominal_pillar_engagement_mm": 5.1
+    }
+  ],
+  "limitations": [
+    "Physical fit and printer/application-level import have not been tested.",
+    "Wheel/connector/camera dimensions are nominal or estimated hardware envelopes.",
+    "Exposed sensor head has mechanical sweep clearance; peripheral optical/acoustic fields need physical checks.",
+    "Open vents/seams/underbody are not weather sealed. No thermal, impact, or payload capacity certification.",
+    "Roof clearance excludes unmodeled coolers, HATs, connectors and cable bends."
+  ],
+  "components": [
+    {
+      "name": "OEM_Bottom_Plate",
+      "group": "OEM_chassis_from_supplied_meshes",
+      "evidence": "derived_from_supplied_STL",
+      "notes": "Supplied mid-section reconstructed; circle fits; outer simplification <=0.02mm at measured section vertices.",
+      "bbox_mm": [
+        -65.83688243408203,
+        -115.3898203491211,
+        18.0,
+        66.68600956420899,
+        115.38977407226562,
+        22.5
+      ],
+      "volume_mm3": 96240.99337588329,
+      "brep_valid": true
+    },
+    {
+      "name": "OEM_Top_Plate",
+      "group": "OEM_chassis_from_supplied_meshes",
+      "evidence": "derived_from_supplied_STL",
+      "notes": "Supplied mid-section reconstructed; circle fits; outer simplification <=0.02mm at measured section vertices.",
+      "bbox_mm": [
+        -65.83688243408203,
+        -115.39001871337891,
+        62.20522212982178,
+        66.68601337890625,
+        115.38957570800781,
+        66.70522212982178
+      ],
+      "volume_mm3": 94920.13898341767,
+      "brep_valid": true
+    },
+    {
+      "name": "Frame_pillar_1_nominal_M3x40",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "Nominal M3x40 in manual; modeled length follows supplied39.705222mm gap.",
+      "bbox_mm": [
+        49.750009569296964,
+        79.43718696795491,
+        22.5,
+        55.750009569296964,
+        85.43718696795491,
+        62.20522212982178
+      ],
+      "volume_mm3": 822.9565413191331,
+      "brep_valid": true
+    },
+    {
+      "name": "Frame_bottom_screw_1",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "",
+      "bbox_mm": [
+        49.990009569296966,
+        79.67718696795491,
+        15.599999999999996,
+        55.51000956929696,
+        85.19718696795492,
+        27.999999999999996
+      ],
+      "volume_mm3": 128.12118558093582,
+      "brep_valid": true
+    },
+    {
+      "name": "Frame_pillar_2_nominal_M3x40",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "Nominal M3x40 in manual; modeled length follows supplied39.705222mm gap.",
+      "bbox_mm": [
+        -55.24998042881052,
+        79.4371763817928,
+        22.5,
+        -49.24998042881052,
+        85.4371763817928,
+        62.20522212982178
+      ],
+      "volume_mm3": 822.9565413191333,
+      "brep_valid": true
+    },
+    {
+      "name": "Frame_bottom_screw_2",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -55.009980428810515,
+        79.67717638179279,
+        15.599999999999996,
+        -49.48998042881052,
+        85.1971763817928,
+        27.999999999999996
+      ],
+      "volume_mm3": 128.12118558093582,
+      "brep_valid": true
+    },
+    {
+      "name": "Frame_pillar_3_nominal_M3x40",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "Nominal M3x40 in manual; modeled length follows supplied39.705222mm gap.",
+      "bbox_mm": [
+        53.544415226323096,
+        -4.666822445462017,
+        22.5,
+        59.544415226323096,
+        1.3331775545379827,
+        62.20522212982178
+      ],
+      "volume_mm3": 822.9565413191328,
+      "brep_valid": true
+    },
+    {
+      "name": "Frame_bottom_screw_3",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "",
+      "bbox_mm": [
+        53.7844152263231,
+        -4.426822445462018,
+        15.6,
+        59.304415226323094,
+        1.093177554537983,
+        28.0
+      ],
+      "volume_mm3": 128.1211855809358,
+      "brep_valid": true
+    },
+    {
+      "name": "Frame_pillar_4_nominal_M3x40",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "Nominal M3x40 in manual; modeled length follows supplied39.705222mm gap.",
+      "bbox_mm": [
+        -58.45596512702609,
+        -5.656526326535676,
+        22.5,
+        -52.45596512702609,
+        0.3434736734643238,
+        62.20522212982178
+      ],
+      "volume_mm3": 822.9565413191328,
+      "brep_valid": true
+    },
+    {
+      "name": "Frame_bottom_screw_4",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -58.21596512702609,
+        -5.416526326535678,
+        15.6,
+        -52.69596512702609,
+        0.10347367346432357,
+        28.0
+      ],
+      "volume_mm3": 128.1211855809358,
+      "brep_valid": true
+    },
+    {
+      "name": "Frame_pillar_5_nominal_M3x40",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "Nominal M3x40 in manual; modeled length follows supplied39.705222mm gap.",
+      "bbox_mm": [
+        53.54401468311008,
+        -85.66682255836479,
+        22.5,
+        59.54401468311008,
+        -79.66682255836479,
+        62.20522212982178
+      ],
+      "volume_mm3": 822.9565413191333,
+      "brep_valid": true
+    },
+    {
+      "name": "Frame_bottom_screw_5",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "",
+      "bbox_mm": [
+        53.78401468311008,
+        -85.42682255836479,
+        15.600000000000003,
+        59.304014683110076,
+        -79.90682255836478,
+        28.000000000000004
+      ],
+      "volume_mm3": 128.12118558093582,
+      "brep_valid": true
+    },
+    {
+      "name": "Frame_pillar_6_nominal_M3x40",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "Nominal M3x40 in manual; modeled length follows supplied39.705222mm gap.",
+      "bbox_mm": [
+        -58.455985131350815,
+        -85.6668225583648,
+        22.5,
+        -52.455985131350815,
+        -79.6668225583648,
+        62.20522212982178
+      ],
+      "volume_mm3": 822.9565413191331,
+      "brep_valid": true
+    },
+    {
+      "name": "Frame_bottom_screw_6",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -58.21598513135081,
+        -85.4268225583648,
+        15.600000000000003,
+        -52.69598513135082,
+        -79.9068225583648,
+        28.000000000000004
+      ],
+      "volume_mm3": 128.12118558093582,
+      "brep_valid": true
+    },
+    {
+      "name": "TT_gearbox_left_front",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "Representative TT gearmotor; exact ELEGOO envelope unmeasured.",
+      "bbox_mm": [
+        -47.0,
+        39.5,
+        23.5,
+        -25.0,
+        82.5,
+        45.5
+      ],
+      "volume_mm3": 20736.460153515898,
+      "brep_valid": true
+    },
+    {
+      "name": "DC_motor_can_left_front",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -44.0,
+        78.0,
+        26.5,
+        -28.0,
+        104.0,
+        42.5
+      ],
+      "volume_mm3": 5227.610175573415,
+      "brep_valid": true
+    },
+    {
+      "name": "Drive_shaft_left_front",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -82.0,
+        52.2,
+        29.7,
+        -43.0,
+        57.8,
+        35.3
+      ],
+      "volume_mm3": 960.573369761615,
+      "brep_valid": true
+    },
+    {
+      "name": "Aluminum_motor_block_left_front",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -29.5,
+        53.0,
+        22.5,
+        -21.5,
+        69.0,
+        44.5
+      ],
+      "volume_mm3": 2462.131003499646,
+      "brep_valid": true
+    },
+    {
+      "name": "Motor_through_bolt_left_front_-1",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -51.0,
+        54.5,
+        33.0,
+        -21.0,
+        57.5,
+        36.0
+      ],
+      "volume_mm3": 212.05750411731103,
+      "brep_valid": true
+    },
+    {
+      "name": "Motor_through_bolt_left_front_1",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -51.0,
+        64.5,
+        33.0,
+        -21.0,
+        67.5,
+        36.0
+      ],
+      "volume_mm3": 212.05750411731108,
+      "brep_valid": true
+    },
+    {
+      "name": "Tire_left_front",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "65x26mm representative wheel; confirm actual diameter/width.",
+      "bbox_mm": [
+        -85.0,
+        22.5,
+        0.0,
+        -59.0,
+        87.5,
+        65.0
+      ],
+      "volume_mm3": 43604.82536815028,
+      "brep_valid": true
+    },
+    {
+      "name": "Wheel_hub_left_front",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -84.0,
+        32.25,
+        9.75,
+        -60.0,
+        77.75,
+        55.25
+      ],
+      "volume_mm3": 31724.745093745805,
+      "brep_valid": true
+    },
+    {
+      "name": "Wheel_M2_fastener_left_front",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -87.0,
+        53.0,
+        30.5,
+        -85.0,
+        57.0,
+        34.5
+      ],
+      "volume_mm3": 25.132741228718338,
+      "brep_valid": true
+    },
+    {
+      "name": "TT_gearbox_left_rear",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "Representative TT gearmotor; exact ELEGOO envelope unmeasured.",
+      "bbox_mm": [
+        -47.0,
+        -86.5,
+        23.5,
+        -25.0,
+        -43.5,
+        45.5
+      ],
+      "volume_mm3": 20736.460153515898,
+      "brep_valid": true
+    },
+    {
+      "name": "DC_motor_can_left_rear",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -44.0,
+        -108.0,
+        26.5,
+        -28.0,
+        -82.0,
+        42.5
+      ],
+      "volume_mm3": 5227.610175573415,
+      "brep_valid": true
+    },
+    {
+      "name": "Drive_shaft_left_rear",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -82.0,
+        -61.8,
+        29.7,
+        -43.0,
+        -56.2,
+        35.3
+      ],
+      "volume_mm3": 960.573369761615,
+      "brep_valid": true
+    },
+    {
+      "name": "Aluminum_motor_block_left_rear",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -29.5,
+        -73.0,
+        22.5,
+        -21.5,
+        -57.0,
+        44.5
+      ],
+      "volume_mm3": 2462.131003499646,
+      "brep_valid": true
+    },
+    {
+      "name": "Motor_through_bolt_left_rear_-1",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -51.0,
+        -71.5,
+        33.0,
+        -21.0,
+        -68.5,
+        36.0
+      ],
+      "volume_mm3": 212.05750411731108,
+      "brep_valid": true
+    },
+    {
+      "name": "Motor_through_bolt_left_rear_1",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -51.0,
+        -61.5,
+        33.0,
+        -21.0,
+        -58.5,
+        36.0
+      ],
+      "volume_mm3": 212.05750411731103,
+      "brep_valid": true
+    },
+    {
+      "name": "Tire_left_rear",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "65x26mm representative wheel; confirm actual diameter/width.",
+      "bbox_mm": [
+        -85.0,
+        -91.5,
+        0.0,
+        -59.0,
+        -26.5,
+        65.0
+      ],
+      "volume_mm3": 43604.82536815031,
+      "brep_valid": true
+    },
+    {
+      "name": "Wheel_hub_left_rear",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -84.0,
+        -81.75,
+        9.75,
+        -60.0,
+        -36.25,
+        55.25
+      ],
+      "volume_mm3": 31724.745093745805,
+      "brep_valid": true
+    },
+    {
+      "name": "Wheel_M2_fastener_left_rear",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -87.0,
+        -61.0,
+        30.5,
+        -85.0,
+        -57.0,
+        34.5
+      ],
+      "volume_mm3": 25.132741228718338,
+      "brep_valid": true
+    },
+    {
+      "name": "TT_gearbox_right_front",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "Representative TT gearmotor; exact ELEGOO envelope unmeasured.",
+      "bbox_mm": [
+        25.0,
+        39.5,
+        23.5,
+        47.0,
+        82.5,
+        45.5
+      ],
+      "volume_mm3": 20736.460153515898,
+      "brep_valid": true
+    },
+    {
+      "name": "DC_motor_can_right_front",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        28.0,
+        78.0,
+        26.5,
+        44.0,
+        104.0,
+        42.5
+      ],
+      "volume_mm3": 5227.610175573415,
+      "brep_valid": true
+    },
+    {
+      "name": "Drive_shaft_right_front",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        43.0,
+        52.2,
+        29.7,
+        82.0,
+        57.8,
+        35.3
+      ],
+      "volume_mm3": 960.5733697616151,
+      "brep_valid": true
+    },
+    {
+      "name": "Aluminum_motor_block_right_front",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        21.5,
+        53.0,
+        22.5,
+        29.5,
+        69.0,
+        44.5
+      ],
+      "volume_mm3": 2462.131003499646,
+      "brep_valid": true
+    },
+    {
+      "name": "Motor_through_bolt_right_front_-1",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "",
+      "bbox_mm": [
+        21.0,
+        54.5,
+        33.0,
+        51.0,
+        57.5,
+        36.0
+      ],
+      "volume_mm3": 212.05750411731103,
+      "brep_valid": true
+    },
+    {
+      "name": "Motor_through_bolt_right_front_1",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "",
+      "bbox_mm": [
+        21.0,
+        64.5,
+        33.0,
+        51.0,
+        67.5,
+        36.0
+      ],
+      "volume_mm3": 212.05750411731108,
+      "brep_valid": true
+    },
+    {
+      "name": "Tire_right_front",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "65x26mm representative wheel; confirm actual diameter/width.",
+      "bbox_mm": [
+        59.0,
+        22.5,
+        0.0,
+        85.0,
+        87.5,
+        65.0
+      ],
+      "volume_mm3": 43604.82536815028,
+      "brep_valid": true
+    },
+    {
+      "name": "Wheel_hub_right_front",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        60.0,
+        32.25,
+        9.75,
+        84.0,
+        77.75,
+        55.25
+      ],
+      "volume_mm3": 31724.745093745805,
+      "brep_valid": true
+    },
+    {
+      "name": "Wheel_M2_fastener_right_front",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "",
+      "bbox_mm": [
+        85.0,
+        53.0,
+        30.5,
+        87.0,
+        57.0,
+        34.5
+      ],
+      "volume_mm3": 25.13274122871834,
+      "brep_valid": true
+    },
+    {
+      "name": "TT_gearbox_right_rear",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "Representative TT gearmotor; exact ELEGOO envelope unmeasured.",
+      "bbox_mm": [
+        25.0,
+        -86.5,
+        23.5,
+        47.0,
+        -43.5,
+        45.5
+      ],
+      "volume_mm3": 20736.460153515898,
+      "brep_valid": true
+    },
+    {
+      "name": "DC_motor_can_right_rear",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        28.0,
+        -108.0,
+        26.5,
+        44.0,
+        -82.0,
+        42.5
+      ],
+      "volume_mm3": 5227.610175573415,
+      "brep_valid": true
+    },
+    {
+      "name": "Drive_shaft_right_rear",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        43.0,
+        -61.8,
+        29.7,
+        82.0,
+        -56.2,
+        35.3
+      ],
+      "volume_mm3": 960.5733697616151,
+      "brep_valid": true
+    },
+    {
+      "name": "Aluminum_motor_block_right_rear",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        21.5,
+        -73.0,
+        22.5,
+        29.5,
+        -57.0,
+        44.5
+      ],
+      "volume_mm3": 2462.131003499646,
+      "brep_valid": true
+    },
+    {
+      "name": "Motor_through_bolt_right_rear_-1",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "",
+      "bbox_mm": [
+        21.0,
+        -71.5,
+        33.0,
+        51.0,
+        -68.5,
+        36.0
+      ],
+      "volume_mm3": 212.05750411731108,
+      "brep_valid": true
+    },
+    {
+      "name": "Motor_through_bolt_right_rear_1",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "",
+      "bbox_mm": [
+        21.0,
+        -61.5,
+        33.0,
+        51.0,
+        -58.5,
+        36.0
+      ],
+      "volume_mm3": 212.05750411731103,
+      "brep_valid": true
+    },
+    {
+      "name": "Tire_right_rear",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "65x26mm representative wheel; confirm actual diameter/width.",
+      "bbox_mm": [
+        59.0,
+        -91.5,
+        0.0,
+        85.0,
+        -26.5,
+        65.0
+      ],
+      "volume_mm3": 43604.82536815031,
+      "brep_valid": true
+    },
+    {
+      "name": "Wheel_hub_right_rear",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        60.0,
+        -81.75,
+        9.75,
+        84.0,
+        -36.25,
+        55.25
+      ],
+      "volume_mm3": 31724.745093745805,
+      "brep_valid": true
+    },
+    {
+      "name": "Wheel_M2_fastener_right_rear",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "",
+      "bbox_mm": [
+        85.0,
+        -61.0,
+        30.5,
+        87.0,
+        -57.0,
+        34.5
+      ],
+      "volume_mm3": 25.13274122871834,
+      "brep_valid": true
+    },
+    {
+      "name": "UNO_spacer_1",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "5mm spacer height is an envelope assumption.",
+      "bbox_mm": [
+        34.35401455383301,
+        -9.866821886459476,
+        66.70522212982178,
+        40.35401455383301,
+        -3.8668218864594763,
+        71.70522212982178
+      ],
+      "volume_mm3": 90.47786842338606,
+      "brep_valid": true
+    },
+    {
+      "name": "UNO_M3_screw_1",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "",
+      "bbox_mm": [
+        34.59401455383301,
+        -9.626821886459476,
+        59.30522212982177,
+        40.11401455383301,
+        -4.1068218864594765,
+        75.70522212982178
+      ],
+      "volume_mm3": 156.395519463244,
+      "brep_valid": true
+    },
+    {
+      "name": "UNO_spacer_2",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "5mm spacer height is an envelope assumption.",
+      "bbox_mm": [
+        -17.305777256898175,
+        -14.363827619621489,
+        66.70522212982178,
+        -11.305777256898175,
+        -8.363827619621489,
+        71.70522212982178
+      ],
+      "volume_mm3": 90.47786842338603,
+      "brep_valid": true
+    },
+    {
+      "name": "UNO_M3_screw_2",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -17.065777256898176,
+        -14.123827619621489,
+        59.30522212982177,
+        -11.545777256898175,
+        -8.60382761962149,
+        75.70522212982178
+      ],
+      "volume_mm3": 156.39551946324403,
+      "brep_valid": true
+    },
+    {
+      "name": "UNO_spacer_3",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "5mm spacer height is an envelope assumption.",
+      "bbox_mm": [
+        34.35400995116973,
+        18.000182148649998,
+        66.70522212982178,
+        40.35400995116973,
+        24.000182148649998,
+        71.70522212982178
+      ],
+      "volume_mm3": 90.47786842338607,
+      "brep_valid": true
+    },
+    {
+      "name": "UNO_M3_screw_3",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "",
+      "bbox_mm": [
+        34.59400995116973,
+        18.240182148649996,
+        59.30522212982177,
+        40.11400995116973,
+        23.76018214865,
+        75.70522212982178
+      ],
+      "volume_mm3": 156.39551946324397,
+      "brep_valid": true
+    },
+    {
+      "name": "UNO_R3_PCB",
+      "group": "Stock_hardware_reference",
+      "evidence": "nominal_board_envelope_with_source_mount_centers",
+      "notes": "68.6x53.4mm nominal UNO board. Local board details simplified, not a PCB fabrication model.",
+      "bbox_mm": [
+        -23.799999999999997,
+        -22.7,
+        71.70522212982178,
+        44.8,
+        30.7,
+        73.30522212982177
+      ],
+      "volume_mm3": 5806.832144034325,
+      "brep_valid": true
+    },
+    {
+      "name": "UNO_USB_B_connector",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        27.5,
+        6.0,
+        73.30522212982177,
+        43.5,
+        18.0,
+        84.30522212982177
+      ],
+      "volume_mm3": 2112.0,
+      "brep_valid": true
+    },
+    {
+      "name": "UNO_barrel_connector",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        29.0,
+        -14.5,
+        73.30522212982177,
+        42.0,
+        -5.5,
+        84.30522212982177
+      ],
+      "volume_mm3": 1287.0,
+      "brep_valid": true
+    },
+    {
+      "name": "UNO_header_-1",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -19.5,
+        -20.5,
+        73.30522212982177,
+        32.5,
+        -17.5,
+        81.80522212982177
+      ],
+      "volume_mm3": 1326.0,
+      "brep_valid": true
+    },
+    {
+      "name": "UNO_header_1",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -19.5,
+        25.5,
+        73.30522212982177,
+        32.5,
+        28.5,
+        81.80522212982177
+      ],
+      "volume_mm3": 1326.0,
+      "brep_valid": true
+    },
+    {
+      "name": "UNO_ATmega_reference",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -11.5,
+        0.5,
+        73.30522212982177,
+        20.5,
+        7.5,
+        77.30522212982177
+      ],
+      "volume_mm3": 896.0,
+      "brep_valid": true
+    },
+    {
+      "name": "SmartRobot_motor_expansion_shield_PCB",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "Board outline/connector locations estimated from manual; no complete mechanical drawing supplied.",
+      "bbox_mm": [
+        -24.0,
+        -22.5,
+        83.70522212982178,
+        45.0,
+        30.5,
+        85.30522212982177
+      ],
+      "volume_mm3": 5845.706192982954,
+      "brep_valid": true
+    },
+    {
+      "name": "Shield_XH_connector_1",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -12.5,
+        -12.5,
+        85.30522212982177,
+        -4.5,
+        -5.5,
+        92.30522212982177
+      ],
+      "volume_mm3": 392.0,
+      "brep_valid": true
+    },
+    {
+      "name": "Shield_XH_connector_2",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        0.5,
+        -12.5,
+        85.30522212982177,
+        8.5,
+        -5.5,
+        92.30522212982177
+      ],
+      "volume_mm3": 392.0,
+      "brep_valid": true
+    },
+    {
+      "name": "Shield_XH_connector_3",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        13.5,
+        -12.5,
+        85.30522212982177,
+        21.5,
+        -5.5,
+        92.30522212982177
+      ],
+      "volume_mm3": 392.0,
+      "brep_valid": true
+    },
+    {
+      "name": "Shield_XH_connector_4",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        26.5,
+        -12.5,
+        85.30522212982177,
+        34.5,
+        -5.5,
+        92.30522212982177
+      ],
+      "volume_mm3": 392.0,
+      "brep_valid": true
+    },
+    {
+      "name": "Shield_XH_connector_5",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -12.5,
+        4.5,
+        85.30522212982177,
+        -4.5,
+        11.5,
+        92.30522212982177
+      ],
+      "volume_mm3": 392.0,
+      "brep_valid": true
+    },
+    {
+      "name": "Shield_XH_connector_6",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        0.5,
+        4.5,
+        85.30522212982177,
+        8.5,
+        11.5,
+        92.30522212982177
+      ],
+      "volume_mm3": 392.0,
+      "brep_valid": true
+    },
+    {
+      "name": "Shield_XH_connector_7",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        13.5,
+        4.5,
+        85.30522212982177,
+        21.5,
+        11.5,
+        92.30522212982177
+      ],
+      "volume_mm3": 392.0,
+      "brep_valid": true
+    },
+    {
+      "name": "Shield_XH_connector_8",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        26.5,
+        4.5,
+        85.30522212982177,
+        34.5,
+        11.5,
+        92.30522212982177
+      ],
+      "volume_mm3": 392.0,
+      "brep_valid": true
+    },
+    {
+      "name": "Shield_IR_receiver",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        34.5,
+        23.0,
+        85.30522212982177,
+        40.5,
+        27.0,
+        93.30522212982177
+      ],
+      "volume_mm3": 192.0,
+      "brep_valid": true
+    },
+    {
+      "name": "Shield_mode_button",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        25.5,
+        19.0,
+        85.30522212982177,
+        31.5,
+        25.0,
+        88.30522212982177
+      ],
+      "volume_mm3": 84.82300164692441,
+      "brep_valid": true
+    },
+    {
+      "name": "Shield_RGB_LED",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -14.0,
+        17.5,
+        85.30522212982177,
+        -9.0,
+        22.5,
+        87.30522212982177
+      ],
+      "volume_mm3": 49.99999999999999,
+      "brep_valid": true
+    },
+    {
+      "name": "Shield_motor_driver_reference",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        2.5,
+        14.0,
+        85.30522212982177,
+        10.5,
+        20.0,
+        87.30522212982177
+      ],
+      "volume_mm3": 96.0,
+      "brep_valid": true
+    },
+    {
+      "name": "GY521_MPU6050_module_PCB",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "Original20201116 manual revision; some V4 shield revisions differ.",
+      "bbox_mm": [
+        -18.5,
+        8.5,
+        93.70522212982178,
+        1.5,
+        23.5,
+        95.30522212982177
+      ],
+      "volume_mm3": 479.9999999999983,
+      "brep_valid": true
+    },
+    {
+      "name": "GY521_sensor_package",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -10.5,
+        14.0,
+        95.30522212982177,
+        -6.5,
+        18.0,
+        96.80522212982177
+      ],
+      "volume_mm3": 24.0,
+      "brep_valid": true
+    },
+    {
+      "name": "GY521_M3x11_pillar",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -17.1,
+        13.4,
+        85.30522212982177,
+        -11.9,
+        18.6,
+        94.30522212982177
+      ],
+      "volume_mm3": 127.5172458092097,
+      "brep_valid": true
+    },
+    {
+      "name": "Battery_M3_screw_-1",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -40.76,
+        -83.9,
+        57.70522212982178,
+        -35.24,
+        -78.38,
+        72.10522212982178
+      ],
+      "volume_mm3": 142.25835252208995,
+      "brep_valid": true
+    },
+    {
+      "name": "Battery_M3_screw_1",
+      "group": "Stock_hardware_reference",
+      "evidence": "documented_nominal_hardware",
+      "notes": "",
+      "bbox_mm": [
+        35.24,
+        -83.9,
+        57.70522212982178,
+        40.76,
+        -78.38,
+        72.10522212982178
+      ],
+      "volume_mm3": 142.25835252208995,
+      "brep_valid": true
+    },
+    {
+      "name": "Battery_enclosure_LiIon_reference",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "Estimated70x52x22mm case; internal cells not modeled. Check enclosure, charging port and switch on your kit.",
+      "bbox_mm": [
+        -43.0,
+        -107.14,
+        66.70522212982178,
+        43.0,
+        -55.14,
+        88.70522212982178
+      ],
+      "volume_mm3": 80256.4531957393,
+      "brep_valid": true
+    },
+    {
+      "name": "Battery_power_switch",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        16.0,
+        -109.39,
+        74.70522212982178,
+        24.0,
+        -106.89,
+        79.70522212982178
+      ],
+      "volume_mm3": 99.99999999999997,
+      "brep_valid": true
+    },
+    {
+      "name": "Battery_charge_port",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -19.0,
+        -109.39,
+        73.70522212982178,
+        -11.0,
+        -106.89,
+        77.70522212982178
+      ],
+      "volume_mm3": 79.99999999999999,
+      "brep_valid": true
+    },
+    {
+      "name": "Line_sensor_spacer_15",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        17.299894026227662,
+        77.10815406613474,
+        13.0,
+        23.299894026227662,
+        83.10815406613474,
+        18.0
+      ],
+      "volume_mm3": 93.266031903447,
+      "brep_valid": true
+    },
+    {
+      "name": "Line_sensor_spacer_16",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -23.300106190280523,
+        77.1081541607933,
+        13.0,
+        -17.300106190280523,
+        83.1081541607933,
+        18.0
+      ],
+      "volume_mm3": 93.266031903447,
+      "brep_valid": true
+    },
+    {
+      "name": "Line_sensor_spacer_23",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -23.299985586512168,
+        102.70817722814758,
+        13.0,
+        -17.299985586512168,
+        108.70817722814758,
+        18.0
+      ],
+      "volume_mm3": 93.26603190344699,
+      "brep_valid": true
+    },
+    {
+      "name": "Line_sensor_spacer_24",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        17.29994517445313,
+        102.70826370638972,
+        13.0,
+        23.29994517445313,
+        108.70826370638972,
+        18.0
+      ],
+      "volume_mm3": 93.266031903447,
+      "brep_valid": true
+    },
+    {
+      "name": "Line_tracking_PCB",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "Board perimeter estimated; source lower mounting row used.",
+      "bbox_mm": [
+        -24.0,
+        77.0,
+        11.4,
+        24.0,
+        109.0,
+        13.0
+      ],
+      "volume_mm3": 2386.9621277181363,
+      "brep_valid": true
+    },
+    {
+      "name": "Line_sensor_1_ITR20001",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -19.0,
+        100.5,
+        5.4,
+        -13.0,
+        105.5,
+        11.4
+      ],
+      "volume_mm3": 180.0,
+      "brep_valid": true
+    },
+    {
+      "name": "Line_sensor_2_ITR20001",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -3.0,
+        100.5,
+        5.4,
+        3.0,
+        105.5,
+        11.4
+      ],
+      "volume_mm3": 180.0,
+      "brep_valid": true
+    },
+    {
+      "name": "Line_sensor_3_ITR20001",
+      "group": "Stock_hardware_reference",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        13.0,
+        100.5,
+        5.4,
+        19.0,
+        105.5,
+        11.4
+      ],
+      "volume_mm3": 180.0,
+      "brep_valid": true
+    },
+    {
+      "name": "SG90_body_explorer",
+      "group": "Head_explorer",
+      "evidence": "nominal_component_envelope",
+      "notes": "Body passes through mounting plate; exact servo mounting geometry unmeasured.",
+      "bbox_mm": [
+        -7.000185,
+        75.189175,
+        46.90522212982178,
+        5.199815,
+        98.189175,
+        69.90522212982178
+      ],
+      "volume_mm3": 6441.16424386084,
+      "brep_valid": true
+    },
+    {
+      "name": "SG90_mounting_ears_explorer",
+      "group": "Head_explorer",
+      "evidence": "nominal_component_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -7.000185,
+        70.689175,
+        69.90522212982178,
+        5.199814999999999,
+        102.689175,
+        71.90522212982178
+      ],
+      "volume_mm3": 762.7044263153227,
+      "brep_valid": true
+    },
+    {
+      "name": "SG90_output_boss_explorer",
+      "group": "Head_explorer",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -4.9001850000000005,
+        77.189175,
+        71.90522212982178,
+        3.099815,
+        85.189175,
+        76.90522212982178
+      ],
+      "volume_mm3": 251.32741228718342,
+      "brep_valid": true
+    },
+    {
+      "name": "Servo_horn_explorer",
+      "group": "Head_explorer",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -8.900185,
+        73.189175,
+        76.90522212982178,
+        7.0998149999999995,
+        89.189175,
+        78.90522212982178
+      ],
+      "volume_mm3": 402.1238596594935,
+      "brep_valid": true
+    },
+    {
+      "name": "OEM_sonar_head_bracket_explorer",
+      "group": "Head_explorer",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -21.900185,
+        71.689175,
+        78.90522212982178,
+        20.099815,
+        90.689175,
+        112.90522212982178
+      ],
+      "volume_mm3": 6300.0,
+      "brep_valid": true
+    },
+    {
+      "name": "HC_SR04_PCB_explorer",
+      "group": "Head_explorer",
+      "evidence": "nominal_component_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -23.650185,
+        74.88917500000001,
+        86.90522212982178,
+        21.849815,
+        76.489175,
+        106.90522212982178
+      ],
+      "volume_mm3": 1455.9999999999984,
+      "brep_valid": true
+    },
+    {
+      "name": "Ultrasonic_transducer_-1_explorer",
+      "group": "Head_explorer",
+      "evidence": "nominal_component_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -21.900185,
+        76.489175,
+        88.90522212982178,
+        -5.9001850000000005,
+        88.489175,
+        104.90522212982178
+      ],
+      "volume_mm3": 819.9556825869361,
+      "brep_valid": true
+    },
+    {
+      "name": "Ultrasonic_mesh_-1_explorer",
+      "group": "Head_explorer",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -20.400185,
+        87.88917500000001,
+        90.40522212982178,
+        -7.4001850000000005,
+        88.489175,
+        103.40522212982178
+      ],
+      "volume_mm3": 79.63937376850097,
+      "brep_valid": true
+    },
+    {
+      "name": "Ultrasonic_transducer_1_explorer",
+      "group": "Head_explorer",
+      "evidence": "nominal_component_envelope",
+      "notes": "",
+      "bbox_mm": [
+        4.0998149999999995,
+        76.489175,
+        88.90522212982178,
+        20.099815,
+        88.489175,
+        104.90522212982178
+      ],
+      "volume_mm3": 819.9556825869367,
+      "brep_valid": true
+    },
+    {
+      "name": "Ultrasonic_mesh_1_explorer",
+      "group": "Head_explorer",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        5.5998149999999995,
+        87.88917500000001,
+        90.40522212982178,
+        18.599815,
+        88.489175,
+        103.40522212982178
+      ],
+      "volume_mm3": 79.63937376850097,
+      "brep_valid": true
+    },
+    {
+      "name": "Camera_support_bracket_explorer",
+      "group": "Head_explorer",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -17.900185,
+        70.689175,
+        107.90522212982178,
+        16.099815,
+        73.689175,
+        172.90522212982177
+      ],
+      "volume_mm3": 3731.999999999998,
+      "brep_valid": true
+    },
+    {
+      "name": "ESP32_camera_PCB_explorer",
+      "group": "Head_explorer",
+      "evidence": "estimated_envelope",
+      "notes": "Complete camera-board envelope estimated; ESP32 radio datasheet is not a camera PCB drawing.",
+      "bbox_mm": [
+        -14.900185,
+        75.38917500000001,
+        110.90522212982178,
+        13.099815,
+        76.989175,
+        170.90522212982177
+      ],
+      "volume_mm3": 2687.9999999999964,
+      "brep_valid": true
+    },
+    {
+      "name": "ESP32_WROVER_radio_module_explorer",
+      "group": "Head_explorer",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -9.900185,
+        72.189175,
+        113.90522212982178,
+        8.099815,
+        75.189175,
+        137.90522212982177
+      ],
+      "volume_mm3": 1295.9999999999993,
+      "brep_valid": true
+    },
+    {
+      "name": "Camera_lens_explorer",
+      "group": "Head_explorer",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -5.4001850000000005,
+        77.189175,
+        157.40522212982177,
+        3.599815,
+        85.189175,
+        166.40522212982177
+      ],
+      "volume_mm3": 508.9380098815461,
+      "brep_valid": true
+    },
+    {
+      "name": "Camera_XH_connector_explorer",
+      "group": "Head_explorer",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -6.9001850000000005,
+        73.689175,
+        110.90522212982178,
+        5.0998149999999995,
+        80.689175,
+        115.90522212982178
+      ],
+      "volume_mm3": 420.0,
+      "brep_valid": true
+    },
+    {
+      "name": "Head_cable_route_explorer",
+      "group": "Cable_routes_reference",
+      "evidence": "schematic_route",
+      "notes": "",
+      "bbox_mm": [
+        -1.800185,
+        19.79762644397112,
+        81.01664645091047,
+        10.9,
+        71.33211996440001,
+        95.58217420594694
+      ],
+      "volume_mm3": 141.43307587132628,
+      "brep_valid": true
+    },
+    {
+      "name": "01_slotted_deck",
+      "group": "PLA_accessories",
+      "evidence": "new_design",
+      "notes": "Four slots match the rear/middle source top-plate mounts. Service opening over UNO, M3 accessory interfaces.",
+      "bbox_mm": [
+        -63.0,
+        -94.0,
+        102.70522212982178,
+        63.0,
+        10.000000000000002,
+        105.90522212982178
+      ],
+      "volume_mm3": 29594.39136177694,
+      "brep_valid": true
+    },
+    {
+      "name": "Deck_spacer_1",
+      "group": "PLA_accessories",
+      "evidence": "new_design",
+      "notes": "",
+      "bbox_mm": [
+        51.544415226323096,
+        -6.666822445462017,
+        66.70522212982178,
+        61.544415226323096,
+        3.3331775545379827,
+        102.70522212982178
+      ],
+      "volume_mm3": 2481.072798172539,
+      "brep_valid": true
+    },
+    {
+      "name": "Deck_M3x50_screw_1",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "Check actual pillar thread depth. Nominal6.3mm engagement at modeled stack.",
+      "bbox_mm": [
+        53.7844152263231,
+        -4.426822445462017,
+        55.90522212982178,
+        59.304415226323094,
+        1.093177554537983,
+        108.30522212982179
+      ],
+      "volume_mm3": 410.86452440401723,
+      "brep_valid": true
+    },
+    {
+      "name": "Deck_spacer_2",
+      "group": "PLA_accessories",
+      "evidence": "new_design",
+      "notes": "",
+      "bbox_mm": [
+        -60.45596512702609,
+        -7.656526326535676,
+        66.70522212982178,
+        -50.45596512702609,
+        2.343473673464324,
+        102.70522212982178
+      ],
+      "volume_mm3": 2481.072798172539,
+      "brep_valid": true
+    },
+    {
+      "name": "Deck_M3x50_screw_2",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "Check actual pillar thread depth. Nominal6.3mm engagement at modeled stack.",
+      "bbox_mm": [
+        -58.21596512702609,
+        -5.416526326535676,
+        55.90522212982178,
+        -52.69596512702609,
+        0.10347367346432401,
+        108.30522212982179
+      ],
+      "volume_mm3": 410.86452440401723,
+      "brep_valid": true
+    },
+    {
+      "name": "Deck_spacer_3",
+      "group": "PLA_accessories",
+      "evidence": "new_design",
+      "notes": "",
+      "bbox_mm": [
+        51.54401468311008,
+        -87.66682255836479,
+        66.70522212982178,
+        61.54401468311008,
+        -77.66682255836479,
+        102.70522212982178
+      ],
+      "volume_mm3": 2481.072798172539,
+      "brep_valid": true
+    },
+    {
+      "name": "Deck_M3x50_screw_3",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "Check actual pillar thread depth. Nominal6.3mm engagement at modeled stack.",
+      "bbox_mm": [
+        53.78401468311008,
+        -85.42682255836479,
+        55.90522212982178,
+        59.304014683110076,
+        -79.90682255836478,
+        108.30522212982179
+      ],
+      "volume_mm3": 410.86452440401735,
+      "brep_valid": true
+    },
+    {
+      "name": "Deck_spacer_4",
+      "group": "PLA_accessories",
+      "evidence": "new_design",
+      "notes": "",
+      "bbox_mm": [
+        -60.455985131350815,
+        -87.6668225583648,
+        66.70522212982178,
+        -50.455985131350815,
+        -77.6668225583648,
+        102.70522212982178
+      ],
+      "volume_mm3": 2481.072798172539,
+      "brep_valid": true
+    },
+    {
+      "name": "Deck_M3x50_screw_4",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "Check actual pillar thread depth. Nominal6.3mm engagement at modeled stack.",
+      "bbox_mm": [
+        -58.21598513135081,
+        -85.4268225583648,
+        55.90522212982178,
+        -52.69598513135082,
+        -79.9068225583648,
+        108.30522212982179
+      ],
+      "volume_mm3": 410.8645244040173,
+      "brep_valid": true
+    },
+    {
+      "name": "Side_guard_screw_-1_1",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -59.76,
+        -64.76,
+        95.90522212982178,
+        -54.24,
+        -59.24,
+        108.30522212982179
+      ],
+      "volume_mm3": 128.1211855809359,
+      "brep_valid": true
+    },
+    {
+      "name": "Side_guard_nut_-1_1",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -60.175,
+        -64.74963065701559,
+        97.10522212982178,
+        -53.824999999999996,
+        -59.250369342984406,
+        99.50522212982179
+      ],
+      "volume_mm3": 44.74213357877763,
+      "brep_valid": true
+    },
+    {
+      "name": "Side_guard_screw_-1_2",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -59.76,
+        -30.76,
+        95.90522212982178,
+        -54.24,
+        -25.24,
+        108.30522212982179
+      ],
+      "volume_mm3": 128.12118558093587,
+      "brep_valid": true
+    },
+    {
+      "name": "Side_guard_nut_-1_2",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -60.175,
+        -30.749630657015594,
+        97.10522212982178,
+        -53.824999999999996,
+        -25.250369342984406,
+        99.50522212982179
+      ],
+      "volume_mm3": 44.74213357877766,
+      "brep_valid": true
+    },
+    {
+      "name": "Side_guard_screw_1_1",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        54.24,
+        -64.76,
+        95.90522212982178,
+        59.76,
+        -59.24,
+        108.30522212982179
+      ],
+      "volume_mm3": 128.1211855809359,
+      "brep_valid": true
+    },
+    {
+      "name": "Side_guard_nut_1_1",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        53.825,
+        -64.74963065701559,
+        97.10522212982178,
+        60.175000000000004,
+        -59.250369342984406,
+        99.50522212982179
+      ],
+      "volume_mm3": 44.74213357877763,
+      "brep_valid": true
+    },
+    {
+      "name": "Side_guard_screw_1_2",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        54.24,
+        -30.76,
+        95.90522212982178,
+        59.76,
+        -25.24,
+        108.30522212982179
+      ],
+      "volume_mm3": 128.12118558093587,
+      "brep_valid": true
+    },
+    {
+      "name": "Side_guard_nut_1_2",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        53.825,
+        -30.749630657015594,
+        97.10522212982178,
+        60.175000000000004,
+        -25.250369342984406,
+        99.50522212982179
+      ],
+      "volume_mm3": 44.74213357877766,
+      "brep_valid": true
+    },
+    {
+      "name": "05_front_guard",
+      "group": "PLA_accessories",
+      "evidence": "new_design",
+      "notes": "Rigid PLA contact guard; apply foam tape. No automatic contact detection. Front attachment uses4mm spacers.",
+      "bbox_mm": [
+        -84.75,
+        74.4371763817928,
+        70.70522212982178,
+        85.25,
+        130.5,
+        84.70522212982178
+      ],
+      "volume_mm3": 27932.34457910807,
+      "brep_valid": true
+    },
+    {
+      "name": "Guard_spacer_1",
+      "group": "PLA_accessories",
+      "evidence": "new_design",
+      "notes": "",
+      "bbox_mm": [
+        48.05000956929696,
+        77.73718696795491,
+        66.70522212982178,
+        57.45000956929697,
+        87.13718696795492,
+        70.70522212982178
+      ],
+      "volume_mm3": 239.10661686471914,
+      "brep_valid": true
+    },
+    {
+      "name": "Guard_spacer_2",
+      "group": "PLA_accessories",
+      "evidence": "new_design",
+      "notes": "",
+      "bbox_mm": [
+        -56.94998042881052,
+        77.73717638179279,
+        66.70522212982178,
+        -47.549980428810514,
+        87.1371763817928,
+        70.70522212982178
+      ],
+      "volume_mm3": 239.10661686471914,
+      "brep_valid": true
+    },
+    {
+      "name": "Downward_carrier_-1",
+      "group": "PLA_accessories",
+      "evidence": "new_design",
+      "notes": "",
+      "bbox_mm": [
+        -46.5,
+        111.5,
+        67.70522212982178,
+        -13.5,
+        148.5,
+        70.70522212982178
+      ],
+      "volume_mm3": 2835.44469366673,
+      "brep_valid": true
+    },
+    {
+      "name": "Downward_carrier_screw_-1_-6",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -38.76,
+        114.24,
+        64.70522212982178,
+        -33.24,
+        119.76,
+        77.10522212982178
+      ],
+      "volume_mm3": 128.12118558093587,
+      "brep_valid": true
+    },
+    {
+      "name": "Downward_carrier_nut_-1_-6",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -39.175,
+        114.25036934298441,
+        65.30522212982177,
+        -32.824999999999996,
+        119.74963065701559,
+        67.70522212982178
+      ],
+      "volume_mm3": 44.74213357877757,
+      "brep_valid": true
+    },
+    {
+      "name": "Downward_carrier_screw_-1_6",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -26.76,
+        114.24,
+        64.70522212982178,
+        -21.24,
+        119.76,
+        77.10522212982178
+      ],
+      "volume_mm3": 128.12118558093587,
+      "brep_valid": true
+    },
+    {
+      "name": "Downward_carrier_nut_-1_6",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -27.175,
+        114.25036934298441,
+        65.30522212982177,
+        -20.825,
+        119.74963065701559,
+        67.70522212982178
+      ],
+      "volume_mm3": 44.7421335787776,
+      "brep_valid": true
+    },
+    {
+      "name": "Downward_carrier_1",
+      "group": "PLA_accessories",
+      "evidence": "new_design",
+      "notes": "",
+      "bbox_mm": [
+        13.5,
+        111.5,
+        67.70522212982178,
+        46.5,
+        148.5,
+        70.70522212982178
+      ],
+      "volume_mm3": 2835.44469366673,
+      "brep_valid": true
+    },
+    {
+      "name": "Downward_carrier_screw_1_-6",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        21.24,
+        114.24,
+        64.70522212982178,
+        26.76,
+        119.76,
+        77.10522212982178
+      ],
+      "volume_mm3": 128.12118558093587,
+      "brep_valid": true
+    },
+    {
+      "name": "Downward_carrier_nut_1_-6",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        20.825,
+        114.25036934298441,
+        65.30522212982177,
+        27.175,
+        119.74963065701559,
+        67.70522212982178
+      ],
+      "volume_mm3": 44.7421335787776,
+      "brep_valid": true
+    },
+    {
+      "name": "Downward_carrier_screw_1_6",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        33.24,
+        114.24,
+        64.70522212982178,
+        38.76,
+        119.76,
+        77.10522212982178
+      ],
+      "volume_mm3": 128.12118558093587,
+      "brep_valid": true
+    },
+    {
+      "name": "Downward_carrier_nut_1_6",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        32.825,
+        114.25036934298441,
+        65.30522212982177,
+        39.175000000000004,
+        119.74963065701559,
+        67.70522212982178
+      ],
+      "volume_mm3": 44.74213357877757,
+      "brep_valid": true
+    },
+    {
+      "name": "07_rear_sensor_carrier",
+      "group": "PLA_accessories",
+      "evidence": "new_design",
+      "notes": "Universal strap/slot carrier. Match exact sensor PCB before drilling extra holes. Optical face points rearward.",
+      "bbox_mm": [
+        -17.0,
+        -95.0,
+        105.90522212982178,
+        17.0,
+        -81.0,
+        135.90522212982177
+      ],
+      "volume_mm3": 3792.722790911824,
+      "brep_valid": true
+    },
+    {
+      "name": "09_optional_servo_adapter",
+      "group": "PLA_accessories",
+      "evidence": "new_design",
+      "notes": "Optional replacement: remove stock Dead Plate. Top-plate3-hole row is sourced; SG90 opening/ear fit must be physically checked first.",
+      "bbox_mm": [
+        -13.0,
+        65.1892,
+        66.70522212982178,
+        24.0,
+        108.1892,
+        69.90522212982178
+      ],
+      "volume_mm3": 3937.546126512365,
+      "brep_valid": true
+    },
+    {
+      "name": "10_optional_pi4_tray",
+      "group": "PLA_accessories",
+      "evidence": "new_design",
+      "notes": "Optional Pi4B board adapter,85x56mm board and58x49mm hole pitch, holes offset toward left of board. No electrical power system included.",
+      "bbox_mm": [
+        -48.0,
+        -91.5,
+        109.90522212982178,
+        48.0,
+        -26.5,
+        118.70522212982178
+      ],
+      "volume_mm3": 12421.74383904074,
+      "brep_valid": true
+    },
+    {
+      "name": "Pi_tray_spacer_1",
+      "group": "PLA_accessories",
+      "evidence": "new_design",
+      "notes": "",
+      "bbox_mm": [
+        -47.8,
+        -78.3,
+        105.90522212982178,
+        -40.2,
+        -70.7,
+        109.90522212982178
+      ],
+      "volume_mm3": 142.97388166487136,
+      "brep_valid": true
+    },
+    {
+      "name": "Pi_tray_M3_screw_1",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -46.76,
+        -77.26,
+        98.70522212982178,
+        -41.24,
+        -71.74,
+        115.10522212982178
+      ],
+      "volume_mm3": 156.39551946324406,
+      "brep_valid": true
+    },
+    {
+      "name": "Pi_tray_M3_nut_1",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -47.175,
+        -77.24963065701559,
+        100.30522212982177,
+        -40.824999999999996,
+        -71.75036934298441,
+        102.70522212982178
+      ],
+      "volume_mm3": 44.74213357877757,
+      "brep_valid": true
+    },
+    {
+      "name": "Pi_tray_spacer_2",
+      "group": "PLA_accessories",
+      "evidence": "new_design",
+      "notes": "",
+      "bbox_mm": [
+        -47.8,
+        -47.3,
+        105.90522212982178,
+        -40.2,
+        -39.7,
+        109.90522212982178
+      ],
+      "volume_mm3": 142.97388166487139,
+      "brep_valid": true
+    },
+    {
+      "name": "Pi_tray_M3_screw_2",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -46.76,
+        -46.26,
+        98.70522212982178,
+        -41.24,
+        -40.74,
+        115.10522212982178
+      ],
+      "volume_mm3": 156.39551946324403,
+      "brep_valid": true
+    },
+    {
+      "name": "Pi_tray_M3_nut_2",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -47.175,
+        -46.249630657015594,
+        100.30522212982177,
+        -40.824999999999996,
+        -40.750369342984406,
+        102.70522212982178
+      ],
+      "volume_mm3": 44.74213357877768,
+      "brep_valid": true
+    },
+    {
+      "name": "Pi_tray_spacer_3",
+      "group": "PLA_accessories",
+      "evidence": "new_design",
+      "notes": "",
+      "bbox_mm": [
+        40.2,
+        -78.3,
+        105.90522212982178,
+        47.8,
+        -70.7,
+        109.90522212982178
+      ],
+      "volume_mm3": 142.97388166487136,
+      "brep_valid": true
+    },
+    {
+      "name": "Pi_tray_M3_screw_3",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        41.24,
+        -77.26,
+        98.70522212982178,
+        46.76,
+        -71.74,
+        115.10522212982178
+      ],
+      "volume_mm3": 156.39551946324406,
+      "brep_valid": true
+    },
+    {
+      "name": "Pi_tray_M3_nut_3",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        40.825,
+        -77.24963065701559,
+        100.30522212982177,
+        47.175000000000004,
+        -71.75036934298441,
+        102.70522212982178
+      ],
+      "volume_mm3": 44.74213357877757,
+      "brep_valid": true
+    },
+    {
+      "name": "Pi_tray_spacer_4",
+      "group": "PLA_accessories",
+      "evidence": "new_design",
+      "notes": "",
+      "bbox_mm": [
+        40.2,
+        -47.3,
+        105.90522212982178,
+        47.8,
+        -39.7,
+        109.90522212982178
+      ],
+      "volume_mm3": 142.97388166487139,
+      "brep_valid": true
+    },
+    {
+      "name": "Pi_tray_M3_screw_4",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        41.24,
+        -46.26,
+        98.70522212982178,
+        46.76,
+        -40.74,
+        115.10522212982178
+      ],
+      "volume_mm3": 156.39551946324403,
+      "brep_valid": true
+    },
+    {
+      "name": "Pi_tray_M3_nut_4",
+      "group": "Added_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        40.825,
+        -46.249630657015594,
+        100.30522212982177,
+        47.175000000000004,
+        -40.750369342984406,
+        102.70522212982178
+      ],
+      "volume_mm3": 44.742133578777675,
+      "brep_valid": true
+    },
+    {
+      "name": "OPTIONAL_Pi4B_PCB",
+      "group": "Optional_purchased_hardware",
+      "evidence": "nominal_board_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -42.5,
+        -87.0,
+        118.70522212982178,
+        42.5,
+        -31.0,
+        120.30522212982177
+      ],
+      "volume_mm3": 7568.232922236244,
+      "brep_valid": true
+    },
+    {
+      "name": "OPTIONAL_Pi4B_USB_stack",
+      "group": "Optional_purchased_hardware",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        25.5,
+        -80.0,
+        120.30522212982177,
+        42.5,
+        -50.0,
+        135.30522212982177
+      ],
+      "volume_mm3": 7650.0,
+      "brep_valid": true
+    },
+    {
+      "name": "OPTIONAL_Pi4B_Ethernet",
+      "group": "Optional_purchased_hardware",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        21.5,
+        -47.0,
+        120.30522212982177,
+        42.5,
+        -31.0,
+        133.30522212982177
+      ],
+      "volume_mm3": 4368.0,
+      "brep_valid": true
+    },
+    {
+      "name": "OPTIONAL_Pi4B_GPIO_header",
+      "group": "Optional_purchased_hardware",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -37.5,
+        -84.5,
+        120.30522212982177,
+        13.5,
+        -79.5,
+        128.80522212982177
+      ],
+      "volume_mm3": 2167.5,
+      "brep_valid": true
+    },
+    {
+      "name": "OPTIONAL_Pi4B_CPU",
+      "group": "Optional_purchased_hardware",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -7.5,
+        -64.5,
+        120.30522212982177,
+        7.5,
+        -49.5,
+        122.30522212982177
+      ],
+      "volume_mm3": 450.0,
+      "brep_valid": true
+    },
+    {
+      "name": "OPTIONAL_rear_ToF_board",
+      "group": "Optional_purchased_hardware",
+      "evidence": "estimated_envelope",
+      "notes": "Illustrative generic sensor PCB; carrier uses straps/slots, not claimed board-specific mounting.",
+      "bbox_mm": [
+        -13.5,
+        -97.8,
+        113.90522212982178,
+        13.5,
+        -96.2,
+        131.90522212982177
+      ],
+      "volume_mm3": 777.5999999999985,
+      "brep_valid": true
+    },
+    {
+      "name": "OPTIONAL_ToF_optical_package",
+      "group": "Optional_purchased_hardware",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -2.5,
+        -100.0,
+        125.90522212982178,
+        2.5,
+        -98.0,
+        128.90522212982177
+      ],
+      "volume_mm3": 29.99999999999985,
+      "brep_valid": true
+    },
+    {
+      "name": "OPTIONAL_floor_ToF_board_-1",
+      "group": "Optional_purchased_hardware",
+      "evidence": "estimated_envelope",
+      "notes": "Illustrative board beneath carrier, tied through carrier slots; exact optical position and clearance need verification.",
+      "bbox_mm": [
+        -43.5,
+        127.5,
+        64.10522212982178,
+        -16.5,
+        145.5,
+        65.70522212982178
+      ],
+      "volume_mm3": 777.5999999999973,
+      "brep_valid": true
+    },
+    {
+      "name": "OPTIONAL_floor_ToF_optic_-1",
+      "group": "Optional_purchased_hardware",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        -32.5,
+        135.0,
+        62.105222129821776,
+        -27.5,
+        138.0,
+        64.10522212982178
+      ],
+      "volume_mm3": 30.000000000000107,
+      "brep_valid": true
+    },
+    {
+      "name": "OPTIONAL_floor_ToF_board_1",
+      "group": "Optional_purchased_hardware",
+      "evidence": "estimated_envelope",
+      "notes": "Illustrative board beneath carrier, tied through carrier slots; exact optical position and clearance need verification.",
+      "bbox_mm": [
+        16.5,
+        127.5,
+        64.10522212982178,
+        43.5,
+        145.5,
+        65.70522212982178
+      ],
+      "volume_mm3": 777.5999999999973,
+      "brep_valid": true
+    },
+    {
+      "name": "OPTIONAL_floor_ToF_optic_1",
+      "group": "Optional_purchased_hardware",
+      "evidence": "estimated_envelope",
+      "notes": "",
+      "bbox_mm": [
+        27.5,
+        135.0,
+        62.105222129821776,
+        32.5,
+        138.0,
+        64.10522212982178
+      ],
+      "volume_mm3": 30.000000000000107,
+      "brep_valid": true
+    },
+    {
+      "name": "body_01_left_side",
+      "group": "PLA_body",
+      "evidence": "new_design",
+      "notes": "Print broad exterior face down. Replaces the original short side guard. Wheel arches use a nominal 4 mm radial allowance; physical tire fit is unverified.",
+      "bbox_mm": [
+        -71.0,
+        -120.0,
+        20.0,
+        -50.0,
+        46.0,
+        144.0
+      ],
+      "volume_mm3": 41220.76120947933,
+      "brep_valid": true
+    },
+    {
+      "name": "body_02_right_side",
+      "group": "PLA_body",
+      "evidence": "new_design",
+      "notes": "Print broad exterior face down. Replaces the original short side guard. Wheel arches use a nominal 4 mm radial allowance; physical tire fit is unverified.",
+      "bbox_mm": [
+        50.0,
+        -120.0,
+        20.0,
+        71.0,
+        46.0,
+        144.0
+      ],
+      "volume_mm3": 36864.75878945192,
+      "brep_valid": true
+    },
+    {
+      "name": "body_03_rear_panel",
+      "group": "PLA_body",
+      "evidence": "new_design",
+      "notes": "Battery/switch opening and broad rear-sensor aperture. Four M3x12 screws/nuts. Remove the rear panel and roof for battery service; wiring is not modeled.",
+      "bbox_mm": [
+        -68.1,
+        -120.0,
+        20.0,
+        68.1,
+        -117.6,
+        144.0
+      ],
+      "volume_mm3": 27112.106996506183,
+      "brep_valid": true
+    },
+    {
+      "name": "body_04_front_bulkhead",
+      "group": "PLA_body",
+      "evidence": "new_design",
+      "notes": "Cabin front behind the camera/sonar head. Central cable relief. Four M3x12 screws/nuts; lower edge clears the source top plate by 1.5 mm.",
+      "bbox_mm": [
+        -68.1,
+        43.599999999999994,
+        68.20522212982178,
+        68.1,
+        46.0,
+        144.0
+      ],
+      "volume_mm3": 19663.552763223848,
+      "brep_valid": true
+    },
+    {
+      "name": "Body_end_M3x12_rear_-1_1",
+      "group": "Body_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -63.76,
+        -122.4,
+        82.24,
+        -58.24,
+        -108.0,
+        87.76
+      ],
+      "volume_mm3": 142.25835252208992,
+      "brep_valid": true
+    },
+    {
+      "name": "Body_end_M3_nut_rear_-1_1",
+      "group": "Body_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -64.175,
+        -113.6,
+        82.25036934298441,
+        -57.824999999999996,
+        -111.19999999999999,
+        87.7496306570156
+      ],
+      "volume_mm3": 44.74213357877762,
+      "brep_valid": true
+    },
+    {
+      "name": "Body_end_M3x12_rear_-1_2",
+      "group": "Body_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -63.76,
+        -122.4,
+        129.24,
+        -58.24,
+        -108.0,
+        134.76
+      ],
+      "volume_mm3": 142.25835252208995,
+      "brep_valid": true
+    },
+    {
+      "name": "Body_end_M3_nut_rear_-1_2",
+      "group": "Body_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -64.175,
+        -113.6,
+        129.2503693429844,
+        -57.824999999999996,
+        -111.19999999999999,
+        134.7496306570156
+      ],
+      "volume_mm3": 44.74213357877759,
+      "brep_valid": true
+    },
+    {
+      "name": "Body_end_M3x12_rear_1_1",
+      "group": "Body_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        58.24,
+        -122.4,
+        82.24,
+        63.76,
+        -108.0,
+        87.76
+      ],
+      "volume_mm3": 142.25835252208992,
+      "brep_valid": true
+    },
+    {
+      "name": "Body_end_M3_nut_rear_1_1",
+      "group": "Body_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        57.825,
+        -113.6,
+        82.25036934298441,
+        64.175,
+        -111.19999999999999,
+        87.7496306570156
+      ],
+      "volume_mm3": 44.74213357877762,
+      "brep_valid": true
+    },
+    {
+      "name": "Body_end_M3x12_rear_1_2",
+      "group": "Body_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        58.24,
+        -122.4,
+        129.24,
+        63.76,
+        -108.0,
+        134.76
+      ],
+      "volume_mm3": 142.25835252208995,
+      "brep_valid": true
+    },
+    {
+      "name": "Body_end_M3_nut_rear_1_2",
+      "group": "Body_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        57.825,
+        -113.6,
+        129.2503693429844,
+        64.175,
+        -111.19999999999999,
+        134.7496306570156
+      ],
+      "volume_mm3": 44.74213357877759,
+      "brep_valid": true
+    },
+    {
+      "name": "Body_end_M3x12_front_-1_1",
+      "group": "Body_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -63.76,
+        34.0,
+        82.24,
+        -58.24,
+        48.4,
+        87.76
+      ],
+      "volume_mm3": 142.25835252208987,
+      "brep_valid": true
+    },
+    {
+      "name": "Body_end_M3_nut_front_-1_1",
+      "group": "Body_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -64.175,
+        37.199999999999996,
+        82.25036934298441,
+        -57.824999999999996,
+        39.6,
+        87.74963065701559
+      ],
+      "volume_mm3": 44.74213357877758,
+      "brep_valid": true
+    },
+    {
+      "name": "Body_end_M3x12_front_-1_2",
+      "group": "Body_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -63.76,
+        34.0,
+        129.24,
+        -58.24,
+        48.4,
+        134.76
+      ],
+      "volume_mm3": 142.2583525220899,
+      "brep_valid": true
+    },
+    {
+      "name": "Body_end_M3_nut_front_-1_2",
+      "group": "Body_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -64.175,
+        37.199999999999996,
+        129.2503693429844,
+        -57.824999999999996,
+        39.6,
+        134.7496306570156
+      ],
+      "volume_mm3": 44.742133578777555,
+      "brep_valid": true
+    },
+    {
+      "name": "Body_end_M3x12_front_1_1",
+      "group": "Body_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        58.24,
+        34.0,
+        82.24,
+        63.76,
+        48.4,
+        87.76
+      ],
+      "volume_mm3": 142.25835252208987,
+      "brep_valid": true
+    },
+    {
+      "name": "Body_end_M3_nut_front_1_1",
+      "group": "Body_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        57.825,
+        37.199999999999996,
+        82.25036934298441,
+        64.175,
+        39.6,
+        87.74963065701559
+      ],
+      "volume_mm3": 44.74213357877758,
+      "brep_valid": true
+    },
+    {
+      "name": "Body_end_M3x12_front_1_2",
+      "group": "Body_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        58.24,
+        34.0,
+        129.24,
+        63.76,
+        48.4,
+        134.76
+      ],
+      "volume_mm3": 142.2583525220899,
+      "brep_valid": true
+    },
+    {
+      "name": "Body_end_M3_nut_front_1_2",
+      "group": "Body_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        57.825,
+        37.199999999999996,
+        129.2503693429844,
+        64.175,
+        39.6,
+        134.7496306570156
+      ],
+      "volume_mm3": 44.742133578777555,
+      "brep_valid": true
+    },
+    {
+      "name": "Body_roof_M3x10_-1_1",
+      "group": "Body_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -63.76,
+        -106.76,
+        136.8,
+        -58.24,
+        -101.24,
+        149.20000000000002
+      ],
+      "volume_mm3": 128.12118558093587,
+      "brep_valid": true
+    },
+    {
+      "name": "Body_roof_M3_nut_-1_1",
+      "group": "Body_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -64.175,
+        -106.74963065701559,
+        140.2,
+        -57.824999999999996,
+        -101.25036934298441,
+        142.6
+      ],
+      "volume_mm3": 44.74213357877756,
+      "brep_valid": true
+    },
+    {
+      "name": "Body_roof_M3x10_-1_2",
+      "group": "Body_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -63.76,
+        27.24,
+        136.8,
+        -58.24,
+        32.76,
+        149.20000000000002
+      ],
+      "volume_mm3": 128.12118558093587,
+      "brep_valid": true
+    },
+    {
+      "name": "Body_roof_M3_nut_-1_2",
+      "group": "Body_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        -64.175,
+        27.250369342984406,
+        140.2,
+        -57.824999999999996,
+        32.749630657015594,
+        142.6
+      ],
+      "volume_mm3": 44.74213357877767,
+      "brep_valid": true
+    },
+    {
+      "name": "Body_roof_M3x10_1_1",
+      "group": "Body_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        58.24,
+        -106.76,
+        136.8,
+        63.76,
+        -101.24,
+        149.20000000000002
+      ],
+      "volume_mm3": 128.12118558093587,
+      "brep_valid": true
+    },
+    {
+      "name": "Body_roof_M3_nut_1_1",
+      "group": "Body_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        57.825,
+        -106.74963065701559,
+        140.2,
+        64.175,
+        -101.25036934298441,
+        142.6
+      ],
+      "volume_mm3": 44.74213357877756,
+      "brep_valid": true
+    },
+    {
+      "name": "Body_roof_M3x10_1_2",
+      "group": "Body_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        58.24,
+        27.24,
+        136.8,
+        63.76,
+        32.76,
+        149.20000000000002
+      ],
+      "volume_mm3": 128.12118558093587,
+      "brep_valid": true
+    },
+    {
+      "name": "Body_roof_M3_nut_1_2",
+      "group": "Body_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "",
+      "bbox_mm": [
+        57.825,
+        27.250369342984406,
+        140.2,
+        64.175,
+        32.749630657015594,
+        142.6
+      ],
+      "volume_mm3": 44.74213357877767,
+      "brep_valid": true
+    },
+    {
+      "name": "body_05_removable_roof",
+      "group": "PLA_body",
+      "evidence": "new_design",
+      "notes": "Print outside face down. Four M3x10 screws into slide-in retained M3 nuts; open ventilation slots. The 40x20 mm hole grid is generic, not a sensor-specific mount. No gasket, weather seal or thermal qualification.",
+      "bbox_mm": [
+        -71.0,
+        -120.0,
+        144.0,
+        71.0,
+        46.0,
+        146.8
+      ],
+      "volume_mm3": 57413.82659647692,
+      "brep_valid": true
+    },
+    {
+      "name": "Body_nose_M3x20_1",
+      "group": "Body_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "Reuses the guard/pillar M3x20 screw raised by the bonnet thickness; nominal pillar engagement 5.1 mm at default dimensions. Check real thread depth.",
+      "bbox_mm": [
+        49.990009569296966,
+        79.67718696795491,
+        57.10522212982178,
+        55.51000956929696,
+        85.19718696795492,
+        79.50522212982179
+      ],
+      "volume_mm3": 198.80702028670623,
+      "brep_valid": true
+    },
+    {
+      "name": "Body_nose_M3x20_2",
+      "group": "Body_fasteners_reference",
+      "evidence": "proposed_hardware",
+      "notes": "Reuses the guard/pillar M3x20 screw raised by the bonnet thickness; nominal pillar engagement 5.1 mm at default dimensions. Check real thread depth.",
+      "bbox_mm": [
+        -55.009980428810515,
+        79.67717638179279,
+        57.10522212982178,
+        -49.48998042881052,
+        85.1971763817928,
+        79.50522212982179
+      ],
+      "volume_mm3": 198.8070202867062,
+      "brep_valid": true
+    },
+    {
+      "name": "body_06_front_cowl",
+      "group": "PLA_body",
+      "evidence": "new_design",
+      "notes": "Print the bonnet top face on the bed so skirts grow upward. R31 head opening; front passages clear floor carriers/guard arms. Four open 8 mm notches clear existing floor-carrier screw heads. Sits on existing front guard arms and reuses two M3x20 screws. Existing 4 mm guard shims are retained.",
+      "bbox_mm": [
+        -71.0,
+        46.599999999999994,
+        20.0,
+        71.0,
+        120.5,
+        77.10522212982178
+      ],
+      "volume_mm3": 32801.28508931468,
+      "brep_valid": true
+    }
+  ],
+  "printable_parts": [
+    {
+      "name": "body_01_left_side",
+      "quantity": 1,
+      "part_file": "body_01_left_side.stl",
+      "bbox_mm": [
+        124.00000000000001,
+        166.0,
+        21.000000000000014
+      ],
+      "solid_volume_mm3": 41220.76120947932,
+      "notes": "Print broad exterior face down. Replaces the original short side guard. Wheel arches use a nominal 4 mm radial allowance; physical tire fit is unverified.",
+      "brep_valid": true,
+      "mesh": {
+        "valid": true,
+        "vertices": 5311,
+        "triangles": 10710,
+        "edges": 16065,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          41226.28271301062
+        ],
+        "signed_volume_mm3": 41226.28271301062,
+        "surface_area_mm2": 37432.594064451434,
+        "bounds_mm": [
+          [
+            -1.9420207181221404e-16,
+            0.0,
+            -1.1605264649234535e-15
+          ],
+          [
+            124.0,
+            166.0,
+            21.000000000000014
+          ]
+        ],
+        "size_mm": [
+          124.0,
+          166.0,
+          21.000000000000014
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed"
+      }
+    },
+    {
+      "name": "body_02_right_side",
+      "quantity": 1,
+      "part_file": "body_02_right_side.stl",
+      "bbox_mm": [
+        124.0,
+        166.0,
+        21.000000000000014
+      ],
+      "solid_volume_mm3": 36864.75878945191,
+      "notes": "Print broad exterior face down. Replaces the original short side guard. Wheel arches use a nominal 4 mm radial allowance; physical tire fit is unverified.",
+      "brep_valid": true,
+      "mesh": {
+        "valid": true,
+        "vertices": 3516,
+        "triangles": 7088,
+        "edges": 10632,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          36870.1875639464
+        ],
+        "signed_volume_mm3": 36870.1875639464,
+        "surface_area_mm2": 33369.95665723843,
+        "bounds_mm": [
+          [
+            0.0,
+            0.0,
+            -1.1605264649234535e-15
+          ],
+          [
+            124.0,
+            166.0,
+            21.000000000000014
+          ]
+        ],
+        "size_mm": [
+          124.0,
+          166.0,
+          21.000000000000014
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed"
+      }
+    },
+    {
+      "name": "body_03_rear_panel",
+      "quantity": 1,
+      "part_file": "body_03_rear_panel.stl",
+      "bbox_mm": [
+        136.2,
+        124.0,
+        2.400000000000034
+      ],
+      "solid_volume_mm3": 27112.10699650617,
+      "notes": "Battery/switch opening and broad rear-sensor aperture. Four M3x12 screws/nuts. Remove the rear panel and roof for battery service; wiring is not modeled.",
+      "brep_valid": true,
+      "mesh": {
+        "valid": true,
+        "vertices": 2192,
+        "triangles": 4420,
+        "edges": 6630,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          27112.263149301176
+        ],
+        "signed_volume_mm3": 27112.263149301176,
+        "surface_area_mm2": 26682.73158558468,
+        "bounds_mm": [
+          [
+            0.0,
+            0.0,
+            -1.330013643580676e-16
+          ],
+          [
+            136.2,
+            123.99999999999999,
+            2.4000000000000203
+          ]
+        ],
+        "size_mm": [
+          136.2,
+          123.99999999999999,
+          2.4000000000000203
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed"
+      }
+    },
+    {
+      "name": "body_04_front_bulkhead",
+      "quantity": 1,
+      "part_file": "body_04_front_bulkhead.stl",
+      "bbox_mm": [
+        136.2,
+        75.79477787017822,
+        2.400000000000034
+      ],
+      "solid_volume_mm3": 19663.552763223845,
+      "notes": "Cabin front behind the camera/sonar head. Central cable relief. Four M3x12 screws/nuts; lower edge clears the source top plate by 1.5 mm.",
+      "brep_valid": true,
+      "mesh": {
+        "valid": true,
+        "vertices": 2192,
+        "triangles": 4420,
+        "edges": 6630,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          19663.693989597086
+        ],
+        "signed_volume_mm3": 19663.693989597086,
+        "surface_area_mm2": 18745.44229748254,
+        "bounds_mm": [
+          [
+            0.0,
+            0.0,
+            6.7729239467058325e-15
+          ],
+          [
+            136.2,
+            75.79477787017822,
+            2.4000000000000203
+          ]
+        ],
+        "size_mm": [
+          136.2,
+          75.79477787017822,
+          2.4000000000000137
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed"
+      }
+    },
+    {
+      "name": "body_05_removable_roof",
+      "quantity": 1,
+      "part_file": "body_05_removable_roof.stl",
+      "bbox_mm": [
+        142.0,
+        166.0,
+        2.800000000000032
+      ],
+      "solid_volume_mm3": 57413.82659647691,
+      "notes": "Print outside face down. Four M3x10 screws into slide-in retained M3 nuts; open ventilation slots. The 40x20 mm hole grid is generic, not a sensor-specific mount. No gasket, weather seal or thermal qualification.",
+      "brep_valid": true,
+      "mesh": {
+        "valid": true,
+        "vertices": 3632,
+        "triangles": 7324,
+        "edges": 10986,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          57414.15881593165
+        ],
+        "signed_volume_mm3": 57414.15881593165,
+        "surface_area_mm2": 46854.594176471845,
+        "bounds_mm": [
+          [
+            0.0,
+            0.0,
+            2.814628491013271e-14
+          ],
+          [
+            142.0,
+            166.0,
+            2.8000000000000402
+          ]
+        ],
+        "size_mm": [
+          142.0,
+          166.0,
+          2.8000000000000123
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed"
+      }
+    },
+    {
+      "name": "body_06_front_cowl",
+      "quantity": 1,
+      "part_file": "body_06_front_cowl.stl",
+      "bbox_mm": [
+        142.0,
+        73.9,
+        57.105222129821804
+      ],
+      "solid_volume_mm3": 32801.28508931469,
+      "notes": "Print the bonnet top face on the bed so skirts grow upward. R31 head opening; front passages clear floor carriers/guard arms. Four open 8 mm notches clear existing floor-carrier screw heads. Sits on existing front guard arms and reuses two M3x20 screws. Existing 4 mm guard shims are retained.",
+      "brep_valid": true,
+      "mesh": {
+        "valid": true,
+        "vertices": 1478,
+        "triangles": 2964,
+        "edges": 4446,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          32809.873564408714
+        ],
+        "signed_volume_mm3": 32809.873564408714,
+        "surface_area_mm2": 29736.072403490696,
+        "bounds_mm": [
+          [
+            -1.2771111322005574e-15,
+            0.0,
+            -1.2225748905895979e-16
+          ],
+          [
+            142.0,
+            73.9,
+            57.105222129821804
+          ]
+        ],
+        "size_mm": [
+          142.0,
+          73.9,
+          57.105222129821804
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed"
+      }
+    },
+    {
+      "name": "body_00_joint_side_sample",
+      "quantity": 1,
+      "part_file": "body_00_joint_side_sample.stl",
+      "bbox_mm": [
+        22.000000000000014,
+        24.0,
+        19.000000000000004
+      ],
+      "solid_volume_mm3": 2866.4006165838036,
+      "notes": "Small actual corner-tab sample; pair with rear-panel sample and one M3x12/nut. Also includes the real slide-in roof-nut pocket for fit testing. Checks printed hole/joint fit, not mounting coordinates or tire clearance.",
+      "brep_valid": true,
+      "mesh": {
+        "valid": true,
+        "vertices": 672,
+        "triangles": 1352,
+        "edges": 2028,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          2866.4419508848378
+        ],
+        "signed_volume_mm3": 2866.4419508848378,
+        "surface_area_mm2": 2559.368641040566,
+        "bounds_mm": [
+          [
+            1.4210854715202004e-14,
+            0.0,
+            0.0
+          ],
+          [
+            22.0,
+            24.0,
+            19.0
+          ]
+        ],
+        "size_mm": [
+          21.999999999999986,
+          24.0,
+          19.0
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed"
+      }
+    },
+    {
+      "name": "body_00_joint_rear_sample",
+      "quantity": 1,
+      "part_file": "body_00_joint_rear_sample.stl",
+      "bbox_mm": [
+        16.099999999999994,
+        22.0,
+        2.4000000000000226
+      ],
+      "solid_volume_mm3": 826.9892939961153,
+      "notes": "Pair with side sample; same 2.4 mm panel, 0.5 mm nominal seam and M3 hole as full body.",
+      "brep_valid": true,
+      "mesh": {
+        "valid": true,
+        "vertices": 218,
+        "triangles": 436,
+        "edges": 654,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          827.003072096461
+        ],
+        "signed_volume_mm3": 827.003072096461,
+        "surface_area_mm2": 898.434667908459,
+        "bounds_mm": [
+          [
+            0.0,
+            0.0,
+            -1.9420207181221404e-16
+          ],
+          [
+            16.099999999999994,
+            21.999999999999986,
+            2.4000000000000057
+          ]
+        ],
+        "size_mm": [
+          16.099999999999994,
+          21.999999999999986,
+          2.4000000000000057
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed"
+      }
+    }
+  ],
+  "print_packs": [
+    {
+      "file": "body_00_joint_check.3mf",
+      "parts": {
+        "body_00_joint_side_sample": 1,
+        "body_00_joint_rear_sample": 1
+      },
+      "bed_mm": [
+        180.0,
+        180.0
+      ],
+      "edge_margin_mm": 4,
+      "minimum_spacing_mm": 5
+    },
+    {
+      "file": "body_01_left_side.3mf",
+      "parts": {
+        "body_01_left_side": 1
+      },
+      "bed_mm": [
+        180.0,
+        180.0
+      ],
+      "edge_margin_mm": 4,
+      "minimum_spacing_mm": 5
+    },
+    {
+      "file": "body_02_right_side.3mf",
+      "parts": {
+        "body_02_right_side": 1
+      },
+      "bed_mm": [
+        180.0,
+        180.0
+      ],
+      "edge_margin_mm": 4,
+      "minimum_spacing_mm": 5
+    },
+    {
+      "file": "body_03_rear_panel.3mf",
+      "parts": {
+        "body_03_rear_panel": 1
+      },
+      "bed_mm": [
+        180.0,
+        180.0
+      ],
+      "edge_margin_mm": 4,
+      "minimum_spacing_mm": 5
+    },
+    {
+      "file": "body_04_front_bulkhead.3mf",
+      "parts": {
+        "body_04_front_bulkhead": 1
+      },
+      "bed_mm": [
+        180.0,
+        180.0
+      ],
+      "edge_margin_mm": 4,
+      "minimum_spacing_mm": 5
+    },
+    {
+      "file": "body_05_roof.3mf",
+      "parts": {
+        "body_05_removable_roof": 1
+      },
+      "bed_mm": [
+        180.0,
+        180.0
+      ],
+      "edge_margin_mm": 4,
+      "minimum_spacing_mm": 5
+    },
+    {
+      "file": "body_06_front_cowl.3mf",
+      "parts": {
+        "body_06_front_cowl": 1
+      },
+      "bed_mm": [
+        180.0,
+        180.0
+      ],
+      "edge_margin_mm": 4,
+      "minimum_spacing_mm": 5
+    }
+  ],
+  "step_exports": [
+    {
+      "solid_count": 195,
+      "volume_mm3": 1091723.1952939094,
+      "bbox_mm": [
+        -87.0,
+        -122.4,
+        0.0,
+        87.0,
+        148.5,
+        172.90522212982177
+      ],
+      "named_hierarchy": {
+        "root": "ELEGOO_V4_full_body_mm",
+        "groups": [
+          "OEM_chassis_from_supplied_meshes",
+          "Stock_hardware_reference",
+          "Head_explorer",
+          "Cable_routes_reference",
+          "PLA_accessories",
+          "Added_fasteners_reference",
+          "Optional_purchased_hardware",
+          "PLA_body",
+          "Body_fasteners_reference"
+        ],
+        "components": [
+          "OEM_Bottom_Plate",
+          "OEM_Top_Plate",
+          "Frame_pillar_1_nominal_M3x40",
+          "Frame_bottom_screw_1",
+          "Frame_pillar_2_nominal_M3x40",
+          "Frame_bottom_screw_2",
+          "Frame_pillar_3_nominal_M3x40",
+          "Frame_bottom_screw_3",
+          "Frame_pillar_4_nominal_M3x40",
+          "Frame_bottom_screw_4",
+          "Frame_pillar_5_nominal_M3x40",
+          "Frame_bottom_screw_5",
+          "Frame_pillar_6_nominal_M3x40",
+          "Frame_bottom_screw_6",
+          "TT_gearbox_left_front",
+          "DC_motor_can_left_front",
+          "Drive_shaft_left_front",
+          "Aluminum_motor_block_left_front",
+          "Motor_through_bolt_left_front_-1",
+          "Motor_through_bolt_left_front_1",
+          "Tire_left_front",
+          "Wheel_hub_left_front",
+          "Wheel_M2_fastener_left_front",
+          "TT_gearbox_left_rear",
+          "DC_motor_can_left_rear",
+          "Drive_shaft_left_rear",
+          "Aluminum_motor_block_left_rear",
+          "Motor_through_bolt_left_rear_-1",
+          "Motor_through_bolt_left_rear_1",
+          "Tire_left_rear",
+          "Wheel_hub_left_rear",
+          "Wheel_M2_fastener_left_rear",
+          "TT_gearbox_right_front",
+          "DC_motor_can_right_front",
+          "Drive_shaft_right_front",
+          "Aluminum_motor_block_right_front",
+          "Motor_through_bolt_right_front_-1",
+          "Motor_through_bolt_right_front_1",
+          "Tire_right_front",
+          "Wheel_hub_right_front",
+          "Wheel_M2_fastener_right_front",
+          "TT_gearbox_right_rear",
+          "DC_motor_can_right_rear",
+          "Drive_shaft_right_rear",
+          "Aluminum_motor_block_right_rear",
+          "Motor_through_bolt_right_rear_-1",
+          "Motor_through_bolt_right_rear_1",
+          "Tire_right_rear",
+          "Wheel_hub_right_rear",
+          "Wheel_M2_fastener_right_rear",
+          "UNO_spacer_1",
+          "UNO_M3_screw_1",
+          "UNO_spacer_2",
+          "UNO_M3_screw_2",
+          "UNO_spacer_3",
+          "UNO_M3_screw_3",
+          "UNO_R3_PCB",
+          "UNO_USB_B_connector",
+          "UNO_barrel_connector",
+          "UNO_header_-1",
+          "UNO_header_1",
+          "UNO_ATmega_reference",
+          "SmartRobot_motor_expansion_shield_PCB",
+          "Shield_XH_connector_1",
+          "Shield_XH_connector_2",
+          "Shield_XH_connector_3",
+          "Shield_XH_connector_4",
+          "Shield_XH_connector_5",
+          "Shield_XH_connector_6",
+          "Shield_XH_connector_7",
+          "Shield_XH_connector_8",
+          "Shield_IR_receiver",
+          "Shield_mode_button",
+          "Shield_RGB_LED",
+          "Shield_motor_driver_reference",
+          "GY521_MPU6050_module_PCB",
+          "GY521_sensor_package",
+          "GY521_M3x11_pillar",
+          "Battery_M3_screw_-1",
+          "Battery_M3_screw_1",
+          "Battery_enclosure_LiIon_reference",
+          "Battery_power_switch",
+          "Battery_charge_port",
+          "Line_sensor_spacer_15",
+          "Line_sensor_spacer_16",
+          "Line_sensor_spacer_23",
+          "Line_sensor_spacer_24",
+          "Line_tracking_PCB",
+          "Line_sensor_1_ITR20001",
+          "Line_sensor_2_ITR20001",
+          "Line_sensor_3_ITR20001",
+          "SG90_body_explorer",
+          "SG90_mounting_ears_explorer",
+          "SG90_output_boss_explorer",
+          "Servo_horn_explorer",
+          "OEM_sonar_head_bracket_explorer",
+          "HC_SR04_PCB_explorer",
+          "Ultrasonic_transducer_-1_explorer",
+          "Ultrasonic_mesh_-1_explorer",
+          "Ultrasonic_transducer_1_explorer",
+          "Ultrasonic_mesh_1_explorer",
+          "Camera_support_bracket_explorer",
+          "ESP32_camera_PCB_explorer",
+          "ESP32_WROVER_radio_module_explorer",
+          "Camera_lens_explorer",
+          "Camera_XH_connector_explorer",
+          "Head_cable_route_explorer",
+          "01_slotted_deck",
+          "Deck_spacer_1",
+          "Deck_M3x50_screw_1",
+          "Deck_spacer_2",
+          "Deck_M3x50_screw_2",
+          "Deck_spacer_3",
+          "Deck_M3x50_screw_3",
+          "Deck_spacer_4",
+          "Deck_M3x50_screw_4",
+          "Side_guard_screw_-1_1",
+          "Side_guard_nut_-1_1",
+          "Side_guard_screw_-1_2",
+          "Side_guard_nut_-1_2",
+          "Side_guard_screw_1_1",
+          "Side_guard_nut_1_1",
+          "Side_guard_screw_1_2",
+          "Side_guard_nut_1_2",
+          "05_front_guard",
+          "Guard_spacer_1",
+          "Guard_spacer_2",
+          "Downward_carrier_-1",
+          "Downward_carrier_screw_-1_-6",
+          "Downward_carrier_nut_-1_-6",
+          "Downward_carrier_screw_-1_6",
+          "Downward_carrier_nut_-1_6",
+          "Downward_carrier_1",
+          "Downward_carrier_screw_1_-6",
+          "Downward_carrier_nut_1_-6",
+          "Downward_carrier_screw_1_6",
+          "Downward_carrier_nut_1_6",
+          "07_rear_sensor_carrier",
+          "09_optional_servo_adapter",
+          "10_optional_pi4_tray",
+          "Pi_tray_spacer_1",
+          "Pi_tray_M3_screw_1",
+          "Pi_tray_M3_nut_1",
+          "Pi_tray_spacer_2",
+          "Pi_tray_M3_screw_2",
+          "Pi_tray_M3_nut_2",
+          "Pi_tray_spacer_3",
+          "Pi_tray_M3_screw_3",
+          "Pi_tray_M3_nut_3",
+          "Pi_tray_spacer_4",
+          "Pi_tray_M3_screw_4",
+          "Pi_tray_M3_nut_4",
+          "OPTIONAL_Pi4B_PCB",
+          "OPTIONAL_Pi4B_USB_stack",
+          "OPTIONAL_Pi4B_Ethernet",
+          "OPTIONAL_Pi4B_GPIO_header",
+          "OPTIONAL_Pi4B_CPU",
+          "OPTIONAL_rear_ToF_board",
+          "OPTIONAL_ToF_optical_package",
+          "OPTIONAL_floor_ToF_board_-1",
+          "OPTIONAL_floor_ToF_optic_-1",
+          "OPTIONAL_floor_ToF_board_1",
+          "OPTIONAL_floor_ToF_optic_1",
+          "body_01_left_side",
+          "body_02_right_side",
+          "body_03_rear_panel",
+          "body_04_front_bulkhead",
+          "Body_end_M3x12_rear_-1_1",
+          "Body_end_M3_nut_rear_-1_1",
+          "Body_end_M3x12_rear_-1_2",
+          "Body_end_M3_nut_rear_-1_2",
+          "Body_end_M3x12_rear_1_1",
+          "Body_end_M3_nut_rear_1_1",
+          "Body_end_M3x12_rear_1_2",
+          "Body_end_M3_nut_rear_1_2",
+          "Body_end_M3x12_front_-1_1",
+          "Body_end_M3_nut_front_-1_1",
+          "Body_end_M3x12_front_-1_2",
+          "Body_end_M3_nut_front_-1_2",
+          "Body_end_M3x12_front_1_1",
+          "Body_end_M3_nut_front_1_1",
+          "Body_end_M3x12_front_1_2",
+          "Body_end_M3_nut_front_1_2",
+          "Body_roof_M3x10_-1_1",
+          "Body_roof_M3_nut_-1_1",
+          "Body_roof_M3x10_-1_2",
+          "Body_roof_M3_nut_-1_2",
+          "Body_roof_M3x10_1_1",
+          "Body_roof_M3_nut_1_1",
+          "Body_roof_M3x10_1_2",
+          "Body_roof_M3_nut_1_2",
+          "body_05_removable_roof",
+          "Body_nose_M3x20_1",
+          "Body_nose_M3x20_2",
+          "body_06_front_cowl"
+        ],
+        "edges": [
+          [
+            "ELEGOO_V4_full_body_mm",
+            "OEM_chassis_from_supplied_meshes"
+          ],
+          [
+            "ELEGOO_V4_full_body_mm",
+            "Stock_hardware_reference"
+          ],
+          [
+            "ELEGOO_V4_full_body_mm",
+            "Head_explorer"
+          ],
+          [
+            "ELEGOO_V4_full_body_mm",
+            "Cable_routes_reference"
+          ],
+          [
+            "ELEGOO_V4_full_body_mm",
+            "PLA_accessories"
+          ],
+          [
+            "ELEGOO_V4_full_body_mm",
+            "Added_fasteners_reference"
+          ],
+          [
+            "ELEGOO_V4_full_body_mm",
+            "Optional_purchased_hardware"
+          ],
+          [
+            "ELEGOO_V4_full_body_mm",
+            "PLA_body"
+          ],
+          [
+            "ELEGOO_V4_full_body_mm",
+            "Body_fasteners_reference"
+          ],
+          [
+            "OEM_chassis_from_supplied_meshes",
+            "OEM_Bottom_Plate"
+          ],
+          [
+            "OEM_chassis_from_supplied_meshes",
+            "OEM_Top_Plate"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Frame_pillar_1_nominal_M3x40"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Frame_bottom_screw_1"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Frame_pillar_2_nominal_M3x40"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Frame_bottom_screw_2"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Frame_pillar_3_nominal_M3x40"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Frame_bottom_screw_3"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Frame_pillar_4_nominal_M3x40"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Frame_bottom_screw_4"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Frame_pillar_5_nominal_M3x40"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Frame_bottom_screw_5"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Frame_pillar_6_nominal_M3x40"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Frame_bottom_screw_6"
+          ],
+          [
+            "Stock_hardware_reference",
+            "TT_gearbox_left_front"
+          ],
+          [
+            "Stock_hardware_reference",
+            "DC_motor_can_left_front"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Drive_shaft_left_front"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Aluminum_motor_block_left_front"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Motor_through_bolt_left_front_-1"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Motor_through_bolt_left_front_1"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Tire_left_front"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Wheel_hub_left_front"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Wheel_M2_fastener_left_front"
+          ],
+          [
+            "Stock_hardware_reference",
+            "TT_gearbox_left_rear"
+          ],
+          [
+            "Stock_hardware_reference",
+            "DC_motor_can_left_rear"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Drive_shaft_left_rear"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Aluminum_motor_block_left_rear"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Motor_through_bolt_left_rear_-1"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Motor_through_bolt_left_rear_1"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Tire_left_rear"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Wheel_hub_left_rear"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Wheel_M2_fastener_left_rear"
+          ],
+          [
+            "Stock_hardware_reference",
+            "TT_gearbox_right_front"
+          ],
+          [
+            "Stock_hardware_reference",
+            "DC_motor_can_right_front"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Drive_shaft_right_front"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Aluminum_motor_block_right_front"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Motor_through_bolt_right_front_-1"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Motor_through_bolt_right_front_1"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Tire_right_front"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Wheel_hub_right_front"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Wheel_M2_fastener_right_front"
+          ],
+          [
+            "Stock_hardware_reference",
+            "TT_gearbox_right_rear"
+          ],
+          [
+            "Stock_hardware_reference",
+            "DC_motor_can_right_rear"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Drive_shaft_right_rear"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Aluminum_motor_block_right_rear"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Motor_through_bolt_right_rear_-1"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Motor_through_bolt_right_rear_1"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Tire_right_rear"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Wheel_hub_right_rear"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Wheel_M2_fastener_right_rear"
+          ],
+          [
+            "Stock_hardware_reference",
+            "UNO_spacer_1"
+          ],
+          [
+            "Stock_hardware_reference",
+            "UNO_M3_screw_1"
+          ],
+          [
+            "Stock_hardware_reference",
+            "UNO_spacer_2"
+          ],
+          [
+            "Stock_hardware_reference",
+            "UNO_M3_screw_2"
+          ],
+          [
+            "Stock_hardware_reference",
+            "UNO_spacer_3"
+          ],
+          [
+            "Stock_hardware_reference",
+            "UNO_M3_screw_3"
+          ],
+          [
+            "Stock_hardware_reference",
+            "UNO_R3_PCB"
+          ],
+          [
+            "Stock_hardware_reference",
+            "UNO_USB_B_connector"
+          ],
+          [
+            "Stock_hardware_reference",
+            "UNO_barrel_connector"
+          ],
+          [
+            "Stock_hardware_reference",
+            "UNO_header_-1"
+          ],
+          [
+            "Stock_hardware_reference",
+            "UNO_header_1"
+          ],
+          [
+            "Stock_hardware_reference",
+            "UNO_ATmega_reference"
+          ],
+          [
+            "Stock_hardware_reference",
+            "SmartRobot_motor_expansion_shield_PCB"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Shield_XH_connector_1"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Shield_XH_connector_2"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Shield_XH_connector_3"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Shield_XH_connector_4"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Shield_XH_connector_5"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Shield_XH_connector_6"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Shield_XH_connector_7"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Shield_XH_connector_8"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Shield_IR_receiver"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Shield_mode_button"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Shield_RGB_LED"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Shield_motor_driver_reference"
+          ],
+          [
+            "Stock_hardware_reference",
+            "GY521_MPU6050_module_PCB"
+          ],
+          [
+            "Stock_hardware_reference",
+            "GY521_sensor_package"
+          ],
+          [
+            "Stock_hardware_reference",
+            "GY521_M3x11_pillar"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Battery_M3_screw_-1"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Battery_M3_screw_1"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Battery_enclosure_LiIon_reference"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Battery_power_switch"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Battery_charge_port"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Line_sensor_spacer_15"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Line_sensor_spacer_16"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Line_sensor_spacer_23"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Line_sensor_spacer_24"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Line_tracking_PCB"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Line_sensor_1_ITR20001"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Line_sensor_2_ITR20001"
+          ],
+          [
+            "Stock_hardware_reference",
+            "Line_sensor_3_ITR20001"
+          ],
+          [
+            "Head_explorer",
+            "SG90_body_explorer"
+          ],
+          [
+            "Head_explorer",
+            "SG90_mounting_ears_explorer"
+          ],
+          [
+            "Head_explorer",
+            "SG90_output_boss_explorer"
+          ],
+          [
+            "Head_explorer",
+            "Servo_horn_explorer"
+          ],
+          [
+            "Head_explorer",
+            "OEM_sonar_head_bracket_explorer"
+          ],
+          [
+            "Head_explorer",
+            "HC_SR04_PCB_explorer"
+          ],
+          [
+            "Head_explorer",
+            "Ultrasonic_transducer_-1_explorer"
+          ],
+          [
+            "Head_explorer",
+            "Ultrasonic_mesh_-1_explorer"
+          ],
+          [
+            "Head_explorer",
+            "Ultrasonic_transducer_1_explorer"
+          ],
+          [
+            "Head_explorer",
+            "Ultrasonic_mesh_1_explorer"
+          ],
+          [
+            "Head_explorer",
+            "Camera_support_bracket_explorer"
+          ],
+          [
+            "Head_explorer",
+            "ESP32_camera_PCB_explorer"
+          ],
+          [
+            "Head_explorer",
+            "ESP32_WROVER_radio_module_explorer"
+          ],
+          [
+            "Head_explorer",
+            "Camera_lens_explorer"
+          ],
+          [
+            "Head_explorer",
+            "Camera_XH_connector_explorer"
+          ],
+          [
+            "Cable_routes_reference",
+            "Head_cable_route_explorer"
+          ],
+          [
+            "PLA_accessories",
+            "01_slotted_deck"
+          ],
+          [
+            "PLA_accessories",
+            "Deck_spacer_1"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Deck_M3x50_screw_1"
+          ],
+          [
+            "PLA_accessories",
+            "Deck_spacer_2"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Deck_M3x50_screw_2"
+          ],
+          [
+            "PLA_accessories",
+            "Deck_spacer_3"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Deck_M3x50_screw_3"
+          ],
+          [
+            "PLA_accessories",
+            "Deck_spacer_4"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Deck_M3x50_screw_4"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Side_guard_screw_-1_1"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Side_guard_nut_-1_1"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Side_guard_screw_-1_2"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Side_guard_nut_-1_2"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Side_guard_screw_1_1"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Side_guard_nut_1_1"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Side_guard_screw_1_2"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Side_guard_nut_1_2"
+          ],
+          [
+            "PLA_accessories",
+            "05_front_guard"
+          ],
+          [
+            "PLA_accessories",
+            "Guard_spacer_1"
+          ],
+          [
+            "PLA_accessories",
+            "Guard_spacer_2"
+          ],
+          [
+            "PLA_accessories",
+            "Downward_carrier_-1"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Downward_carrier_screw_-1_-6"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Downward_carrier_nut_-1_-6"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Downward_carrier_screw_-1_6"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Downward_carrier_nut_-1_6"
+          ],
+          [
+            "PLA_accessories",
+            "Downward_carrier_1"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Downward_carrier_screw_1_-6"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Downward_carrier_nut_1_-6"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Downward_carrier_screw_1_6"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Downward_carrier_nut_1_6"
+          ],
+          [
+            "PLA_accessories",
+            "07_rear_sensor_carrier"
+          ],
+          [
+            "PLA_accessories",
+            "09_optional_servo_adapter"
+          ],
+          [
+            "PLA_accessories",
+            "10_optional_pi4_tray"
+          ],
+          [
+            "PLA_accessories",
+            "Pi_tray_spacer_1"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Pi_tray_M3_screw_1"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Pi_tray_M3_nut_1"
+          ],
+          [
+            "PLA_accessories",
+            "Pi_tray_spacer_2"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Pi_tray_M3_screw_2"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Pi_tray_M3_nut_2"
+          ],
+          [
+            "PLA_accessories",
+            "Pi_tray_spacer_3"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Pi_tray_M3_screw_3"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Pi_tray_M3_nut_3"
+          ],
+          [
+            "PLA_accessories",
+            "Pi_tray_spacer_4"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Pi_tray_M3_screw_4"
+          ],
+          [
+            "Added_fasteners_reference",
+            "Pi_tray_M3_nut_4"
+          ],
+          [
+            "Optional_purchased_hardware",
+            "OPTIONAL_Pi4B_PCB"
+          ],
+          [
+            "Optional_purchased_hardware",
+            "OPTIONAL_Pi4B_USB_stack"
+          ],
+          [
+            "Optional_purchased_hardware",
+            "OPTIONAL_Pi4B_Ethernet"
+          ],
+          [
+            "Optional_purchased_hardware",
+            "OPTIONAL_Pi4B_GPIO_header"
+          ],
+          [
+            "Optional_purchased_hardware",
+            "OPTIONAL_Pi4B_CPU"
+          ],
+          [
+            "Optional_purchased_hardware",
+            "OPTIONAL_rear_ToF_board"
+          ],
+          [
+            "Optional_purchased_hardware",
+            "OPTIONAL_ToF_optical_package"
+          ],
+          [
+            "Optional_purchased_hardware",
+            "OPTIONAL_floor_ToF_board_-1"
+          ],
+          [
+            "Optional_purchased_hardware",
+            "OPTIONAL_floor_ToF_optic_-1"
+          ],
+          [
+            "Optional_purchased_hardware",
+            "OPTIONAL_floor_ToF_board_1"
+          ],
+          [
+            "Optional_purchased_hardware",
+            "OPTIONAL_floor_ToF_optic_1"
+          ],
+          [
+            "PLA_body",
+            "body_01_left_side"
+          ],
+          [
+            "PLA_body",
+            "body_02_right_side"
+          ],
+          [
+            "PLA_body",
+            "body_03_rear_panel"
+          ],
+          [
+            "PLA_body",
+            "body_04_front_bulkhead"
+          ],
+          [
+            "Body_fasteners_reference",
+            "Body_end_M3x12_rear_-1_1"
+          ],
+          [
+            "Body_fasteners_reference",
+            "Body_end_M3_nut_rear_-1_1"
+          ],
+          [
+            "Body_fasteners_reference",
+            "Body_end_M3x12_rear_-1_2"
+          ],
+          [
+            "Body_fasteners_reference",
+            "Body_end_M3_nut_rear_-1_2"
+          ],
+          [
+            "Body_fasteners_reference",
+            "Body_end_M3x12_rear_1_1"
+          ],
+          [
+            "Body_fasteners_reference",
+            "Body_end_M3_nut_rear_1_1"
+          ],
+          [
+            "Body_fasteners_reference",
+            "Body_end_M3x12_rear_1_2"
+          ],
+          [
+            "Body_fasteners_reference",
+            "Body_end_M3_nut_rear_1_2"
+          ],
+          [
+            "Body_fasteners_reference",
+            "Body_end_M3x12_front_-1_1"
+          ],
+          [
+            "Body_fasteners_reference",
+            "Body_end_M3_nut_front_-1_1"
+          ],
+          [
+            "Body_fasteners_reference",
+            "Body_end_M3x12_front_-1_2"
+          ],
+          [
+            "Body_fasteners_reference",
+            "Body_end_M3_nut_front_-1_2"
+          ],
+          [
+            "Body_fasteners_reference",
+            "Body_end_M3x12_front_1_1"
+          ],
+          [
+            "Body_fasteners_reference",
+            "Body_end_M3_nut_front_1_1"
+          ],
+          [
+            "Body_fasteners_reference",
+            "Body_end_M3x12_front_1_2"
+          ],
+          [
+            "Body_fasteners_reference",
+            "Body_end_M3_nut_front_1_2"
+          ],
+          [
+            "Body_fasteners_reference",
+            "Body_roof_M3x10_-1_1"
+          ],
+          [
+            "Body_fasteners_reference",
+            "Body_roof_M3_nut_-1_1"
+          ],
+          [
+            "Body_fasteners_reference",
+            "Body_roof_M3x10_-1_2"
+          ],
+          [
+            "Body_fasteners_reference",
+            "Body_roof_M3_nut_-1_2"
+          ],
+          [
+            "Body_fasteners_reference",
+            "Body_roof_M3x10_1_1"
+          ],
+          [
+            "Body_fasteners_reference",
+            "Body_roof_M3_nut_1_1"
+          ],
+          [
+            "Body_fasteners_reference",
+            "Body_roof_M3x10_1_2"
+          ],
+          [
+            "Body_fasteners_reference",
+            "Body_roof_M3_nut_1_2"
+          ],
+          [
+            "PLA_body",
+            "body_05_removable_roof"
+          ],
+          [
+            "Body_fasteners_reference",
+            "Body_nose_M3x20_1"
+          ],
+          [
+            "Body_fasteners_reference",
+            "Body_nose_M3x20_2"
+          ],
+          [
+            "PLA_body",
+            "body_06_front_cowl"
+          ]
+        ]
+      },
+      "file": "elegoo_v4_full_body_assembly.step"
+    },
+    {
+      "solid_count": 6,
+      "volume_mm3": 215076.2914444529,
+      "bbox_mm": [
+        -71.0,
+        -120.0,
+        20.0,
+        71.0,
+        120.5,
+        146.8
+      ],
+      "named_hierarchy": {
+        "root": "ELEGOO_V4_body_shell_mm",
+        "groups": [
+          "PLA_body"
+        ],
+        "components": [
+          "body_01_left_side",
+          "body_02_right_side",
+          "body_03_rear_panel",
+          "body_04_front_bulkhead",
+          "body_05_removable_roof",
+          "body_06_front_cowl"
+        ],
+        "edges": [
+          [
+            "ELEGOO_V4_body_shell_mm",
+            "PLA_body"
+          ],
+          [
+            "PLA_body",
+            "body_01_left_side"
+          ],
+          [
+            "PLA_body",
+            "body_02_right_side"
+          ],
+          [
+            "PLA_body",
+            "body_03_rear_panel"
+          ],
+          [
+            "PLA_body",
+            "body_04_front_bulkhead"
+          ],
+          [
+            "PLA_body",
+            "body_05_removable_roof"
+          ],
+          [
+            "PLA_body",
+            "body_06_front_cowl"
+          ]
+        ]
+      },
+      "file": "elegoo_v4_body_shell_only.step"
+    },
+    {
+      "solid_count": 8,
+      "volume_mm3": 218769.68135503266,
+      "bbox_mm": [
+        -1.4210854715202004e-14,
+        -1.4210854715202004e-14,
+        -2.886579864025407e-15,
+        522.0,
+        404.0,
+        57.105222129821804
+      ],
+      "named_hierarchy": {
+        "root": "ELEGOO_V4_body_print_designs_mm",
+        "groups": [
+          "Print_designs"
+        ],
+        "components": [
+          "body_01_left_side",
+          "body_02_right_side",
+          "body_03_rear_panel",
+          "body_04_front_bulkhead",
+          "body_05_removable_roof",
+          "body_06_front_cowl",
+          "body_00_joint_side_sample",
+          "body_00_joint_rear_sample"
+        ],
+        "edges": [
+          [
+            "ELEGOO_V4_body_print_designs_mm",
+            "Print_designs"
+          ],
+          [
+            "Print_designs",
+            "body_01_left_side"
+          ],
+          [
+            "Print_designs",
+            "body_02_right_side"
+          ],
+          [
+            "Print_designs",
+            "body_03_rear_panel"
+          ],
+          [
+            "Print_designs",
+            "body_04_front_bulkhead"
+          ],
+          [
+            "Print_designs",
+            "body_05_removable_roof"
+          ],
+          [
+            "Print_designs",
+            "body_06_front_cowl"
+          ],
+          [
+            "Print_designs",
+            "body_00_joint_side_sample"
+          ],
+          [
+            "Print_designs",
+            "body_00_joint_rear_sample"
+          ]
+        ]
+      },
+      "file": "full_body_printable_parts.step"
+    }
+  ],
+  "new_body_solid_volume_mm3": 215076.2914444529,
+  "source_files_sha256": {
+    "build_full_body.py": "4a25721027ceea20f52a605ded3e8fd93ef21778db4ab07d126956c92fa6ec2f",
+    "full_body_parameters.json": "4a3747ffe9a076aca66898d1463dabcbe093ce8a49065e8082d3c500ca2882e2",
+    "body_reference_rover.py": "6dd702f4ee50331c432698160b00bae217d25d85a73d1fae3d98e06897d91dd6",
+    "body_reference_parameters.json": "d902dcb2cc64851c7aaa02920541409aa2d43bd39cc4377c2246764bb8afc138",
+    "body_reference_profiles.json": "3c43f5000e7aafb51ae2e5e31f8f603af5a7025052637c06113078b2eb9610b3"
+  }
+}

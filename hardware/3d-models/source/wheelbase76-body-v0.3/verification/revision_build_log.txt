@@ -1,0 +1,6 @@
+Built corrected assembly 206 components; 6 printable designs
+Geometry and preserved-interface checks passed
+Export rover_body_v3_with_snap_battery.step
+Export body_shell_v3.step
+Export open_rover_v3_reference.step
+PASS all build, mesh, STEP, interface and envelope checks.

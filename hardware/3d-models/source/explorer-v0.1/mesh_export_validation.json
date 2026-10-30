@@ -1,0 +1,2390 @@
+{
+  "00_fit_check.3mf": {
+    "path": "/workspace/scratch/5751292c2c7f/rover-cad/deliverables/00_fit_check.3mf",
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "validation_scope": [
+      "OPC package/CRC",
+      "core XML resource/build references",
+      "explicit millimeter units",
+      "indexed mesh topology",
+      "edge/vertex manifoldness",
+      "triangle winding",
+      "degeneracy",
+      "signed volume",
+      "build transforms",
+      "bounding boxes"
+    ],
+    "not_validated": [
+      "XML XSD schema (unless separately checked)",
+      "self-intersections",
+      "shell containment",
+      "minimum wall thickness",
+      "physical fit",
+      "printer profile",
+      "toolpaths",
+      "actual slicer import"
+    ],
+    "unit": "millimeter",
+    "build_items": 5,
+    "resource_objects": 5,
+    "package_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "3D/3dmodel.model"
+    ],
+    "objects": [
+      {
+        "valid": true,
+        "vertices": 3898,
+        "triangles": 7832,
+        "edges": 11748,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          5563.452218554424
+        ],
+        "signed_volume_mm3": 5563.452218554424,
+        "surface_area_mm2": 7363.531484391737,
+        "bounds_mm": [
+          [
+            4.0,
+            4.0,
+            0.0
+          ],
+          [
+            126.0444152263231,
+            104.33135138299104,
+            2.0
+          ]
+        ],
+        "size_mm": [
+          122.0444152263231,
+          100.33135138299104,
+          2.0
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "00_mount_fit_gauge",
+        "object_id": 2,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            4.0,
+            4.0,
+            0.0
+          ],
+          [
+            126.0444152263231,
+            104.33135138299104,
+            2.0
+          ]
+        ],
+        "build_size_mm": [
+          122.0444152263231,
+          100.33135138299104,
+          2.0
+        ],
+        "build_volume_mm3": 5563.452218554424
+      },
+      {
+        "valid": true,
+        "vertices": 420,
+        "triangles": 840,
+        "edges": 1260,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          2479.592355349764
+        ],
+        "signed_volume_mm3": 2479.592355349764,
+        "surface_area_mm2": 1664.3413694771677,
+        "bounds_mm": [
+          [
+            131.0494785443519,
+            4.000559490948633,
+            0.0
+          ],
+          [
+            141.0472407057694,
+            13.999440509051368,
+            36.0
+          ]
+        ],
+        "size_mm": [
+          9.997762161417512,
+          9.998881018102736,
+          36.0
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "02_deck_spacer_36mm_1",
+        "object_id": 3,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            131.0494785443519,
+            4.000559490948633,
+            0.0
+          ],
+          [
+            141.0472407057694,
+            13.999440509051368,
+            36.0
+          ]
+        ],
+        "build_size_mm": [
+          9.997762161417512,
+          9.998881018102736,
+          36.0
+        ],
+        "build_volume_mm3": 2479.592355349764
+      },
+      {
+        "valid": true,
+        "vertices": 420,
+        "triangles": 840,
+        "edges": 1260,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          2479.592355349763
+        ],
+        "signed_volume_mm3": 2479.592355349763,
+        "surface_area_mm2": 1664.3413694771675,
+        "bounds_mm": [
+          [
+            146.05171658293438,
+            4.000559490948633,
+            0.0
+          ],
+          [
+            156.0494787443519,
+            13.999440509051368,
+            36.0
+          ]
+        ],
+        "size_mm": [
+          9.997762161417512,
+          9.998881018102736,
+          36.0
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "02_deck_spacer_36mm_2",
+        "object_id": 4,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            146.05171658293438,
+            4.000559490948633,
+            0.0
+          ],
+          [
+            156.0494787443519,
+            13.999440509051368,
+            36.0
+          ]
+        ],
+        "build_size_mm": [
+          9.997762161417512,
+          9.998881018102736,
+          36.0
+        ],
+        "build_volume_mm3": 2479.592355349763
+      },
+      {
+        "valid": true,
+        "vertices": 420,
+        "triangles": 840,
+        "edges": 1260,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          2479.592355349764
+        ],
+        "signed_volume_mm3": 2479.592355349764,
+        "surface_area_mm2": 1664.3413694771677,
+        "bounds_mm": [
+          [
+            161.05395462151685,
+            4.000559490948633,
+            0.0
+          ],
+          [
+            171.05171678293436,
+            13.999440509051368,
+            36.0
+          ]
+        ],
+        "size_mm": [
+          9.997762161417512,
+          9.998881018102736,
+          36.0
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "02_deck_spacer_36mm_3",
+        "object_id": 5,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            161.05395462151685,
+            4.000559490948633,
+            0.0
+          ],
+          [
+            171.05171678293436,
+            13.999440509051368,
+            36.0
+          ]
+        ],
+        "build_size_mm": [
+          9.997762161417512,
+          9.998881018102736,
+          36.0
+        ],
+        "build_volume_mm3": 2479.592355349764
+      },
+      {
+        "valid": true,
+        "vertices": 420,
+        "triangles": 840,
+        "edges": 1260,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          2479.5923553497637
+        ],
+        "signed_volume_mm3": 2479.5923553497637,
+        "surface_area_mm2": 1664.341369477168,
+        "bounds_mm": [
+          [
+            4.002237838582483,
+            109.33473635338599,
+            0.0
+          ],
+          [
+            14.0,
+            119.33361737148873,
+            36.0
+          ]
+        ],
+        "size_mm": [
+          9.997762161417517,
+          9.998881018102736,
+          36.0
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "02_deck_spacer_36mm_4",
+        "object_id": 6,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            4.002237838582483,
+            109.33473635338599,
+            0.0
+          ],
+          [
+            14.0,
+            119.33361737148873,
+            36.0
+          ]
+        ],
+        "build_size_mm": [
+          9.997762161417517,
+          9.998881018102736,
+          36.0
+        ],
+        "build_volume_mm3": 2479.5923553497637
+      }
+    ],
+    "build_bounds_mm": [
+      [
+        4.0,
+        4.0,
+        0.0
+      ],
+      [
+        171.05171678293436,
+        119.33361737148873,
+        36.0
+      ]
+    ],
+    "build_size_mm": [
+      167.05171678293436,
+      115.33361737148873,
+      36.0
+    ],
+    "sha256": "1cd11ea56c99aa31335f915aab01341a520ef1fee318c80e97b519e021ea7aaf",
+    "bytes": 131931,
+    "round_trip_geometry_exact": true
+  },
+  "01_deck.3mf": {
+    "path": "/workspace/scratch/5751292c2c7f/rover-cad/deliverables/01_deck.3mf",
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "validation_scope": [
+      "OPC package/CRC",
+      "core XML resource/build references",
+      "explicit millimeter units",
+      "indexed mesh topology",
+      "edge/vertex manifoldness",
+      "triangle winding",
+      "degeneracy",
+      "signed volume",
+      "build transforms",
+      "bounding boxes"
+    ],
+    "not_validated": [
+      "XML XSD schema (unless separately checked)",
+      "self-intersections",
+      "shell containment",
+      "minimum wall thickness",
+      "physical fit",
+      "printer profile",
+      "toolpaths",
+      "actual slicer import"
+    ],
+    "unit": "millimeter",
+    "build_items": 1,
+    "resource_objects": 1,
+    "package_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "3D/3dmodel.model"
+    ],
+    "objects": [
+      {
+        "valid": true,
+        "vertices": 4432,
+        "triangles": 8936,
+        "edges": 13404,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          29594.659144498684
+        ],
+        "signed_volume_mm3": 29594.659144498684,
+        "surface_area_mm2": 22051.914626030433,
+        "bounds_mm": [
+          [
+            4.0,
+            4.0,
+            0.0
+          ],
+          [
+            130.0,
+            108.0,
+            3.2
+          ]
+        ],
+        "size_mm": [
+          126.0,
+          104.0,
+          3.2
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "01_slotted_deck",
+        "object_id": 2,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            4.0,
+            4.0,
+            0.0
+          ],
+          [
+            130.0,
+            108.0,
+            3.2
+          ]
+        ],
+        "build_size_mm": [
+          126.0,
+          104.0,
+          3.2
+        ],
+        "build_volume_mm3": 29594.659144498684
+      }
+    ],
+    "build_bounds_mm": [
+      [
+        4.0,
+        4.0,
+        0.0
+      ],
+      [
+        130.0,
+        108.0,
+        3.2
+      ]
+    ],
+    "build_size_mm": [
+      126.0,
+      104.0,
+      3.2
+    ],
+    "sha256": "6ff2363c859e52aa1c18472f2d1937f1d5936db6d56e2f3d3982da1098aec5cc",
+    "bytes": 92682,
+    "round_trip_geometry_exact": true
+  },
+  "02_body_and_guard.3mf": {
+    "path": "/workspace/scratch/5751292c2c7f/rover-cad/deliverables/02_body_and_guard.3mf",
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "validation_scope": [
+      "OPC package/CRC",
+      "core XML resource/build references",
+      "explicit millimeter units",
+      "indexed mesh topology",
+      "edge/vertex manifoldness",
+      "triangle winding",
+      "degeneracy",
+      "signed volume",
+      "build transforms",
+      "bounding boxes"
+    ],
+    "not_validated": [
+      "XML XSD schema (unless separately checked)",
+      "self-intersections",
+      "shell containment",
+      "minimum wall thickness",
+      "physical fit",
+      "printer profile",
+      "toolpaths",
+      "actual slicer import"
+    ],
+    "unit": "millimeter",
+    "build_items": 3,
+    "resource_objects": 3,
+    "package_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "3D/3dmodel.model"
+    ],
+    "objects": [
+      {
+        "valid": true,
+        "vertices": 2080,
+        "triangles": 4180,
+        "edges": 6270,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          27932.15164556457
+        ],
+        "signed_volume_mm3": 27932.15164556457,
+        "surface_area_mm2": 12467.114554951866,
+        "bounds_mm": [
+          [
+            4.0,
+            4.0,
+            0.0
+          ],
+          [
+            174.0,
+            60.062823618207204,
+            14.0
+          ]
+        ],
+        "size_mm": [
+          170.0,
+          56.062823618207204,
+          14.0
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "05_front_guard",
+        "object_id": 2,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            4.0,
+            4.0,
+            0.0
+          ],
+          [
+            174.0,
+            60.062823618207204,
+            14.0
+          ]
+        ],
+        "build_size_mm": [
+          170.0,
+          56.062823618207204,
+          14.0
+        ],
+        "build_volume_mm3": 27932.15164556457
+      },
+      {
+        "valid": true,
+        "vertices": 468,
+        "triangles": 956,
+        "edges": 1434,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          5071.901525590556
+        ],
+        "signed_volume_mm3": 5071.901525590556,
+        "surface_area_mm2": 4656.779629924525,
+        "bounds_mm": [
+          [
+            4.0,
+            65.06536211771402,
+            0.0
+          ],
+          [
+            32.0,
+            131.06536211771402,
+            9.5
+          ]
+        ],
+        "size_mm": [
+          28.0,
+          66.0,
+          9.5
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "03_side_guard_left",
+        "object_id": 3,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            4.0,
+            65.06536211771402,
+            0.0
+          ],
+          [
+            32.0,
+            131.06536211771402,
+            9.5
+          ]
+        ],
+        "build_size_mm": [
+          28.0,
+          66.0,
+          9.5
+        ],
+        "build_volume_mm3": 5071.901525590556
+      },
+      {
+        "valid": true,
+        "vertices": 468,
+        "triangles": 956,
+        "edges": 1434,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          5071.901525590558
+        ],
+        "signed_volume_mm3": 5071.901525590558,
+        "surface_area_mm2": 4656.779629924525,
+        "bounds_mm": [
+          [
+            37.00078344350388,
+            65.06536211771402,
+            0.0
+          ],
+          [
+            65.00078344350388,
+            131.06536211771402,
+            9.5
+          ]
+        ],
+        "size_mm": [
+          28.0,
+          66.0,
+          9.5
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "04_side_guard_right",
+        "object_id": 4,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            37.00078344350388,
+            65.06536211771402,
+            0.0
+          ],
+          [
+            65.00078344350388,
+            131.06536211771402,
+            9.5
+          ]
+        ],
+        "build_size_mm": [
+          28.0,
+          66.0,
+          9.5
+        ],
+        "build_volume_mm3": 5071.901525590558
+      }
+    ],
+    "build_bounds_mm": [
+      [
+        4.0,
+        4.0,
+        0.0
+      ],
+      [
+        174.0,
+        131.06536211771402,
+        14.0
+      ]
+    ],
+    "build_size_mm": [
+      170.0,
+      127.06536211771402,
+      14.0
+    ],
+    "sha256": "3010b618ba6ff7f4c4210e390e7ed504f53decd06d1b784b094eb3d924e0c695",
+    "bytes": 65330,
+    "round_trip_geometry_exact": true
+  },
+  "03_mounts_and_spacers.3mf": {
+    "path": "/workspace/scratch/5751292c2c7f/rover-cad/deliverables/03_mounts_and_spacers.3mf",
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "validation_scope": [
+      "OPC package/CRC",
+      "core XML resource/build references",
+      "explicit millimeter units",
+      "indexed mesh topology",
+      "edge/vertex manifoldness",
+      "triangle winding",
+      "degeneracy",
+      "signed volume",
+      "build transforms",
+      "bounding boxes"
+    ],
+    "not_validated": [
+      "XML XSD schema (unless separately checked)",
+      "self-intersections",
+      "shell containment",
+      "minimum wall thickness",
+      "physical fit",
+      "printer profile",
+      "toolpaths",
+      "actual slicer import"
+    ],
+    "unit": "millimeter",
+    "build_items": 9,
+    "resource_objects": 9,
+    "package_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "3D/3dmodel.model"
+    ],
+    "objects": [
+      {
+        "valid": true,
+        "vertices": 420,
+        "triangles": 840,
+        "edges": 1260,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          238.96394322971895
+        ],
+        "signed_volume_mm3": 238.96394322971895,
+        "surface_area_mm2": 281.5639673206603,
+        "bounds_mm": [
+          [
+            4.002103568267533,
+            4.000525921491715,
+            0.0
+          ],
+          [
+            13.4,
+            13.399474078508286,
+            4.0
+          ]
+        ],
+        "size_mm": [
+          9.397896431732466,
+          9.398948157016571,
+          4.0
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "06_front_guard_spacer_4mm_1",
+        "object_id": 2,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            4.002103568267533,
+            4.000525921491715,
+            0.0
+          ],
+          [
+            13.4,
+            13.399474078508286,
+            4.0
+          ]
+        ],
+        "build_size_mm": [
+          9.397896431732466,
+          9.398948157016571,
+          4.0
+        ],
+        "build_volume_mm3": 238.96394322971895
+      },
+      {
+        "valid": true,
+        "vertices": 420,
+        "triangles": 840,
+        "edges": 1260,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          238.96394322971895
+        ],
+        "signed_volume_mm3": 238.96394322971895,
+        "surface_area_mm2": 281.56396732066025,
+        "bounds_mm": [
+          [
+            18.40420733653507,
+            4.000525921491715,
+            0.0
+          ],
+          [
+            27.802103768267536,
+            13.399474078508286,
+            4.0
+          ]
+        ],
+        "size_mm": [
+          9.397896431732466,
+          9.398948157016571,
+          4.0
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "06_front_guard_spacer_4mm_2",
+        "object_id": 3,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            18.40420733653507,
+            4.000525921491715,
+            0.0
+          ],
+          [
+            27.802103768267536,
+            13.399474078508286,
+            4.0
+          ]
+        ],
+        "build_size_mm": [
+          9.397896431732466,
+          9.398948157016571,
+          4.0
+        ],
+        "build_volume_mm3": 238.96394322971895
+      },
+      {
+        "valid": true,
+        "vertices": 618,
+        "triangles": 1248,
+        "edges": 1872,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          3792.7466048081433
+        ],
+        "signed_volume_mm3": 3792.7466048081433,
+        "surface_area_mm2": 3281.7082371878223,
+        "bounds_mm": [
+          [
+            32.804207536535074,
+            4.0,
+            0.0
+          ],
+          [
+            66.80420753653507,
+            18.0,
+            30.0
+          ]
+        ],
+        "size_mm": [
+          34.0,
+          14.0,
+          30.0
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "07_rear_sensor_carrier",
+        "object_id": 4,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            32.804207536535074,
+            4.0,
+            0.0
+          ],
+          [
+            66.80420753653507,
+            18.0,
+            30.0
+          ]
+        ],
+        "build_size_mm": [
+          34.0,
+          14.0,
+          30.0
+        ],
+        "build_volume_mm3": 3792.7466048081433
+      },
+      {
+        "valid": true,
+        "vertices": 866,
+        "triangles": 1740,
+        "edges": 2610,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          695.4642209294734
+        ],
+        "signed_volume_mm3": 695.4642209294734,
+        "surface_area_mm2": 796.7507224841717,
+        "bounds_mm": [
+          [
+            71.80589993620629,
+            4.0,
+            0.0
+          ],
+          [
+            94.80589993620629,
+            16.0,
+            3.0
+          ]
+        ],
+        "size_mm": [
+          23.0,
+          12.0,
+          3.0
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "08_cable_tie_saddle_1",
+        "object_id": 5,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            71.80589993620629,
+            4.0,
+            0.0
+          ],
+          [
+            94.80589993620629,
+            16.0,
+            3.0
+          ]
+        ],
+        "build_size_mm": [
+          23.0,
+          12.0,
+          3.0
+        ],
+        "build_volume_mm3": 695.4642209294734
+      },
+      {
+        "valid": true,
+        "vertices": 866,
+        "triangles": 1740,
+        "edges": 2610,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          695.4642209294734
+        ],
+        "signed_volume_mm3": 695.4642209294734,
+        "surface_area_mm2": 796.7507224841717,
+        "bounds_mm": [
+          [
+            99.80759233587749,
+            4.0,
+            0.0
+          ],
+          [
+            122.80759233587749,
+            16.0,
+            3.0
+          ]
+        ],
+        "size_mm": [
+          23.0,
+          12.0,
+          3.0
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "08_cable_tie_saddle_2",
+        "object_id": 6,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            99.80759233587749,
+            4.0,
+            0.0
+          ],
+          [
+            122.80759233587749,
+            16.0,
+            3.0
+          ]
+        ],
+        "build_size_mm": [
+          23.0,
+          12.0,
+          3.0
+        ],
+        "build_volume_mm3": 695.4642209294734
+      },
+      {
+        "valid": true,
+        "vertices": 866,
+        "triangles": 1740,
+        "edges": 2610,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          695.4642209294741
+        ],
+        "signed_volume_mm3": 695.4642209294741,
+        "surface_area_mm2": 796.7507224841721,
+        "bounds_mm": [
+          [
+            127.80928473554869,
+            4.0,
+            0.0
+          ],
+          [
+            150.8092847355487,
+            16.0,
+            3.0
+          ]
+        ],
+        "size_mm": [
+          23.0,
+          12.0,
+          3.0
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "08_cable_tie_saddle_3",
+        "object_id": 7,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            127.80928473554869,
+            4.0,
+            0.0
+          ],
+          [
+            150.8092847355487,
+            16.0,
+            3.0
+          ]
+        ],
+        "build_size_mm": [
+          23.0,
+          12.0,
+          3.0
+        ],
+        "build_volume_mm3": 695.4642209294741
+      },
+      {
+        "valid": true,
+        "vertices": 866,
+        "triangles": 1740,
+        "edges": 2610,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          695.4642209294736
+        ],
+        "signed_volume_mm3": 695.4642209294736,
+        "surface_area_mm2": 796.7507224841718,
+        "bounds_mm": [
+          [
+            4.0,
+            23.000846299835608,
+            0.0
+          ],
+          [
+            27.0,
+            35.00084629983561,
+            3.0
+          ]
+        ],
+        "size_mm": [
+          23.0,
+          12.0,
+          3.0
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "08_cable_tie_saddle_4",
+        "object_id": 8,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            4.0,
+            23.000846299835608,
+            0.0
+          ],
+          [
+            27.0,
+            35.00084629983561,
+            3.0
+          ]
+        ],
+        "build_size_mm": [
+          23.0,
+          12.0,
+          3.0
+        ],
+        "build_volume_mm3": 695.4642209294736
+      },
+      {
+        "valid": true,
+        "vertices": 1300,
+        "triangles": 2616,
+        "edges": 3924,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          2835.4698046739463
+        ],
+        "signed_volume_mm3": 2835.4698046739463,
+        "surface_area_mm2": 2733.6282859850385,
+        "bounds_mm": [
+          [
+            32.0016923996712,
+            23.000846299835608,
+            0.0
+          ],
+          [
+            65.0016923996712,
+            60.00084629983561,
+            3.0
+          ]
+        ],
+        "size_mm": [
+          33.0,
+          37.0,
+          3.0
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "12_downward_sensor_carrier_1",
+        "object_id": 9,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            32.0016923996712,
+            23.000846299835608,
+            0.0
+          ],
+          [
+            65.0016923996712,
+            60.00084629983561,
+            3.0
+          ]
+        ],
+        "build_size_mm": [
+          33.0,
+          37.0,
+          3.0
+        ],
+        "build_volume_mm3": 2835.4698046739463
+      },
+      {
+        "valid": true,
+        "vertices": 1300,
+        "triangles": 2616,
+        "edges": 3924,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          2835.469804673947
+        ],
+        "signed_volume_mm3": 2835.469804673947,
+        "surface_area_mm2": 2733.6282859850385,
+        "bounds_mm": [
+          [
+            70.004230899178,
+            23.000846299835608,
+            0.0
+          ],
+          [
+            103.004230899178,
+            60.00084629983561,
+            3.0
+          ]
+        ],
+        "size_mm": [
+          33.0,
+          37.0,
+          3.0
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "12_downward_sensor_carrier_2",
+        "object_id": 10,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            70.004230899178,
+            23.000846299835608,
+            0.0
+          ],
+          [
+            103.004230899178,
+            60.00084629983561,
+            3.0
+          ]
+        ],
+        "build_size_mm": [
+          33.0,
+          37.0,
+          3.0
+        ],
+        "build_volume_mm3": 2835.469804673947
+      }
+    ],
+    "build_bounds_mm": [
+      [
+        4.0,
+        4.0,
+        0.0
+      ],
+      [
+        150.8092847355487,
+        60.00084629983561,
+        30.0
+      ]
+    ],
+    "build_size_mm": [
+      146.8092847355487,
+      56.00084629983561,
+      30.0
+    ],
+    "sha256": "864ff6a241dc5289e934762b958c4adcaaee09c4d53526cf2f3bbd083267abbf",
+    "bytes": 164739,
+    "round_trip_geometry_exact": true
+  },
+  "04_optional_pi_tray.3mf": {
+    "path": "/workspace/scratch/5751292c2c7f/rover-cad/deliverables/04_optional_pi_tray.3mf",
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "validation_scope": [
+      "OPC package/CRC",
+      "core XML resource/build references",
+      "explicit millimeter units",
+      "indexed mesh topology",
+      "edge/vertex manifoldness",
+      "triangle winding",
+      "degeneracy",
+      "signed volume",
+      "build transforms",
+      "bounding boxes"
+    ],
+    "not_validated": [
+      "XML XSD schema (unless separately checked)",
+      "self-intersections",
+      "shell containment",
+      "minimum wall thickness",
+      "physical fit",
+      "printer profile",
+      "toolpaths",
+      "actual slicer import"
+    ],
+    "unit": "millimeter",
+    "build_items": 5,
+    "resource_objects": 5,
+    "package_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "3D/3dmodel.model"
+    ],
+    "objects": [
+      {
+        "valid": true,
+        "vertices": 2968,
+        "triangles": 5968,
+        "edges": 8952,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          12421.361017022824
+        ],
+        "signed_volume_mm3": 12421.361017022824,
+        "surface_area_mm2": 10686.444219345707,
+        "bounds_mm": [
+          [
+            4.0,
+            4.0,
+            0.0
+          ],
+          [
+            100.0,
+            69.0,
+            8.8
+          ]
+        ],
+        "size_mm": [
+          96.0,
+          65.0,
+          8.8
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "10_optional_pi4_tray",
+        "object_id": 2,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            4.0,
+            4.0,
+            0.0
+          ],
+          [
+            100.0,
+            69.0,
+            8.8
+          ]
+        ],
+        "build_size_mm": [
+          96.0,
+          65.0,
+          8.8
+        ],
+        "build_volume_mm3": 12421.361017022824
+      },
+      {
+        "valid": true,
+        "vertices": 420,
+        "triangles": 840,
+        "edges": 1260,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          142.88856991702147
+        ],
+        "signed_volume_mm3": 142.88856991702147,
+        "surface_area_mm2": 210.91018824024636,
+        "bounds_mm": [
+          [
+            105.00508535666509,
+            4.000425213120961,
+            0.0
+          ],
+          [
+            112.6033845993424,
+            11.599574786879039,
+            4.0
+          ]
+        ],
+        "size_mm": [
+          7.598299242677314,
+          7.599149573758078,
+          4.0
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "11_pi_tray_spacer_4mm_1",
+        "object_id": 3,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            105.00508535666509,
+            4.000425213120961,
+            0.0
+          ],
+          [
+            112.6033845993424,
+            11.599574786879039,
+            4.0
+          ]
+        ],
+        "build_size_mm": [
+          7.598299242677314,
+          7.599149573758078,
+          4.0
+        ],
+        "build_volume_mm3": 142.88856991702147
+      },
+      {
+        "valid": true,
+        "vertices": 420,
+        "triangles": 840,
+        "edges": 1260,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          142.88856991702147
+        ],
+        "signed_volume_mm3": 142.88856991702147,
+        "surface_area_mm2": 210.91018824024636,
+        "bounds_mm": [
+          [
+            117.60678631398778,
+            4.000425213120961,
+            0.0
+          ],
+          [
+            125.2050855566651,
+            11.599574786879039,
+            4.0
+          ]
+        ],
+        "size_mm": [
+          7.598299242677314,
+          7.599149573758078,
+          4.0
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "11_pi_tray_spacer_4mm_2",
+        "object_id": 4,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            117.60678631398778,
+            4.000425213120961,
+            0.0
+          ],
+          [
+            125.2050855566651,
+            11.599574786879039,
+            4.0
+          ]
+        ],
+        "build_size_mm": [
+          7.598299242677314,
+          7.599149573758078,
+          4.0
+        ],
+        "build_volume_mm3": 142.88856991702147
+      },
+      {
+        "valid": true,
+        "vertices": 420,
+        "triangles": 840,
+        "edges": 1260,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          142.8885699170215
+        ],
+        "signed_volume_mm3": 142.8885699170215,
+        "surface_area_mm2": 210.91018824024636,
+        "bounds_mm": [
+          [
+            130.20848727131047,
+            4.000425213120961,
+            0.0
+          ],
+          [
+            137.8067865139878,
+            11.599574786879039,
+            4.0
+          ]
+        ],
+        "size_mm": [
+          7.598299242677314,
+          7.599149573758078,
+          4.0
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "11_pi_tray_spacer_4mm_3",
+        "object_id": 5,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            130.20848727131047,
+            4.000425213120961,
+            0.0
+          ],
+          [
+            137.8067865139878,
+            11.599574786879039,
+            4.0
+          ]
+        ],
+        "build_size_mm": [
+          7.598299242677314,
+          7.599149573758078,
+          4.0
+        ],
+        "build_volume_mm3": 142.8885699170215
+      },
+      {
+        "valid": true,
+        "vertices": 420,
+        "triangles": 840,
+        "edges": 1260,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          142.8885699170215
+        ],
+        "signed_volume_mm3": 142.8885699170215,
+        "surface_area_mm2": 210.91018824024636,
+        "bounds_mm": [
+          [
+            142.81018822863317,
+            4.000425213120961,
+            0.0
+          ],
+          [
+            150.40848747131048,
+            11.599574786879039,
+            4.0
+          ]
+        ],
+        "size_mm": [
+          7.598299242677314,
+          7.599149573758078,
+          4.0
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "11_pi_tray_spacer_4mm_4",
+        "object_id": 6,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            142.81018822863317,
+            4.000425213120961,
+            0.0
+          ],
+          [
+            150.40848747131048,
+            11.599574786879039,
+            4.0
+          ]
+        ],
+        "build_size_mm": [
+          7.598299242677314,
+          7.599149573758078,
+          4.0
+        ],
+        "build_volume_mm3": 142.8885699170215
+      }
+    ],
+    "build_bounds_mm": [
+      [
+        4.0,
+        4.0,
+        0.0
+      ],
+      [
+        150.40848747131048,
+        69.0,
+        8.8
+      ]
+    ],
+    "build_size_mm": [
+      146.40848747131048,
+      65.0,
+      8.8
+    ],
+    "sha256": "3d8850ac608a27f99239873f28d83ae4bf9d366851e588915ecdaf8f3d8ded47",
+    "bytes": 104286,
+    "round_trip_geometry_exact": true
+  },
+  "05_optional_servo_adapter.3mf": {
+    "path": "/workspace/scratch/5751292c2c7f/rover-cad/deliverables/05_optional_servo_adapter.3mf",
+    "valid": true,
+    "errors": [],
+    "warnings": [],
+    "validation_scope": [
+      "OPC package/CRC",
+      "core XML resource/build references",
+      "explicit millimeter units",
+      "indexed mesh topology",
+      "edge/vertex manifoldness",
+      "triangle winding",
+      "degeneracy",
+      "signed volume",
+      "build transforms",
+      "bounding boxes"
+    ],
+    "not_validated": [
+      "XML XSD schema (unless separately checked)",
+      "self-intersections",
+      "shell containment",
+      "minimum wall thickness",
+      "physical fit",
+      "printer profile",
+      "toolpaths",
+      "actual slicer import"
+    ],
+    "unit": "millimeter",
+    "build_items": 1,
+    "resource_objects": 1,
+    "package_parts": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "3D/3dmodel.model"
+    ],
+    "objects": [
+      {
+        "valid": true,
+        "vertices": 1282,
+        "triangles": 2584,
+        "edges": 3876,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "nonmanifold_vertices": 0,
+        "degenerate_triangles": 0,
+        "duplicate_triangles": 0,
+        "unused_vertices": 0,
+        "connected_surface_shells": 1,
+        "surface_shell_signed_volumes_mm3": [
+          3937.567484462647
+        ],
+        "signed_volume_mm3": 3937.567484462647,
+        "surface_area_mm2": 3349.639179058514,
+        "bounds_mm": [
+          [
+            4.0,
+            4.0,
+            0.0
+          ],
+          [
+            41.0,
+            47.0,
+            3.2
+          ]
+        ],
+        "size_mm": [
+          37.0,
+          43.0,
+          3.2
+        ],
+        "errors": [],
+        "warnings": [],
+        "self_intersection_check": "not_performed",
+        "name": "09_optional_servo_adapter",
+        "object_id": 2,
+        "transform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "build_bounds_mm": [
+          [
+            4.0,
+            4.0,
+            0.0
+          ],
+          [
+            41.0,
+            47.0,
+            3.2
+          ]
+        ],
+        "build_size_mm": [
+          37.0,
+          43.0,
+          3.2
+        ],
+        "build_volume_mm3": 3937.567484462647
+      }
+    ],
+    "build_bounds_mm": [
+      [
+        4.0,
+        4.0,
+        0.0
+      ],
+      [
+        41.0,
+        47.0,
+        3.2
+      ]
+    ],
+    "build_size_mm": [
+      37.0,
+      43.0,
+      3.2
+    ],
+    "sha256": "aac14fb91000dc798a0cfdf7d017a218a28d6a57d214e8515d252afed04291db",
+    "bytes": 29213,
+    "round_trip_geometry_exact": true
+  }
+}

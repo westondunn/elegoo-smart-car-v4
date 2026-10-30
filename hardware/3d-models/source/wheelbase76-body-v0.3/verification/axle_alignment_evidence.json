@@ -1,0 +1,32 @@
+{
+  "user_measurements_mm": {
+    "tire_od": 64.77,
+    "tire_width": 27.94,
+    "wheelbase": 76.2,
+    "tire_gap": 11.43
+  },
+  "source_front_motor_hole_indices": [
+    19,
+    20,
+    21,
+    22
+  ],
+  "source_rear_motor_hole_indices": [
+    13,
+    14,
+    17,
+    18
+  ],
+  "front_motor_bracket_center_y": 59.62227285545835,
+  "rear_motor_bracket_center_y": -63.52582025078111,
+  "inferred_axle_pair_midpoint_y": -1.9517736976613804,
+  "inferred_front_axle_y": 36.14822630233862,
+  "inferred_rear_axle_y": -40.05177369766138,
+  "assumption": "Identical mirrored motors imply equal/opposite shaft-to-bracket offsets. Supplied plate has no shaft datum. This aligns midpoint to bracket-pattern midpoint, not arbitrary plate center; requires physical fit check.",
+  "open_bay": {
+    "rear_y": -90,
+    "front_y": 90,
+    "top_z": 74
+  },
+  "preserve": "deck,spacers,Pi tray,roof,rear panel,snap battery assembly unchanged"
+}
